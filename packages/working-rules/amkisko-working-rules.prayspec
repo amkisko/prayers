@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/working-rules"
+  spec.version = "1.0.0"
+  spec.summary = "Shared engineering working rules"
+  spec.files = ["README.md", "exports/working-rules.md"]
+  spec.exports = {
+    "working-rules" => {
+      type: "fragment",
+      path: "exports/working-rules.md",
+      summary: "Core engineering working rules"
+    }
+  }
+end

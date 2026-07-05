@@ -1,0 +1,22 @@
+{
+  "spec": "prayfile-distribution-1",
+  "packages": [
+    "amkisko/branch-naming",
+    "amkisko/changelog-update",
+    "amkisko/collaboration-workflow",
+    "amkisko/dependency-issues",
+    "amkisko/docs-conventions",
+    "amkisko/elixir-conventions",
+    "amkisko/engineering-audit",
+    "amkisko/finite-state-machines",
+    "amkisko/getting-started",
+    "amkisko/minimal-implementation",
+    "amkisko/preferred-stack",
+    "amkisko/publish-checks",
+    "amkisko/rejected-changes",
+    "amkisko/ruby-conventions",
+    "amkisko/rust-conventions",
+    "amkisko/working-rules",
+    "amkisko/writing-prose"
+  ]
+}

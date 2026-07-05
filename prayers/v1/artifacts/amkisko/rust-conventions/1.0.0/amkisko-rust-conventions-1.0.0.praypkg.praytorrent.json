@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/rust-conventions",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/rust-conventions/1.0.0/amkisko-rust-conventions-1.0.0.praypkg",
+  "artifact_hash": "sha256:32c4ae24bf2d86cd5fd27885f1618f8296773bdaa901fbf0b3b9227444afd8fb",
+  "piece_size": 16384,
+  "length": 816,
+  "pieces": [
+    "sha256:32c4ae24bf2d86cd5fd27885f1618f8296773bdaa901fbf0b3b9227444afd8fb"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/rust-conventions/1.0.0/amkisko-rust-conventions-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

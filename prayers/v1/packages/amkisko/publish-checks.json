@@ -1,0 +1,64 @@
+{
+  "name": "amkisko/publish-checks",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/publish-checks/1.0.0/amkisko-publish-checks-1.0.0.praypkg",
+      "artifact_hash": "sha256:c264293aa43515f091644c4989907cc62e5d3f5327fe1be1fb8b022135890b72",
+      "tree_hash": "sha256:8c66048dbd559e5e9d90f084738eef9ff83f8e8cf870dff0ffd2e2fc7ae8a121",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "publish-checks"
+      ],
+      "signer": "amkisko",
+      "published_at": "1783242083",
+      "signature": "sha256:af901409c6cedf52d9032dab49d09f4b0bc64ef9bda6addc153d983f1caf5623",
+      "derived_metadata": {
+        "summary": "Pre-publish engineering checklist — Checks before publish",
+        "topics": [
+          "publish",
+          "amkisko",
+          "checks",
+          "engineering",
+          "across"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may affect downstream package distribution"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              2,
+              1,
+              1,
+              0,
+              2,
+              5,
+              4,
+              3,
+              2,
+              5,
+              2,
+              1,
+              5,
+              2,
+              2,
+              2
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 408,
+        "token_count": 39
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/getting-started",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/getting-started/1.0.0/amkisko-getting-started-1.0.0.praypkg",
+  "artifact_hash": "sha256:5d5915d589e24de7e77c47baad7c25c3c99d0d84df6d8d47a04c0e80eddec90a",
+  "piece_size": 16384,
+  "length": 872,
+  "pieces": [
+    "sha256:5d5915d589e24de7e77c47baad7c25c3c99d0d84df6d8d47a04c0e80eddec90a"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/getting-started/1.0.0/amkisko-getting-started-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

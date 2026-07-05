@@ -1,0 +1,5 @@
+.pray/cache/
+.pray/vendor/
+/*.praypkg
+!prayers/v1/artifacts/**/*.praypkg
+.trunk/logs/

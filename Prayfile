@@ -1,0 +1,26 @@
+prayfile "1"
+
+target :agents do
+  output "AGENTS.md"
+  skills ".agents/skills"
+end
+
+agent "amkisko/working-rules", path: "packages/working-rules", exports: ["working-rules"]
+agent "amkisko/docs-conventions", path: "packages/docs-conventions", exports: ["docs-conventions"]
+agent "amkisko/dependency-issues", path: "packages/dependency-issues", exports: ["dependency-issues"]
+agent "amkisko/ruby-conventions", path: "packages/ruby-conventions", exports: ["ruby-conventions"]
+agent "amkisko/rust-conventions", path: "packages/rust-conventions", exports: ["rust-conventions"]
+agent "amkisko/elixir-conventions", path: "packages/elixir-conventions", exports: ["elixir-conventions"]
+agent "amkisko/minimal-implementation", path: "packages/minimal-implementation", exports: ["minimal-implementation"]
+agent "amkisko/finite-state-machines", path: "packages/finite-state-machines", exports: ["finite-state-machines"]
+agent "amkisko/branch-naming", path: "packages/branch-naming", exports: ["branch-naming"]
+agent "amkisko/preferred-stack", path: "packages/preferred-stack", exports: ["preferred-stack"]
+agent "amkisko/writing-prose", path: "packages/writing-prose", exports: ["writing-prose"]
+agent "amkisko/rejected-changes", path: "packages/rejected-changes", exports: ["rejected-changes"]
+agent "amkisko/publish-checks", path: "packages/publish-checks", exports: ["publish-checks"]
+agent "amkisko/collaboration-workflow", path: "packages/collaboration-workflow", exports: ["collaboration-workflow"]
+agent "amkisko/getting-started", path: "packages/getting-started", exports: ["getting-started"]
+agent "amkisko/engineering-audit", path: "packages/engineering-audit", exports: ["skill"]
+agent "amkisko/changelog-update", path: "packages/changelog-update", exports: ["skill"]
+
+render mode: :managed, conflict: :fail, churn: :minimal

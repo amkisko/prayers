@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/ruby-conventions",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/ruby-conventions/1.0.0/amkisko-ruby-conventions-1.0.0.praypkg",
+  "artifact_hash": "sha256:2b82ee8877b61595df1e1af45e1366471b9a60860239e3d28111b87f430f9516",
+  "piece_size": 16384,
+  "length": 712,
+  "pieces": [
+    "sha256:2b82ee8877b61595df1e1af45e1366471b9a60860239e3d28111b87f430f9516"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/ruby-conventions/1.0.0/amkisko-ruby-conventions-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

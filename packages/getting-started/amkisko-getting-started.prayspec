@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/getting-started"
+  spec.version = "1.0.0"
+  spec.summary = "Install pray and consume amkisko shared prayers"
+  spec.files = ["README.md", "exports/getting-started.md"]
+  spec.exports = {
+    "getting-started" => {
+      type: "fragment",
+      path: "exports/getting-started.md",
+      summary: "Pray install and consumer workflow"
+    }
+  }
+end

@@ -1,0 +1,4 @@
+- use Elixir, OTP, and Mix features according to the versions declared in the repository;
+- follow Elixir coding conventions, explicit supervision trees, and boundary-friendly module design;
+- prefer contexts and bounded APIs over scattered helpers; keep side effects at the edges;
+- test coverage must follow the conventions declared in the relevant subtree; when a project defines coverage rules in `spec/README.md` or equivalent, follow those;

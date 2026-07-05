@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/preferred-stack"
+  spec.version = "1.0.0"
+  spec.summary = "Preferred languages and UX principles"
+  spec.files = ["README.md", "exports/preferred-stack.md"]
+  spec.exports = {
+    "preferred-stack" => {
+      type: "fragment",
+      path: "exports/preferred-stack.md",
+      summary: "Preferred stack guidance"
+    }
+  }
+end

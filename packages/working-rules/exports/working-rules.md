@@ -1,0 +1,14 @@
+- when fixing or refactoring code, add or update tests first to expose the current bug/regression path (or missing contract), then implement the fix, then run focused and broader checks, and do not ship behavior changes without proving before/after via specs;
+- test only executable logic and user-facing behavior; tests should affect coverage metrics;
+- avoid tests that only assert implementation details; avoid file/page content/ordering/regex assertions; avoid duplicating tests;
+- user interface texts should never mention implementation technical details;
+- prefer files around <=150 LOC when cohesion allows, but never split coherent logic purely to satisfy line count; split only when it improves ownership, readability, and reviewability;
+- do not use abbreviations and short names for variables, methods, classes, etc. unless it is a very common abbreviation or short name;
+- avoid explanatory comments, but allow intent comments for non-obvious constraints, invariants, concurrency edges, or external contract requirements;
+- keep the idea that code reflects user experience, so readability, structure, and clarity are product qualities, not optional polish;
+- pull request description should include answers to questions: what problem is solved, why it matters, how the solution works, and any relevant context; if the change is non-trivial, include reproduction steps or a changelog entry with intent;
+- pull request checklist: changelog entry with intent or reproduction steps when relevant, test coverage, and quality checks done;
+- suggest updating docs/changelog with a short summary and PR link only when the change is significant enough to be mentioned; changelog files should use `docs/changelogs/#{date +"%Y%m%d%H%M%S"}_<title>.md`;
+- when documenting ideas, issues, user requests, new features, bugfixes, chores, etc., use `docs/issues/#{date +"%Y%m%d%H%M%S"}_<title>.md`;
+- validation output must list exact commands run and observed results, and never claim tests pass unless they were executed and passed;
+- ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load.

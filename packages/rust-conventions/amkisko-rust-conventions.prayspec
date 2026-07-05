@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/rust-conventions"
+  spec.version = "1.0.0"
+  spec.summary = "Rust conventions for amkisko repositories"
+  spec.files = ["README.md", "exports/rust-conventions.md"]
+  spec.exports = {
+    "rust-conventions" => {
+      type: "fragment",
+      path: "exports/rust-conventions.md",
+      summary: "Rust stack conventions"
+    }
+  }
+end

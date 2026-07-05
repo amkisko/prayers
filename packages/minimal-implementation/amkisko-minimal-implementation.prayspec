@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/minimal-implementation"
+  spec.version = "1.0.0"
+  spec.summary = "Smallest correct change discipline"
+  spec.files = ["README.md", "exports/minimal-implementation.md"]
+  spec.exports = {
+    "minimal-implementation" => {
+      type: "fragment",
+      path: "exports/minimal-implementation.md",
+      summary: "Minimal implementation rules"
+    }
+  }
+end

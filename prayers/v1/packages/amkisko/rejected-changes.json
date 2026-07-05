@@ -1,0 +1,64 @@
+{
+  "name": "amkisko/rejected-changes",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/rejected-changes/1.0.0/amkisko-rejected-changes-1.0.0.praypkg",
+      "artifact_hash": "sha256:276e277e788fc87e5a34ca9812447efd4b042f157827f55a705c22c9cf7f50bc",
+      "tree_hash": "sha256:c67d00c73127370733d1a11fe463634e7e8a59b3c3da47c1f578ba00f4b0d9fb",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "rejected-changes"
+      ],
+      "signer": "amkisko",
+      "published_at": "1783242083",
+      "signature": "sha256:4672c0e0f4c3ae4cf40bf76d6d80f446d5f8251fad57a5d5bec576d4df948de7",
+      "derived_metadata": {
+        "summary": "Changes likely to be rejected in review — Likely rejected change patterns",
+        "topics": [
+          "changes",
+          "rejected",
+          "change",
+          "likely",
+          "without"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              7,
+              1,
+              4,
+              2,
+              5,
+              2,
+              2,
+              0,
+              1,
+              5,
+              0,
+              3,
+              1,
+              3,
+              0,
+              1
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 328,
+        "token_count": 37
+      }
+    }
+  ]
+}

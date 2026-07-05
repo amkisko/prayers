@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/collaboration-workflow"
+  spec.version = "1.0.0"
+  spec.summary = "Collaboration and durable context workflow"
+  spec.files = ["README.md", "exports/collaboration-workflow.md"]
+  spec.exports = {
+    "collaboration-workflow" => {
+      type: "fragment",
+      path: "exports/collaboration-workflow.md",
+      summary: "Collaboration workflow"
+    }
+  }
+end

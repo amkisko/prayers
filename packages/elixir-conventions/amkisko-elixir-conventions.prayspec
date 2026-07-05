@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/elixir-conventions"
+  spec.version = "1.0.0"
+  spec.summary = "Elixir conventions for amkisko repositories"
+  spec.files = ["README.md", "exports/elixir-conventions.md"]
+  spec.exports = {
+    "elixir-conventions" => {
+      type: "fragment",
+      path: "exports/elixir-conventions.md",
+      summary: "Elixir stack conventions"
+    }
+  }
+end

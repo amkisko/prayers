@@ -1,0 +1,19 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/changelog-update"
+  spec.version = "1.0.0"
+  spec.summary = "Changelog layering and house style"
+  spec.files = ["README.md", "skills/changelog-update/SKILL.md"]
+  spec.exports = {
+    "skill" => {
+      type: "fragment",
+      path: "skills/changelog-update/SKILL.md",
+      summary: "Changelog update skill entrypoint"
+    }
+  }
+  spec.skills = {
+    "changelog-update" => {
+      path: "skills/changelog-update",
+      summary: "Changelog update skill"
+    }
+  }
+end

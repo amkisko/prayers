@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/elixir-conventions",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/elixir-conventions/1.0.0/amkisko-elixir-conventions-1.0.0.praypkg",
+  "artifact_hash": "sha256:779a5242dec29cccf8f3364a5d2736b51731360a64fa765d375401de42e668f8",
+  "piece_size": 16384,
+  "length": 809,
+  "pieces": [
+    "sha256:779a5242dec29cccf8f3364a5d2736b51731360a64fa765d375401de42e668f8"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/elixir-conventions/1.0.0/amkisko-elixir-conventions-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

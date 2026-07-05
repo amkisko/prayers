@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/writing-prose"
+  spec.version = "1.0.0"
+  spec.summary = "Plain technical writing checks"
+  spec.files = ["README.md", "exports/writing-prose.md"]
+  spec.exports = {
+    "writing-prose" => {
+      type: "fragment",
+      path: "exports/writing-prose.md",
+      summary: "Writing and changelog prose checks"
+    }
+  }
+end

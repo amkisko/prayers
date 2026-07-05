@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/rejected-changes",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/rejected-changes/1.0.0/amkisko-rejected-changes-1.0.0.praypkg",
+  "artifact_hash": "sha256:276e277e788fc87e5a34ca9812447efd4b042f157827f55a705c22c9cf7f50bc",
+  "piece_size": 16384,
+  "length": 684,
+  "pieces": [
+    "sha256:276e277e788fc87e5a34ca9812447efd4b042f157827f55a705c22c9cf7f50bc"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/rejected-changes/1.0.0/amkisko-rejected-changes-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

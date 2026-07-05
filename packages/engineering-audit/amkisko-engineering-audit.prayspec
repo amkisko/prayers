@@ -1,0 +1,23 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/engineering-audit"
+  spec.version = "1.0.0"
+  spec.summary = "Pipeline-aware engineering audit skill"
+  spec.files = [
+    "README.md",
+    "skills/engineering-audit/SKILL.md",
+    "skills/engineering-audit/engineering-audit.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "fragment",
+      path: "skills/engineering-audit/SKILL.md",
+      summary: "Engineering audit skill entrypoint"
+    }
+  }
+  spec.skills = {
+    "engineering-audit" => {
+      path: "skills/engineering-audit",
+      summary: "Engineering audit skill"
+    }
+  }
+end

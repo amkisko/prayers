@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/rejected-changes"
+  spec.version = "1.0.0"
+  spec.summary = "Changes likely to be rejected in review"
+  spec.files = ["README.md", "exports/rejected-changes.md"]
+  spec.exports = {
+    "rejected-changes" => {
+      type: "fragment",
+      path: "exports/rejected-changes.md",
+      summary: "Likely rejected change patterns"
+    }
+  }
+end

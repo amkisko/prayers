@@ -1,0 +1,4 @@
+- test coverage must follow @spec/README.md guidelines;
+- use ruby and Rails features according to the codebase versions;
+- follow ruby and Rails coding conventions, principles, and best practices;
+- never put data migrations in schema migrations, use the db/data_migrations pattern instead;

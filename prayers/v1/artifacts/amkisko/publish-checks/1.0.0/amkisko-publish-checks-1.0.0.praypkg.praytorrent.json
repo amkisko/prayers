@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/publish-checks",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/publish-checks/1.0.0/amkisko-publish-checks-1.0.0.praypkg",
+  "artifact_hash": "sha256:c264293aa43515f091644c4989907cc62e5d3f5327fe1be1fb8b022135890b72",
+  "piece_size": 16384,
+  "length": 728,
+  "pieces": [
+    "sha256:c264293aa43515f091644c4989907cc62e5d3f5327fe1be1fb8b022135890b72"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/publish-checks/1.0.0/amkisko-publish-checks-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

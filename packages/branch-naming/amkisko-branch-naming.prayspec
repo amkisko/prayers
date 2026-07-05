@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/branch-naming"
+  spec.version = "1.0.0"
+  spec.summary = "Branch naming conventions"
+  spec.files = ["README.md", "exports/branch-naming.md"]
+  spec.exports = {
+    "branch-naming" => {
+      type: "fragment",
+      path: "exports/branch-naming.md",
+      summary: "Branch naming conventions"
+    }
+  }
+end

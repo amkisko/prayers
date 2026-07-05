@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/publish-checks"
+  spec.version = "1.0.0"
+  spec.summary = "Pre-publish engineering checklist"
+  spec.files = ["README.md", "exports/publish-checks.md"]
+  spec.exports = {
+    "publish-checks" => {
+      type: "fragment",
+      path: "exports/publish-checks.md",
+      summary: "Checks before publish"
+    }
+  }
+end

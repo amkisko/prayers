@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/branch-naming",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/branch-naming/1.0.0/amkisko-branch-naming-1.0.0.praypkg",
+  "artifact_hash": "sha256:4efd5a7f4de6aeba6f1608499fa85904c98f94662ff029a8faf84723c789c260",
+  "piece_size": 16384,
+  "length": 766,
+  "pieces": [
+    "sha256:4efd5a7f4de6aeba6f1608499fa85904c98f94662ff029a8faf84723c789c260"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/branch-naming/1.0.0/amkisko-branch-naming-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

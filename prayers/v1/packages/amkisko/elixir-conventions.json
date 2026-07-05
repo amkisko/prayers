@@ -1,0 +1,61 @@
+{
+  "name": "amkisko/elixir-conventions",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/elixir-conventions/1.0.0/amkisko-elixir-conventions-1.0.0.praypkg",
+      "artifact_hash": "sha256:779a5242dec29cccf8f3364a5d2736b51731360a64fa765d375401de42e668f8",
+      "tree_hash": "sha256:a870bf65cb7b33f09cb9dbe95c5392f52dc58cc0b0d853f62a354d954f869c98",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "elixir-conventions"
+      ],
+      "signer": "amkisko",
+      "published_at": "1783242083",
+      "signature": "sha256:bc74983398729ce49d188431039e61e6ba76d30c51c32f43f0e4d67acb73e901",
+      "derived_metadata": {
+        "summary": "Elixir conventions for amkisko repositories — Elixir stack conventions",
+        "topics": [
+          "conventions",
+          "elixir",
+          "follow",
+          "coverage",
+          "declared"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              4,
+              5,
+              2,
+              8,
+              7,
+              3,
+              2,
+              5,
+              3,
+              2,
+              3,
+              2,
+              6,
+              1,
+              0,
+              2
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 557,
+        "token_count": 55
+      }
+    }
+  ]
+}

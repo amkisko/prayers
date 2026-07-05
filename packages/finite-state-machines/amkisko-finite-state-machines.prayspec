@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/finite-state-machines"
+  spec.version = "1.0.0"
+  spec.summary = "Finite state machine modeling guidance"
+  spec.files = ["README.md", "exports/finite-state-machines.md"]
+  spec.exports = {
+    "finite-state-machines" => {
+      type: "fragment",
+      path: "exports/finite-state-machines.md",
+      summary: "FSM modeling guidance"
+    }
+  }
+end

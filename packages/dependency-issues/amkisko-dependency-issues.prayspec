@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/dependency-issues"
+  spec.version = "1.0.0"
+  spec.summary = "Record and suggest fixes for clear dependency bugs"
+  spec.files = ["README.md", "exports/dependency-issues.md"]
+  spec.exports = {
+    "dependency-issues" => {
+      type: "fragment",
+      path: "exports/dependency-issues.md",
+      summary: "Dependency bug evidence and fix suggestions"
+    }
+  }
+end

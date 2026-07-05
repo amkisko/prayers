@@ -1,0 +1,61 @@
+{
+  "name": "amkisko/docs-conventions",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/docs-conventions/1.0.0/amkisko-docs-conventions-1.0.0.praypkg",
+      "artifact_hash": "sha256:790a6ab90971ed5550e2a6c244ae95387451ed01d602fd2dd63896147dc1d7dd",
+      "tree_hash": "sha256:ca07b8e948ffe3e227d1ddfb7d9258eab9e5e5584a2817f72d3a7bdee652b754",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "docs-conventions"
+      ],
+      "signer": "amkisko",
+      "published_at": "1783242083",
+      "signature": "sha256:5263c0d709574e58ff746c7a6508e6fd71676cc64c98ba5b59019e319a74393e",
+      "derived_metadata": {
+        "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
+        "topics": [
+          "docs",
+          "changelogs",
+          "issues",
+          "meetings",
+          "plan"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              3,
+              8,
+              4,
+              1,
+              11,
+              5,
+              17,
+              6,
+              3,
+              4,
+              4,
+              6,
+              4,
+              3,
+              4,
+              3
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 806,
+        "token_count": 86
+      }
+    }
+  ]
+}

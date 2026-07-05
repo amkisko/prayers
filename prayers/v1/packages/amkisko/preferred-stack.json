@@ -1,0 +1,61 @@
+{
+  "name": "amkisko/preferred-stack",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/preferred-stack/1.0.0/amkisko-preferred-stack-1.0.0.praypkg",
+      "artifact_hash": "sha256:fca6736c507100338fe8ea40207b0f9c487ccfde946e645bffe0de9de384ba6f",
+      "tree_hash": "sha256:c9596653836b159598d923cd53130975e9e08646f341ffe7340fc44823fc202f",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "preferred-stack"
+      ],
+      "signer": "amkisko",
+      "published_at": "1783242083",
+      "signature": "sha256:0764dff577e1780185b86bc4ebac96cacf55bf4b8042ef3c3fccdccc12897f23",
+      "derived_metadata": {
+        "summary": "Preferred languages and UX principles — Preferred stack guidance",
+        "topics": [
+          "amkisko",
+          "native",
+          "preferred",
+          "stack",
+          "accessible"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              2,
+              4,
+              2,
+              4,
+              6,
+              3,
+              2,
+              5,
+              2,
+              6,
+              1,
+              3,
+              2,
+              1,
+              6,
+              2
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 591,
+        "token_count": 51
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "amkisko/finite-state-machines",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/finite-state-machines/1.0.0/amkisko-finite-state-machines-1.0.0.praypkg",
+      "artifact_hash": "sha256:66055fecad981a5345cc558f08d28fb050d71bac3395e1b98af13a5d77e7763e",
+      "tree_hash": "sha256:86c27f8702620a790011c5ea31a244df38da6e35ff4aa76b5fbdddedc0e56101",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "finite-state-machines"
+      ],
+      "signer": "amkisko",
+      "published_at": "1783242083",
+      "signature": "sha256:63246408bce4132057943aa1da5aea5d062d5458b40d56d1565605521f372843",
+      "derived_metadata": {
+        "summary": "Finite state machine modeling guidance — FSM modeling guidance",
+        "topics": [
+          "finite",
+          "machines",
+          "state",
+          "explicit",
+          "transitions"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              1,
+              6,
+              5,
+              4,
+              7,
+              4,
+              0,
+              11,
+              4,
+              4,
+              7,
+              7,
+              2,
+              0,
+              1,
+              2
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 581,
+        "token_count": 65
+      }
+    }
+  ]
+}

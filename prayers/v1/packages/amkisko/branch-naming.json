@@ -1,0 +1,61 @@
+{
+  "name": "amkisko/branch-naming",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/branch-naming/1.0.0/amkisko-branch-naming-1.0.0.praypkg",
+      "artifact_hash": "sha256:4efd5a7f4de6aeba6f1608499fa85904c98f94662ff029a8faf84723c789c260",
+      "tree_hash": "sha256:f50538e28a0e4d573884c019210ce4cc650f692b2211802520e267ff18f30e9b",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "branch-naming"
+      ],
+      "signer": "amkisko",
+      "published_at": "1783242083",
+      "signature": "sha256:eee57684152d4690356d91387288cd90086d99be014f4e62e7f8e1a5d505a352",
+      "derived_metadata": {
+        "summary": "Branch naming conventions — # amkisko/branch-naming",
+        "topics": [
+          "title",
+          "branch",
+          "plan",
+          "trunk",
+          "2026"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              2,
+              1,
+              2,
+              5,
+              8,
+              4,
+              0,
+              4,
+              2,
+              1,
+              7,
+              5,
+              2,
+              5,
+              3,
+              2
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 485,
+        "token_count": 53
+      }
+    }
+  ]
+}
