@@ -12,7 +12,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1783242083",
+      "published_at": "1783244146",
       "signature": "sha256:9abd3d6c7ee6bb5cdad165bcde60e2545e647176500d75096bf70cc12e182ad0",
       "derived_metadata": {
         "summary": "Pipeline-aware engineering audit skill — Engineering audit skill entrypoint",

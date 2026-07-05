@@ -4,16 +4,16 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/dependency-issues/1.0.0/amkisko-dependency-issues-1.0.0.praypkg",
-      "artifact_hash": "sha256:139e3fc5af1a5ac381e9b31adc6eec12f9f8d2edcdb536d3f2b71ac3902c96f6",
-      "tree_hash": "sha256:3240374a6226bc20d70a27f80138a1394619487b1e68c2a4c0f497a30fd69150",
+      "artifact_hash": "sha256:3f39236e17b6157d6acf2b40451fabb656a4d5045d0b513716571bfb3fcd9d6f",
+      "tree_hash": "sha256:a3bcbe4e7062d48ac961006510ae1d407cde8559968493b996e28a0e6dc3ce1a",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-issues"
       ],
       "signer": "amkisko",
-      "published_at": "1783242083",
-      "signature": "sha256:4a640ece26d6dfa73dc4219d756317a4371316dbc553ff7617bcf60f4475ea01",
+      "published_at": "1783244146",
+      "signature": "sha256:95a2c9e986c58b505eee3f6b6af0ea1ad40ef01d835ed3c4ca7565c1b08f61e6",
       "derived_metadata": {
         "summary": "Record and suggest fixes for clear dependency bugs — Dependency bug evidence and fix suggestions",
         "topics": [
@@ -35,26 +35,26 @@
             "vector": [
               15,
               6,
-              19,
+              22,
               3,
               10,
-              13,
+              14,
               12,
-              7,
               8,
+              10,
               3,
               5,
               9,
-              6,
+              8,
               6,
               10,
-              5
+              6
             ]
           }
         ],
         "file_count": 2,
-        "character_count": 1314,
-        "token_count": 137
+        "character_count": 1425,
+        "token_count": 147
       }
     }
   ]

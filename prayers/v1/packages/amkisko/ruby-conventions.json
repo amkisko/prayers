@@ -12,7 +12,7 @@
         "ruby-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1783242083",
+      "published_at": "1783244146",
       "signature": "sha256:42eb166a3b2445db70dda26618b48dcb0d57caf44a96549948c189da6ca12a70",
       "derived_metadata": {
         "summary": "Ruby and Rails conventions for amkisko repositories — Ruby and Rails stack conventions",

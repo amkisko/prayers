@@ -5,6 +5,7 @@
     "amkisko/changelog-update",
     "amkisko/collaboration-workflow",
     "amkisko/dependency-issues",
+    "amkisko/dependency-policy",
     "amkisko/docs-conventions",
     "amkisko/elixir-conventions",
     "amkisko/engineering-audit",

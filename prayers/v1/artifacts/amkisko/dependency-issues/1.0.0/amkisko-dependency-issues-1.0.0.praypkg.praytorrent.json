@@ -3,11 +3,11 @@
   "name": "amkisko/dependency-issues",
   "version": "1.0.0",
   "artifact_url": "v1/artifacts/amkisko/dependency-issues/1.0.0/amkisko-dependency-issues-1.0.0.praypkg",
-  "artifact_hash": "sha256:139e3fc5af1a5ac381e9b31adc6eec12f9f8d2edcdb536d3f2b71ac3902c96f6",
+  "artifact_hash": "sha256:3f39236e17b6157d6acf2b40451fabb656a4d5045d0b513716571bfb3fcd9d6f",
   "piece_size": 16384,
-  "length": 1235,
+  "length": 1286,
   "pieces": [
-    "sha256:139e3fc5af1a5ac381e9b31adc6eec12f9f8d2edcdb536d3f2b71ac3902c96f6"
+    "sha256:3f39236e17b6157d6acf2b40451fabb656a4d5045d0b513716571bfb3fcd9d6f"
   ],
   "sources": [
     "v1/artifacts/amkisko/dependency-issues/1.0.0/amkisko-dependency-issues-1.0.0.praypkg"

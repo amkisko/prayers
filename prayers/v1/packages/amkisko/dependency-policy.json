@@ -1,0 +1,65 @@
+{
+  "name": "amkisko/dependency-policy",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/dependency-policy/1.0.0/amkisko-dependency-policy-1.0.0.praypkg",
+      "artifact_hash": "sha256:86c2068fa13e906b04545b283a3762afa816811fd0847ea973eea5f93e2709a0",
+      "tree_hash": "sha256:df94df87736fc996d0509b55b951dbdcbbda9d5b4032f6f413e8412cffc97f53",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "dependency-policy",
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": "1783244146",
+      "signature": "sha256:a62a96f1d534b16fa4c2595823b724d0f145d23d481581ed1eb27ac873a17426",
+      "derived_metadata": {
+        "summary": "Dependency selection, alteration, and audit rules — Dependency selection and alteration rules",
+        "topics": [
+          "dependency",
+          "audit",
+          "when",
+          "path",
+          "advisory"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              39,
+              25,
+              56,
+              28,
+              32,
+              39,
+              26,
+              33,
+              35,
+              37,
+              28,
+              19,
+              40,
+              27,
+              30,
+              18
+            ]
+          }
+        ],
+        "file_count": 4,
+        "character_count": 15383,
+        "token_count": 512
+      }
+    }
+  ]
+}
