@@ -1,0 +1,29 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/dependency-policy"
+  spec.version = "1.0.0"
+  spec.summary = "Dependency selection, alteration, and audit rules"
+  spec.files = [
+    "README.md",
+    "exports/dependency-policy.md",
+    "skills/dependency-audit/SKILL.md",
+    "skills/dependency-audit/dependency-audit.md"
+  ]
+  spec.exports = {
+    "dependency-policy" => {
+      type: "fragment",
+      path: "exports/dependency-policy.md",
+      summary: "Dependency selection and alteration rules"
+    },
+    "skill" => {
+      type: "fragment",
+      path: "skills/dependency-audit/SKILL.md",
+      summary: "Dependency audit skill entrypoint"
+    }
+  }
+  spec.skills = {
+    "dependency-audit" => {
+      path: "skills/dependency-audit",
+      summary: "Dependency audit skill"
+    }
+  }
+end

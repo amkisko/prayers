@@ -47,6 +47,8 @@ end
 
 agent "amkisko/working-rules", "~> 1.0", source: "amkisko", exports: ["working-rules"]
 agent "amkisko/docs-conventions", "~> 1.0", source: "amkisko", exports: ["docs-conventions"]
+agent "amkisko/dependency-issues", "~> 1.0", source: "amkisko", exports: ["dependency-issues"]
+agent "amkisko/dependency-policy", "~> 1.0", source: "amkisko", exports: ["dependency-policy", "skill"]
 agent "amkisko/ruby-conventions", "~> 1.0", source: "amkisko", exports: ["ruby-conventions"]
 agent "amkisko/minimal-implementation", "~> 1.0", source: "amkisko", exports: ["minimal-implementation"]
 agent "amkisko/finite-state-machines", "~> 1.0", source: "amkisko", exports: ["finite-state-machines"]
@@ -87,6 +89,7 @@ make release
 | `amkisko/working-rules` | fragment | Language-neutral engineering working rules |
 | `amkisko/docs-conventions` | fragment | Docs tree naming and five-heading structure |
 | `amkisko/dependency-issues` | fragment | Dependency bug evidence and fix suggestions |
+| `amkisko/dependency-policy` | fragment + skill | Dependency selection, alteration rules, and audit workflow |
 | `amkisko/ruby-conventions` | fragment | Ruby and Rails stack conventions |
 | `amkisko/rust-conventions` | fragment | Rust stack conventions |
 | `amkisko/elixir-conventions` | fragment | Elixir and OTP stack conventions |

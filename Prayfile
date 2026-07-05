@@ -8,6 +8,7 @@ end
 agent "amkisko/working-rules", path: "packages/working-rules", exports: ["working-rules"]
 agent "amkisko/docs-conventions", path: "packages/docs-conventions", exports: ["docs-conventions"]
 agent "amkisko/dependency-issues", path: "packages/dependency-issues", exports: ["dependency-issues"]
+agent "amkisko/dependency-policy", path: "packages/dependency-policy", exports: ["dependency-policy", "skill"]
 agent "amkisko/ruby-conventions", path: "packages/ruby-conventions", exports: ["ruby-conventions"]
 agent "amkisko/rust-conventions", path: "packages/rust-conventions", exports: ["rust-conventions"]
 agent "amkisko/elixir-conventions", path: "packages/elixir-conventions", exports: ["elixir-conventions"]
