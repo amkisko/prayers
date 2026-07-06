@@ -15,13 +15,7 @@ Package::Specification.new do |spec|
       summary: "Dependency selection and alteration rules"
     },
     "skill" => {
-      type: "fragment",
-      path: "skills/dependency-audit/SKILL.md",
-      summary: "Dependency audit skill entrypoint"
-    }
-  }
-  spec.skills = {
-    "dependency-audit" => {
+      type: "folder",
       path: "skills/dependency-audit",
       summary: "Dependency audit skill"
     }

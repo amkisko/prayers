@@ -9,13 +9,7 @@ Package::Specification.new do |spec|
   ]
   spec.exports = {
     "skill" => {
-      type: "fragment",
-      path: "skills/engineering-audit/SKILL.md",
-      summary: "Engineering audit skill entrypoint"
-    }
-  }
-  spec.skills = {
-    "engineering-audit" => {
+      type: "folder",
       path: "skills/engineering-audit",
       summary: "Engineering audit skill"
     }

@@ -2,7 +2,7 @@ prayfile "1"
 
 target :agents do
   output "AGENTS.md"
-  skills ".agents/skills"
+  folder ".agents/skills"
 end
 
 agent "amkisko/working-rules", path: "packages/working-rules", exports: ["working-rules"]

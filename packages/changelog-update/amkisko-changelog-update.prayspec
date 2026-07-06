@@ -5,13 +5,7 @@ Package::Specification.new do |spec|
   spec.files = ["README.md", "skills/changelog-update/SKILL.md"]
   spec.exports = {
     "skill" => {
-      type: "fragment",
-      path: "skills/changelog-update/SKILL.md",
-      summary: "Changelog update skill entrypoint"
-    }
-  }
-  spec.skills = {
-    "changelog-update" => {
+      type: "folder",
       path: "skills/changelog-update",
       summary: "Changelog update skill"
     }
