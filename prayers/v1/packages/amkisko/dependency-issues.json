@@ -12,7 +12,7 @@
         "dependency-issues"
       ],
       "signer": "amkisko",
-      "published_at": "1783244146",
+      "published_at": "1783404609",
       "signature": "sha256:95a2c9e986c58b505eee3f6b6af0ea1ad40ef01d835ed3c4ca7565c1b08f61e6",
       "derived_metadata": {
         "summary": "Record and suggest fixes for clear dependency bugs — Dependency bug evidence and fix suggestions",

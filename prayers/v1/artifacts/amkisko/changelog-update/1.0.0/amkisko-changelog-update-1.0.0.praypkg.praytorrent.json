@@ -3,11 +3,11 @@
   "name": "amkisko/changelog-update",
   "version": "1.0.0",
   "artifact_url": "v1/artifacts/amkisko/changelog-update/1.0.0/amkisko-changelog-update-1.0.0.praypkg",
-  "artifact_hash": "sha256:1538a41c5462512ba8cce2caee8bad775b1f067643c923a9f5f5ccf78c17abc5",
+  "artifact_hash": "sha256:eee3ae4aed7b478def9a2d83ee3dc89cbd3fda11a0c5024d6937bf38fa1431f8",
   "piece_size": 16384,
-  "length": 1723,
+  "length": 1696,
   "pieces": [
-    "sha256:1538a41c5462512ba8cce2caee8bad775b1f067643c923a9f5f5ccf78c17abc5"
+    "sha256:eee3ae4aed7b478def9a2d83ee3dc89cbd3fda11a0c5024d6937bf38fa1431f8"
   ],
   "sources": [
     "v1/artifacts/amkisko/changelog-update/1.0.0/amkisko-changelog-update-1.0.0.praypkg"

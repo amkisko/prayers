@@ -3,11 +3,11 @@
   "name": "amkisko/dependency-policy",
   "version": "1.0.0",
   "artifact_url": "v1/artifacts/amkisko/dependency-policy/1.0.0/amkisko-dependency-policy-1.0.0.praypkg",
-  "artifact_hash": "sha256:86c2068fa13e906b04545b283a3762afa816811fd0847ea973eea5f93e2709a0",
+  "artifact_hash": "sha256:2fd9df35a313b258e9acaab5cfa5168ee193c688ba6818d01b80ecaee1074ac1",
   "piece_size": 16384,
-  "length": 6966,
+  "length": 6939,
   "pieces": [
-    "sha256:86c2068fa13e906b04545b283a3762afa816811fd0847ea973eea5f93e2709a0"
+    "sha256:2fd9df35a313b258e9acaab5cfa5168ee193c688ba6818d01b80ecaee1074ac1"
   ],
   "sources": [
     "v1/artifacts/amkisko/dependency-policy/1.0.0/amkisko-dependency-policy-1.0.0.praypkg"

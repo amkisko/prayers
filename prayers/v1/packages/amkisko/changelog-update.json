@@ -4,7 +4,7 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/changelog-update/1.0.0/amkisko-changelog-update-1.0.0.praypkg",
-      "artifact_hash": "sha256:1538a41c5462512ba8cce2caee8bad775b1f067643c923a9f5f5ccf78c17abc5",
+      "artifact_hash": "sha256:eee3ae4aed7b478def9a2d83ee3dc89cbd3fda11a0c5024d6937bf38fa1431f8",
       "tree_hash": "sha256:59f60347608d35d7cdc76ecd7bfbc2a2164a9ffff765393588349fa8a27bc195",
       "yanked": false,
       "targets": [],
@@ -12,10 +12,10 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1783244146",
-      "signature": "sha256:5ec1daa01c9b66857b07d847a85f112376d434953a1fc711a967e779aa1d839b",
+      "published_at": "1783404609",
+      "signature": "sha256:d712ca595be528a65e43ec2228190ac215a64bd68ab6fa3ae178581a6358cff1",
       "derived_metadata": {
-        "summary": "Changelog layering and house style — Changelog update skill entrypoint",
+        "summary": "Changelog layering and house style — Changelog update skill",
         "topics": [
           "changelog",
           "changelogs",

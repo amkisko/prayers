@@ -4,7 +4,7 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/1.0.0/amkisko-engineering-audit-1.0.0.praypkg",
-      "artifact_hash": "sha256:c9837986136a1b4fa05b823fa618c1fd37958d66683d1287209260f16bae8190",
+      "artifact_hash": "sha256:3d5f9184bd1f37443690eba5cff8f6d143ae8fa925f6b755fb756813115b4e6e",
       "tree_hash": "sha256:5e221fe8161748661cf171adc31968e6f4a9ac5ae010e74ec188c5e81885d456",
       "yanked": false,
       "targets": [],
@@ -12,10 +12,10 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1783244146",
-      "signature": "sha256:9abd3d6c7ee6bb5cdad165bcde60e2545e647176500d75096bf70cc12e182ad0",
+      "published_at": "1783404609",
+      "signature": "sha256:afa48e1b3596d5c432abf1167225814c441447b745c772d13fe231cf5a713dcb",
       "derived_metadata": {
-        "summary": "Pipeline-aware engineering audit skill — Engineering audit skill entrypoint",
+        "summary": "Pipeline-aware engineering audit skill — Engineering audit skill",
         "topics": [
           "audit",
           "pipeline",
