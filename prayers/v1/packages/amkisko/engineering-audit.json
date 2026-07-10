@@ -59,6 +59,65 @@
         "character_count": 4385,
         "token_count": 456
       }
+    },
+    {
+      "version": "2.0.0",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.0.0/amkisko-engineering-audit-2.0.0.praypkg",
+      "artifact_hash": "sha256:8a48006aaea752006c8b98da65bfde6c876571157a3a45a75fde33e4a0a1feaa",
+      "tree_hash": "sha256:ce60d9ba8c6c31c7c704278b0cfdd88e2e34af900c13daadb460be57685eb79d",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": "1783693467",
+      "signature": "sha256:d06e49cab1ff46ffe0af417f19a75544f06a0b1d777f48afda77d10e2ec03f71",
+      "derived_metadata": {
+        "summary": "Pipeline-aware engineering audit skill — Engineering audit skill",
+        "topics": [
+          "audit",
+          "pipeline",
+          "engineering",
+          "evidence",
+          "coverage"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              32,
+              28,
+              30,
+              30,
+              16,
+              32,
+              27,
+              28,
+              37,
+              39,
+              18,
+              26,
+              31,
+              22,
+              29,
+              31
+            ]
+          }
+        ],
+        "file_count": 3,
+        "character_count": 4389,
+        "token_count": 456
+      }
     }
   ]
 }

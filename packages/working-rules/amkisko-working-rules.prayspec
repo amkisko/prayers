@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/working-rules"
-  spec.version = "1.0.0"
+  spec.version = "2.0.0"
   spec.summary = "Shared engineering working rules"
   spec.files = ["README.md", "exports/working-rules.md"]
   spec.exports = {

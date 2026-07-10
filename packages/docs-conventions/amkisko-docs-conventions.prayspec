@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/docs-conventions"
-  spec.version = "1.0.0"
+  spec.version = "2.0.0"
   spec.summary = "Repository documentation layout and headings"
   spec.files = ["README.md", "exports/docs-conventions.md"]
   spec.exports = {
