@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/dependency-policy"
-  spec.version = "1.0.0"
+  spec.version = "2.0.0"
   spec.summary = "Dependency selection, alteration, and audit rules"
   spec.files = [
     "README.md",

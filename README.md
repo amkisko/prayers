@@ -2,7 +2,7 @@
 
 Central distribution point for reusable agent guidance across amkisko gems and libraries.
 
-Packages here are generic guidance only: no project URLs, credentials, client names, deployment commands, or repository-specific paths. Project-specific context stays in the repository itself (for example under `docs/`), not in shared prayers.
+Packages here are generic guidance only: no project URLs, credentials, client names, deployment commands, or repository-specific paths. Project-specific context stays in the repository itself (`docs/` for human-facing material, `usr/docs/` for agent trace), not in shared prayers.
 
 ## Install pray
 

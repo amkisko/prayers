@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/dependency-issues"
-  spec.version = "1.0.0"
+  spec.version = "2.0.0"
   spec.summary = "Record and suggest fixes for clear dependency bugs"
   spec.files = ["README.md", "exports/dependency-issues.md"]
   spec.exports = {

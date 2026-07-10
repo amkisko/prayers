@@ -12,7 +12,7 @@
         "elixir-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1783404609",
+      "published_at": "1783693467",
       "signature": "sha256:bc74983398729ce49d188431039e61e6ba76d30c51c32f43f0e4d67acb73e901",
       "derived_metadata": {
         "summary": "Elixir conventions for amkisko repositories — Elixir stack conventions",

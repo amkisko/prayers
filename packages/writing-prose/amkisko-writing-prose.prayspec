@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/writing-prose"
-  spec.version = "1.0.0"
+  spec.version = "2.0.0"
   spec.summary = "Plain technical writing checks"
   spec.files = ["README.md", "exports/writing-prose.md"]
   spec.exports = {

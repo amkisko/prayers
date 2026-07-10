@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/docs-conventions",
+  "version": "2.0.0",
+  "artifact_url": "v1/artifacts/amkisko/docs-conventions/2.0.0/amkisko-docs-conventions-2.0.0.praypkg",
+  "artifact_hash": "sha256:53c2b7f583a0f608b0aa2b4e1f2857c3596268359f38e6e7ae0362cfc7b6b6a0",
+  "piece_size": 16384,
+  "length": 1248,
+  "pieces": [
+    "sha256:53c2b7f583a0f608b0aa2b4e1f2857c3596268359f38e6e7ae0362cfc7b6b6a0"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/docs-conventions/2.0.0/amkisko-docs-conventions-2.0.0.praypkg"
+  ],
+  "trackers": []
+}

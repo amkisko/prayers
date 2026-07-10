@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/changelog-update"
-  spec.version = "1.0.0"
+  spec.version = "2.0.1"
   spec.summary = "Changelog layering and house style"
   spec.files = ["README.md", "skills/changelog-update/SKILL.md"]
   spec.exports = {
