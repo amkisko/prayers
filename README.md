@@ -113,3 +113,13 @@ packages/                 # package sources (.prayspec + content)
 Prayfile                  # publisher manifest for this repo
 Makefile                  # install, publish, release, serve, clean
 ```
+
+## Links
+
+- [GitHub](https://github.com/amkisko/prayers)
+- [GitLab](https://gitlab.com/amkisko/prayers)
+- [SonarCloud](https://sonarcloud.io/project/overview?id=amkisko_prayers)
+- [Snyk](https://snyk.io/test/github/amkisko/prayers)
+- [Codecov](https://app.codecov.io/github/amkisko/prayers)
+- [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/amkisko/prayers)
+
