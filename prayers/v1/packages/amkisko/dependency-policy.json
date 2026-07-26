@@ -73,7 +73,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1785093302",
+      "published_at": "1785093387",
       "signature": "sha256:a9a70f2b492e4f9f687d3ba52728a298b71388cbe556ed7c49095e6b74699461",
       "derived_metadata": {
         "summary": "Dependency selection, alteration, and audit rules — Dependency selection and alteration rules",
