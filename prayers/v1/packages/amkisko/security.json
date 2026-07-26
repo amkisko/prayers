@@ -1,0 +1,66 @@
+{
+  "name": "amkisko/security",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/security/1.0.0/amkisko-security-1.0.0.praypkg",
+      "artifact_hash": "sha256:7310b5b6970457168d5afd4fae50dd4d0aea856fcaa27e8766b735bba716ba29",
+      "tree_hash": "sha256:7f430eb7f51f8629f44f0f1896da0e4f5b924214754c3c4ec37e5268e9a765fa",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "security"
+      ],
+      "signer": "amkisko",
+      "published_at": "1785096032",
+      "signature": "sha256:437e9e0c7fcda01971339f5fba82dc75b2362e4a557135d5938dbbe65bd9ed27",
+      "derived_metadata": {
+        "summary": "Credential and secret handling for agents — Credentials and secrets hygiene for agent work",
+        "topics": [
+          "secrets",
+          "secret",
+          "security",
+          "amkisko",
+          "config"
+        ],
+        "categories": [
+          "automation",
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior",
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              9,
+              5,
+              8,
+              5,
+              9,
+              9,
+              4,
+              7,
+              9,
+              11,
+              3,
+              6,
+              4,
+              7,
+              5,
+              1
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 956,
+        "token_count": 102
+      }
+    }
+  ]
+}

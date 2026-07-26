@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.1.2 (2026-07-26)
+
+- Add `amkisko/security` 1.0.0: Credentials and Secrets guidance for AGENTS.md (secret stores, reference-only config, no live credentials in argv, history, commits, issues, or logs).
+- Publish `amkisko/working-rules` 2.0.2: move Credentials and Secrets out of working-rules into `amkisko/security` (2.0.1 briefly carried that section).
+
 ## 1.1.1 (2026-07-26)
 
 - Publish `amkisko/docs-conventions` 2.1.1: ban local absolute paths and private material (secrets, credentials, tokens, API keys, personal private data) from `docs/` and `usr/docs/`; prefer repository-relative paths.

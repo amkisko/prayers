@@ -21,6 +21,7 @@
     "amkisko/rejected-changes",
     "amkisko/ruby-conventions",
     "amkisko/rust-conventions",
+    "amkisko/security",
     "amkisko/working-rules",
     "amkisko/writing-prose"
   ]
