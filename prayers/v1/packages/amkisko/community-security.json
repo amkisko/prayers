@@ -4,16 +4,16 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/community-security/1.0.0/amkisko-community-security-1.0.0.praypkg",
-      "artifact_hash": "sha256:033d9483ebcafeb0ec80a7b8120d464e54305dce66f7ba5afdb0c026914ad304",
-      "tree_hash": "sha256:b57522d2efd97b590a98780b37c83b09e574a40481c536429dcc0c1a7c2e42a5",
+      "artifact_hash": "sha256:1408780d493c4b3160b9e7be723d420f2cf5e99da9ebf6497c1a6f69efc76e89",
+      "tree_hash": "sha256:304f05a94ec3d442f5b1169eba103ff960bec3566826f6fa16276a119aad6948",
       "yanked": false,
       "targets": [],
       "exports": [
         "security"
       ],
       "signer": "amkisko",
-      "published_at": "1785088499",
-      "signature": "sha256:cda5409cf35a5c963996de70cb6a085a50abd6a10d290284a712a171cd08091f",
+      "published_at": "1785093302",
+      "signature": "sha256:3015d68e39c883b995317464fe6c339d21302c3ae94600a1b3bc20c95df58b6b",
       "derived_metadata": {
         "summary": "Shared SECURITY.md for vulnerability reporting and automation safety — Security policy and vulnerability reporting",
         "topics": [
@@ -35,7 +35,7 @@
           {
             "model": "pray-hash-bucket-v1",
             "vector": [
-              6,
+              5,
               7,
               5,
               8,
@@ -55,8 +55,8 @@
           }
         ],
         "file_count": 2,
-        "character_count": 1095,
-        "token_count": 98
+        "character_count": 1088,
+        "token_count": 97
       }
     }
   ]

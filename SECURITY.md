@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-Do not open a public GitHub issue for security vulnerabilities.
+Do not open a public issue for security vulnerabilities.
 
 Email security details to: security@kiskolabs.com
 
