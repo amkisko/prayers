@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/community-contributing",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/community-contributing/1.0.0/amkisko-community-contributing-1.0.0.praypkg",
+  "artifact_hash": "sha256:c17e7ee4c79ced8220b644aa159fb3af889dacc9d3b3c484a5699c3a018e29d8",
+  "piece_size": 16384,
+  "length": 1336,
+  "pieces": [
+    "sha256:c17e7ee4c79ced8220b644aa159fb3af889dacc9d3b3c484a5699c3a018e29d8"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/community-contributing/1.0.0/amkisko-community-contributing-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

@@ -1,0 +1,14 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/community-governance"
+  spec.version = "1.0.0"
+  spec.summary = "Shared GOVERNANCE.md for roles and decision making"
+  spec.files = ["README.md", "exports/GOVERNANCE.md"]
+  spec.exports = {
+    "governance" => {
+      type: "file",
+      path: "exports/GOVERNANCE.md",
+      default_path: "GOVERNANCE.md",
+      summary: "Project governance and decision process"
+    }
+  }
+end

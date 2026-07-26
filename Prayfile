@@ -24,4 +24,9 @@ agent "amkisko/getting-started", path: "packages/getting-started", exports: ["ge
 agent "amkisko/engineering-audit", path: "packages/engineering-audit", exports: ["skill"]
 agent "amkisko/changelog-update", path: "packages/changelog-update", exports: ["skill"]
 
+pray "amkisko/community-security", path: "packages/community-security", file: "SECURITY.md"
+pray "amkisko/community-code-of-conduct", path: "packages/community-code-of-conduct", file: "CODE_OF_CONDUCT.md"
+pray "amkisko/community-governance", path: "packages/community-governance", file: "GOVERNANCE.md"
+pray "amkisko/community-contributing", path: "packages/community-contributing", file: "CONTRIBUTING.md"
+
 render mode: :managed, conflict: :fail, churn: :minimal

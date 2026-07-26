@@ -1,0 +1,61 @@
+{
+  "name": "amkisko/community-governance",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/community-governance/1.0.0/amkisko-community-governance-1.0.0.praypkg",
+      "artifact_hash": "sha256:f9403f1be59fba197683d7966339dcc73c407bda2860ded24ad1412dd6c6fd2b",
+      "tree_hash": "sha256:0ecf400d2acc599e01f17eb2979cbe1033069046b1e6a6ce6abb1b2f37b3f50d",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "governance"
+      ],
+      "signer": "amkisko",
+      "published_at": "1785088499",
+      "signature": "sha256:3262d96aea40eac2d06adb1466cb667728b5bc4fe1d2f962f9f0c958976c07b1",
+      "derived_metadata": {
+        "summary": "Shared GOVERNANCE.md for roles and decision making — Project governance and decision process",
+        "topics": [
+          "architectural",
+          "changes",
+          "consensus",
+          "governance",
+          "maintainers"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              4,
+              15,
+              5,
+              8,
+              8,
+              9,
+              7,
+              6,
+              4,
+              13,
+              10,
+              6,
+              8,
+              10,
+              8,
+              7
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1349,
+        "token_count": 128
+      }
+    }
+  ]
+}

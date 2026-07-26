@@ -66,6 +66,15 @@ render mode: :managed, conflict: :fail, churn: :minimal
 
 Swap `ruby-conventions` for `rust-conventions` or `elixir-conventions` on `.rs` and `.ex` trees.
 
+Community whole files (exact bytes at the repo root):
+
+```prayfile
+pray "amkisko/community-security", "~> 1.0", file: "SECURITY.md"
+pray "amkisko/community-code-of-conduct", "~> 1.0", file: "CODE_OF_CONDUCT.md"
+pray "amkisko/community-governance", "~> 1.0", file: "GOVERNANCE.md"
+pray "amkisko/community-contributing", "~> 1.0", file: "CONTRIBUTING.md"
+```
+
 Resolve and render:
 
 ```sh
@@ -104,6 +113,10 @@ make release
 | `amkisko/getting-started` | fragment | How to install pray and wire a consumer |
 | `amkisko/engineering-audit` | skill | Pipeline-aware engineering audit |
 | `amkisko/changelog-update` | skill | Changelog layering and house style |
+| `amkisko/community-security` | file | Shared SECURITY.md |
+| `amkisko/community-code-of-conduct` | file | Shared CODE_OF_CONDUCT.md |
+| `amkisko/community-governance` | file | Shared GOVERNANCE.md |
+| `amkisko/community-contributing` | file | Shared CONTRIBUTING.md |
 
 ## Layout
 
