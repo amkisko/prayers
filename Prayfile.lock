@@ -1,7 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
 generated_by = "pray 1.3.0"
-manifest_hash = "sha256:d0a5c0c23a77b830af56846a99a736b16f94a1c30ac228738064007cc4dcde4f"
+manifest_hash = "sha256:1c2491fbde4a3ca121a90a3ae97e154e05bd4cc41ef5207396b8685160430ed5"
 source = []
 
 [[package]]
@@ -238,11 +238,15 @@ exports = ["writing-prose"]
 dependencies = []
 
 [[target]]
-name = "agents"
+name = "compose:AGENTS.md"
 outputs = ["AGENTS.md"]
 
+[[target]]
+name = "tree:.agents/skills"
+outputs = []
+
 [[managed_span]]
-id = "5ef025d3"
+id = "9068e4a2"
 target = "AGENTS.md"
 open_line = 10
 close_line = 25
@@ -253,7 +257,7 @@ source_checksum = "sha256:cf7fbe331cabe7a93fed2e4bc82c5ec035d7c5afbfb49f8ad1490f
 silenced = false
 
 [[managed_span]]
-id = "1b9f596f"
+id = "781b7711"
 target = "AGENTS.md"
 open_line = 27
 close_line = 34
@@ -264,7 +268,7 @@ source_checksum = "sha256:7f430eb7f51f8629f44f0f1896da0e4f5b924214754c3c4ec37e52
 silenced = false
 
 [[managed_span]]
-id = "9f724d55"
+id = "bfe6ff38"
 target = "AGENTS.md"
 open_line = 36
 close_line = 43
@@ -275,7 +279,7 @@ source_checksum = "sha256:a96773efe4916cec1531a3abc261dc689b10096cde0adb0bc729b3
 silenced = false
 
 [[managed_span]]
-id = "062b8a8e"
+id = "edcc5f67"
 target = "AGENTS.md"
 open_line = 45
 close_line = 55
@@ -286,7 +290,7 @@ source_checksum = "sha256:6c39d9a594263ccb068155853463d5b18d8cf8b66849824b69bb0b
 silenced = false
 
 [[managed_span]]
-id = "33096566"
+id = "3ac5d6ce"
 target = "AGENTS.md"
 open_line = 57
 close_line = 113
@@ -297,7 +301,7 @@ source_checksum = "sha256:628a55a360e0fa17ec04f5f4185f3d5c494ce3600373171bc81092
 silenced = false
 
 [[managed_span]]
-id = "7c468b51"
+id = "ad13bd27"
 target = "AGENTS.md"
 open_line = 115
 close_line = 120
@@ -308,7 +312,7 @@ source_checksum = "sha256:6885f2943f7fef23f8c70ccfd850875b39243a0344f71873dfdfd7
 silenced = false
 
 [[managed_span]]
-id = "7de8c0b2"
+id = "cd3045de"
 target = "AGENTS.md"
 open_line = 122
 close_line = 127
@@ -319,7 +323,7 @@ source_checksum = "sha256:4e5794d5982d86e0ea30a8c689350484ddbfc4af96dbd3651ae2c3
 silenced = false
 
 [[managed_span]]
-id = "27dd9d5d"
+id = "bf80d00f"
 target = "AGENTS.md"
 open_line = 129
 close_line = 134
@@ -330,7 +334,7 @@ source_checksum = "sha256:a870bf65cb7b33f09cb9dbe95c5392f52dc58cc0b0d853f62a354d
 silenced = false
 
 [[managed_span]]
-id = "b2a3d4d7"
+id = "bf7304a6"
 target = "AGENTS.md"
 open_line = 136
 close_line = 165
@@ -341,7 +345,7 @@ source_checksum = "sha256:e3e38bafa9bb022d5c3b1b0e3f904bab958b660fbcc22ff41140e6
 silenced = false
 
 [[managed_span]]
-id = "2b9051df"
+id = "120c3507"
 target = "AGENTS.md"
 open_line = 167
 close_line = 172
@@ -352,7 +356,7 @@ source_checksum = "sha256:86c27f8702620a790011c5ea31a244df38da6e35ff4aa76b5fbddd
 silenced = false
 
 [[managed_span]]
-id = "7317586a"
+id = "26f3566a"
 target = "AGENTS.md"
 open_line = 174
 close_line = 194
@@ -363,7 +367,7 @@ source_checksum = "sha256:f50538e28a0e4d573884c019210ce4cc650f692b2211802520e267
 silenced = false
 
 [[managed_span]]
-id = "6aea78d0"
+id = "f528eeca"
 target = "AGENTS.md"
 open_line = 196
 close_line = 205
@@ -374,7 +378,7 @@ source_checksum = "sha256:c9596653836b159598d923cd53130975e9e08646f341ffe7340fc4
 silenced = false
 
 [[managed_span]]
-id = "c7597e52"
+id = "ca94e22d"
 target = "AGENTS.md"
 open_line = 207
 close_line = 212
@@ -385,7 +389,7 @@ source_checksum = "sha256:c59a70a667bfad5330d78ad1d68c91e6307914c3b54a648d11dd05
 silenced = false
 
 [[managed_span]]
-id = "8cf2baf2"
+id = "08c294fb"
 target = "AGENTS.md"
 open_line = 214
 close_line = 222
@@ -396,7 +400,7 @@ source_checksum = "sha256:c67d00c73127370733d1a11fe463634e7e8a59b3c3da47c1f578ba
 silenced = false
 
 [[managed_span]]
-id = "e662c764"
+id = "2543c1cc"
 target = "AGENTS.md"
 open_line = 224
 close_line = 228
@@ -407,7 +411,7 @@ source_checksum = "sha256:8c66048dbd559e5e9d90f084738eef9ff83f8e8cf870dff0ffd2e2
 silenced = false
 
 [[managed_span]]
-id = "0b30e782"
+id = "48e8a6b3"
 target = "AGENTS.md"
 open_line = 230
 close_line = 238
@@ -418,7 +422,7 @@ source_checksum = "sha256:36bbcc1bd056616ea0cf2504486ab014ba2940230eaa6c0d3bb4e0
 silenced = false
 
 [[managed_span]]
-id = "5f23b29e"
+id = "aa6c8f33"
 target = "AGENTS.md"
 open_line = 240
 close_line = 271
