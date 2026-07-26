@@ -3,11 +3,11 @@
   "name": "amkisko/community-security",
   "version": "1.0.0",
   "artifact_url": "v1/artifacts/amkisko/community-security/1.0.0/amkisko-community-security-1.0.0.praypkg",
-  "artifact_hash": "sha256:033d9483ebcafeb0ec80a7b8120d464e54305dce66f7ba5afdb0c026914ad304",
+  "artifact_hash": "sha256:1408780d493c4b3160b9e7be723d420f2cf5e99da9ebf6497c1a6f69efc76e89",
   "piece_size": 16384,
-  "length": 1093,
+  "length": 1084,
   "pieces": [
-    "sha256:033d9483ebcafeb0ec80a7b8120d464e54305dce66f7ba5afdb0c026914ad304"
+    "sha256:1408780d493c4b3160b9e7be723d420f2cf5e99da9ebf6497c1a6f69efc76e89"
   ],
   "sources": [
     "v1/artifacts/amkisko/community-security/1.0.0/amkisko-community-security-1.0.0.praypkg"

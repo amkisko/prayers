@@ -28,7 +28,8 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 - `docs/` is for human-facing documentation: setup guides, architecture, migration notes, and operator material meant for users and contributors without agent context; use stable descriptive filenames;
 - `usr/docs/` is for durable agent and engineering trace alongside other project-local operator surfaces under `usr/`; keep inference input (AGENTS.md, `.agents/`) separate from human docs;
 - trace files under `usr/docs/issues`, `usr/docs/plan`, `usr/docs/changelogs`, `usr/docs/meetings`, `usr/docs/dependencies`, `usr/docs/tasks`, and `usr/docs/ideas` use `YYYYMMDDHHMMSS_<kebab-case-title>.md`; no README index in those trees;
-- any doc in those trace trees should make five things findable (use `##` headings or equivalent; omit empty sections): **Participants** (who was involved), **Decisions** (what was agreed), **Effects** (done, failed, recovered, rolled back), **Next** (todo, planned, open questions), **Source** (links upstream—meeting, issue, PR, commit—and downstream materializations); git history is the edit log; add an explicit note only when a later pass changes meaning (scope cut, rollback, decision reversed);
+- any doc in those trace trees should make five things findable (use `##` headings or equivalent; omit empty sections): **Participants** (humans only; omit agents, tools, and binaries), **Decisions** (what was agreed), **Effects** (done, failed, recovered, rolled back), **Next** (todo, planned, open questions), **Source** (links upstream—meeting, issue, PR, commit—and downstream materializations); git history is the edit log; add an explicit note only when a later pass changes meaning (scope cut, rollback, decision reversed);
+- mention software, tools, agents, or binaries in a note only when that detail is needed for execution or later analysis; put it under Decisions, Effects, or Source—not under Participants;
 <!-- pray:9f724d55 -->
 
 <!-- pray:062b8a8e -->
