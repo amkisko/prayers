@@ -12,7 +12,7 @@
         "contributing"
       ],
       "signer": "amkisko",
-      "published_at": "1785093302",
+      "published_at": "1785093387",
       "signature": "sha256:4c271233d8f6401d6418c25d03582bc936164b1ed7e57b6ab0092f23470019d8",
       "derived_metadata": {
         "summary": "Shared CONTRIBUTING.md for issues, PRs, and automation authorship — Contributing guidelines",

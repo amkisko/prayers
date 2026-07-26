@@ -2,6 +2,7 @@
 
 ## 1.1.1 (2026-07-26)
 
+- Publish `amkisko/docs-conventions` 2.1.1: ban local absolute paths and private material (secrets, credentials, tokens, API keys, personal private data) from `docs/` and `usr/docs/`; prefer repository-relative paths.
 - Publish `amkisko/docs-conventions` 2.1.0: Participants list humans only; mention software only under Decisions, Effects, or Source when needed for execution or later analysis.
 
 ## 1.1.0 (2026-07-26)
