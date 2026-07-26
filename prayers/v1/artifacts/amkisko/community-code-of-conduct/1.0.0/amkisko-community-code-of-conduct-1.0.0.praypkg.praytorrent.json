@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/community-code-of-conduct",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/community-code-of-conduct/1.0.0/amkisko-community-code-of-conduct-1.0.0.praypkg",
+  "artifact_hash": "sha256:0733bf5300a11ea7e48e870aa7c23d55de0db29bfd9d3dc482dedffd14d7d18b",
+  "piece_size": 16384,
+  "length": 1498,
+  "pieces": [
+    "sha256:0733bf5300a11ea7e48e870aa7c23d55de0db29bfd9d3dc482dedffd14d7d18b"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/community-code-of-conduct/1.0.0/amkisko-community-code-of-conduct-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

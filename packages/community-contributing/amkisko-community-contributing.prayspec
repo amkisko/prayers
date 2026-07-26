@@ -1,0 +1,14 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/community-contributing"
+  spec.version = "1.0.0"
+  spec.summary = "Shared CONTRIBUTING.md for issues, PRs, and automation authorship"
+  spec.files = ["README.md", "exports/CONTRIBUTING.md"]
+  spec.exports = {
+    "contributing" => {
+      type: "file",
+      path: "exports/CONTRIBUTING.md",
+      default_path: "CONTRIBUTING.md",
+      summary: "Contributing guidelines"
+    }
+  }
+end

@@ -1,13 +1,13 @@
 prayfile_lock = "1"
 spec = "0.1"
-generated_by = "pray 0.2.0"
-manifest_hash = "sha256:4ef04e241298e8ddbf97ef6463de54d1e45430e5c6721179c8f38beab8e2e9da"
+generated_by = "pray 1.2.1"
+manifest_hash = "sha256:dd156a559d47753ed07f44af5d6020975ab9f570343393ac769e1a5395c0f7a6"
 source = []
 
 [[package]]
 name = "amkisko/branch-naming"
 version = "1.0.0"
-path = "packages/branch-naming"
+path = "./packages/branch-naming"
 tree_hash = "sha256:f50538e28a0e4d573884c019210ce4cc650f692b2211802520e267ff18f30e9b"
 artifact_hash = "sha256:f50538e28a0e4d573884c019210ce4cc650f692b2211802520e267ff18f30e9b"
 artifact = "path:./packages/branch-naming"
@@ -17,7 +17,7 @@ dependencies = []
 [[package]]
 name = "amkisko/changelog-update"
 version = "2.0.1"
-path = "packages/changelog-update"
+path = "./packages/changelog-update"
 tree_hash = "sha256:0f73f835939085f7c91f89f3bc8434374b26b9aa9ee0a59b166d70ad166682f2"
 artifact_hash = "sha256:0f73f835939085f7c91f89f3bc8434374b26b9aa9ee0a59b166d70ad166682f2"
 artifact = "path:./packages/changelog-update"
@@ -27,7 +27,7 @@ dependencies = []
 [[package]]
 name = "amkisko/collaboration-workflow"
 version = "2.0.0"
-path = "packages/collaboration-workflow"
+path = "./packages/collaboration-workflow"
 tree_hash = "sha256:36bbcc1bd056616ea0cf2504486ab014ba2940230eaa6c0d3bb4e004ea7a0f95"
 artifact_hash = "sha256:36bbcc1bd056616ea0cf2504486ab014ba2940230eaa6c0d3bb4e004ea7a0f95"
 artifact = "path:./packages/collaboration-workflow"
@@ -35,9 +35,49 @@ exports = ["collaboration-workflow"]
 dependencies = []
 
 [[package]]
+name = "amkisko/community-code-of-conduct"
+version = "1.0.0"
+path = "./packages/community-code-of-conduct"
+tree_hash = "sha256:672171de85ada47cbdda7a7db8414bb0b0e72f2d69e124cabaed924f0177a23b"
+artifact_hash = "sha256:672171de85ada47cbdda7a7db8414bb0b0e72f2d69e124cabaed924f0177a23b"
+artifact = "path:./packages/community-code-of-conduct"
+exports = ["code-of-conduct"]
+dependencies = []
+
+[[package]]
+name = "amkisko/community-contributing"
+version = "1.0.0"
+path = "./packages/community-contributing"
+tree_hash = "sha256:f1a3c024fa1177ea35b4e7fcefc922a4f6dd13b9c46cc140794368b624b83100"
+artifact_hash = "sha256:f1a3c024fa1177ea35b4e7fcefc922a4f6dd13b9c46cc140794368b624b83100"
+artifact = "path:./packages/community-contributing"
+exports = ["contributing"]
+dependencies = []
+
+[[package]]
+name = "amkisko/community-governance"
+version = "1.0.0"
+path = "./packages/community-governance"
+tree_hash = "sha256:0ecf400d2acc599e01f17eb2979cbe1033069046b1e6a6ce6abb1b2f37b3f50d"
+artifact_hash = "sha256:0ecf400d2acc599e01f17eb2979cbe1033069046b1e6a6ce6abb1b2f37b3f50d"
+artifact = "path:./packages/community-governance"
+exports = ["governance"]
+dependencies = []
+
+[[package]]
+name = "amkisko/community-security"
+version = "1.0.0"
+path = "./packages/community-security"
+tree_hash = "sha256:b57522d2efd97b590a98780b37c83b09e574a40481c536429dcc0c1a7c2e42a5"
+artifact_hash = "sha256:b57522d2efd97b590a98780b37c83b09e574a40481c536429dcc0c1a7c2e42a5"
+artifact = "path:./packages/community-security"
+exports = ["security"]
+dependencies = []
+
+[[package]]
 name = "amkisko/dependency-issues"
 version = "2.0.0"
-path = "packages/dependency-issues"
+path = "./packages/dependency-issues"
 tree_hash = "sha256:6c39d9a594263ccb068155853463d5b18d8cf8b66849824b69bb0b6cc6c3deaa"
 artifact_hash = "sha256:6c39d9a594263ccb068155853463d5b18d8cf8b66849824b69bb0b6cc6c3deaa"
 artifact = "path:./packages/dependency-issues"
@@ -47,7 +87,7 @@ dependencies = []
 [[package]]
 name = "amkisko/dependency-policy"
 version = "2.0.0"
-path = "packages/dependency-policy"
+path = "./packages/dependency-policy"
 tree_hash = "sha256:628a55a360e0fa17ec04f5f4185f3d5c494ce3600373171bc81092bbe47f044b"
 artifact_hash = "sha256:628a55a360e0fa17ec04f5f4185f3d5c494ce3600373171bc81092bbe47f044b"
 artifact = "path:./packages/dependency-policy"
@@ -60,7 +100,7 @@ dependencies = []
 [[package]]
 name = "amkisko/docs-conventions"
 version = "2.0.0"
-path = "packages/docs-conventions"
+path = "./packages/docs-conventions"
 tree_hash = "sha256:b648be82362d372c820ffaa8719c5cf6b90ba223fa34fc6e209aaec393c6a7ac"
 artifact_hash = "sha256:b648be82362d372c820ffaa8719c5cf6b90ba223fa34fc6e209aaec393c6a7ac"
 artifact = "path:./packages/docs-conventions"
@@ -70,7 +110,7 @@ dependencies = []
 [[package]]
 name = "amkisko/elixir-conventions"
 version = "1.0.0"
-path = "packages/elixir-conventions"
+path = "./packages/elixir-conventions"
 tree_hash = "sha256:a870bf65cb7b33f09cb9dbe95c5392f52dc58cc0b0d853f62a354d954f869c98"
 artifact_hash = "sha256:a870bf65cb7b33f09cb9dbe95c5392f52dc58cc0b0d853f62a354d954f869c98"
 artifact = "path:./packages/elixir-conventions"
@@ -80,7 +120,7 @@ dependencies = []
 [[package]]
 name = "amkisko/engineering-audit"
 version = "2.0.0"
-path = "packages/engineering-audit"
+path = "./packages/engineering-audit"
 tree_hash = "sha256:ce60d9ba8c6c31c7c704278b0cfdd88e2e34af900c13daadb460be57685eb79d"
 artifact_hash = "sha256:ce60d9ba8c6c31c7c704278b0cfdd88e2e34af900c13daadb460be57685eb79d"
 artifact = "path:./packages/engineering-audit"
@@ -90,7 +130,7 @@ dependencies = []
 [[package]]
 name = "amkisko/finite-state-machines"
 version = "1.0.0"
-path = "packages/finite-state-machines"
+path = "./packages/finite-state-machines"
 tree_hash = "sha256:86c27f8702620a790011c5ea31a244df38da6e35ff4aa76b5fbdddedc0e56101"
 artifact_hash = "sha256:86c27f8702620a790011c5ea31a244df38da6e35ff4aa76b5fbdddedc0e56101"
 artifact = "path:./packages/finite-state-machines"
@@ -100,7 +140,7 @@ dependencies = []
 [[package]]
 name = "amkisko/getting-started"
 version = "1.0.0"
-path = "packages/getting-started"
+path = "./packages/getting-started"
 tree_hash = "sha256:61432f6125fc9eef9e6781dd9116f125ca8e02e9e13d55313125c27cc2e35df1"
 artifact_hash = "sha256:61432f6125fc9eef9e6781dd9116f125ca8e02e9e13d55313125c27cc2e35df1"
 artifact = "path:./packages/getting-started"
@@ -110,7 +150,7 @@ dependencies = []
 [[package]]
 name = "amkisko/minimal-implementation"
 version = "1.0.0"
-path = "packages/minimal-implementation"
+path = "./packages/minimal-implementation"
 tree_hash = "sha256:e3e38bafa9bb022d5c3b1b0e3f904bab958b660fbcc22ff41140e6dc5e3537f7"
 artifact_hash = "sha256:e3e38bafa9bb022d5c3b1b0e3f904bab958b660fbcc22ff41140e6dc5e3537f7"
 artifact = "path:./packages/minimal-implementation"
@@ -120,7 +160,7 @@ dependencies = []
 [[package]]
 name = "amkisko/preferred-stack"
 version = "1.0.0"
-path = "packages/preferred-stack"
+path = "./packages/preferred-stack"
 tree_hash = "sha256:c9596653836b159598d923cd53130975e9e08646f341ffe7340fc44823fc202f"
 artifact_hash = "sha256:c9596653836b159598d923cd53130975e9e08646f341ffe7340fc44823fc202f"
 artifact = "path:./packages/preferred-stack"
@@ -130,7 +170,7 @@ dependencies = []
 [[package]]
 name = "amkisko/publish-checks"
 version = "1.0.0"
-path = "packages/publish-checks"
+path = "./packages/publish-checks"
 tree_hash = "sha256:8c66048dbd559e5e9d90f084738eef9ff83f8e8cf870dff0ffd2e2fc7ae8a121"
 artifact_hash = "sha256:8c66048dbd559e5e9d90f084738eef9ff83f8e8cf870dff0ffd2e2fc7ae8a121"
 artifact = "path:./packages/publish-checks"
@@ -140,7 +180,7 @@ dependencies = []
 [[package]]
 name = "amkisko/rejected-changes"
 version = "1.0.0"
-path = "packages/rejected-changes"
+path = "./packages/rejected-changes"
 tree_hash = "sha256:c67d00c73127370733d1a11fe463634e7e8a59b3c3da47c1f578ba00f4b0d9fb"
 artifact_hash = "sha256:c67d00c73127370733d1a11fe463634e7e8a59b3c3da47c1f578ba00f4b0d9fb"
 artifact = "path:./packages/rejected-changes"
@@ -150,7 +190,7 @@ dependencies = []
 [[package]]
 name = "amkisko/ruby-conventions"
 version = "1.0.0"
-path = "packages/ruby-conventions"
+path = "./packages/ruby-conventions"
 tree_hash = "sha256:6885f2943f7fef23f8c70ccfd850875b39243a0344f71873dfdfd724928b2fce"
 artifact_hash = "sha256:6885f2943f7fef23f8c70ccfd850875b39243a0344f71873dfdfd724928b2fce"
 artifact = "path:./packages/ruby-conventions"
@@ -160,7 +200,7 @@ dependencies = []
 [[package]]
 name = "amkisko/rust-conventions"
 version = "1.0.0"
-path = "packages/rust-conventions"
+path = "./packages/rust-conventions"
 tree_hash = "sha256:4e5794d5982d86e0ea30a8c689350484ddbfc4af96dbd3651ae2c3eb96c8ed6d"
 artifact_hash = "sha256:4e5794d5982d86e0ea30a8c689350484ddbfc4af96dbd3651ae2c3eb96c8ed6d"
 artifact = "path:./packages/rust-conventions"
@@ -170,7 +210,7 @@ dependencies = []
 [[package]]
 name = "amkisko/working-rules"
 version = "2.0.0"
-path = "packages/working-rules"
+path = "./packages/working-rules"
 tree_hash = "sha256:cf7fbe331cabe7a93fed2e4bc82c5ec035d7c5afbfb49f8ad1490f0499b1b87d"
 artifact_hash = "sha256:cf7fbe331cabe7a93fed2e4bc82c5ec035d7c5afbfb49f8ad1490f0499b1b87d"
 artifact = "path:./packages/working-rules"
@@ -180,7 +220,7 @@ dependencies = []
 [[package]]
 name = "amkisko/writing-prose"
 version = "2.0.0"
-path = "packages/writing-prose"
+path = "./packages/writing-prose"
 tree_hash = "sha256:c59a70a667bfad5330d78ad1d68c91e6307914c3b54a648d11dd0555bc899ca4"
 artifact_hash = "sha256:c59a70a667bfad5330d78ad1d68c91e6307914c3b54a648d11dd0555bc899ca4"
 artifact = "path:./packages/writing-prose"

@@ -1,0 +1,14 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/community-security"
+  spec.version = "1.0.0"
+  spec.summary = "Shared SECURITY.md for vulnerability reporting and automation safety"
+  spec.files = ["README.md", "exports/SECURITY.md"]
+  spec.exports = {
+    "security" => {
+      type: "file",
+      path: "exports/SECURITY.md",
+      default_path: "SECURITY.md",
+      summary: "Security policy and vulnerability reporting"
+    }
+  }
+end

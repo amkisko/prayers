@@ -1,0 +1,14 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/community-code-of-conduct"
+  spec.version = "1.0.0"
+  spec.summary = "Shared CODE_OF_CONDUCT.md for respectful community participation"
+  spec.files = ["README.md", "exports/CODE_OF_CONDUCT.md"]
+  spec.exports = {
+    "code-of-conduct" => {
+      type: "file",
+      path: "exports/CODE_OF_CONDUCT.md",
+      default_path: "CODE_OF_CONDUCT.md",
+      summary: "Community code of conduct"
+    }
+  }
+end
