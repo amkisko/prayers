@@ -24,6 +24,15 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 - ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load.
 <!-- pray:5ef025d3 -->
 
+<!-- pray:1b9f596f -->
+## Credentials and Secrets
+
+- Prefer a secret store or OS credential helper over embedding live secrets in config files, scripts, or documentation. Named managers (for example 1Password, Bitwarden, KeePassXC) are fine; the requirement is isolation, not a specific vendor.
+- Config and project files may hold references (vault paths, item ids, redacted fingerprints). They must not hold live tokens, API keys, passwords, or client secrets.
+- Do not pass secrets on command lines or in other process-visible arguments. Prefer secret-store lookup, short-lived credentials, or stdin/file descriptors that do not persist in shell history.
+- Do not commit secrets, paste them into issues or pull requests, or write them to logs. Rotate anything that may have been exposed.
+<!-- pray:1b9f596f -->
+
 <!-- pray:9f724d55 -->
 - `docs/` is for human-facing documentation: setup guides, architecture, migration notes, and operator material meant for users and contributors without agent context; use stable descriptive filenames;
 - `usr/docs/` is for durable agent and engineering trace alongside other project-local operator surfaces under `usr/`; keep inference input (AGENTS.md, `.agents/`) separate from human docs;
