@@ -28,4 +28,4 @@ In accordance with our commitment to collective awareness:
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at contact@kiskolabs.com. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at ((pray:support_email)). All complaints will be reviewed and investigated promptly and fairly.

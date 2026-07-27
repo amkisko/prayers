@@ -1,5 +1,10 @@
 prayfile "1"
 
+pray do
+  support_email "contact@kiskolabs.com"
+  security_email "security@kiskolabs.com"
+end
+
 compose "AGENTS.md" do
   pray ".agents/project.md"
   pray "amkisko/working-rules", path: "packages/working-rules"

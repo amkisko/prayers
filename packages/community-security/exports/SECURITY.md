@@ -4,7 +4,7 @@
 
 Do not open a public issue for security vulnerabilities.
 
-Email security details to: security@kiskolabs.com
+Email security details to: ((pray:security_email))
 
 Include: description, steps to reproduce, potential impact, and suggested fix (if available).
 

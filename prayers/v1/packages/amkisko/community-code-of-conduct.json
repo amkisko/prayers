@@ -56,6 +56,62 @@
         "character_count": 1860,
         "token_count": 165
       }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/community-code-of-conduct/1.1.0/amkisko-community-code-of-conduct-1.1.0.praypkg",
+      "artifact_hash": "sha256:362314586fbc8bed40840bd07eaaba675c3a50d9cb02db949340bb3c0cc16cff",
+      "tree_hash": "sha256:71cc580018ba78c810089a221b4867b934ad82b17e06575e23daec528c3c32af",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "code-of-conduct"
+      ],
+      "signer": "amkisko",
+      "published_at": "1785128733",
+      "signature": "sha256:c1bab8be280835809016c482091a49f1661c81d0bb91a6cb088ca8c8ec0e808c",
+      "derived_metadata": {
+        "summary": "Shared CODE_OF_CONDUCT.md for respectful community participation — Community code of conduct",
+        "topics": [
+          "code",
+          "behavior",
+          "community",
+          "conduct",
+          "harassment"
+        ],
+        "categories": [
+          "testing"
+        ],
+        "possible_effects": [
+          "improves validation"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              11,
+              10,
+              10,
+              8,
+              17,
+              11,
+              11,
+              3,
+              11,
+              9,
+              10,
+              9,
+              9,
+              19,
+              10,
+              8
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1861,
+        "token_count": 166
+      }
     }
   ]
 }
