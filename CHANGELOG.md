@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Unreleased
+
+## 1.1.3 (2026-07-27)
+
+- Bump `community-security` and `community-code-of-conduct` to 1.1.0: replace contact and security emails with `((pray:support_email))` and `((pray:security_email))` placeholders (requires pray CLI with symbol templating).
+
 ## 1.1.2 (2026-07-26)
 
 - Add `amkisko/security` 1.0.0: Credentials and Secrets guidance for AGENTS.md (secret stores, reference-only config, no live credentials in argv, history, commits, issues, or logs).
