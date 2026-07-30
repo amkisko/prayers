@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Document compose, tree, and pray file destinations in consumer examples; drop legacy target and agent forms.
+- Publish `amkisko/getting-started` 1.1.0 with destination DSL guidance.
+
 ## 1.1.3 (2026-07-27)
 
 - Bump `community-security` and `community-code-of-conduct` to 1.1.0: replace contact and security emails with `((pray:support_email))` and `((pray:security_email))` placeholders (requires pray CLI with symbol templating).
