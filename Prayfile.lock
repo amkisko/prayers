@@ -1,7 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
-generated_by = "pray 1.4.0"
-manifest_hash = "sha256:bada20e8e9620a5f2a96ffafab66ab88d3dc6fce9b0f48e6785dd426dcce85c4"
+generated_by = "pray 1.5.1"
+manifest_hash = "sha256:b8b9c9b7f4599ffe1c44f14924d004e1c9d36813ceb9680eb73d726b2e7a0259"
 source = []
 
 [[package]]
@@ -139,10 +139,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/getting-started"
-version = "1.0.0"
+version = "1.1.0"
 path = "./packages/getting-started"
-tree_hash = "sha256:61432f6125fc9eef9e6781dd9116f125ca8e02e9e13d55313125c27cc2e35df1"
-artifact_hash = "sha256:61432f6125fc9eef9e6781dd9116f125ca8e02e9e13d55313125c27cc2e35df1"
+tree_hash = "sha256:dcebefe22925c6f7be36d7213bb7fb50c5fee636c689e0c7ad17c2d00ef567af"
+artifact_hash = "sha256:dcebefe22925c6f7be36d7213bb7fb50c5fee636c689e0c7ad17c2d00ef567af"
 artifact = "path:./packages/getting-started"
 exports = ["getting-started"]
 dependencies = []
@@ -425,9 +425,9 @@ silenced = false
 id = "aa6c8f33"
 target = "AGENTS.md"
 open_line = 240
-close_line = 271
-ideal_checksum = "sha256:e66bf6f3e4681c4e3a4f627a95b5ede012cc37e34b3042a048c4d9fecc1baa24"
+close_line = 289
+ideal_checksum = "sha256:9b370ff29570cf3b6e6d5e458020c8d7644d6f0cf36119329e46231973ee0fe1"
 package = "amkisko/getting-started"
 export = "getting-started"
-source_checksum = "sha256:61432f6125fc9eef9e6781dd9116f125ca8e02e9e13d55313125c27cc2e35df1"
+source_checksum = "sha256:dcebefe22925c6f7be36d7213bb7fb50c5fee636c689e0c7ad17c2d00ef567af"
 silenced = false

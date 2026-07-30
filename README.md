@@ -23,58 +23,65 @@ pray init
 Point `Prayfile` at package paths while developing locally (sibling checkout under `amkisko/`):
 
 ```prayfile
-agent "amkisko/working-rules", path: "../prayers/packages/working-rules", exports: ["working-rules"]
+compose "AGENTS.md" do
+  pray "amkisko/working-rules", path: "../prayers/packages/working-rules"
+end
 ```
 
 After pushing this repository, consumers can switch to a git source:
 
 ```prayfile
-source "amkisko", git: "https://github.com/amkisko/prayers", distribution: "prayers"
-agent "amkisko/working-rules", "~> 1.0", source: "amkisko", exports: ["working-rules"]
+source "amkisko", git: "https://github.com/amkisko/prayers.git"
+compose "AGENTS.md" do
+  pray "amkisko/working-rules", "~> 2.0"
+end
 ```
 
-Example consumer `Prayfile` for a Ruby gem:
+Example consumer `Prayfile`:
 
 ```prayfile
 prayfile "1"
 
-source "amkisko", path: "../prayers/prayers"
-
-target :agents do
-  output "AGENTS.md"
-  skills ".agents/skills"
+pray do
+  support_email "contact@example.com"
+  security_email "security@example.com"
 end
 
-agent "amkisko/working-rules", "~> 1.0", source: "amkisko", exports: ["working-rules"]
-agent "amkisko/security", "~> 1.0", source: "amkisko", exports: ["security"]
-agent "amkisko/docs-conventions", "~> 1.0", source: "amkisko", exports: ["docs-conventions"]
-agent "amkisko/dependency-issues", "~> 1.0", source: "amkisko", exports: ["dependency-issues"]
-agent "amkisko/dependency-policy", "~> 1.0", source: "amkisko", exports: ["dependency-policy", "skill"]
-agent "amkisko/ruby-conventions", "~> 1.0", source: "amkisko", exports: ["ruby-conventions"]
-agent "amkisko/minimal-implementation", "~> 1.0", source: "amkisko", exports: ["minimal-implementation"]
-agent "amkisko/finite-state-machines", "~> 1.0", source: "amkisko", exports: ["finite-state-machines"]
-agent "amkisko/branch-naming", "~> 1.0", source: "amkisko", exports: ["branch-naming"]
-agent "amkisko/preferred-stack", "~> 1.0", source: "amkisko", exports: ["preferred-stack"]
-agent "amkisko/writing-prose", "~> 1.0", source: "amkisko", exports: ["writing-prose"]
-agent "amkisko/rejected-changes", "~> 1.0", source: "amkisko", exports: ["rejected-changes"]
-agent "amkisko/publish-checks", "~> 1.0", source: "amkisko", exports: ["publish-checks"]
-agent "amkisko/collaboration-workflow", "~> 1.0", source: "amkisko", exports: ["collaboration-workflow"]
-agent "amkisko/engineering-audit", "~> 1.0", source: "amkisko", exports: ["skill"]
-agent "amkisko/changelog-update", "~> 1.0", source: "amkisko", exports: ["skill"]
+source "amkisko", git: "https://github.com/amkisko/prayers.git"
 
-render mode: :managed, conflict: :fail, churn: :minimal
+compose "AGENTS.md" do
+  pray ".agents/project.md"
+  pray "amkisko/working-rules", "~> 2.0"
+  pray "amkisko/security", "~> 1.0"
+  pray "amkisko/docs-conventions", "~> 2.1"
+  pray "amkisko/dependency-issues", "~> 2.0"
+  pray "amkisko/dependency-policy", "~> 2.0"
+  pray "amkisko/ruby-conventions", "~> 1.0"
+  pray "amkisko/minimal-implementation", "~> 1.0"
+  pray "amkisko/finite-state-machines", "~> 1.0"
+  pray "amkisko/branch-naming", "~> 1.0"
+  pray "amkisko/preferred-stack", "~> 1.0"
+  pray "amkisko/writing-prose", "~> 2.0"
+  pray "amkisko/rejected-changes", "~> 1.0"
+  pray "amkisko/publish-checks", "~> 1.0"
+  pray "amkisko/collaboration-workflow", "~> 2.0"
+end
+
+tree ".agents/skills" do
+  pray "amkisko/dependency-policy", "~> 2.0"
+  pray "amkisko/engineering-audit", "~> 2.0"
+  pray "amkisko/changelog-update", "~> 2.0"
+end
+
+pray "amkisko/community-security", "~> 1.1", file: "SECURITY.md"
+pray "amkisko/community-code-of-conduct", "~> 1.1", file: "CODE_OF_CONDUCT.md"
+pray "amkisko/community-governance", "~> 1.0", file: "GOVERNANCE.md"
+pray "amkisko/community-contributing", "~> 1.0", file: "CONTRIBUTING.md"
 ```
 
 Swap `ruby-conventions` for `rust-conventions` or `elixir-conventions` on `.rs` and `.ex` trees.
 
-Community whole files (exact bytes at the repo root):
-
-```prayfile
-pray "amkisko/community-security", "~> 1.0", file: "SECURITY.md"
-pray "amkisko/community-code-of-conduct", "~> 1.0", file: "CODE_OF_CONDUCT.md"
-pray "amkisko/community-governance", "~> 1.0", file: "GOVERNANCE.md"
-pray "amkisko/community-contributing", "~> 1.0", file: "CONTRIBUTING.md"
-```
+Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists.
 
 Resolve and render:
 

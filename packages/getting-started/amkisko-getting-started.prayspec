@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/getting-started"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.summary = "Install pray and consume amkisko shared prayers"
   spec.files = ["README.md", "exports/getting-started.md"]
   spec.exports = {

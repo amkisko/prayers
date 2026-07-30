@@ -248,6 +248,24 @@ Install the CLI:
 cargo install --git https://github.com/kiskolabs/pray --locked pray
 ```
 
+Declare destinations with `compose`, `tree`, and `pray …, file:`:
+
+```prayfile
+prayfile "1"
+source "amkisko", git: "https://github.com/amkisko/prayers.git"
+
+compose "AGENTS.md" do
+  pray ".agents/project.md"
+  pray "amkisko/working-rules", "~> 2.0"
+end
+
+tree ".agents/skills" do
+  pray "amkisko/engineering-audit", "~> 2.0"
+end
+
+pray "amkisko/community-security", "~> 1.1", file: "SECURITY.md"
+```
+
 Initialize or update managed input:
 
 ```sh
