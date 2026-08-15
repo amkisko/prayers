@@ -1,3 +1,3 @@
 # amkisko/collaboration-workflow
 
-How agent-assisted and human collaboration leaves durable traces under `usr/docs/` while human-facing documentation stays in `docs/`.
+How agent-assisted work leaves a high-signal trace. Layout of docs/ versus usr/docs/ lives in `amkisko/docs-conventions`.

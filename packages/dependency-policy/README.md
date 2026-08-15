@@ -1,10 +1,12 @@
 # amkisko/dependency-policy
 
-Language- and platform-neutral rules for selecting, altering, and auditing third-party dependencies.
+Language- and platform-neutral stop-gate for third-party packages, plus an audit skill.
 
 Exports:
 
-- `dependency-policy` — AGENTS fragment for selection and change discipline
-- `dependency-audit` skill — advisory scans plus deep recon/OSINT workflow (security, freshness, ecosystem synthesis)
+- `dependency-policy` — AGENTS fragment: terminology, stop-before-add, when to run the skill
+- `dependency-audit` skill — selection/alteration rules, advisory scans, and recon/OSINT
+
+Compose and tree this package together. Selection heuristics live in the skill.
 
 Related: `amkisko/dependency-issues` records defects found during real work; `amkisko/minimal-implementation` covers YAGNI before adding deps.

@@ -12,24 +12,22 @@ compose "AGENTS.md" do
   pray "amkisko/docs-conventions", path: "packages/docs-conventions"
   pray "amkisko/dependency-issues", path: "packages/dependency-issues"
   pray "amkisko/dependency-policy", path: "packages/dependency-policy"
-  pray "amkisko/ruby-conventions", path: "packages/ruby-conventions"
-  pray "amkisko/rust-conventions", path: "packages/rust-conventions"
-  pray "amkisko/elixir-conventions", path: "packages/elixir-conventions"
   pray "amkisko/minimal-implementation", path: "packages/minimal-implementation"
   pray "amkisko/finite-state-machines", path: "packages/finite-state-machines"
   pray "amkisko/branch-naming", path: "packages/branch-naming"
   pray "amkisko/preferred-stack", path: "packages/preferred-stack"
   pray "amkisko/writing-prose", path: "packages/writing-prose"
+  pray "amkisko/claims-audit", path: "packages/claims-audit"
   pray "amkisko/rejected-changes", path: "packages/rejected-changes"
   pray "amkisko/publish-checks", path: "packages/publish-checks"
   pray "amkisko/collaboration-workflow", path: "packages/collaboration-workflow"
-  pray "amkisko/getting-started", path: "packages/getting-started"
 end
 
 tree ".agents/skills" do
   pray "amkisko/dependency-policy", path: "packages/dependency-policy"
   pray "amkisko/engineering-audit", path: "packages/engineering-audit"
   pray "amkisko/changelog-update", path: "packages/changelog-update"
+  pray "amkisko/claims-audit", path: "packages/claims-audit"
 end
 
 pray "amkisko/community-security", path: "packages/community-security", file: "SECURITY.md"

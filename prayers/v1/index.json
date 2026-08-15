@@ -3,6 +3,7 @@
   "packages": [
     "amkisko/branch-naming",
     "amkisko/changelog-update",
+    "amkisko/claims-audit",
     "amkisko/collaboration-workflow",
     "amkisko/community-code-of-conduct",
     "amkisko/community-contributing",

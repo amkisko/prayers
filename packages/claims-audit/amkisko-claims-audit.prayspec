@@ -1,0 +1,24 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/claims-audit"
+  spec.version = "1.0.0"
+  spec.summary = "Claim hygiene language and factual verification skill"
+  spec.files = [
+    "README.md",
+    "exports/claims-audit.md",
+    "skills/claims-audit/SKILL.md",
+    "skills/claims-audit/claims-audit.md",
+    "skills/claims-audit/references/evidence-bundle.md"
+  ]
+  spec.exports = {
+    "claims-audit" => {
+      type: "fragment",
+      path: "exports/claims-audit.md",
+      summary: "Claim hygiene and when to verify"
+    },
+    "skill" => {
+      type: "folder",
+      path: "skills/claims-audit",
+      summary: "Claims audit skill"
+    }
+  }
+end
