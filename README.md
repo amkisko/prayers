@@ -51,26 +51,28 @@ source "amkisko", git: "https://github.com/amkisko/prayers.git"
 
 compose "AGENTS.md" do
   pray ".agents/project.md"
-  pray "amkisko/working-rules", "~> 2.0"
+  pray "amkisko/working-rules", "~> 2.1"
   pray "amkisko/security", "~> 1.0"
   pray "amkisko/docs-conventions", "~> 2.1"
   pray "amkisko/dependency-issues", "~> 2.0"
-  pray "amkisko/dependency-policy", "~> 2.0"
+  pray "amkisko/dependency-policy", "~> 3.0"
   pray "amkisko/ruby-conventions", "~> 1.0"
   pray "amkisko/minimal-implementation", "~> 1.0"
   pray "amkisko/finite-state-machines", "~> 1.0"
   pray "amkisko/branch-naming", "~> 1.0"
   pray "amkisko/preferred-stack", "~> 1.0"
-  pray "amkisko/writing-prose", "~> 2.0"
+  pray "amkisko/writing-prose", "~> 3.0"
+  pray "amkisko/claims-audit", "~> 1.0"
   pray "amkisko/rejected-changes", "~> 1.0"
   pray "amkisko/publish-checks", "~> 1.0"
-  pray "amkisko/collaboration-workflow", "~> 2.0"
+  pray "amkisko/collaboration-workflow", "~> 2.1"
 end
 
 tree ".agents/skills" do
-  pray "amkisko/dependency-policy", "~> 2.0"
+  pray "amkisko/dependency-policy", "~> 3.0"
   pray "amkisko/engineering-audit", "~> 2.0"
-  pray "amkisko/changelog-update", "~> 2.0"
+  pray "amkisko/changelog-update", "~> 2.1"
+  pray "amkisko/claims-audit", "~> 1.0"
 end
 
 pray "amkisko/community-security", "~> 1.1", file: "SECURITY.md"
@@ -79,9 +81,17 @@ pray "amkisko/community-governance", "~> 1.0", file: "GOVERNANCE.md"
 pray "amkisko/community-contributing", "~> 1.0", file: "CONTRIBUTING.md"
 ```
 
-Swap `ruby-conventions` for `rust-conventions` or `elixir-conventions` on `.rs` and `.ex` trees.
+Swap `ruby-conventions` for `rust-conventions` or `elixir-conventions` on `.rs` and `.ex` trees. Compose one language pack, not all three.
 
-Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists.
+Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill.
+
+## Compose budget
+
+Always-on `AGENTS.md` fragments share a 32 KiB Codex cap with project overlay. Keep the composed file under 16 KiB.
+
+- Prefer fragments under 1 KB. Over 2 KB belongs in a skill, with a short when-pointer in the fragment.
+- Do not compose `getting-started`; it is README material.
+- Compose one language pack.
 
 Resolve and render:
 
@@ -107,7 +117,7 @@ make release
 | `amkisko/security` | fragment | Credential and secret handling for agents |
 | `amkisko/docs-conventions` | fragment | Docs tree naming and five-heading structure |
 | `amkisko/dependency-issues` | fragment | Dependency bug evidence and fix suggestions |
-| `amkisko/dependency-policy` | fragment + skill | Dependency selection, alteration rules, and audit workflow |
+| `amkisko/dependency-policy` | fragment + skill | Stop-before-add gate and dependency audit |
 | `amkisko/ruby-conventions` | fragment | Ruby and Rails stack conventions |
 | `amkisko/rust-conventions` | fragment | Rust stack conventions |
 | `amkisko/elixir-conventions` | fragment | Elixir and OTP stack conventions |
@@ -116,6 +126,7 @@ make release
 | `amkisko/branch-naming` | fragment | Branch prefix conventions |
 | `amkisko/preferred-stack` | fragment | Language and UX preferences |
 | `amkisko/writing-prose` | fragment | Plain technical writing checks |
+| `amkisko/claims-audit` | fragment + skill | Claim hygiene and factual verification |
 | `amkisko/rejected-changes` | fragment | Changes likely rejected in review |
 | `amkisko/publish-checks` | fragment | Pre-publish engineering checklist |
 | `amkisko/collaboration-workflow` | fragment | Durable context and agent traces |

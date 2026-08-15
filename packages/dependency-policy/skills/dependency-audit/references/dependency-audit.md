@@ -2,7 +2,7 @@
 
 Use when asked to audit dependencies, review lockfiles, assess supply-chain risk, or decide whether upgrades are safe.
 
-Read `dependency-policy` in the shared prayers fragment for selection and alteration rules this audit enforces.
+Read `references/selection-and-alteration.md` for prefer/reject rules and alteration checks this audit enforces.
 
 ## Voice and prose
 

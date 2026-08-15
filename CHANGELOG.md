@@ -2,7 +2,15 @@
 
 ## Unreleased
 
-- Document compose, tree, and pray file destinations in consumer examples; drop legacy target and agent forms.
+## 1.2.0 (2026-08-15)
+
+- Remove `getting-started` and unused language packs from this repo always-on compose.
+- Publish `amkisko/dependency-policy` 3.0.0: keep the stop-before-add gate in the fragment; move selection heuristics into the skill.
+- Publish `amkisko/working-rules` 2.1.0 and `amkisko/collaboration-workflow` 2.1.0: point at `docs-conventions` instead of restating paths.
+- Split `amkisko/changelog-update` 2.1.0: short skill pointer, procedure in `changelog-update.md`.
+- Publish `amkisko/writing-prose` 3.0.0: treat ease, diversity, coherence, mechanics, and claims as separate constructs; keep agency on the person; point material claims at `claims-audit`.
+- Add `amkisko/claims-audit` 1.0.0: claim hygiene fragment plus verification skill with an optional evidence bundle.
+- Document compose, tree, and pray `file:` destinations in consumer examples.
 - Publish `amkisko/getting-started` 1.1.0 with destination DSL guidance.
 
 ## 1.1.3 (2026-07-27)

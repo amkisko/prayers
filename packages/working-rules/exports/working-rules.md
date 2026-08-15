@@ -8,7 +8,6 @@
 - keep the idea that code reflects user experience, so readability, structure, and clarity are product qualities, not optional polish;
 - pull request description should include answers to questions: what problem is solved, why it matters, how the solution works, and any relevant context; if the change is non-trivial, include reproduction steps or a changelog entry with intent;
 - pull request checklist: changelog entry with intent or reproduction steps when relevant, test coverage, and quality checks done;
-- suggest updating usr/docs/changelogs with a short summary and PR link only when the change is significant enough to be mentioned; changelog files should use `usr/docs/changelogs/#{date +"%Y%m%d%H%M%S"}_<title>.md`;
-- when documenting ideas, issues, user requests, new features, bugfixes, chores, etc., use `usr/docs/issues/#{date +"%Y%m%d%H%M%S"}_<title>.md`;
+- follow docs-conventions for usr/docs trace filenames and layout;
 - validation output must list exact commands run and observed results, and never claim tests pass unless they were executed and passed;
 - ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load.

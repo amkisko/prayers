@@ -12,7 +12,7 @@
         "security"
       ],
       "signer": "amkisko",
-      "published_at": "1785128733",
+      "published_at": "1786792469",
       "signature": "sha256:437e9e0c7fcda01971339f5fba82dc75b2362e4a557135d5938dbbe65bd9ed27",
       "derived_metadata": {
         "summary": "Credential and secret handling for agents — Credentials and secrets hygiene for agent work",

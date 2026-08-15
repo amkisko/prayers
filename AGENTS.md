@@ -18,8 +18,7 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 - keep the idea that code reflects user experience, so readability, structure, and clarity are product qualities, not optional polish;
 - pull request description should include answers to questions: what problem is solved, why it matters, how the solution works, and any relevant context; if the change is non-trivial, include reproduction steps or a changelog entry with intent;
 - pull request checklist: changelog entry with intent or reproduction steps when relevant, test coverage, and quality checks done;
-- suggest updating usr/docs/changelogs with a short summary and PR link only when the change is significant enough to be mentioned; changelog files should use `usr/docs/changelogs/#{date +"%Y%m%d%H%M%S"}_<title>.md`;
-- when documenting ideas, issues, user requests, new features, bugfixes, chores, etc., use `usr/docs/issues/#{date +"%Y%m%d%H%M%S"}_<title>.md`;
+- follow docs-conventions for usr/docs trace filenames and layout;
 - validation output must list exact commands run and observed results, and never claim tests pass unless they were executed and passed;
 - ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load.
 <!-- pray:9068e4a2 -->
@@ -57,7 +56,7 @@ For proactive selection, alteration, and audit rules, use `dependency-policy` an
 <!-- pray:3ac5d6ce -->
 ## Dependency policy
 
-Rules for adding, changing, or removing third-party packages. Apply across languages (Ruby, Rust, Elixir, JavaScript, and others). Names vary by ecosystem; concepts do not.
+Rules for adding, changing, or removing third-party packages. Apply across languages. Names vary by ecosystem; concepts do not.
 
 Terminology:
 
@@ -66,72 +65,16 @@ Terminology:
 - registry — published versions consumers resolve (`RubyGems`, `npm`, `crates.io`, `Hex`, etc.)
 - hot path — code on the security, auth, crypto, IO, or request/response boundary users rely on
 
-### Before adding a dependency
-
-Stop until one of these applies:
+Stop until one of these applies before adding a dependency:
 
 - stdlib or the framework for this tree already covers it;
 - an installed transitive dependency already covers it without a second library for the same job;
-- the feature genuinely needs a new package and tests will prove behavior.
+- the feature needs a new package and tests will prove behavior.
 
-Then prefer packages that:
+Run the dependency-audit skill when adding, replacing, or removing a direct dependency; when asked for a dependency audit; before a release that changes hot-path packages; or after a published advisory names a package in the graph.
 
-- share a trusted maintainer cluster and spec family with dependencies already on the hot path (same author group, same protocol stack, same RFC family);
-- align with the domain protocol being implemented (do not bolt on a parallel HTTP client, JWT stack, or crypto helper when the main stack already carries one);
-- show real adoption on the registry and recent maintenance (commits and published versions; registry publish date matters when upstream release tags lag);
-- keep bus factor visible: a coherent maintainer cluster is good for integration; a lone micro-package on a hot path is a supply-chain risk unless adoption and release cadence are strong.
-
-Reject or defer when:
-
-- the capability duplicates an existing node in the graph;
-- issues-per-star and open pull request backlog suggest maintainer strain on a small package;
-- a major version adds native extensions or platform matrices the CI matrix does not exercise;
-- license or export-control terms conflict with product use.
-
-### When altering dependencies
-
-- run advisory scans on every lockfile or variant graph CI installs (root lockfile alone is not enough when matrix gemfiles, workspaces, or target-specific locks exist);
-- keep hot-path and direct runtime packages at the latest safe registry version unless a documented exception explains the pin;
-- tighten package manifest floors when security fixes require a minimum version; lockfiles protect this repo, manifests protect downstream consumers;
-- on major upgrades, grep for adapters (HTTP mocks, test doubles, middleware, FFI shims) and run the full CI matrix;
-- delete redundant packages when a transitive or cluster dependency subsumes them; wrap remaining vendor exceptions at trust boundaries with project error types, not raw vendor exceptions in user-facing paths;
-- list exact commands and observed results in validation output; never claim a clean audit without running it.
-
-### Automation
-
-- gate CI on advisory checks for the ecosystems that exist in the repository; drop automated update config for ecosystems with no manifest;
-- use grouped automated update pull requests for lockfiles; human review still applies selection rules above;
-- run the dependency-audit skill when asked for a dependency audit, before a release that changes hot-path packages, or after a published advisory names a package in the graph.
-
-Full dependency audits rely on deep recon and OSINT, not only lockfile scanners. Automated advisory and outdated checks are necessary baseline; they are not sufficient for hot-path packages or for add/replace decisions.
-
-### Relationship to other prayers
-
-- `dependency-issues` — record upstream defects encountered during real work; do not open drive-by hunts;
-- `minimal-implementation` — no new dependency when an existing path suffices;
-- `engineering-audit` — code and pipeline review; dependency-audit focuses on the supply graph.
+Related: `dependency-issues` records upstream defects found during real work; `minimal-implementation` covers YAGNI before adding deps; `engineering-audit` covers code and pipeline review.
 <!-- pray:3ac5d6ce -->
-
-<!-- pray:ad13bd27 -->
-- test coverage must follow @spec/README.md guidelines;
-- use ruby and Rails features according to the codebase versions;
-- follow ruby and Rails coding conventions, principles, and best practices;
-- never put data migrations in schema migrations, use the db/data_migrations pattern instead;
-<!-- pray:ad13bd27 -->
-
-<!-- pray:cd3045de -->
-- use Rust and Cargo features according to the versions declared in the repository;
-- follow Rust API guidelines, idiomatic error handling (`Result`/`Option`), and clippy-backed conventions where the project enables them;
-- prefer explicit crate boundaries; keep binaries thin and library code testable;
-- test coverage must follow the conventions declared in the relevant subtree; when a project defines coverage rules in `spec/README.md` or equivalent, follow those;
-<!-- pray:cd3045de -->
-
-<!-- pray:bf80d00f -->
-- use Elixir, OTP, and Mix features according to the versions declared in the repository;
-- follow Elixir coding conventions, explicit supervision trees, and boundary-friendly module design;
-- prefer contexts and bounded APIs over scattered helpers; keep side effects at the edges;
-- test coverage must follow the conventions declared in the relevant subtree; when a project defines coverage rules in `spec/README.md` or equivalent, follow those;
-<!-- pray:bf80d00f -->
 
 <!-- pray:bf7304a6 -->
 ## Minimal implementation
@@ -209,7 +152,23 @@ Examples:
 
 Read once for marketing odor, once for negation-led sentences, once for stray em dashes, and once for paragraphs that break on clause instead of on scene; keep live notes and metadata honest and plain.
 - repo trace under usr/docs/issues, usr/docs/tasks, and usr/docs/changelogs: plain prose readable without a rendered preview—no markdown tables, bold, italic, or other styling; prioritize factual accuracy over presentation.
+- Ease, lexical diversity, coherence, mechanics, and claim integrity are separate constructs. Automated matches, readability grades, similarity, and model preference are review prompts; rewrite for meaning.
+- Keep agency on the person who acts. Tools and process nouns do mechanical work.
+- For material external claims, quotations, dates, or research summaries, use the claims-audit skill.
 <!-- pray:ca94e22d -->
+
+<!-- pray:d893ab3d -->
+## Claims and testimony
+
+Treat checkable facts, quotations, dates, quantities, and causal statements as claims. Treat author memory and clearly framed interpretation as testimony.
+
+- Inventing scenes, sources, numbers, or quotations is out of scope.
+- A link or citation in the text is not verification. The cited passage must support the claim's scope, date, population, and causal strength.
+- If a material external claim cannot be checked in this run, mark it unverifiable rather than rounding it to certainty.
+- Run the claims-audit skill when asked to verify, fact-check, or research checkable claims, or when prose under edit states material external facts, quotations, dates, or research summaries.
+
+Related: `writing-prose` covers voice and quality constructs; `engineering-audit` covers code and pipeline behavior.
+<!-- pray:d893ab3d -->
 
 <!-- pray:08c294fb -->
 ## Likely rejected changes
@@ -230,60 +189,8 @@ Verify the change is wanted, discuss first for unconfirmed larger features, desc
 <!-- pray:48e8a6b3 -->
 ## Collaboration workflow
 
-- keep human-facing documentation in `docs/`;
-- keep durable agent and engineering trace in `usr/docs/`; use folders such as `usr/docs/changelogs`, `usr/docs/issues`, `usr/docs/plan`, `usr/docs/tasks`, and `usr/docs/ideas`;
 - agent-assisted work with ongoing project value must leave a trace in the repo;
 - store only specific, decision-bearing, high-signal material; do not commit generic notes, copied chat logs, or filler;
-- use the lightest process that preserves traceability; design-only work does not need branch ceremony unless implementation work starts.
+- use the lightest process that preserves traceability; design-only work does not need branch ceremony unless implementation work starts;
+- follow docs-conventions for docs/ versus usr/docs/ layout.
 <!-- pray:48e8a6b3 -->
-
-<!-- pray:aa6c8f33 -->
-## Shared prayers
-
-This project uses [pray](https://github.com/kiskolabs/pray) to install and lock shared inference input from the amkisko prayers distribution.
-
-Install the CLI:
-
-```sh
-cargo install --git https://github.com/kiskolabs/pray --locked pray
-```
-
-Declare destinations with `compose`, `tree`, and `pray …, file:`:
-
-```prayfile
-prayfile "1"
-source "amkisko", git: "https://github.com/amkisko/prayers.git"
-
-compose "AGENTS.md" do
-  pray ".agents/project.md"
-  pray "amkisko/working-rules", "~> 2.0"
-end
-
-tree ".agents/skills" do
-  pray "amkisko/engineering-audit", "~> 2.0"
-end
-
-pray "amkisko/community-security", "~> 1.1", file: "SECURITY.md"
-```
-
-Initialize or update managed input:
-
-```sh
-pray install
-pray plan
-pray apply
-pray verify
-```
-
-Declare dependencies in `Prayfile`. Do not edit managed spans in `AGENTS.md` or `.agents/skills/`.
-
-To refresh shared guidance after publishers release new versions:
-
-```sh
-pray update
-pray plan
-pray apply
-```
-
-Distribution source for amkisko-wide packages: [amkisko/prayers](https://github.com/amkisko/prayers).
-<!-- pray:aa6c8f33 -->

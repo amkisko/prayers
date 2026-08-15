@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/claims-audit",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/claims-audit/1.0.0/amkisko-claims-audit-1.0.0.praypkg",
+  "artifact_hash": "sha256:742fa9a296273e0c75fbedbeba534a7b76af948fb0a5b52469110514c679f694",
+  "piece_size": 16384,
+  "length": 4340,
+  "pieces": [
+    "sha256:742fa9a296273e0c75fbedbeba534a7b76af948fb0a5b52469110514c679f694"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/claims-audit/1.0.0/amkisko-claims-audit-1.0.0.praypkg"
+  ],
+  "trackers": []
+}
