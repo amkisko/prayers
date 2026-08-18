@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 1.5.0 (2026-08-18)
+
+- Add `amkisko/io-simulation` 1.0.0: ship a simulated plant and a control UI when the product depends on live IO from an external service.
+- Publish `amkisko/writing-prose` 3.2.0: technical names use instrument and protocol words; body and organism metaphors stay out of contracts and code.
+- Publish `amkisko/rfc-process` 1.2.0: RFC titles, registrar names, and identifiers follow that vocabulary.
+
 ## 1.4.0 (2026-08-18)
 
 - Publish `amkisko/rfc-process` 1.1.0: product RFCs specify a design; version numbers belong in changelogs.

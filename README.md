@@ -61,9 +61,10 @@ compose "AGENTS.md" do
   pray "amkisko/finite-state-machines", "~> 1.0"
   pray "amkisko/branch-naming", "~> 1.0"
   pray "amkisko/preferred-stack", "~> 1.0"
-  pray "amkisko/writing-prose", "~> 3.1"
+  pray "amkisko/io-simulation", "~> 1.0"
+  pray "amkisko/writing-prose", "~> 3.2"
   pray "amkisko/claims-audit", "~> 1.0"
-  pray "amkisko/rfc-process", "~> 1.1"
+  pray "amkisko/rfc-process", "~> 1.2"
   pray "amkisko/rejected-changes", "~> 1.0"
   pray "amkisko/publish-checks", "~> 1.0"
   pray "amkisko/collaboration-workflow", "~> 2.1"
@@ -74,7 +75,7 @@ tree ".agents/skills" do
   pray "amkisko/engineering-audit", "~> 2.0"
   pray "amkisko/changelog-update", "~> 2.1"
   pray "amkisko/claims-audit", "~> 1.0"
-  pray "amkisko/rfc-process", "~> 1.1"
+  pray "amkisko/rfc-process", "~> 1.2"
 end
 
 pray "amkisko/community-security", "~> 1.1", file: "SECURITY.md"
@@ -127,6 +128,7 @@ make release
 | `amkisko/finite-state-machines` | fragment | Explicit lifecycle modeling |
 | `amkisko/branch-naming` | fragment | Branch prefix conventions |
 | `amkisko/preferred-stack` | fragment | Language and UX preferences |
+| `amkisko/io-simulation` | fragment | Control UI for simulated external IO |
 | `amkisko/writing-prose` | fragment | Plain technical writing checks |
 | `amkisko/claims-audit` | fragment + skill | Claim hygiene and factual verification |
 | `amkisko/rfc-process` | fragment + skill | RFC numbering, template, types, and statuses |

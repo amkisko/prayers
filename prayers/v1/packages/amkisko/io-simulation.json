@@ -1,0 +1,61 @@
+{
+  "name": "amkisko/io-simulation",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/io-simulation/1.0.0/amkisko-io-simulation-1.0.0.praypkg",
+      "artifact_hash": "sha256:d1a5f08518d47888b94558ff8969d95d0153d9653dcbadb9edd230b72f7894d4",
+      "tree_hash": "sha256:b207b0f7c604028f7f2fb4d6ec38e0a918de15933ebf0f5a65686a9787b61b80",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "io-simulation"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787048755",
+      "signature": "sha256:b61e509be8849c0582a7e6d5ef7d5aa492d469e9470f95937301251811928f65",
+      "derived_metadata": {
+        "summary": "Control UI for simulated external IO — Simulated plant and control UI for live IO",
+        "topics": [
+          "that",
+          "product",
+          "simulation",
+          "plant",
+          "control"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              2,
+              7,
+              7,
+              2,
+              6,
+              7,
+              8,
+              7,
+              9,
+              6,
+              6,
+              6,
+              3,
+              3,
+              14,
+              6
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 949,
+        "token_count": 99
+      }
+    }
+  ]
+}
