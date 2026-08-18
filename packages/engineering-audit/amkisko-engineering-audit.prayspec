@@ -1,7 +1,7 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/engineering-audit"
-  spec.version = "2.0.0"
-  spec.summary = "Pipeline-aware engineering audit skill"
+  spec.version = "2.1.0"
+  spec.summary = "Pipeline-aware engineering audit skill with boundary and control mode"
   spec.files = [
     "README.md",
     "skills/engineering-audit/SKILL.md",
@@ -11,7 +11,7 @@ Package::Specification.new do |spec|
     "skill" => {
       type: "folder",
       path: "skills/engineering-audit",
-      summary: "Engineering audit skill"
+      summary: "Engineering audit skill with boundary and control mode"
     }
   }
 end

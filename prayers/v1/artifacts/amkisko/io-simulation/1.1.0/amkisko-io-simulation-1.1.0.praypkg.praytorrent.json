@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/io-simulation",
+  "version": "1.1.0",
+  "artifact_url": "v1/artifacts/amkisko/io-simulation/1.1.0/amkisko-io-simulation-1.1.0.praypkg",
+  "artifact_hash": "sha256:bec25d31d5f8c5f20bf02b67aa155a5e5c61f3cd56a64ada51570e14e7d13347",
+  "piece_size": 16384,
+  "length": 1182,
+  "pieces": [
+    "sha256:bec25d31d5f8c5f20bf02b67aa155a5e5c61f3cd56a64ada51570e14e7d13347"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/io-simulation/1.1.0/amkisko-io-simulation-1.1.0.praypkg"
+  ],
+  "trackers": []
+}

@@ -118,6 +118,65 @@
         "character_count": 4389,
         "token_count": 456
       }
+    },
+    {
+      "version": "2.1.0",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.1.0/amkisko-engineering-audit-2.1.0.praypkg",
+      "artifact_hash": "sha256:a84cb964d52fb0adc6fec66112224e07c655be5e7d123e2df85ec62e520830bc",
+      "tree_hash": "sha256:a2e4ecd3828fc680b7e1d7db2b83f752f63dace00fb470eef79116c69aff8c92",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787073834",
+      "signature": "sha256:67dc2adec9c22bcb452ffce1a60af5e59cf0de18fa7dcb64352536092411c143",
+      "derived_metadata": {
+        "summary": "Pipeline-aware engineering audit skill with boundary and control mode — Engineering audit skill with boundary and control mode",
+        "topics": [
+          "audit",
+          "when",
+          "engineering",
+          "pipeline",
+          "external"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              26,
+              24,
+              30,
+              40,
+              22,
+              37,
+              25,
+              30,
+              47,
+              42,
+              17,
+              43,
+              37,
+              29,
+              28,
+              35
+            ]
+          }
+        ],
+        "file_count": 3,
+        "character_count": 7742,
+        "token_count": 512
+      }
     }
   ]
 }

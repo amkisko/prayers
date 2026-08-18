@@ -1,4 +1,4 @@
-.PHONY: help check-pray install plan apply verify drift update publish serve package clean release
+.PHONY: help check-pray check-artifacts install plan apply verify drift update publish serve package clean release
 
 PRAY ?= pray
 DIST_ROOT := ./prayers
@@ -16,10 +16,11 @@ help:
 	@echo "  make plan             preview AGENTS.md render"
 	@echo "  make apply            render managed files"
 	@echo "  make verify           checksum and marker checks"
+	@echo "  make check-artifacts  catalog .praypkg files exist and are git-tracked"
 	@echo "  make drift            drift report before review"
 	@echo "  make update           check for newer package versions"
 	@echo "  make publish          update prayers/v1 distribution metadata"
-	@echo "  make release          publish, plan, apply, verify"
+	@echo "  make release          publish, plan, apply, verify, check-artifacts"
 	@echo "  make serve            local distribution server"
 	@echo "  make package PACKAGE_DIR=packages/<name>   build local .praypkg"
 	@echo "  make clean            remove root *.praypkg scratch from package builds"
@@ -46,6 +47,9 @@ apply: check-pray
 verify: check-pray
 	$(PRAY) verify
 
+check-artifacts:
+	python3 usr/scripts/check_artifacts.py $(DIST_ROOT)
+
 drift: check-pray
 	$(PRAY) drift
 
@@ -69,4 +73,4 @@ clean:
 	@find . -maxdepth 1 -name '*.praypkg' -delete 2>/dev/null || true
 	@echo "removed root *.praypkg scratch files"
 
-release: publish plan apply verify
+release: publish plan apply verify check-artifacts
