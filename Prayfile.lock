@@ -182,10 +182,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/rfc-process"
-version = "1.0.0"
+version = "1.1.0"
 path = "./packages/rfc-process"
-tree_hash = "sha256:e036034e23b2bf42de2dbd323a3b890dd8530a9dfa0d0335055ca641f0c28766"
-artifact_hash = "sha256:e036034e23b2bf42de2dbd323a3b890dd8530a9dfa0d0335055ca641f0c28766"
+tree_hash = "sha256:f7bba6c41a09e890878af797d70fa83a42d1ccefba8b249c0eb87ade957ebd0e"
+artifact_hash = "sha256:f7bba6c41a09e890878af797d70fa83a42d1ccefba8b249c0eb87ade957ebd0e"
 artifact = "path:./packages/rfc-process"
 exports = ["skill"]
 dependencies = []

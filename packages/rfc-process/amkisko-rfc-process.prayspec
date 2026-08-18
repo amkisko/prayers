@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/rfc-process"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.summary = "RFC numbering, template, types, and statuses"
   spec.files = [
     "README.md",

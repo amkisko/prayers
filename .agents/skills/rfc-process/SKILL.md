@@ -16,4 +16,4 @@ Read `rfc-process.md` in this skill directory for claim, template, types, status
 read rfcs/README.md → claim ids/NNNN → copy template → omit empty sections → PR rfc: NNNN title → implementation cites RFC-NNNN
 ```
 
-Do not renumber existing RFCs. Do not rewrite as-built bodies unless asked. Project bands and extra tests stay in that repo's `rfcs/README.md`.
+Keep existing RFC numbers. Project bands and extra tests stay in that repo's `rfcs/README.md`. Product RFCs specify a design (suggestion, motivation, specification, effects, alternatives, prior art). Version numbers belong in changelogs.

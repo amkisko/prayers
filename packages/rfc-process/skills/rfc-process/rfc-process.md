@@ -10,13 +10,13 @@ When `0001` is free, the process RFC is `0001`. When `0001` already names anothe
 
 ## When to write
 
-Write an RFC for a user-facing API, CLI, file, protocol, or storage contract. Skip for a bugfix that restores documented behavior, a typo, or a refactor that does not change bytes a user can observe.
+Write an RFC for a user-facing API, CLI, file, protocol, or storage contract. Skip a bugfix that restores documented behavior, a typo, or a refactor that leaves observable bytes unchanged.
 
 ## Claim an id
 
 Add `rfcs/ids/NNNN` before `rfcs/NNNN-slug.md`. The file holds one line: the kebab slug, or `reserved` then the slug. Two pull requests that add the same `ids/NNNN` path conflict in git. After a conflict, take a free id and rename the draft.
 
-Do not reuse a number. Do not renumber existing documents to free a band.
+Keep each number on the document that claimed it. A retired id stays retired.
 
 ## Copy the template
 
@@ -24,11 +24,11 @@ Copy `rfcs/0000-template.md` from `references/template.md` when the repo has no 
 
 Required header: Type, Status, Created, Author. The title is the H1.
 
-Optional, omit unused: Feature Name, Describes, Stakeholders, Feedback until, Relates, Requires, Supersedes.
+Optional, omit unused: Feature Name, Stakeholders, Feedback until, Relates, Requires, Supersedes. Describes is historical; new RFCs omit it. Version numbers belong in changelogs.
 
-Required sections: Summary, Motivation, Guide-level explanation, Unresolved questions. Summary is one paragraph.
+Required sections: Summary, Motivation, Guide-level explanation, Unresolved questions. Summary is the suggestion. Product RFCs also fill Reference-level explanation (the specification), Drawbacks (effects), Rationale and alternatives, and Prior art. Implementation notes are optional evidence.
 
-Prefer under 150 lines. Split a second RFC when a file grows past that because it has two concerns. Do not pad.
+Prefer under 150 lines. Split a second RFC when a file grows past that because it has two concerns.
 
 ## Types
 
@@ -42,11 +42,11 @@ Prefer under 150 lines. Split a second RFC when a file grows past that because i
 - Draft: authoring; not yet listed as published
 - Experimental: published design that is not yet the product contract
 - Proposed: a change open for review toward Stable
-- Stable: accepted. Behavior that already shipped is Stable when the RFC describes it; writing the RFC later does not reopen the feature
+- Stable: accepted. Behavior that already shipped is Stable when the RFC specifies it; writing the RFC later does not reopen the feature
 - Final: deployed long enough that breaking changes need a new RFC
 - Deferred, Rejected, Superseded, Obsolete
 
-Accepted is not a status. Map Accepted to Stable when aligning an older tree. Experimental is not a waiting room for documentation. The two-week lazy-consensus clock applies to Proposed changes, not to Informational RFCs that pin Describes to a shipped version.
+Accepted maps to Stable when aligning an older tree. The two-week lazy-consensus clock applies to Proposed changes.
 
 ## Isolation
 
@@ -60,7 +60,7 @@ Isolation on is opt-in in `rfcs/README.md`: RFCs MUST NOT cite markdown outside 
 2. Copy the template. Omit unused fields and empty sections.
 3. Open `rfc: NNNN short title` from `plan/` or `feature/`.
 4. Discuss until Summary, Motivation, and Unresolved questions are honest.
-5. If the RFC Describes shipped behavior, mark Stable in the same PR. Otherwise mark Experimental, Proposed, Stable, Rejected, or Deferred.
+5. If the RFC specifies already-shipped design, mark Stable in the same PR. Otherwise mark Experimental, Proposed, Stable, Rejected, or Deferred.
 6. Implementation PRs cite `RFC-NNNN`.
 
 ## Aligning an existing tree
@@ -69,6 +69,6 @@ Flatten band folders to `rfcs/NNNN-slug.md`. Keep existing numbers. Add `ids/` c
 
 ## Prose
 
-State the fact and stop. Open with the claim. Keep agency on the person who acts. Prefer commas and full stops over em dashes. No sales language.
+State the fact, open with the claim, and keep agency on the person who acts. Prefer commas and full stops over em dashes. Refuse sales language.
 
-A checkable statement MUST name a path, command, fixture, schema, test, or published version a reviewer can open. Mark inference.
+A checkable statement MUST name a command, field, fail mode, fixture, schema, or test a reviewer can open. Mark inference. The RFC subject is the design. Version numbers belong in changelogs. Implementation paths are optional evidence.

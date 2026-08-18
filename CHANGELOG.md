@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.4.0 (2026-08-18)
+
+- Publish `amkisko/rfc-process` 1.1.0: product RFCs specify a design; version numbers belong in changelogs.
+
 ## 1.3.0 (2026-08-18)
 
 - Add `amkisko/rfc-process` 1.0.0: RFC numbering, template, types, and statuses as a fragment plus skill.

@@ -5,27 +5,27 @@
 - Created: YYYY-MM-DD
 - Author:
 
-Omit unused header fields. Optional: Feature Name (tracking ident); Describes (workspace or published version when this RFC freezes as-built behavior; those RFCs are Stable); Stakeholders; Feedback until (Proposed changes only); Relates; Requires; Supersedes.
+Omit unused header fields. Optional: Feature Name (tracking ident); Stakeholders; Feedback until (Proposed changes only); Relates; Requires; Supersedes. Describes is historical; new RFCs omit it. Version numbers belong in changelogs.
 
 ## Summary
 
-One paragraph. What changes, for whom.
+One paragraph. The suggestion: what this RFC proposes, for whom.
 
 ## Motivation
 
-The problem in operator or implementer terms. Cite a path, command, fixture, or version when this is analysis.
+The problem in operator or implementer terms. The gap the current shape leaves.
 
 ## Guide-level explanation
 
-Teach the feature as if it shipped. Show commands, files, or diffs a person would see.
+Teach the solution as if it shipped. Show commands, files, or diffs a person would see.
 
 ## Reference-level explanation
 
-Normative detail: algorithms, fields, edge cases. Return to the guide-level examples.
+The specification: algorithms, fields, fail modes, edge cases. Return to the guide-level examples. This section is the contract.
 
 ## Implementation notes
 
-What the tree does today. Name a path a reviewer can open. Label inference.
+Optional. Omit by default. A pointer a reviewer can open is evidence.
 
 ## Security considerations
 
@@ -37,7 +37,7 @@ Names this RFC claims: CLI verbs, public methods, file fields. Omit when unused.
 
 ## Drawbacks
 
-Cost of doing this, or of documenting the current shape.
+Effects of adopting this design: cost, operational load, what becomes harder.
 
 ## Rationale and alternatives
 
@@ -49,8 +49,8 @@ Precedent is evidence. Copying it is optional.
 
 ## Unresolved questions
 
-What must be settled before Stable. What implementation may settle later.
+What must be settled before Stable. What a later RFC may settle.
 
 ## Future possibilities
 
-Related work that is not accepted by being listed here.
+Related work listed here still needs its own RFC.

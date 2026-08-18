@@ -63,7 +63,7 @@ compose "AGENTS.md" do
   pray "amkisko/preferred-stack", "~> 1.0"
   pray "amkisko/writing-prose", "~> 3.1"
   pray "amkisko/claims-audit", "~> 1.0"
-  pray "amkisko/rfc-process", "~> 1.0"
+  pray "amkisko/rfc-process", "~> 1.1"
   pray "amkisko/rejected-changes", "~> 1.0"
   pray "amkisko/publish-checks", "~> 1.0"
   pray "amkisko/collaboration-workflow", "~> 2.1"
@@ -74,7 +74,7 @@ tree ".agents/skills" do
   pray "amkisko/engineering-audit", "~> 2.0"
   pray "amkisko/changelog-update", "~> 2.1"
   pray "amkisko/claims-audit", "~> 1.0"
-  pray "amkisko/rfc-process", "~> 1.0"
+  pray "amkisko/rfc-process", "~> 1.1"
 end
 
 pray "amkisko/community-security", "~> 1.1", file: "SECURITY.md"
