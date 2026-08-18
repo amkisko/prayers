@@ -109,8 +109,11 @@ pray verify
 
 ```sh
 make publish
-make release
+git add prayers/v1/artifacts
+make check-artifacts
 ```
+
+`make release` runs publish, plan, apply, verify, then check-artifacts. If check-artifacts reports untracked files, add those paths and rerun `make check-artifacts` only. Do not rerun `make publish`; it restamps unchanged catalog timestamps.
 
 ## Package catalog
 
@@ -125,10 +128,10 @@ make release
 | `amkisko/rust-conventions` | fragment | Rust stack conventions |
 | `amkisko/elixir-conventions` | fragment | Elixir and OTP stack conventions |
 | `amkisko/minimal-implementation` | fragment | Smallest correct change discipline |
-| `amkisko/finite-state-machines` | fragment | Explicit lifecycle modeling |
+| `amkisko/finite-state-machines` | fragment | Explicit lifecycle modeling, including digital and physical state |
 | `amkisko/branch-naming` | fragment | Branch prefix conventions |
 | `amkisko/preferred-stack` | fragment | Language and UX preferences |
-| `amkisko/io-simulation` | fragment | Control UI for simulated external IO |
+| `amkisko/io-simulation` | fragment | Simulated plant, control UI, and injectable IO faults |
 | `amkisko/writing-prose` | fragment | Plain technical writing checks |
 | `amkisko/claims-audit` | fragment + skill | Claim hygiene and factual verification |
 | `amkisko/rfc-process` | fragment + skill | RFC numbering, template, types, and statuses |
@@ -136,7 +139,7 @@ make release
 | `amkisko/publish-checks` | fragment | Pre-publish engineering checklist |
 | `amkisko/collaboration-workflow` | fragment | Durable context and agent traces |
 | `amkisko/getting-started` | fragment | How to install pray and wire a consumer |
-| `amkisko/engineering-audit` | skill | Pipeline-aware engineering audit |
+| `amkisko/engineering-audit` | skill | Pipeline-aware engineering audit with boundary and control mode |
 | `amkisko/changelog-update` | skill | Changelog layering and house style |
 | `amkisko/community-security` | file | Shared SECURITY.md |
 | `amkisko/community-code-of-conduct` | file | Shared CODE_OF_CONDUCT.md |

@@ -1,6 +1,11 @@
 # CHANGELOG
 
-## Unreleased
+## 1.6.0 (2026-08-18)
+
+- Add `make check-artifacts`: every catalog `.praypkg` path must exist and be git-tracked.
+- Publish `amkisko/engineering-audit` 2.1.0: when the system talks to external services, devices, operators, or actuators, also inspect who commands whom, interface faults, and digital versus physical state.
+- Publish `amkisko/io-simulation` 1.1.0: the plant control UI covers injectable faults: unavailable, slow, valid but false, stale, protocol meaning change, partition, clock disagreement, reset, freeze, drift, duplicated command, command after timeout, reconnect replay, two authorities, and obsolete operator display.
+- Publish `amkisko/finite-state-machines` 1.1.0: name both the digital machine and the physical machine when those states can split.
 
 ## 1.5.0 (2026-08-18)
 

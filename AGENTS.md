@@ -111,7 +111,10 @@ Not optional even when minimizing scope:
 ## Finite state machines
 
 - model lifecycles with explicit finite state machines when status, allowed transitions, and side effects matter; prefer named states and guarded transitions over scattered conditionals and implicit enums alone;
-- finite state machines are not only for workflow logic: they can compactly represent ordered sets or maps of strings supporting fast prefix, suffix, and fuzzy search; consider tries and automata when matching catalogs, codes, routes, or searchable vocabularies at scale.
+- finite state machines are not only for workflow logic: they can compactly represent ordered sets or maps of strings supporting fast prefix, suffix, and fuzzy search; consider tries and automata when matching catalogs, codes, routes, or searchable vocabularies at scale;
+- when digital reported state and physical process state can diverge, name both machines and the observation that couples them; occupancy listing is not the lock; a reported identity is not the person or sample at the station.
+
+Related: `engineering-audit` boundary mode asks when those states disagree without an alarm; `io-simulation` injects the faults that cause the split.
 <!-- pray:120c3507 -->
 
 <!-- pray:26f3566a -->
@@ -151,12 +154,13 @@ Examples:
 ## IO simulation
 
 - when a product depends on live IO from an external virtual or physical service, ship a simulation of that plant that speaks the same protocol the product already uses;
-- give the simulation a control UI so a person can set the parameters that produce that IO while using the product: position, clock, amount, fault, link drop, device state;
+- give the simulation a control UI so a person can set the parameters that produce that IO while using the product: position, clock, amount, device state, and faults;
+- injectable faults: unavailable, slow, valid but false, stale, protocol meaning change, partition, clock disagreement, reset, freeze, drift, duplicated command, command after timeout, reconnect replay, two authorities, obsolete operator display;
 - keep the product on its production adapter; the simulation is a plant the adapter talks to;
 - point the product at a vendor station when that station already covers those parameters (testmode dashboards, device emulator extended controls);
 - a library that only answers request and response has no plant, so it does not need this workbench.
 
-Related: `finite-state-machines` models the plant lifecycle; `preferred-stack` covers humane control UI; `minimal-implementation` still requires later calibration on real hardware.
+Related: `engineering-audit` enumerates those boundary conditions; `finite-state-machines` models the plant lifecycle; `preferred-stack` covers humane control UI; `minimal-implementation` still requires later calibration on real hardware.
 <!-- pray:d3b0d939 -->
 
 <!-- pray:ca94e22d -->

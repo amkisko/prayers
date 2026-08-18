@@ -1,13 +1,13 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/io-simulation"
-  spec.version = "1.0.0"
-  spec.summary = "Control UI for simulated external IO"
+  spec.version = "1.1.0"
+  spec.summary = "Control UI for simulated external IO and injectable plant faults"
   spec.files = ["README.md", "exports/io-simulation.md"]
   spec.exports = {
     "io-simulation" => {
       type: "fragment",
       path: "exports/io-simulation.md",
-      summary: "Simulated plant and control UI for live IO"
+      summary: "Simulated plant, control UI, and injectable plant faults"
     }
   }
 end
