@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/rfc-process",
+  "version": "1.2.0",
+  "artifact_url": "v1/artifacts/amkisko/rfc-process/1.2.0/amkisko-rfc-process-1.2.0.praypkg",
+  "artifact_hash": "sha256:5ead75f8c8b42ab83cc0e9e51064dc9fd9be60a21f762485dca638fe219a2824",
+  "piece_size": 16384,
+  "length": 4071,
+  "pieces": [
+    "sha256:5ead75f8c8b42ab83cc0e9e51064dc9fd9be60a21f762485dca638fe219a2824"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/rfc-process/1.2.0/amkisko-rfc-process-1.2.0.praypkg"
+  ],
+  "trackers": []
+}

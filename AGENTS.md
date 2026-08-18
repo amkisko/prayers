@@ -147,6 +147,18 @@ Examples:
 - humane and accessible design principles for UI/UX, and for clear communication of intent and feedback
 <!-- pray:f528eeca -->
 
+<!-- pray:d3b0d939 -->
+## IO simulation
+
+- when a product depends on live IO from an external virtual or physical service, ship a simulation of that plant that speaks the same protocol the product already uses;
+- give the simulation a control UI so a person can set the parameters that produce that IO while using the product: position, clock, amount, fault, link drop, device state;
+- keep the product on its production adapter; the simulation is a plant the adapter talks to;
+- point the product at a vendor station when that station already covers those parameters (testmode dashboards, device emulator extended controls);
+- a library that only answers request and response has no plant, so it does not need this workbench.
+
+Related: `finite-state-machines` models the plant lifecycle; `preferred-stack` covers humane control UI; `minimal-implementation` still requires later calibration on real hardware.
+<!-- pray:d3b0d939 -->
+
 <!-- pray:ca94e22d -->
 ## Writing and changelog prose checks
 
@@ -154,6 +166,7 @@ Read once for marketing odor, once for negation-led sentences, once for stray em
 - repo trace under usr/docs/issues, usr/docs/tasks, and usr/docs/changelogs: plain prose readable without a rendered preview—no markdown tables, bold, italic, or other styling; prioritize factual accuracy over presentation.
 - Ease, lexical diversity, coherence, mechanics, and claim integrity are separate constructs. Automated matches, readability grades, similarity, and model preference are review prompts; rewrite for meaning.
 - Keep agency on the person who acts. Tools and process nouns do mechanical work.
+- Technical names, APIs, CLI verbs, RFC titles, identifiers, and UI copy use instrument and protocol words: check-in, last-seen, probe, monitor, expected tick. Body and organism metaphors such as heartbeat, pulse, and organ stay out of contracts and code. HTTP `/health` remains the liveness probe until a later RFC.
 - One sentence holds one beat. Consecutive short sentences that only restated the same beat are a punchline stack.
 - For material external claims, quotations, dates, or research summaries, use the claims-audit skill.
 <!-- pray:ca94e22d -->
