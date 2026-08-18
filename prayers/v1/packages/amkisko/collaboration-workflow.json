@@ -128,7 +128,7 @@
         "collaboration-workflow"
       ],
       "signer": "amkisko",
-      "published_at": "1786792469",
+      "published_at": "1787041964",
       "signature": "sha256:82c1d8550e9f5e46ef994cf6036667f93c8ef11f4ab632a8468b8dec0c510db7",
       "derived_metadata": {
         "summary": "Collaboration and durable context workflow — Collaboration workflow",

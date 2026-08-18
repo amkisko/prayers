@@ -1,7 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
 generated_by = "pray 1.8.0"
-manifest_hash = "sha256:9e42b70824d1dc2c6f7265507fdc2693fc5cf9d6c83200e78d1eaee11bf642b2"
+manifest_hash = "sha256:7f5efb6fc5294a747d5bb8db253f3171c195ea0870962654256eed9172e7f919"
 source = []
 
 [[package]]
@@ -59,20 +59,20 @@ dependencies = []
 
 [[package]]
 name = "amkisko/community-contributing"
-version = "1.0.0"
+version = "1.1.0"
 path = "./packages/community-contributing"
-tree_hash = "sha256:f1a3c024fa1177ea35b4e7fcefc922a4f6dd13b9c46cc140794368b624b83100"
-artifact_hash = "sha256:f1a3c024fa1177ea35b4e7fcefc922a4f6dd13b9c46cc140794368b624b83100"
+tree_hash = "sha256:41fb0850422628dc5f33c8858ab20242ad522598916b4a27cffde95a61457908"
+artifact_hash = "sha256:41fb0850422628dc5f33c8858ab20242ad522598916b4a27cffde95a61457908"
 artifact = "path:./packages/community-contributing"
 exports = ["contributing"]
 dependencies = []
 
 [[package]]
 name = "amkisko/community-governance"
-version = "1.0.0"
+version = "1.1.0"
 path = "./packages/community-governance"
-tree_hash = "sha256:0ecf400d2acc599e01f17eb2979cbe1033069046b1e6a6ce6abb1b2f37b3f50d"
-artifact_hash = "sha256:0ecf400d2acc599e01f17eb2979cbe1033069046b1e6a6ce6abb1b2f37b3f50d"
+tree_hash = "sha256:8022e773293dd45e46436e6a34310b8dd3674074bdfe9624e0f7a862b968be12"
+artifact_hash = "sha256:8022e773293dd45e46436e6a34310b8dd3674074bdfe9624e0f7a862b968be12"
 artifact = "path:./packages/community-governance"
 exports = ["governance"]
 dependencies = []
@@ -181,6 +181,16 @@ exports = ["rejected-changes"]
 dependencies = []
 
 [[package]]
+name = "amkisko/rfc-process"
+version = "1.0.0"
+path = "./packages/rfc-process"
+tree_hash = "sha256:e036034e23b2bf42de2dbd323a3b890dd8530a9dfa0d0335055ca641f0c28766"
+artifact_hash = "sha256:e036034e23b2bf42de2dbd323a3b890dd8530a9dfa0d0335055ca641f0c28766"
+artifact = "path:./packages/rfc-process"
+exports = ["skill"]
+dependencies = []
+
+[[package]]
 name = "amkisko/security"
 version = "1.0.0"
 path = "./packages/security"
@@ -202,10 +212,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/writing-prose"
-version = "3.0.0"
+version = "3.1.0"
 path = "./packages/writing-prose"
-tree_hash = "sha256:9a9f57eb4fbb3d87d9cba8e493d33a046f0a157264bc2569bf47af6528fbf74e"
-artifact_hash = "sha256:9a9f57eb4fbb3d87d9cba8e493d33a046f0a157264bc2569bf47af6528fbf74e"
+tree_hash = "sha256:2ae73c5fc60e2a8d0b19ec99f6ff72298726b5d3c07482376682fad96fda8ab7"
+artifact_hash = "sha256:2ae73c5fc60e2a8d0b19ec99f6ff72298726b5d3c07482376682fad96fda8ab7"
 artifact = "path:./packages/writing-prose"
 exports = ["writing-prose"]
 dependencies = []
@@ -321,18 +331,18 @@ silenced = false
 id = "ca94e22d"
 target = "AGENTS.md"
 open_line = 150
-close_line = 158
-ideal_checksum = "sha256:7e500143dda352d20426d7180dc414be5b509111ab6944b797a16c71bb574cd8"
+close_line = 159
+ideal_checksum = "sha256:a4943bbcd41ce0c775a87b0918b348d1e4f58379c5b60c0a33827e4af47854ff"
 package = "amkisko/writing-prose"
 export = "writing-prose"
-source_checksum = "sha256:9a9f57eb4fbb3d87d9cba8e493d33a046f0a157264bc2569bf47af6528fbf74e"
+source_checksum = "sha256:2ae73c5fc60e2a8d0b19ec99f6ff72298726b5d3c07482376682fad96fda8ab7"
 silenced = false
 
 [[managed_span]]
 id = "d893ab3d"
 target = "AGENTS.md"
-open_line = 160
-close_line = 171
+open_line = 161
+close_line = 172
 ideal_checksum = "sha256:41729a24268f7987286f7a33bc56bcc38146b69f1e0480221f1b8311597d822d"
 package = "amkisko/claims-audit"
 export = "claims-audit"
@@ -342,8 +352,8 @@ silenced = false
 [[managed_span]]
 id = "08c294fb"
 target = "AGENTS.md"
-open_line = 173
-close_line = 181
+open_line = 174
+close_line = 182
 ideal_checksum = "sha256:4d97fabf0274428bc5dccc2e423f28f366514b53dcb1ef2af182671f454032ae"
 package = "amkisko/rejected-changes"
 export = "rejected-changes"
@@ -353,8 +363,8 @@ silenced = false
 [[managed_span]]
 id = "2543c1cc"
 target = "AGENTS.md"
-open_line = 183
-close_line = 187
+open_line = 184
+close_line = 188
 ideal_checksum = "sha256:82b70dbc720021ec928295c93cf5ce82b0b80e07f58d20724d4ebf56bb55c83f"
 package = "amkisko/publish-checks"
 export = "publish-checks"
@@ -364,8 +374,8 @@ silenced = false
 [[managed_span]]
 id = "48e8a6b3"
 target = "AGENTS.md"
-open_line = 189
-close_line = 196
+open_line = 190
+close_line = 197
 ideal_checksum = "sha256:56599a65c111874dc069865bb465bc931ce2a28c6380e2a1abedffcc9add7086"
 package = "amkisko/collaboration-workflow"
 export = "collaboration-workflow"

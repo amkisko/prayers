@@ -20,6 +20,7 @@
     "amkisko/preferred-stack",
     "amkisko/publish-checks",
     "amkisko/rejected-changes",
+    "amkisko/rfc-process",
     "amkisko/ruby-conventions",
     "amkisko/rust-conventions",
     "amkisko/security",

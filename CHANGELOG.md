@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 1.3.0 (2026-08-18)
+
+- Add `amkisko/rfc-process` 1.0.0: RFC numbering, template, types, and statuses as a fragment plus skill.
+- Publish `amkisko/writing-prose` 3.1.0: treat consecutive short sentences that only restated the same beat as a punchline stack.
+- Publish `amkisko/community-contributing` 1.1.0 and `amkisko/community-governance` 1.1.0: keep the rules in plain language.
+
 ## 1.2.0 (2026-08-15)
 
 - Remove `getting-started` and unused language packs from this repo always-on compose.

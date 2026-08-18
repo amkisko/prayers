@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/community-governance",
+  "version": "1.1.0",
+  "artifact_url": "v1/artifacts/amkisko/community-governance/1.1.0/amkisko-community-governance-1.1.0.praypkg",
+  "artifact_hash": "sha256:bb0277b907a65f785c5b8516c4409f3fe205ad92cb0b4e70968d177cdcf6c1d8",
+  "piece_size": 16384,
+  "length": 954,
+  "pieces": [
+    "sha256:bb0277b907a65f785c5b8516c4409f3fe205ad92cb0b4e70968d177cdcf6c1d8"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/community-governance/1.1.0/amkisko-community-governance-1.1.0.praypkg"
+  ],
+  "trackers": []
+}
