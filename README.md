@@ -61,8 +61,9 @@ compose "AGENTS.md" do
   pray "amkisko/finite-state-machines", "~> 1.0"
   pray "amkisko/branch-naming", "~> 1.0"
   pray "amkisko/preferred-stack", "~> 1.0"
-  pray "amkisko/writing-prose", "~> 3.0"
+  pray "amkisko/writing-prose", "~> 3.1"
   pray "amkisko/claims-audit", "~> 1.0"
+  pray "amkisko/rfc-process", "~> 1.0"
   pray "amkisko/rejected-changes", "~> 1.0"
   pray "amkisko/publish-checks", "~> 1.0"
   pray "amkisko/collaboration-workflow", "~> 2.1"
@@ -73,17 +74,18 @@ tree ".agents/skills" do
   pray "amkisko/engineering-audit", "~> 2.0"
   pray "amkisko/changelog-update", "~> 2.1"
   pray "amkisko/claims-audit", "~> 1.0"
+  pray "amkisko/rfc-process", "~> 1.0"
 end
 
 pray "amkisko/community-security", "~> 1.1", file: "SECURITY.md"
 pray "amkisko/community-code-of-conduct", "~> 1.1", file: "CODE_OF_CONDUCT.md"
-pray "amkisko/community-governance", "~> 1.0", file: "GOVERNANCE.md"
-pray "amkisko/community-contributing", "~> 1.0", file: "CONTRIBUTING.md"
+pray "amkisko/community-governance", "~> 1.1", file: "GOVERNANCE.md"
+pray "amkisko/community-contributing", "~> 1.1", file: "CONTRIBUTING.md"
 ```
 
 Swap `ruby-conventions` for `rust-conventions` or `elixir-conventions` on `.rs` and `.ex` trees. Compose one language pack, not all three.
 
-Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill.
+Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill. Tree `rfc-process` whenever you compose it: numbering and template live in the skill.
 
 ## Compose budget
 
@@ -127,6 +129,7 @@ make release
 | `amkisko/preferred-stack` | fragment | Language and UX preferences |
 | `amkisko/writing-prose` | fragment | Plain technical writing checks |
 | `amkisko/claims-audit` | fragment + skill | Claim hygiene and factual verification |
+| `amkisko/rfc-process` | fragment + skill | RFC numbering, template, types, and statuses |
 | `amkisko/rejected-changes` | fragment | Changes likely rejected in review |
 | `amkisko/publish-checks` | fragment | Pre-publish engineering checklist |
 | `amkisko/collaboration-workflow` | fragment | Durable context and agent traces |

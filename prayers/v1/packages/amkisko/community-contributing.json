@@ -60,6 +60,66 @@
         "character_count": 1445,
         "token_count": 133
       }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/community-contributing/1.1.0/amkisko-community-contributing-1.1.0.praypkg",
+      "artifact_hash": "sha256:1578e1fb98c2ad69243c6bdd10db4d4538b9761e691d092bc70d0eac7f87f68b",
+      "tree_hash": "sha256:41fb0850422628dc5f33c8858ab20242ad522598916b4a27cffde95a61457908",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "contributing"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787041964",
+      "signature": "sha256:86a42323095e9893a92d253a9d7e3f4c24e30a7e3e0b6ed1b3ec17da3d85a3a7",
+      "derived_metadata": {
+        "summary": "Shared CONTRIBUTING.md for issues, PRs, and automation authorship — Contributing guidelines",
+        "topics": [
+          "pull",
+          "automation",
+          "contributing",
+          "requests",
+          "review"
+        ],
+        "categories": [
+          "automation",
+          "documentation",
+          "security"
+        ],
+        "possible_effects": [
+          "clarifies usage",
+          "surfaces trust-sensitive behavior",
+          "reduces manual steps"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              4,
+              6,
+              6,
+              4,
+              6,
+              9,
+              4,
+              7,
+              3,
+              7,
+              5,
+              2,
+              9,
+              5,
+              2,
+              5
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 844,
+        "token_count": 84
+      }
     }
   ]
 }

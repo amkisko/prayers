@@ -177,6 +177,65 @@
         "character_count": 1017,
         "token_count": 110
       }
+    },
+    {
+      "version": "3.1.0",
+      "artifact": "v1/artifacts/amkisko/writing-prose/3.1.0/amkisko-writing-prose-3.1.0.praypkg",
+      "artifact_hash": "sha256:59ba9442d7293f40c560325cb53783e10ccb70931426e8642c61a2ead3e536e7",
+      "tree_hash": "sha256:2ae73c5fc60e2a8d0b19ec99f6ff72298726b5d3c07482376682fad96fda8ab7",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "writing-prose"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787041964",
+      "signature": "sha256:ca51818c66e35fd2a59bb0d0a6c936191061b5568ce46dc81f6cb4aaedb5bde0",
+      "derived_metadata": {
+        "summary": "Plain technical writing checks — Writing and changelog prose checks",
+        "topics": [
+          "docs",
+          "once",
+          "claims",
+          "plain",
+          "prose"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              10,
+              8,
+              11,
+              3,
+              7,
+              5,
+              16,
+              2,
+              7,
+              17,
+              2,
+              5,
+              13,
+              3,
+              10,
+              4
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1132,
+        "token_count": 123
+      }
     }
   ]
 }

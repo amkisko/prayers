@@ -1,0 +1,24 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/rfc-process"
+  spec.version = "1.0.0"
+  spec.summary = "RFC numbering, template, types, and statuses"
+  spec.files = [
+    "README.md",
+    "exports/rfc-process.md",
+    "skills/rfc-process/SKILL.md",
+    "skills/rfc-process/rfc-process.md",
+    "skills/rfc-process/references/template.md"
+  ]
+  spec.exports = {
+    "rfc-process" => {
+      type: "fragment",
+      path: "exports/rfc-process.md",
+      summary: "When to write an RFC and how to claim an id"
+    },
+    "skill" => {
+      type: "folder",
+      path: "skills/rfc-process",
+      summary: "RFC write, number, and advance skill"
+    }
+  }
+end
