@@ -55,7 +55,7 @@ compose "AGENTS.md" do
   pray "amkisko/security", "~> 1.1"
   pray "amkisko/docs-conventions", "~> 2.2"
   pray "amkisko/dependency-issues", "~> 2.1"
-  pray "amkisko/dependency-policy", "~> 3.1"
+  pray "amkisko/dependency-policy", "~> 3.2"
   pray "amkisko/ruby-conventions", "~> 1.0"
   pray "amkisko/minimal-implementation", "~> 1.1"
   pray "amkisko/finite-state-machines", "~> 1.0"
@@ -72,8 +72,8 @@ compose "AGENTS.md" do
 end
 
 tree ".agents/skills" do
-  pray "amkisko/dependency-policy", "~> 3.1"
-  pray "amkisko/engineering-audit", "~> 2.5"
+  pray "amkisko/dependency-policy", "~> 3.2"
+  pray "amkisko/engineering-audit", "~> 2.6"
   pray "amkisko/changelog-update", "~> 2.1"
   pray "amkisko/claims-audit", "~> 1.0"
   pray "amkisko/rfc-process", "~> 1.2"
@@ -124,7 +124,7 @@ make check-artifacts
 | `amkisko/security` | fragment | Credential, secret, and tracking hygiene for agents |
 | `amkisko/docs-conventions` | fragment | Four usr/docs trees, purpose, and heading templates |
 | `amkisko/dependency-issues` | fragment | Dependency bug evidence and fix suggestions |
-| `amkisko/dependency-policy` | fragment + skill | Stop-before-add gate and dependency audit |
+| `amkisko/dependency-policy` | fragment + skill | Stop-before-add gate, dependency audit, and lag metrics |
 | `amkisko/ruby-conventions` | fragment | Ruby and Rails stack conventions |
 | `amkisko/rust-conventions` | fragment | Rust stack conventions |
 | `amkisko/elixir-conventions` | fragment | Elixir and OTP stack conventions |
@@ -141,7 +141,7 @@ make check-artifacts
 | `amkisko/publish-checks` | fragment | Pre-publish engineering checklist |
 | `amkisko/collaboration-workflow` | fragment | Durable context and agent traces |
 | `amkisko/getting-started` | fragment | How to install pray and wire a consumer |
-| `amkisko/engineering-audit` | skill | Pipeline-aware engineering audit with boundary, control, place-after-refusal, resource, budget, and trace-and-identification checks |
+| `amkisko/engineering-audit` | skill | Language-agnostic pipeline audit with skippable product modes |
 | `amkisko/changelog-update` | skill | Changelog layering and house style |
 | `amkisko/community-security` | file | Shared SECURITY.md |
 | `amkisko/community-code-of-conduct` | file | Shared CODE_OF_CONDUCT.md |

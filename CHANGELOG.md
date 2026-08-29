@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.8.0 (2026-08-29)
+
+- Publish `amkisko/engineering-audit` 2.6.0: optional product-surface, privacy, performance, observability, security, contract, and learned-systems modes; skip when they do not apply; stay on concepts, not named frameworks.
+- Publish `amkisko/dependency-policy` 3.2.0: freshness pass records libyears or equivalent lag (total, average, major-version distance) with coverage and spike results; lag is not effort.
+
 ## 1.7.0 (2026-08-29)
 
 - Add `amkisko/keep-the-work` 1.1.0: after a refusal, stay on the place they used with a matching refusal; redisplay failed forms; keep unknown identifiers as real refusals; stay on acknowledged forbidden; warn before timeout; restore answers after re-auth.

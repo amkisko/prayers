@@ -240,6 +240,66 @@
         "character_count": 15684,
         "token_count": 512
       }
+    },
+    {
+      "version": "3.2.0",
+      "artifact": "v1/artifacts/amkisko/dependency-policy/3.2.0/amkisko-dependency-policy-3.2.0.praypkg",
+      "artifact_hash": "sha256:4c5cc735f24c9bc7d1e313b589ff102eb9e004f43518a1beb2cbc61b4a0ab34d",
+      "tree_hash": "sha256:011c599c0fade22671bf410496bc80a26804e495128f5a56c4e1d82a1189bed9",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "dependency-policy",
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788032537",
+      "signature": "sha256:87cf946a58ef3ee0d54f447697db712641811662ab4799102f8cc55f9b2decb7",
+      "derived_metadata": {
+        "summary": "Dependency stop-gate and audit skill, including libyears-style freshness lag — Stop-before-add gate and when to audit",
+        "topics": [
+          "dependency",
+          "audit",
+          "when",
+          "path",
+          "recon"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              34,
+              27,
+              48,
+              27,
+              30,
+              40,
+              27,
+              42,
+              31,
+              30,
+              21,
+              22,
+              53,
+              25,
+              36,
+              19
+            ]
+          }
+        ],
+        "file_count": 6,
+        "character_count": 18765,
+        "token_count": 512
+      }
     }
   ]
 }
