@@ -79,8 +79,8 @@ tree ".agents/skills" do
   pray "amkisko/rfc-process", "~> 1.2"
 end
 
-pray "amkisko/community-security", "~> 1.1", file: "SECURITY.md"
-pray "amkisko/community-code-of-conduct", "~> 1.1", file: "CODE_OF_CONDUCT.md"
+pray "amkisko/community-security", "~> 1.2", file: "SECURITY.md"
+pray "amkisko/community-code-of-conduct", "~> 1.2", file: "CODE_OF_CONDUCT.md"
 pray "amkisko/community-governance", "~> 1.1", file: "GOVERNANCE.md"
 pray "amkisko/community-contributing", "~> 1.1", file: "CONTRIBUTING.md"
 ```

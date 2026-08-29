@@ -1,6 +1,6 @@
 ## Minimal implementation
 
-Efficient means the smallest correct change, not careless or under-tested.
+Efficient means the smallest correct change.
 
 Before writing code, stop at each step until one applies:
 - does the feature need to exist at all (YAGNI)?

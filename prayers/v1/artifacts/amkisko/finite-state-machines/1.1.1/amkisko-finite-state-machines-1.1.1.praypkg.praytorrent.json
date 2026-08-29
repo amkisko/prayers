@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/finite-state-machines",
+  "version": "1.1.1",
+  "artifact_url": "v1/artifacts/amkisko/finite-state-machines/1.1.1/amkisko-finite-state-machines-1.1.1.praypkg",
+  "artifact_hash": "sha256:1d9e3a17e5a4f93fbf739722dfb62115e1c8a290da26ebba862293e3d47951e8",
+  "piece_size": 16384,
+  "length": 994,
+  "pieces": [
+    "sha256:1d9e3a17e5a4f93fbf739722dfb62115e1c8a290da26ebba862293e3d47951e8"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/finite-state-machines/1.1.1/amkisko-finite-state-machines-1.1.1.praypkg"
+  ],
+  "trackers": []
+}

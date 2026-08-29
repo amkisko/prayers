@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/community-security"
-  spec.version = "1.1.0"
+  spec.version = "1.2.0"
   spec.summary = "Shared SECURITY.md for vulnerability reporting and automation safety"
   spec.files = ["README.md", "exports/SECURITY.md"]
   spec.exports = {

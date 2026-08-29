@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/working-rules",
+  "version": "2.1.1",
+  "artifact_url": "v1/artifacts/amkisko/working-rules/2.1.1/amkisko-working-rules-2.1.1.praypkg",
+  "artifact_hash": "sha256:e6a136dddda9c35ef476ceba5749350c26852243c110029278a3258009c88a3d",
+  "piece_size": 16384,
+  "length": 1477,
+  "pieces": [
+    "sha256:e6a136dddda9c35ef476ceba5749350c26852243c110029278a3258009c88a3d"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/working-rules/2.1.1/amkisko-working-rules-2.1.1.praypkg"
+  ],
+  "trackers": []
+}

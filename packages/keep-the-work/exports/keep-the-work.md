@@ -2,7 +2,7 @@
 
 - after a refusal, stay on the place they used until they choose the next step: URL, document, screen, command, or query
 - the refusal they see must match what the platform reports; HTTP status when the place is a URL
-- an error document is internal; paint the error on the requested place
+- an error document is internal; show the error on the requested place
 - unknown identifiers keep a real refusal; the status that leaves must match
 - leave that place only when it is no longer the identifier of the failed attempt: a moved resource (301/308 to the replacement), an auth gate with a return, a successful submit that earned a new place, or a canonical host or scheme
 - keep the failed command or query visible
