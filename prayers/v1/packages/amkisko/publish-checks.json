@@ -15,7 +15,7 @@
       "published_at": "1787991251",
       "signature": "sha256:af901409c6cedf52d9032dab49d09f4b0bc64ef9bda6addc153d983f1caf5623",
       "derived_metadata": {
-        "summary": "Pre-publish engineering checklist \u2014 Checks before publish",
+        "summary": "Pre-publish engineering checklist — Checks before publish",
         "topics": [
           "publish",
           "amkisko",
@@ -58,6 +58,65 @@
         "file_count": 2,
         "character_count": 408,
         "token_count": 39
+      }
+    },
+    {
+      "version": "1.0.1",
+      "artifact": "v1/artifacts/amkisko/publish-checks/1.0.1/amkisko-publish-checks-1.0.1.praypkg",
+      "artifact_hash": "sha256:52298241487908163b864d6a82008bf620e0469c742c6914483944497726f91c",
+      "tree_hash": "sha256:9a525cf914df55a461ed1a38bbf68f49dca24083e60aed6f53657a3ec8795340",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "publish-checks"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788033519",
+      "signature": "sha256:f8e7e9b3adebe6e4ae87d7873e305a96bd6e27c8b0311c904c5a0f6d0fb1d94f",
+      "derived_metadata": {
+        "summary": "Pre-publish engineering checklist — Checks before publish",
+        "topics": [
+          "publish",
+          "amkisko",
+          "checks",
+          "engineering",
+          "across"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may affect downstream package distribution"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              2,
+              1,
+              1,
+              0,
+              2,
+              6,
+              4,
+              3,
+              2,
+              5,
+              2,
+              1,
+              5,
+              2,
+              2,
+              3
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 420,
+        "token_count": 41
       }
     }
   ]

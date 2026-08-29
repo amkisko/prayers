@@ -15,7 +15,7 @@
       "published_at": "1787048755",
       "signature": "sha256:63246408bce4132057943aa1da5aea5d062d5458b40d56d1565605521f372843",
       "derived_metadata": {
-        "summary": "Finite state machine modeling guidance \u2014 FSM modeling guidance",
+        "summary": "Finite state machine modeling guidance — FSM modeling guidance",
         "topics": [
           "finite",
           "machines",
@@ -71,7 +71,7 @@
       "published_at": "1787991251",
       "signature": "sha256:0b51ae8ed3bccad2b5f1371faf3cfe72ae272b0b867c2300b816760636ba104a",
       "derived_metadata": {
-        "summary": "Finite state machine modeling, including digital and physical state \u2014 FSM modeling, including digital and physical state",
+        "summary": "Finite state machine modeling, including digital and physical state — FSM modeling, including digital and physical state",
         "topics": [
           "state",
           "machines",
@@ -114,6 +114,65 @@
         "file_count": 2,
         "character_count": 1011,
         "token_count": 112
+      }
+    },
+    {
+      "version": "1.1.1",
+      "artifact": "v1/artifacts/amkisko/finite-state-machines/1.1.1/amkisko-finite-state-machines-1.1.1.praypkg",
+      "artifact_hash": "sha256:1d9e3a17e5a4f93fbf739722dfb62115e1c8a290da26ebba862293e3d47951e8",
+      "tree_hash": "sha256:e95e46a338e154f8e212f4f47d2d8a101d559b7662d589166c99fcd9e2f3b648",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "finite-state-machines"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788033519",
+      "signature": "sha256:ef916007e032db25c12315b3687d972ba3b37676a044fbe8ff4d0ea5d4189934",
+      "derived_metadata": {
+        "summary": "Finite state machine modeling, including digital and physical state — FSM modeling, including digital and physical state",
+        "topics": [
+          "state",
+          "machines",
+          "finite",
+          "when",
+          "reported"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              2,
+              7,
+              9,
+              6,
+              7,
+              5,
+              3,
+              15,
+              5,
+              8,
+              7,
+              14,
+              4,
+              4,
+              7,
+              5
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 973,
+        "token_count": 108
       }
     }
   ]

@@ -1,13 +1,23 @@
 # CHANGELOG
 
+## 1.9.0 (2026-08-29)
+
+- Publish `amkisko/community-code-of-conduct` 1.2.0: name the acts (admit uncertainty, own generated code, correct politely, report harassment).
+- Publish `amkisko/community-security` 1.2.0: email security details privately; keep secrets and personal data out of public-model prompts.
+- Publish `amkisko/keep-the-work` 1.1.1: show the error on the requested place.
+- Publish `amkisko/minimal-implementation` 1.1.1: smallest correct change.
+- Publish `amkisko/publish-checks` 1.0.1: split the publish beats into separate checks.
+- Publish `amkisko/finite-state-machines` 1.1.1: tries and automata for searchable vocabularies.
+- Publish `amkisko/working-rules` 2.1.1: readability, structure, and clarity are product qualities.
+
 ## 1.8.0 (2026-08-29)
 
 - Publish `amkisko/engineering-audit` 2.6.0: optional product-surface, privacy, performance, observability, security, contract, and learned-systems modes; skip when they do not apply; stay on concepts, not named frameworks.
-- Publish `amkisko/dependency-policy` 3.2.0: freshness pass records libyears or equivalent lag (total, average, major-version distance) with coverage and spike results; lag is not effort.
+- Publish `amkisko/dependency-policy` 3.2.0: freshness pass records libyears or equivalent lag (total, average, major-version distance) with coverage and spike results.
 
 ## 1.7.0 (2026-08-29)
 
-- Add `amkisko/keep-the-work` 1.1.0: after a refusal, stay on the place they used with a matching refusal; redisplay failed forms; keep unknown identifiers as real refusals; stay on acknowledged forbidden; warn before timeout; restore answers after re-auth.
+- Add `amkisko/keep-the-work` 1.1.0: after a refusal, stay on the place they used and keep the work they already did.
 - Publish `amkisko/preferred-stack` 1.3.0 and `amkisko/minimal-implementation` 1.1.0: point humane UX and refusal recovery at keep-the-work.
 - Publish `amkisko/engineering-audit` 2.5.0: after a refusal, ask whether the person can still operate on the place they used; for every executable tree, measure memory, CPU, storage, network, and energy against a named ceiling, and ask which emissions identify a person or device.
 - Publish `amkisko/security` 1.1.0: treat device fingerprints, tracking identifiers, and silent analytics marks as personal data.

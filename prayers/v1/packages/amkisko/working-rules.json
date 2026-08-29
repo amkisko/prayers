@@ -15,7 +15,7 @@
       "published_at": "1783404609",
       "signature": "sha256:f43fb2938c4931ffbc126f85a835bc87cee3237e5f71d7e43bfa8af9e640dfa9",
       "derived_metadata": {
-        "summary": "Shared engineering working rules \u2014 Core engineering working rules",
+        "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
           "when",
           "only",
@@ -71,7 +71,7 @@
       "published_at": "1785093387",
       "signature": "sha256:ebfb116e8d5e09990d85a9db6d7c59bcc31755947013c704e0fee30d25c8950f",
       "derived_metadata": {
-        "summary": "Shared engineering working rules \u2014 Core engineering working rules",
+        "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
           "when",
           "only",
@@ -127,7 +127,7 @@
       "published_at": "1785095945",
       "signature": "sha256:f15eea5915f98332c37d83f87dc8cc43dc122a655be4ccac46cc4b2c44dfb82c",
       "derived_metadata": {
-        "summary": "Shared engineering working rules \u2014 Core engineering working rules",
+        "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
           "when",
           "only",
@@ -186,7 +186,7 @@
       "published_at": "1785128733",
       "signature": "sha256:ca4b2b0ba58dd6589ec342fdef800e657c60580de937f3e4e887b98c1a3febc4",
       "derived_metadata": {
-        "summary": "Shared engineering working rules \u2014 Core engineering working rules",
+        "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
           "when",
           "only",
@@ -242,7 +242,7 @@
       "published_at": "1787991251",
       "signature": "sha256:de4a758f56c9eaa455f87cd4693cf342ec40921dc6b3e2f0c9e13eab90111294",
       "derived_metadata": {
-        "summary": "Shared engineering working rules \u2014 Core engineering working rules",
+        "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
           "tests",
           "avoid",
@@ -284,6 +284,64 @@
         "file_count": 2,
         "character_count": 1991,
         "token_count": 215
+      }
+    },
+    {
+      "version": "2.1.1",
+      "artifact": "v1/artifacts/amkisko/working-rules/2.1.1/amkisko-working-rules-2.1.1.praypkg",
+      "artifact_hash": "sha256:e6a136dddda9c35ef476ceba5749350c26852243c110029278a3258009c88a3d",
+      "tree_hash": "sha256:6b5da0c6e7be62b1e2c7672b10e6ae235e6b6c903799d87072ff2b39090539aa",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "working-rules"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788033519",
+      "signature": "sha256:11eb07618e0bcd280dbfd0c541c05cd3ead5517884fd09a2286de1fa702e0c16",
+      "derived_metadata": {
+        "summary": "Shared engineering working rules — Core engineering working rules",
+        "topics": [
+          "tests",
+          "avoid",
+          "only",
+          "when",
+          "docs"
+        ],
+        "categories": [
+          "documentation",
+          "testing"
+        ],
+        "possible_effects": [
+          "clarifies usage",
+          "improves validation"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              12,
+              10,
+              18,
+              13,
+              18,
+              13,
+              17,
+              13,
+              24,
+              17,
+              9,
+              6,
+              11,
+              12,
+              11,
+              9
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1970,
+        "token_count": 213
       }
     }
   ]
