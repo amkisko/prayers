@@ -248,7 +248,7 @@
         "writing-prose"
       ],
       "signer": "amkisko",
-      "published_at": "1787048755",
+      "published_at": "1787991251",
       "signature": "sha256:94376fa8381fe4a733dd13e68a187437a839f9e4aa8c4e9fbf512c1091ad749e",
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
@@ -294,6 +294,65 @@
         "file_count": 2,
         "character_count": 1449,
         "token_count": 157
+      }
+    },
+    {
+      "version": "3.3.0",
+      "artifact": "v1/artifacts/amkisko/writing-prose/3.3.0/amkisko-writing-prose-3.3.0.praypkg",
+      "artifact_hash": "sha256:bbebb9ae6e2a7cb6852d238bf4622d3e634f2a906556e5ed3a9503cbcf2d14a1",
+      "tree_hash": "sha256:39bf1e353bc174dab8c85a205e3fb6e650c1db827467a786d8355695abc6761d",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "writing-prose"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788018827",
+      "signature": "sha256:4bb92c3e80bea35e26eab70d0484cc4c604c27a60e40f464cdb42ff89b0a5a1f",
+      "derived_metadata": {
+        "summary": "Plain technical writing checks — Writing and changelog prose checks",
+        "topics": [
+          "once",
+          "claims",
+          "plain",
+          "prose",
+          "writing"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              14,
+              11,
+              12,
+              7,
+              7,
+              9,
+              16,
+              2,
+              6,
+              20,
+              5,
+              7,
+              13,
+              5,
+              14,
+              5
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1413,
+        "token_count": 153
       }
     }
   ]

@@ -1,0 +1,123 @@
+{
+  "name": "amkisko/keep-the-work",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/keep-the-work/1.0.0/amkisko-keep-the-work-1.0.0.praypkg",
+      "artifact_hash": "sha256:c29ac55b714e47e8964493bc8f7d0c6da6abefd14e4a3baebe607e7597492335",
+      "tree_hash": "sha256:f58123a41e378c42b5c09dab6780661de9b75811740c779ba1197f1578ef6a50",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "keep-the-work"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787916888",
+      "signature": "sha256:1d16ae331bfeb688356f55634c40afb3073b01f90e9d30871bff2196ed69c425",
+      "derived_metadata": {
+        "summary": "Keep the place they used after a refusal — Stay on the failed place after a refusal",
+        "topics": [
+          "error",
+          "person",
+          "humane",
+          "location",
+          "after"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              5,
+              2,
+              5,
+              5,
+              8,
+              8,
+              9,
+              4,
+              12,
+              10,
+              5,
+              4,
+              8,
+              9,
+              8,
+              1
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1086,
+        "token_count": 103
+      }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/keep-the-work/1.1.0/amkisko-keep-the-work-1.1.0.praypkg",
+      "artifact_hash": "sha256:1ad856ce90d691f06814685c9789631325e3d15cf021e0f34a47fb232d039a70",
+      "tree_hash": "sha256:089ed2909038cfe836fbf7b580307b425b69b761addf7fc33fef10f99c6a1e44",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "keep-the-work"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787931985",
+      "signature": "sha256:a97b2bb04e3a7d16b7056c55eb150b717207ad282f9977acc65f60cd99d0037c",
+      "derived_metadata": {
+        "summary": "Keep the place they used and the work they already did after a refusal — Stay on the failed place and keep answers after a refusal",
+        "topics": [
+          "error",
+          "keep",
+          "person",
+          "after",
+          "humane"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              9,
+              3,
+              6,
+              11,
+              10,
+              11,
+              12,
+              12,
+              15,
+              14,
+              9,
+              5,
+              12,
+              14,
+              12,
+              5
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1629,
+        "token_count": 160
+      }
+    }
+  ]
+}

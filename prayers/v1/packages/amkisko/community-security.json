@@ -15,7 +15,7 @@
       "published_at": "1785096032",
       "signature": "sha256:3015d68e39c883b995317464fe6c339d21302c3ae94600a1b3bc20c95df58b6b",
       "derived_metadata": {
-        "summary": "Shared SECURITY.md for vulnerability reporting and automation safety — Security policy and vulnerability reporting",
+        "summary": "Shared SECURITY.md for vulnerability reporting and automation safety \u2014 Security policy and vulnerability reporting",
         "topics": [
           "security",
           "will",
@@ -70,10 +70,10 @@
         "security"
       ],
       "signer": "amkisko",
-      "published_at": "1787048755",
+      "published_at": "1787991251",
       "signature": "sha256:58308c71d08cbab4fd92aebb068f9b41d4903b82f658922d95078290d70a2c8c",
       "derived_metadata": {
-        "summary": "Shared SECURITY.md for vulnerability reporting and automation safety — Security policy and vulnerability reporting",
+        "summary": "Shared SECURITY.md for vulnerability reporting and automation safety \u2014 Security policy and vulnerability reporting",
         "topics": [
           "security",
           "will",

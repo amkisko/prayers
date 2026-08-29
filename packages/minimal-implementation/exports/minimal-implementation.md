@@ -22,7 +22,9 @@ Rules:
 Not optional even when minimizing scope:
 - input validation at trust boundaries;
 - error handling that prevents data loss;
-- security and accessibility (see UI/UX checks);
+- security and accessibility;
 - calibration against real hardware and production drift when the platform ideal is not the spec;
 - anything explicitly requested in the task or ticket;
 - tests for non-trivial behavior per @spec/README.md and the testing bullets above; trivial one-liners need no new spec.
+
+Related: `keep-the-work` covers staying on the failed place and keeping answers after a refusal.

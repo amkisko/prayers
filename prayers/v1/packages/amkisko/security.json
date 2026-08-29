@@ -12,7 +12,7 @@
         "security"
       ],
       "signer": "amkisko",
-      "published_at": "1787048755",
+      "published_at": "1787991251",
       "signature": "sha256:437e9e0c7fcda01971339f5fba82dc75b2362e4a557135d5938dbbe65bd9ed27",
       "derived_metadata": {
         "summary": "Credential and secret handling for agents — Credentials and secrets hygiene for agent work",
@@ -60,6 +60,67 @@
         "file_count": 2,
         "character_count": 956,
         "token_count": 102
+      }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/security/1.1.0/amkisko-security-1.1.0.praypkg",
+      "artifact_hash": "sha256:f60db166cd1a5235c60e7bcebe175972d1fceedf7bfcfdfc803396db4aa51a03",
+      "tree_hash": "sha256:93ec9c07590da2fd98cd0a3774fcd4158ff14151e51e16935c38341c82edb98e",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "security"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787993885",
+      "signature": "sha256:9c60898f98284f54a3f04d46b33ae077784072ee12b10db0dabe74019321143a",
+      "derived_metadata": {
+        "summary": "Credential, secret, and tracking hygiene for agents — Credentials, secrets, and tracking cautions for agent work",
+        "topics": [
+          "secret",
+          "secrets",
+          "they",
+          "security",
+          "that"
+        ],
+        "categories": [
+          "automation",
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior",
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              11,
+              12,
+              12,
+              8,
+              12,
+              15,
+              17,
+              10,
+              14,
+              13,
+              11,
+              9,
+              5,
+              9,
+              9,
+              6
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1623,
+        "token_count": 173
       }
     }
   ]

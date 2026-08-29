@@ -15,7 +15,7 @@
       "published_at": "1787048755",
       "signature": "sha256:63246408bce4132057943aa1da5aea5d062d5458b40d56d1565605521f372843",
       "derived_metadata": {
-        "summary": "Finite state machine modeling guidance — FSM modeling guidance",
+        "summary": "Finite state machine modeling guidance \u2014 FSM modeling guidance",
         "topics": [
           "finite",
           "machines",
@@ -68,10 +68,10 @@
         "finite-state-machines"
       ],
       "signer": "amkisko",
-      "published_at": "1787072369",
+      "published_at": "1787991251",
       "signature": "sha256:0b51ae8ed3bccad2b5f1371faf3cfe72ae272b0b867c2300b816760636ba104a",
       "derived_metadata": {
-        "summary": "Finite state machine modeling, including digital and physical state — FSM modeling, including digital and physical state",
+        "summary": "Finite state machine modeling, including digital and physical state \u2014 FSM modeling, including digital and physical state",
         "topics": [
           "state",
           "machines",

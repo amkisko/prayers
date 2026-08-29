@@ -184,7 +184,7 @@
         "docs-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1787048755",
+      "published_at": "1787991251",
       "signature": "sha256:1cf33de79c55852d7da5ed1c3de9f85dab5b02f7a0a67b6bf7ffa2ee7104337f",
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
@@ -229,6 +229,62 @@
         "file_count": 2,
         "character_count": 1895,
         "token_count": 203
+      }
+    },
+    {
+      "version": "2.2.0",
+      "artifact": "v1/artifacts/amkisko/docs-conventions/2.2.0/amkisko-docs-conventions-2.2.0.praypkg",
+      "artifact_hash": "sha256:6ea2ead3bed9be78fc36df32efc9cbd62191500eb66d4806c1b0da31afe3b710",
+      "tree_hash": "sha256:282866e139d879afe599b438caa5224133e5cc9f38159e772d9e63286e9c6a46",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "docs-conventions"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788018827",
+      "signature": "sha256:a11626f9715050a84f6be900048fa9ac781a8df606ef72ec1cfb46d8f3082e70",
+      "derived_metadata": {
+        "summary": "Repository documentation layout and headings — Four usr/docs trees, purpose, and heading templates",
+        "topics": [
+          "docs",
+          "what",
+          "only",
+          "open",
+          "upstream"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              32,
+              23,
+              24,
+              13,
+              51,
+              33,
+              31,
+              16,
+              11,
+              26,
+              23,
+              18,
+              27,
+              15,
+              20,
+              8
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 3438,
+        "token_count": 371
       }
     }
   ]

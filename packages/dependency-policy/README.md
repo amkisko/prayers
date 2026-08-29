@@ -9,4 +9,4 @@ Exports:
 
 Compose and tree this package together. Selection heuristics live in the skill.
 
-Related: `amkisko/dependency-issues` records defects found during real work; `amkisko/minimal-implementation` covers YAGNI before adding deps.
+Related: `amkisko/dependency-issues` records upstream defects under `usr/docs/dependencies/`; `amkisko/minimal-implementation` covers YAGNI before adding deps.

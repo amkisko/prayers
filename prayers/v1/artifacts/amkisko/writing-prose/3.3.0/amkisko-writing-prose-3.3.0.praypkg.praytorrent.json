@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/writing-prose",
+  "version": "3.3.0",
+  "artifact_url": "v1/artifacts/amkisko/writing-prose/3.3.0/amkisko-writing-prose-3.3.0.praypkg",
+  "artifact_hash": "sha256:bbebb9ae6e2a7cb6852d238bf4622d3e634f2a906556e5ed3a9503cbcf2d14a1",
+  "piece_size": 16384,
+  "length": 1269,
+  "pieces": [
+    "sha256:bbebb9ae6e2a7cb6852d238bf4622d3e634f2a906556e5ed3a9503cbcf2d14a1"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/writing-prose/3.3.0/amkisko-writing-prose-3.3.0.praypkg"
+  ],
+  "trackers": []
+}

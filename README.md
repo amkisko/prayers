@@ -52,17 +52,18 @@ source "amkisko", git: "https://github.com/amkisko/prayers.git"
 compose "AGENTS.md" do
   pray ".agents/project.md"
   pray "amkisko/working-rules", "~> 2.1"
-  pray "amkisko/security", "~> 1.0"
-  pray "amkisko/docs-conventions", "~> 2.1"
-  pray "amkisko/dependency-issues", "~> 2.0"
-  pray "amkisko/dependency-policy", "~> 3.0"
+  pray "amkisko/security", "~> 1.1"
+  pray "amkisko/docs-conventions", "~> 2.2"
+  pray "amkisko/dependency-issues", "~> 2.1"
+  pray "amkisko/dependency-policy", "~> 3.1"
   pray "amkisko/ruby-conventions", "~> 1.0"
-  pray "amkisko/minimal-implementation", "~> 1.0"
+  pray "amkisko/minimal-implementation", "~> 1.1"
   pray "amkisko/finite-state-machines", "~> 1.0"
   pray "amkisko/branch-naming", "~> 1.0"
-  pray "amkisko/preferred-stack", "~> 1.0"
+  pray "amkisko/preferred-stack", "~> 1.3"
+  pray "amkisko/keep-the-work", "~> 1.1"
   pray "amkisko/io-simulation", "~> 1.0"
-  pray "amkisko/writing-prose", "~> 3.2"
+  pray "amkisko/writing-prose", "~> 3.3"
   pray "amkisko/claims-audit", "~> 1.0"
   pray "amkisko/rfc-process", "~> 1.2"
   pray "amkisko/rejected-changes", "~> 1.0"
@@ -71,8 +72,8 @@ compose "AGENTS.md" do
 end
 
 tree ".agents/skills" do
-  pray "amkisko/dependency-policy", "~> 3.0"
-  pray "amkisko/engineering-audit", "~> 2.0"
+  pray "amkisko/dependency-policy", "~> 3.1"
+  pray "amkisko/engineering-audit", "~> 2.5"
   pray "amkisko/changelog-update", "~> 2.1"
   pray "amkisko/claims-audit", "~> 1.0"
   pray "amkisko/rfc-process", "~> 1.2"
@@ -84,7 +85,7 @@ pray "amkisko/community-governance", "~> 1.1", file: "GOVERNANCE.md"
 pray "amkisko/community-contributing", "~> 1.1", file: "CONTRIBUTING.md"
 ```
 
-Swap `ruby-conventions` for `rust-conventions` or `elixir-conventions` on `.rs` and `.ex` trees. Compose one language pack, not all three.
+Swap `ruby-conventions` for `rust-conventions` or `elixir-conventions` on `.rs` and `.ex` trees. Compose one language pack, not all three. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Library-only trees may omit it.
 
 Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill. Tree `rfc-process` whenever you compose it: numbering and template live in the skill.
 
@@ -120,8 +121,8 @@ make check-artifacts
 | Package | Type | Summary |
 |---------|------|---------|
 | `amkisko/working-rules` | fragment | Language-neutral engineering working rules |
-| `amkisko/security` | fragment | Credential and secret handling for agents |
-| `amkisko/docs-conventions` | fragment | Docs tree naming and five-heading structure |
+| `amkisko/security` | fragment | Credential, secret, and tracking hygiene for agents |
+| `amkisko/docs-conventions` | fragment | Four usr/docs trees, purpose, and heading templates |
 | `amkisko/dependency-issues` | fragment | Dependency bug evidence and fix suggestions |
 | `amkisko/dependency-policy` | fragment + skill | Stop-before-add gate and dependency audit |
 | `amkisko/ruby-conventions` | fragment | Ruby and Rails stack conventions |
@@ -131,6 +132,7 @@ make check-artifacts
 | `amkisko/finite-state-machines` | fragment | Explicit lifecycle modeling, including digital and physical state |
 | `amkisko/branch-naming` | fragment | Branch prefix conventions |
 | `amkisko/preferred-stack` | fragment | Language and UX preferences |
+| `amkisko/keep-the-work` | fragment | Stay on the failed place and keep answers after a refusal |
 | `amkisko/io-simulation` | fragment | Simulated plant, control UI, and injectable IO faults |
 | `amkisko/writing-prose` | fragment | Plain technical writing checks |
 | `amkisko/claims-audit` | fragment + skill | Claim hygiene and factual verification |
@@ -139,7 +141,7 @@ make check-artifacts
 | `amkisko/publish-checks` | fragment | Pre-publish engineering checklist |
 | `amkisko/collaboration-workflow` | fragment | Durable context and agent traces |
 | `amkisko/getting-started` | fragment | How to install pray and wire a consumer |
-| `amkisko/engineering-audit` | skill | Pipeline-aware engineering audit with boundary and control mode |
+| `amkisko/engineering-audit` | skill | Pipeline-aware engineering audit with boundary, control, place-after-refusal, resource, budget, and trace-and-identification checks |
 | `amkisko/changelog-update` | skill | Changelog layering and house style |
 | `amkisko/community-security` | file | Shared SECURITY.md |
 | `amkisko/community-code-of-conduct` | file | Shared CODE_OF_CONDUCT.md |

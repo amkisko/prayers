@@ -12,10 +12,10 @@
         "publish-checks"
       ],
       "signer": "amkisko",
-      "published_at": "1787048755",
+      "published_at": "1787991251",
       "signature": "sha256:af901409c6cedf52d9032dab49d09f4b0bc64ef9bda6addc153d983f1caf5623",
       "derived_metadata": {
-        "summary": "Pre-publish engineering checklist — Checks before publish",
+        "summary": "Pre-publish engineering checklist \u2014 Checks before publish",
         "topics": [
           "publish",
           "amkisko",
