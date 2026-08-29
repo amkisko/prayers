@@ -5,7 +5,7 @@ Language- and platform-neutral stop-gate for third-party packages, plus an audit
 Exports:
 
 - `dependency-policy` — AGENTS fragment: terminology, stop-before-add, when to run the skill
-- `dependency-audit` skill — selection/alteration rules, advisory scans, and recon/OSINT
+- `dependency-audit` skill — selection/alteration rules, advisory scans, recon/OSINT, and freshness lag (libyears or equivalent)
 
 Compose and tree this package together. Selection heuristics live in the skill.
 

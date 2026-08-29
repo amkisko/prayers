@@ -99,10 +99,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/dependency-policy"
-version = "3.1.0"
+version = "3.2.0"
 path = "./packages/dependency-policy"
-tree_hash = "sha256:ab4171210bb877d550a9f547f4cde3f343709ddae6583adaee30c0ec0951225b"
-artifact_hash = "sha256:ab4171210bb877d550a9f547f4cde3f343709ddae6583adaee30c0ec0951225b"
+tree_hash = "sha256:011c599c0fade22671bf410496bc80a26804e495128f5a56c4e1d82a1189bed9"
+artifact_hash = "sha256:011c599c0fade22671bf410496bc80a26804e495128f5a56c4e1d82a1189bed9"
 artifact = "path:./packages/dependency-policy"
 exports = [
     "dependency-policy",
@@ -122,10 +122,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/engineering-audit"
-version = "2.5.0"
+version = "2.6.0"
 path = "./packages/engineering-audit"
-tree_hash = "sha256:3915f8f1fbd734a040967d6eb84ada0c3fc1a3cf64e2252ec44b2a4a3b835a58"
-artifact_hash = "sha256:3915f8f1fbd734a040967d6eb84ada0c3fc1a3cf64e2252ec44b2a4a3b835a58"
+tree_hash = "sha256:8b79295f0ae7c7cae33398a95ba3928d959269a9eb7afc7cd6ab37fddf9eef4f"
+artifact_hash = "sha256:8b79295f0ae7c7cae33398a95ba3928d959269a9eb7afc7cd6ab37fddf9eef4f"
 artifact = "path:./packages/engineering-audit"
 exports = ["skill"]
 dependencies = []
@@ -290,7 +290,7 @@ close_line = 83
 ideal_checksum = "sha256:8e32bf05ad32a5d976abf8b67206b9330b364c280f5326cdfcff09217435e2a5"
 package = "amkisko/dependency-policy"
 export = "dependency-policy"
-source_checksum = "sha256:ab4171210bb877d550a9f547f4cde3f343709ddae6583adaee30c0ec0951225b"
+source_checksum = "sha256:011c599c0fade22671bf410496bc80a26804e495128f5a56c4e1d82a1189bed9"
 silenced = false
 
 [[managed_span]]
