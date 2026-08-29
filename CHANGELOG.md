@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 1.7.0 (2026-08-29)
+
+- Add `amkisko/keep-the-work` 1.1.0: after a refusal, stay on the place they used with a matching refusal; redisplay failed forms; keep unknown identifiers as real refusals; stay on acknowledged forbidden; warn before timeout; restore answers after re-auth.
+- Publish `amkisko/preferred-stack` 1.3.0 and `amkisko/minimal-implementation` 1.1.0: point humane UX and refusal recovery at keep-the-work.
+- Publish `amkisko/engineering-audit` 2.5.0: after a refusal, ask whether the person can still operate on the place they used; for every executable tree, measure memory, CPU, storage, network, and energy against a named ceiling, and ask which emissions identify a person or device.
+- Publish `amkisko/security` 1.1.0: treat device fingerprints, tracking identifiers, and silent analytics marks as personal data.
+- Publish `amkisko/docs-conventions` 2.2.0: keep agent traces in `usr/docs/issues`, `usr/docs/changelogs`, `usr/docs/meetings`, and `usr/docs/dependencies`. Pitch, plan, and the open queue stay in the live-work issue.
+- Publish `amkisko/writing-prose` 3.3.0, `amkisko/dependency-issues` 2.1.0, and `amkisko/dependency-policy` 3.1.0: follow that layout.
+
 ## 1.6.0 (2026-08-18)
 
 - Add `make check-artifacts`: every catalog `.praypkg` path must exist and be git-tracked.

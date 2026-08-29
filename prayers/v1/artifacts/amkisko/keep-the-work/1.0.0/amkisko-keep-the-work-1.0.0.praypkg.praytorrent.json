@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/keep-the-work",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/keep-the-work/1.0.0/amkisko-keep-the-work-1.0.0.praypkg",
+  "artifact_hash": "sha256:c29ac55b714e47e8964493bc8f7d0c6da6abefd14e4a3baebe607e7597492335",
+  "piece_size": 16384,
+  "length": 1015,
+  "pieces": [
+    "sha256:c29ac55b714e47e8964493bc8f7d0c6da6abefd14e4a3baebe607e7597492335"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/keep-the-work/1.0.0/amkisko-keep-the-work-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

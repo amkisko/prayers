@@ -11,7 +11,7 @@ Evidence-first. List exact commands, queries, and URLs consulted. Never claim ad
 - no drive-by dependency hunts when the task is unrelated;
 - separate hot-path findings from dev-only lag;
 - label OSINT inference (stars, issue ratios, maintainer overlap) as heuristic with confidence;
-- findings for `usr/docs/issues/` or `usr/docs/dependencies/`: plain prose per docs conventions.
+- findings for `usr/docs/issues/` (this work) or `usr/docs/dependencies/` (upstream defects): plain prose per docs conventions.
 
 ## Role
 

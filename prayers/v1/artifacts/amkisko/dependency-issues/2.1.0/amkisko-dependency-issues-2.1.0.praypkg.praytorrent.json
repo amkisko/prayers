@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/dependency-issues",
+  "version": "2.1.0",
+  "artifact_url": "v1/artifacts/amkisko/dependency-issues/2.1.0/amkisko-dependency-issues-2.1.0.praypkg",
+  "artifact_hash": "sha256:1a37b0ed79d4bb4dca4b20c2ca4c1ae4fd5e3e43afc4db6df234231795e1164c",
+  "piece_size": 16384,
+  "length": 1335,
+  "pieces": [
+    "sha256:1a37b0ed79d4bb4dca4b20c2ca4c1ae4fd5e3e43afc4db6df234231795e1164c"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/dependency-issues/2.1.0/amkisko-dependency-issues-2.1.0.praypkg"
+  ],
+  "trackers": []
+}

@@ -12,10 +12,10 @@
         "branch-naming"
       ],
       "signer": "amkisko",
-      "published_at": "1787048755",
+      "published_at": "1787991251",
       "signature": "sha256:eee57684152d4690356d91387288cd90086d99be014f4e62e7f8e1a5d505a352",
       "derived_metadata": {
-        "summary": "Branch naming conventions — # amkisko/branch-naming",
+        "summary": "Branch naming conventions \u2014 # amkisko/branch-naming",
         "topics": [
           "title",
           "branch",

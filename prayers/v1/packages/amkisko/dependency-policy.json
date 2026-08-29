@@ -133,7 +133,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1787048755",
+      "published_at": "1787991251",
       "signature": "sha256:6f6e50eaf42cee74679152b08dca784ea9df8f61caf435eb02f06e929af21948",
       "derived_metadata": {
         "summary": "Dependency stop-gate and audit skill — Stop-before-add gate and when to audit",
@@ -178,6 +178,66 @@
         ],
         "file_count": 5,
         "character_count": 15636,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "3.1.0",
+      "artifact": "v1/artifacts/amkisko/dependency-policy/3.1.0/amkisko-dependency-policy-3.1.0.praypkg",
+      "artifact_hash": "sha256:8854875d524a74a79e44b0fe0636d4776a10a19449ab36f756561b80fa3ed8d1",
+      "tree_hash": "sha256:ab4171210bb877d550a9f547f4cde3f343709ddae6583adaee30c0ec0951225b",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "dependency-policy",
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787994857",
+      "signature": "sha256:281867ca640c595b3c4e1a26a2b60d6d5747ecf8032ead655d78b8e78f0a73d0",
+      "derived_metadata": {
+        "summary": "Dependency stop-gate and audit skill — Stop-before-add gate and when to audit",
+        "topics": [
+          "dependency",
+          "audit",
+          "when",
+          "path",
+          "recon"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              35,
+              29,
+              48,
+              26,
+              31,
+              40,
+              27,
+              43,
+              31,
+              30,
+              22,
+              22,
+              51,
+              25,
+              37,
+              15
+            ]
+          }
+        ],
+        "file_count": 5,
+        "character_count": 15684,
         "token_count": 512
       }
     }

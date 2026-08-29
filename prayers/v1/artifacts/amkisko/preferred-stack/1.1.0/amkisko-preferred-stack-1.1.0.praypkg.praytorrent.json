@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/preferred-stack",
+  "version": "1.1.0",
+  "artifact_url": "v1/artifacts/amkisko/preferred-stack/1.1.0/amkisko-preferred-stack-1.1.0.praypkg",
+  "artifact_hash": "sha256:dd2e05a232e78ae78c6460ad113bd7be9bc3d744f7380a0f1bd56b2c9d7742d8",
+  "piece_size": 16384,
+  "length": 982,
+  "pieces": [
+    "sha256:dd2e05a232e78ae78c6460ad113bd7be9bc3d744f7380a0f1bd56b2c9d7742d8"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/preferred-stack/1.1.0/amkisko-preferred-stack-1.1.0.praypkg"
+  ],
+  "trackers": []
+}

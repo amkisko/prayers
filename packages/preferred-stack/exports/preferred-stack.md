@@ -6,3 +6,5 @@
 - rust for system programming and performance-critical code
 - javascript, html, css for native browser experience
 - humane and accessible design principles for UI/UX, and for clear communication of intent and feedback
+
+Related: `keep-the-work` covers staying on the failed place and keeping answers after a refusal.

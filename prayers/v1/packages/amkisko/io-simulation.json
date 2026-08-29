@@ -15,7 +15,7 @@
       "published_at": "1787048755",
       "signature": "sha256:b61e509be8849c0582a7e6d5ef7d5aa492d469e9470f95937301251811928f65",
       "derived_metadata": {
-        "summary": "Control UI for simulated external IO — Simulated plant and control UI for live IO",
+        "summary": "Control UI for simulated external IO \u2014 Simulated plant and control UI for live IO",
         "topics": [
           "that",
           "product",
@@ -68,10 +68,10 @@
         "io-simulation"
       ],
       "signer": "amkisko",
-      "published_at": "1787072369",
+      "published_at": "1787991251",
       "signature": "sha256:5e15987e510e47d419c9663eb92f1dff1eae3a17556d086eab06002da47184f9",
       "derived_metadata": {
-        "summary": "Control UI for simulated external IO and injectable plant faults — Simulated plant, control UI, and injectable plant faults",
+        "summary": "Control UI for simulated external IO and injectable plant faults \u2014 Simulated plant, control UI, and injectable plant faults",
         "topics": [
           "that",
           "plant",

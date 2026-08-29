@@ -177,6 +177,242 @@
         "character_count": 7742,
         "token_count": 512
       }
+    },
+    {
+      "version": "2.2.0",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.2.0/amkisko-engineering-audit-2.2.0.praypkg",
+      "artifact_hash": "sha256:d1ee3c0687b6f45ee816a71c8394fbcae6958e6259c6b8bf096ac11c23755b10",
+      "tree_hash": "sha256:ab46cdcb9df7503c99787d681731937549efb271eaeb51433b2b51d1a25a963c",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787916888",
+      "signature": "sha256:8bd3187bb035feb733172ed3b89e1a8f656cdd3af860a391829d701b2f9bc22b",
+      "derived_metadata": {
+        "summary": "Pipeline-aware engineering audit skill with boundary and control mode — Engineering audit skill with boundary and control mode",
+        "topics": [
+          "audit",
+          "when",
+          "engineering",
+          "pipeline",
+          "external"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              26,
+              24,
+              30,
+              40,
+              22,
+              37,
+              25,
+              30,
+              47,
+              42,
+              17,
+              43,
+              37,
+              29,
+              28,
+              35
+            ]
+          }
+        ],
+        "file_count": 3,
+        "character_count": 7872,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "2.3.0",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.3.0/amkisko-engineering-audit-2.3.0.praypkg",
+      "artifact_hash": "sha256:4c0859d472b09903a9b5cef7e0c9e2fee36f8672eb5cb45a721108f9f7936c09",
+      "tree_hash": "sha256:9e415deec07e005d40cc5728e832ff63d53bfe2cb4e42768049872b8403e59e5",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787926185",
+      "signature": "sha256:7b8bbead80de493056cc67779920e31f2edeb782881fd295513f8aba82bb73ee",
+      "derived_metadata": {
+        "summary": "Pipeline-aware engineering audit skill with boundary, control, and identifier-after-refusal checks — Engineering audit skill with boundary, control, and identifier-after-refusal checks",
+        "topics": [
+          "when",
+          "audit",
+          "engineering",
+          "pipeline",
+          "external"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              27,
+              25,
+              33,
+              40,
+              20,
+              41,
+              26,
+              30,
+              42,
+              42,
+              14,
+              43,
+              38,
+              29,
+              27,
+              35
+            ]
+          }
+        ],
+        "file_count": 3,
+        "character_count": 8704,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "2.4.0",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.4.0/amkisko-engineering-audit-2.4.0.praypkg",
+      "artifact_hash": "sha256:084341bef7c975335fc3c15d80b70875088eea4fa4879f56a85c7e71f4b0ba96",
+      "tree_hash": "sha256:f1ec1c47bf008361940c76e6ebb15840fa1e21f8fef690726a9f77dc5c40794d",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787991251",
+      "signature": "sha256:ec4a8bd170e3304c12e0099ecec8cd555b3be4053fdda5e704d9145e6f8a27c6",
+      "derived_metadata": {
+        "summary": "Pipeline-aware engineering audit skill with boundary, control, place-after-refusal, and resource-and-budget checks — Engineering audit skill with boundary, control, place-after-refusal, and resource-and-budget checks",
+        "topics": [
+          "when",
+          "audit",
+          "engineering",
+          "mode",
+          "pipeline"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              26,
+              26,
+              26,
+              39,
+              18,
+              44,
+              31,
+              35,
+              37,
+              40,
+              22,
+              41,
+              39,
+              29,
+              24,
+              35
+            ]
+          }
+        ],
+        "file_count": 4,
+        "character_count": 12621,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "2.5.0",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.5.0/amkisko-engineering-audit-2.5.0.praypkg",
+      "artifact_hash": "sha256:e07f8847af16a91e83854470275b3cd5f6ed50eb1b5a00de7362e45368efcd96",
+      "tree_hash": "sha256:3915f8f1fbd734a040967d6eb84ada0c3fc1a3cf64e2252ec44b2a4a3b835a58",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": "1787993885",
+      "signature": "sha256:3b169142657ad20942dad3225600a933b6aea58bad84c5c07d37978f08be537c",
+      "derived_metadata": {
+        "summary": "Pipeline-aware engineering audit skill with boundary, control, place-after-refusal, resource-and-budget, and trace-and-i — Engineering audit skill with boundary, control, place-after-refusal, resource-and-budget, and trace-and-identification c",
+        "topics": [
+          "when",
+          "audit",
+          "mode",
+          "review",
+          "tree"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              23,
+              26,
+              29,
+              40,
+              17,
+              35,
+              32,
+              33,
+              43,
+              46,
+              26,
+              41,
+              32,
+              32,
+              31,
+              26
+            ]
+          }
+        ],
+        "file_count": 5,
+        "character_count": 17238,
+        "token_count": 512
+      }
     }
   ]
 }

@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/keep-the-work"
+  spec.version = "1.1.0"
+  spec.summary = "Keep the place they used and the work they already did after a refusal"
+  spec.files = ["README.md", "exports/keep-the-work.md"]
+  spec.exports = {
+    "keep-the-work" => {
+      type: "fragment",
+      path: "exports/keep-the-work.md",
+      summary: "Stay on the failed place and keep answers after a refusal"
+    }
+  }
+end

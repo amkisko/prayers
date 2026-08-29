@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/dependency-policy"
-  spec.version = "3.0.0"
+  spec.version = "3.1.0"
   spec.summary = "Dependency stop-gate and audit skill"
   spec.files = [
     "README.md",

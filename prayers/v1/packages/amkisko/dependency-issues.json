@@ -68,7 +68,7 @@
         "dependency-issues"
       ],
       "signer": "amkisko",
-      "published_at": "1787048755",
+      "published_at": "1787991251",
       "signature": "sha256:4382dfebdd8e3ef7e1f52a19f9444239757ec29fdcea006a70fb41e258e62244",
       "derived_metadata": {
         "summary": "Record and suggest fixes for clear dependency bugs — Dependency bug evidence and fix suggestions",
@@ -111,6 +111,62 @@
         "file_count": 2,
         "character_count": 1433,
         "token_count": 147
+      }
+    },
+    {
+      "version": "2.1.0",
+      "artifact": "v1/artifacts/amkisko/dependency-issues/2.1.0/amkisko-dependency-issues-2.1.0.praypkg",
+      "artifact_hash": "sha256:1a37b0ed79d4bb4dca4b20c2ca4c1ae4fd5e3e43afc4db6df234231795e1164c",
+      "tree_hash": "sha256:9567ae50b1c7dcb0cd9a1e9c79c2767b87d52029670961cad8a0c6d30ab63ce3",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "dependency-issues"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788018827",
+      "signature": "sha256:0293b17b206523ad272482311a1cefe701aa05ad0b8b18170a0ea64c729e8404",
+      "derived_metadata": {
+        "summary": "Record and suggest fixes for clear dependency bugs — Dependency bug evidence and fix suggestions",
+        "topics": [
+          "dependency",
+          "upstream",
+          "evidence",
+          "issues",
+          "work"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              19,
+              7,
+              24,
+              3,
+              11,
+              16,
+              14,
+              8,
+              10,
+              3,
+              6,
+              9,
+              9,
+              6,
+              13,
+              6
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1590,
+        "token_count": 164
       }
     }
   ]
