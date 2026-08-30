@@ -5,6 +5,6 @@
 - elixir for concurrent and distributed systems, and for its actor model and fault tolerance
 - rust for system programming and performance-critical code
 - javascript, html, css for native browser experience
-- humane and accessible design principles for UI/UX, and for clear communication of intent and feedback
+- humane and accessible design principles for UI/UX, and for clear communication of intent and feedback; label icon-only controls; hide decorative duplicates from the accessibility tree
 
 Related: `keep-the-work` covers staying on the failed place and keeping answers after a refusal.

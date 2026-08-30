@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## Unreleased
+
+- Add `amkisko/background-jobs` 1.0.0: shallow, idempotent workers; capture request context at enqueue; record destination failure.
+- Publish `amkisko/working-rules` 2.2.0: fix the cause of a race; prefer positive names; compute at write when a read cannot paginate.
+- Publish `amkisko/security` 1.2.0: ownership-set lookups; fail closed; untrusted user-supplied URLs; rate-limit authentication.
+- Publish `amkisko/minimal-implementation` 1.2.0: three real uses before an abstraction; drop unused public methods.
+- Publish `amkisko/finite-state-machines` 1.2.0: when who and when matter, model the event as a record.
+- Publish `amkisko/keep-the-work` 1.2.0: a live refresh or reconnect must not wipe work still on the place.
+- Publish `amkisko/preferred-stack` 1.4.0: label icon-only controls; hide decorative duplicates from the accessibility tree.
+- Publish `amkisko/engineering-audit` 2.7.0: ownership versus parameter access; worker request-local context; destination failure versus our code; refresh that wipes in-progress work.
+
 ## 1.9.0 (2026-08-29)
 
 - Publish `amkisko/community-code-of-conduct` 1.2.0: name the acts (admit uncertainty, own generated code, correct politely, report harassment).

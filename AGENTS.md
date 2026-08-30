@@ -20,7 +20,8 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 - pull request checklist: changelog entry with intent or reproduction steps when relevant, test coverage, and quality checks done;
 - follow docs-conventions for usr/docs trace filenames and layout;
 - validation output must list exact commands run and observed results, and never claim tests pass unless they were executed and passed;
-- ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load.
+- ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load;
+- fix the cause of a race, not a retry around it; prefer positive names; compute at write when a read cannot paginate; do not change production design only so tests can reach it.
 <!-- pray:9068e4a2 -->
 
 <!-- pray:781b7711 -->
@@ -36,6 +37,13 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 - A redacted fingerprint above is a hash of a secret for config references. A device fingerprint is fields that combine to identify a person or device across sessions or observers.
 - Identifiers, IP addresses, device marks, and combined attributes are personal data. They can unmask a person, a location, or a session secret. Emit them only when the feature they asked for this session needs them and they were shown that this product would.
 - Silent analytics ids, leftover marks after logout, and canvas or hardware probes are security events. They can locate a person, stitch sessions, or leak a credential-shaped token.
+
+## Ownership and destinations
+
+- Lookups go through an ownership set; request parameters pick which row; fail closed when access cannot be proven.
+- Treat user-supplied URLs as untrusted; rate-limit authentication and abuse-prone endpoints.
+
+Related: `engineering-audit` security mode asks whether a parameter establishes access and whether a worker skipped policy.
 <!-- pray:781b7711 -->
 
 <!-- pray:bfe6ff38 -->
@@ -96,7 +104,7 @@ Before writing code, stop at each step until one applies:
 
 Rules:
 - match the language of the directory you are changing (see Preferred stack and tools above);
-- no abstractions unless the request or clear reuse needs them;
+- no abstractions unless three real variations need them; drop unused public methods;
 - no new dependency when stdlib, the framework for this tree, or an installed dependency suffices;
 - no boilerplate the task did not ask for;
 - deletion over addition; boring over clever; fewest files that stay readable (see file size guidance above);
@@ -118,7 +126,7 @@ Related: `keep-the-work` covers staying on the failed place and keeping answers 
 <!-- pray:120c3507 -->
 ## Finite state machines
 
-- model lifecycles with explicit finite state machines when status, allowed transitions, and side effects matter; prefer named states and guarded transitions over scattered conditionals and implicit enums alone;
+- model lifecycles with explicit finite state machines when status, allowed transitions, and side effects matter; prefer named states and guarded transitions over scattered conditionals and implicit enums alone; when who and when matter, model the event as a record, not a boolean flag;
 - finite state machines can compactly represent ordered sets or maps of strings supporting fast prefix, suffix, and fuzzy search; consider tries and automata when matching catalogs, codes, routes, or searchable vocabularies at scale;
 - when digital reported state and physical process state can diverge, name both machines and the observation that couples them; occupancy listing is not the lock; a reported identity is not the person or sample at the station.
 
@@ -155,23 +163,10 @@ Examples:
 - elixir for concurrent and distributed systems, and for its actor model and fault tolerance
 - rust for system programming and performance-critical code
 - javascript, html, css for native browser experience
-- humane and accessible design principles for UI/UX, and for clear communication of intent and feedback
+- humane and accessible design principles for UI/UX, and for clear communication of intent and feedback; label icon-only controls; hide decorative duplicates from the accessibility tree
 
 Related: `keep-the-work` covers staying on the failed place and keeping answers after a refusal.
 <!-- pray:f528eeca -->
-
-<!-- pray:d3b0d939 -->
-## IO simulation
-
-- when a product depends on live IO from an external virtual or physical service, ship a simulation of that plant that speaks the same protocol the product already uses;
-- give the simulation a control UI so a person can set the parameters that produce that IO while using the product: position, clock, amount, device state, and faults;
-- injectable faults: unavailable, slow, valid but false, stale, protocol meaning change, partition, clock disagreement, reset, freeze, drift, duplicated command, command after timeout, reconnect replay, two authorities, obsolete operator display;
-- keep the product on its production adapter; the simulation is a plant the adapter talks to;
-- point the product at a vendor station when that station already covers those parameters (testmode dashboards, device emulator extended controls);
-- a library that only answers request and response has no plant, so it does not need this workbench.
-
-Related: `engineering-audit` enumerates those boundary conditions; `finite-state-machines` models the plant lifecycle; `preferred-stack` covers humane control UI; `minimal-implementation` still requires later calibration on real hardware.
-<!-- pray:d3b0d939 -->
 
 <!-- pray:ca94e22d -->
 ## Writing and changelog prose checks
