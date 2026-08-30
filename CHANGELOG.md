@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Unreleased
+
+- Publish `amkisko/docs-conventions` 2.3.0: `usr/migrate` holds live console-first scripts for a change that must run before new code is on the process.
+- Publish `amkisko/ruby-conventions` 1.1.0: page data backfills and log progress; point pre-process fills at `usr/migrate`.
+
 ## 1.9.0 (2026-08-29)
 
 - Publish `amkisko/community-code-of-conduct` 1.2.0: name the acts (admit uncertainty, own generated code, correct politely, report harassment).
