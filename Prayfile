@@ -38,3 +38,4 @@ pray "amkisko/community-contributing", path: "packages/community-contributing", 
 pray "amkisko/keep-the-work", path: "packages/keep-the-work"
 pray "amkisko/background-jobs", path: "packages/background-jobs"
 pray "amkisko/io-simulation", path: "packages/io-simulation"
+pray "amkisko/ruby-conventions", path: "packages/ruby-conventions"
