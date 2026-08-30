@@ -10,4 +10,5 @@
 - pull request checklist: changelog entry with intent or reproduction steps when relevant, test coverage, and quality checks done;
 - follow docs-conventions for usr/docs trace filenames and layout;
 - validation output must list exact commands run and observed results, and never claim tests pass unless they were executed and passed;
-- ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load.
+- ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load;
+- fix the cause of a race, not a retry around it; prefer positive names; compute at write when a read cannot paginate; do not change production design only so tests can reach it.

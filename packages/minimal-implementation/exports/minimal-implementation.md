@@ -11,7 +11,7 @@ Before writing code, stop at each step until one applies:
 
 Rules:
 - match the language of the directory you are changing (see Preferred stack and tools above);
-- no abstractions unless the request or clear reuse needs them;
+- no abstractions unless three real variations need them; drop unused public methods;
 - no new dependency when stdlib, the framework for this tree, or an installed dependency suffices;
 - no boilerplate the task did not ask for;
 - deletion over addition; boring over clever; fewest files that stay readable (see file size guidance above);

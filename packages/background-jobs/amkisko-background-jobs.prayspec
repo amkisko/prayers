@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/background-jobs"
+  spec.version = "1.0.0"
+  spec.summary = "Shallow, idempotent background work with captured enqueue context"
+  spec.files = ["README.md", "exports/background-jobs.md"]
+  spec.exports = {
+    "background-jobs" => {
+      type: "fragment",
+      path: "exports/background-jobs.md",
+      summary: "Shallow jobs, enqueue context, retries, destination failure"
+    }
+  }
+end

@@ -16,7 +16,6 @@ compose "AGENTS.md" do
   pray "amkisko/finite-state-machines", path: "packages/finite-state-machines"
   pray "amkisko/branch-naming", path: "packages/branch-naming"
   pray "amkisko/preferred-stack", path: "packages/preferred-stack"
-  pray "amkisko/io-simulation", path: "packages/io-simulation"
   pray "amkisko/writing-prose", path: "packages/writing-prose"
   pray "amkisko/claims-audit", path: "packages/claims-audit"
   pray "amkisko/rejected-changes", path: "packages/rejected-changes"
@@ -37,3 +36,5 @@ pray "amkisko/community-code-of-conduct", path: "packages/community-code-of-cond
 pray "amkisko/community-governance", path: "packages/community-governance", file: "GOVERNANCE.md"
 pray "amkisko/community-contributing", path: "packages/community-contributing", file: "CONTRIBUTING.md"
 pray "amkisko/keep-the-work", path: "packages/keep-the-work"
+pray "amkisko/background-jobs", path: "packages/background-jobs"
+pray "amkisko/io-simulation", path: "packages/io-simulation"

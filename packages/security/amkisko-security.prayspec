@@ -1,13 +1,13 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/security"
-  spec.version = "1.1.0"
-  spec.summary = "Credential, secret, and tracking hygiene for agents"
+  spec.version = "1.2.0"
+  spec.summary = "Credential, secret, tracking, and ownership hygiene for agents"
   spec.files = ["README.md", "exports/security.md"]
   spec.exports = {
     "security" => {
       type: "fragment",
       path: "exports/security.md",
-      summary: "Credentials, secrets, and tracking cautions for agent work"
+      summary: "Credentials, secrets, tracking, and ownership cautions for agent work"
     }
   }
 end
