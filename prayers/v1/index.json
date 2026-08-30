@@ -1,6 +1,7 @@
 {
   "spec": "prayfile-distribution-1",
   "packages": [
+    "amkisko/background-jobs",
     "amkisko/branch-naming",
     "amkisko/changelog-update",
     "amkisko/claims-audit",

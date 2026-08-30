@@ -26,11 +26,13 @@ Later pass: rebuilt 1.1.0 in place without host-app method names. Fragment 768 b
 
 Later pass: docs-conventions 2.3.0 names usr/migrate. Fragment 1780 bytes. Catalog character_count 3911. Artifact 2254 bytes. ruby-conventions 1.1.0 fragment 721 bytes. Catalog character_count 830. Artifact 935 bytes. make package for both. make apply: AGENTS.md 16364 bytes (20 under 16 KiB). make publish, 22 unrelated catalog files restored. make verify exit 0. make drift exit 0. make check-artifacts ok after git add of 2.3.0 and rebuilt 1.1.0 praypkg files.
 
+Later pass: merged to main and pushed. Product changelog 1.10.0.
+
 ## Next
 
-Push this branch. Consumers bump docs-conventions ~> 2.3 and ruby-conventions ~> 1.1, then pray install. Overlay keeps local template path and process timeouts. Console-first scripts live in usr/migrate.
+Consumers bump docs-conventions ~> 2.3 and ruby-conventions ~> 1.1, then pray install. Overlay keeps local template path and process timeouts. Console-first scripts live in usr/migrate.
 
 ## Source
 
 Upstream: host app backfill before the schema class is on the process
-Downstream: packages/docs-conventions 2.3.0, packages/ruby-conventions 1.1.0
+Downstream: packages/docs-conventions 2.3.0, packages/ruby-conventions 1.1.0, CHANGELOG.md 1.10.0

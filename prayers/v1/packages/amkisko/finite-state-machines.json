@@ -174,6 +174,65 @@
         "character_count": 973,
         "token_count": 108
       }
+    },
+    {
+      "version": "1.2.0",
+      "artifact": "v1/artifacts/amkisko/finite-state-machines/1.2.0/amkisko-finite-state-machines-1.2.0.praypkg",
+      "artifact_hash": "sha256:916710c86a2d87314cf88804b69fe73b540d2f4b25c724730937d216b1d16194",
+      "tree_hash": "sha256:f3a0129b165ab4f1ea44d6167e84fd62012ab842720e6ce87a62a8dddaa3fe03",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "finite-state-machines"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788080176",
+      "signature": "sha256:44625393e47b0ff51a170aa708072430a0e970be882486b7538f1ce2600f6ee7",
+      "derived_metadata": {
+        "summary": "Finite state machine modeling, including digital and physical state — FSM modeling, including digital and physical state",
+        "topics": [
+          "state",
+          "when",
+          "machines",
+          "finite",
+          "reported"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              4,
+              7,
+              9,
+              7,
+              7,
+              7,
+              3,
+              16,
+              6,
+              8,
+              7,
+              14,
+              4,
+              4,
+              7,
+              6
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1048,
+        "token_count": 116
+      }
     }
   ]
 }

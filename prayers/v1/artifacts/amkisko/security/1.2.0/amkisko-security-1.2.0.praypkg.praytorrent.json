@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/security",
+  "version": "1.2.0",
+  "artifact_url": "v1/artifacts/amkisko/security/1.2.0/amkisko-security-1.2.0.praypkg",
+  "artifact_hash": "sha256:f6305ad626f45a6b7161c5b395fb90ee92909504955f802fc629622072044025",
+  "piece_size": 16384,
+  "length": 1557,
+  "pieces": [
+    "sha256:f6305ad626f45a6b7161c5b395fb90ee92909504955f802fc629622072044025"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/security/1.2.0/amkisko-security-1.2.0.praypkg"
+  ],
+  "trackers": []
+}

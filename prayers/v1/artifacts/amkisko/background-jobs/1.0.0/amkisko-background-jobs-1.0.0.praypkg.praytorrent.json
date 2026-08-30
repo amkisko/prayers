@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/background-jobs",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/background-jobs/1.0.0/amkisko-background-jobs-1.0.0.praypkg",
+  "artifact_hash": "sha256:c4b1ba335528dd76e5ecb2a6b5f2c3d2fc2e592b9ed57c9b9d4118207ca2d554",
+  "piece_size": 16384,
+  "length": 943,
+  "pieces": [
+    "sha256:c4b1ba335528dd76e5ecb2a6b5f2c3d2fc2e592b9ed57c9b9d4118207ca2d554"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/background-jobs/1.0.0/amkisko-background-jobs-1.0.0.praypkg"
+  ],
+  "trackers": []
+}
