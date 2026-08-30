@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## 1.10.0 (2026-08-30)
 
 - Add `amkisko/background-jobs` 1.0.0: shallow, idempotent workers; capture request context at enqueue; record destination failure.
 - Publish `amkisko/working-rules` 2.2.0: fix the cause of a race; prefer positive names; compute at write when a read cannot paginate.

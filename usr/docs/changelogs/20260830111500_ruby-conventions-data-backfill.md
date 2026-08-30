@@ -20,9 +20,11 @@ Later pass: drop host-app method names. Fragment 768 bytes. Catalog character_co
 
 Later pass: docs-conventions 2.3.0 names usr/migrate. Fragment 1780 bytes. Artifact 2254 bytes. ruby-conventions 1.1.0 fragment 721 bytes. Artifact 935 bytes. make apply: AGENTS.md 16364 bytes (20 under 16 KiB). make verify exit 0. make drift exit 0. make check-artifacts ok.
 
+Later pass: merged to main and pushed. Product changelog 1.10.0.
+
 ## Next
 
-Push this branch. Consumers bump docs-conventions ~> 2.3 and ruby-conventions ~> 1.1, then pray install.
+Consumers bump docs-conventions ~> 2.3 and ruby-conventions ~> 1.1, then pray install.
 
 ## Source
 

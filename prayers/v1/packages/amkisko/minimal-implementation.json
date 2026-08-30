@@ -177,6 +177,65 @@
         "character_count": 1862,
         "token_count": 194
       }
+    },
+    {
+      "version": "1.2.0",
+      "artifact": "v1/artifacts/amkisko/minimal-implementation/1.2.0/amkisko-minimal-implementation-1.2.0.praypkg",
+      "artifact_hash": "sha256:2637a5e64581e1ad77cbe6cb3becd2ce729b3f6c25350c1c25fc00880cdb7858",
+      "tree_hash": "sha256:49082c3bba1d7035ae765745a9f4206095b9ba2f63f5115dddedaa30455ae0a0",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "minimal-implementation"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788080176",
+      "signature": "sha256:9df5b154bc40b1f318a82883a746fcf67d186c6a67aca9a5d62801b18e6891f4",
+      "derived_metadata": {
+        "summary": "Smallest correct change discipline — Minimal implementation rules",
+        "topics": [
+          "when",
+          "that",
+          "above",
+          "already",
+          "change"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              10,
+              10,
+              12,
+              6,
+              10,
+              13,
+              12,
+              12,
+              12,
+              17,
+              13,
+              7,
+              18,
+              8,
+              22,
+              16
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1884,
+        "token_count": 198
+      }
     }
   ]
 }
