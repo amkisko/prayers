@@ -37,3 +37,4 @@ pray "amkisko/community-code-of-conduct", path: "packages/community-code-of-cond
 pray "amkisko/community-governance", path: "packages/community-governance", file: "GOVERNANCE.md"
 pray "amkisko/community-contributing", path: "packages/community-contributing", file: "CONTRIBUTING.md"
 pray "amkisko/keep-the-work", path: "packages/keep-the-work"
+pray "amkisko/ruby-conventions", path: "packages/ruby-conventions"
