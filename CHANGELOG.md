@@ -10,6 +10,8 @@
 - Publish `amkisko/keep-the-work` 1.2.0: a live refresh or reconnect must not wipe work still on the place.
 - Publish `amkisko/preferred-stack` 1.4.0: label icon-only controls; hide decorative duplicates from the accessibility tree.
 - Publish `amkisko/engineering-audit` 2.7.0: ownership versus parameter access; worker request-local context; destination failure versus our code; refresh that wipes in-progress work.
+- Publish `amkisko/docs-conventions` 2.3.0: `usr/migrate` holds live console-first scripts for a change that must run before new code is on the process.
+- Publish `amkisko/ruby-conventions` 1.1.0: page data backfills and log progress; point pre-process fills at `usr/migrate`.
 
 ## 1.9.0 (2026-08-29)
 
