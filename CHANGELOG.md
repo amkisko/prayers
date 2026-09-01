@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.11.0 (2026-09-01)
+
+- Publish `amkisko/minimal-implementation` 1.3.0: first-party packaging stop-gate; unpublished in-repo package for a second in-repo caller or for code with no product runtime.
+- Publish `amkisko/ruby-conventions` 1.2.0: unpublished in-repo gem layout; development and test Bundler group isolation.
+
 ## 1.10.0 (2026-08-30)
 
 - Add `amkisko/background-jobs` 1.0.0: shallow, idempotent workers; capture request context at enqueue; record destination failure.

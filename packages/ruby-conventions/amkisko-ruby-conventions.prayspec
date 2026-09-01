@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/ruby-conventions"
-  spec.version = "1.1.0"
+  spec.version = "1.2.0"
   spec.summary = "Ruby and Rails conventions for amkisko repositories"
   spec.files = ["README.md", "exports/ruby-conventions.md"]
   spec.exports = {
