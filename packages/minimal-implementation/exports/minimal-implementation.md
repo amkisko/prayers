@@ -9,6 +9,11 @@ Before writing code, stop at each step until one applies:
 - can the change be one line; if so, make it one line?
 - only then write the minimum code that works.
 
+Before adding a new library directory or first-party package, stop until one applies:
+- one product owns the contract and is the only caller: keep source in that tree;
+- a second in-repo caller, or no product runtime: unpublished in-repo package (own manifest, own tests, path-linked, 0.x, registry publish blocked);
+- a second repository or registry consumer: extract, publish, then follow dependency-policy.
+
 Rules:
 - match the language of the directory you are changing (see Preferred stack and tools above);
 - no abstractions unless three real variations need them; drop unused public methods;
@@ -27,4 +32,4 @@ Not optional even when minimizing scope:
 - anything explicitly requested in the task or ticket;
 - tests for non-trivial behavior per @spec/README.md and the testing bullets above; trivial one-liners need no new spec.
 
-Related: `keep-the-work` covers staying on the failed place and keeping answers after a refusal.
+Related: `keep-the-work` covers staying on the failed place and keeping answers after a refusal; `dependency-policy` covers third-party registry packages.
