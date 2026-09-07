@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.12.0 (2026-09-05)
+
+- Publish `amkisko/dependency-policy` 4.0.0: invoke assessment when ordinary work exposes a plausible dependency vulnerability or exploitation signal; record target applicability, four assessment statuses, priority inputs, and disposition.
+- Publish `amkisko/collaboration-workflow` 2.2.0: put concrete improvements to shared guidance or skills in the live-work queue.
+
 ## 1.11.0 (2026-09-01)
 
 - Publish `amkisko/minimal-implementation` 1.3.0: first-party packaging stop-gate; unpublished in-repo package for a second in-repo caller or for code with no product runtime.

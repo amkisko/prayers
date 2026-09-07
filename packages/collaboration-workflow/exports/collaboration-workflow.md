@@ -1,6 +1,6 @@
 ## Collaboration workflow
 
-- agent-assisted work with ongoing project value must leave a trace in the repo;
-- store only specific, decision-bearing, high-signal material; do not commit generic notes, copied chat logs, or filler;
-- use the lightest process that preserves traceability; design-only work does not need branch ceremony unless implementation work starts;
-- follow docs-conventions for docs/ versus usr/docs/ layout.
+- record durable project value in the live-work queue, including improvements to shared guidance or a skill;
+- keep only decision-bearing material; omit generic notes, copied chat, and filler;
+- use the lightest trace that preserves context; design-only work needs no branch unless implementation starts;
+- follow docs-conventions for `docs/` and `usr/docs/`.

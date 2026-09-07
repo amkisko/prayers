@@ -49,10 +49,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/collaboration-workflow"
-version = "2.1.0"
+version = "2.2.0"
 path = "./packages/collaboration-workflow"
-tree_hash = "sha256:f12fa3ba5d786c3b32e8fc25e071ea9d34bb3e1d6236561e50c7b202269b40dd"
-artifact_hash = "sha256:f12fa3ba5d786c3b32e8fc25e071ea9d34bb3e1d6236561e50c7b202269b40dd"
+tree_hash = "sha256:b9d6efb001a131f038089fb2565f1671fa3c5045c39dae75108580c17e943b7c"
+artifact_hash = "sha256:b9d6efb001a131f038089fb2565f1671fa3c5045c39dae75108580c17e943b7c"
 artifact = "path:./packages/collaboration-workflow"
 exports = ["collaboration-workflow"]
 dependencies = []
@@ -109,10 +109,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/dependency-policy"
-version = "3.2.0"
+version = "4.0.0"
 path = "./packages/dependency-policy"
-tree_hash = "sha256:011c599c0fade22671bf410496bc80a26804e495128f5a56c4e1d82a1189bed9"
-artifact_hash = "sha256:011c599c0fade22671bf410496bc80a26804e495128f5a56c4e1d82a1189bed9"
+tree_hash = "sha256:63f3d382797e522a0c9fe0ee1235a63f0d0cca7721600ba8436ed1c4dddcb100"
+artifact_hash = "sha256:63f3d382797e522a0c9fe0ee1235a63f0d0cca7721600ba8436ed1c4dddcb100"
 artifact = "path:./packages/dependency-policy"
 exports = [
     "dependency-policy",
@@ -317,10 +317,10 @@ id = "3ac5d6ce"
 target = "AGENTS.md"
 open_line = 71
 close_line = 92
-ideal_checksum = "sha256:8e32bf05ad32a5d976abf8b67206b9330b364c280f5326cdfcff09217435e2a5"
+ideal_checksum = "sha256:60c42487ebb75ecf52586f0568d829d0af183edd793f2b5fef70381076960c49"
 package = "amkisko/dependency-policy"
 export = "dependency-policy"
-source_checksum = "sha256:011c599c0fade22671bf410496bc80a26804e495128f5a56c4e1d82a1189bed9"
+source_checksum = "sha256:63f3d382797e522a0c9fe0ee1235a63f0d0cca7721600ba8436ed1c4dddcb100"
 silenced = false
 
 [[managed_span]]
@@ -416,10 +416,10 @@ id = "48e8a6b3"
 target = "AGENTS.md"
 open_line = 223
 close_line = 230
-ideal_checksum = "sha256:56599a65c111874dc069865bb465bc931ce2a28c6380e2a1abedffcc9add7086"
+ideal_checksum = "sha256:0c9ad0fd4ae2aea3f0be7af78f7aeaed5319ea5d77c1c87f60144381a5f8c549"
 package = "amkisko/collaboration-workflow"
 export = "collaboration-workflow"
-source_checksum = "sha256:f12fa3ba5d786c3b32e8fc25e071ea9d34bb3e1d6236561e50c7b202269b40dd"
+source_checksum = "sha256:b9d6efb001a131f038089fb2565f1671fa3c5045c39dae75108580c17e943b7c"
 silenced = false
 
 [[provisioned]]
@@ -454,13 +454,13 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/dependency-audit/SKILL.md"
-content_hash = "sha256:18be597c227be8b246ef57fb50daf92a6763b06cccc1a9eb202d84eab424ae24"
+content_hash = "sha256:67052947427e3a9e2d43f207fc8cf44071841e6ecffaa6b8a81b159ac4bf3b1d"
 package = "amkisko/dependency-policy"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/dependency-audit/references/dependency-audit.md"
-content_hash = "sha256:e475d08a7a24a16d9cf6381a114bbeb293832af64a8cad1e8c71a85ad4f71bc0"
+content_hash = "sha256:b3e9cdcbd453636a5f93824f82f6537c99f4e1bc88fcc7f13659adbbdbc44a51"
 package = "amkisko/dependency-policy"
 export = "skill"
 
@@ -473,6 +473,12 @@ export = "skill"
 [[provisioned]]
 path = ".agents/skills/dependency-audit/references/selection-and-alteration.md"
 content_hash = "sha256:a3925696bdf9bf664eac662515b192a040406b0ffa0aa50940b67d4a4c2196d2"
+package = "amkisko/dependency-policy"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/dependency-audit/references/vulnerability-assessment.md"
+content_hash = "sha256:dec8dc333344dd6a153bb91e64d422efe1aa4ea75dabe7cc5281f6120c1d8ae8"
 package = "amkisko/dependency-policy"
 export = "skill"
 

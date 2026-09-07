@@ -1,12 +1,13 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/dependency-policy"
-  spec.version = "3.2.0"
-  spec.summary = "Dependency stop-gate and audit skill, including libyears-style freshness lag"
+  spec.version = "4.0.0"
+  spec.summary = "Dependency stop-gate and target-scoped audit skill"
   spec.files = [
     "README.md",
     "exports/dependency-policy.md",
     "skills/dependency-audit/SKILL.md",
     "skills/dependency-audit/references/dependency-audit.md",
+    "skills/dependency-audit/references/vulnerability-assessment.md",
     "skills/dependency-audit/references/selection-and-alteration.md",
     "skills/dependency-audit/references/libyears.md"
   ]
@@ -19,7 +20,7 @@ Package::Specification.new do |spec|
     "skill" => {
       type: "folder",
       path: "skills/dependency-audit",
-      summary: "Dependency audit skill with recon, advisories, and lag metrics"
+      summary: "Dependency audit skill with recon, vulnerability assessments, and lag metrics"
     }
   }
 end

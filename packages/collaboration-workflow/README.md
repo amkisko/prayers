@@ -1,3 +1,3 @@
 # amkisko/collaboration-workflow
 
-How agent-assisted work leaves a high-signal trace. Layout of docs/ versus usr/docs/ lives in `amkisko/docs-conventions`.
+How to keep durable project value in a live-work trace. Include improvements found during other work. Layout of docs/ versus usr/docs/ lives in `amkisko/docs-conventions`.

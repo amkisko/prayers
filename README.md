@@ -55,7 +55,7 @@ compose "AGENTS.md" do
   pray "amkisko/security", "~> 1.2"
   pray "amkisko/docs-conventions", "~> 2.3"
   pray "amkisko/dependency-issues", "~> 2.1"
-  pray "amkisko/dependency-policy", "~> 3.2"
+  pray "amkisko/dependency-policy", "~> 4.0"
   pray "amkisko/ruby-conventions", "~> 1.2"
   pray "amkisko/minimal-implementation", "~> 1.3"
   pray "amkisko/finite-state-machines", "~> 1.2"
@@ -69,11 +69,11 @@ compose "AGENTS.md" do
   pray "amkisko/rfc-process", "~> 1.2"
   pray "amkisko/rejected-changes", "~> 1.0"
   pray "amkisko/publish-checks", "~> 1.0"
-  pray "amkisko/collaboration-workflow", "~> 2.1"
+  pray "amkisko/collaboration-workflow", "~> 2.2"
 end
 
 tree ".agents/skills" do
-  pray "amkisko/dependency-policy", "~> 3.2"
+  pray "amkisko/dependency-policy", "~> 4.0"
   pray "amkisko/engineering-audit", "~> 2.7"
   pray "amkisko/changelog-update", "~> 2.1"
   pray "amkisko/claims-audit", "~> 1.0"
@@ -125,7 +125,7 @@ make check-artifacts
 | `amkisko/security` | fragment | Credential, secret, tracking, and ownership hygiene for agents |
 | `amkisko/docs-conventions` | fragment | usr/docs trees, usr/migrate, purpose, and heading templates |
 | `amkisko/dependency-issues` | fragment | Dependency bug evidence and fix suggestions |
-| `amkisko/dependency-policy` | fragment + skill | Stop-before-add gate, dependency audit, and lag metrics |
+| `amkisko/dependency-policy` | fragment + skill | Stop-before-add gate, target-scoped vulnerability assessment, and lag metrics |
 | `amkisko/ruby-conventions` | fragment | Ruby and Rails stack conventions |
 | `amkisko/rust-conventions` | fragment | Rust stack conventions |
 | `amkisko/elixir-conventions` | fragment | Elixir and OTP stack conventions |
@@ -141,7 +141,7 @@ make check-artifacts
 | `amkisko/rfc-process` | fragment + skill | RFC numbering, template, types, and statuses |
 | `amkisko/rejected-changes` | fragment | Changes likely rejected in review |
 | `amkisko/publish-checks` | fragment | Pre-publish engineering checklist |
-| `amkisko/collaboration-workflow` | fragment | Durable context and agent traces |
+| `amkisko/collaboration-workflow` | fragment | Durable context, discovered improvements, and agent traces |
 | `amkisko/getting-started` | fragment | How to install pray and wire a consumer |
 | `amkisko/engineering-audit` | skill | Language-agnostic pipeline audit with skippable product modes |
 | `amkisko/changelog-update` | skill | Changelog layering and house style |
@@ -167,4 +167,3 @@ Makefile                  # install, publish, release, serve, clean
 - [Snyk](https://snyk.io/test/github/amkisko/prayers)
 - [Codecov](https://app.codecov.io/github/amkisko/prayers)
 - [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/amkisko/prayers)
-
