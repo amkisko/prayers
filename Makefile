@@ -18,7 +18,7 @@ help:
 	@echo "  make verify           checksum and marker checks"
 	@echo "  make check-artifacts  catalog .praypkg files exist and are git-tracked"
 	@echo "  make validate-skills  package SKILL.md frontmatter via Ruby YAML"
-	@echo "  make test             skill frontmatter validator specs"
+	@echo "  make test             skill frontmatter and artifact checker specs"
 	@echo "  make drift            drift report before review"
 	@echo "  make update           check for newer package versions"
 	@echo "  make publish          update prayers/v1 distribution metadata"
@@ -50,13 +50,14 @@ verify: check-pray
 	$(PRAY) verify
 
 check-artifacts:
-	python3 usr/scripts/check_artifacts.py $(DIST_ROOT)
+	ruby usr/scripts/check_artifacts.rb $(DIST_ROOT)
 
 validate-skills:
 	ruby usr/scripts/validate_skill.rb
 
 test:
 	ruby usr/scripts/validate_skill_test.rb
+	ruby usr/scripts/check_artifacts_test.rb
 
 drift: check-pray
 	$(PRAY) drift
