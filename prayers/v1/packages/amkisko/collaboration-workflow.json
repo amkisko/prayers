@@ -15,7 +15,7 @@
       "published_at": "1783404609",
       "signature": "sha256:b3b25fccf894079f39180aba5e50c72131db72ad9a335d722dd255b6eaa6d15c",
       "derived_metadata": {
-        "summary": "Collaboration and durable context workflow \u2014 Collaboration workflow",
+        "summary": "Collaboration and durable context workflow — Collaboration workflow",
         "topics": [
           "docs",
           "collaboration",
@@ -73,7 +73,7 @@
       "published_at": "1785128733",
       "signature": "sha256:06c60f6192dfecc6b0eb7256991a54920fe44dfdb8fa5cc3ffd7595d1e78599a",
       "derived_metadata": {
-        "summary": "Collaboration and durable context workflow \u2014 Collaboration workflow",
+        "summary": "Collaboration and durable context workflow — Collaboration workflow",
         "topics": [
           "docs",
           "agent",
@@ -131,7 +131,7 @@
       "published_at": "1787991251",
       "signature": "sha256:82c1d8550e9f5e46ef994cf6036667f93c8ef11f4ab632a8468b8dec0c510db7",
       "derived_metadata": {
-        "summary": "Collaboration and durable context workflow \u2014 Collaboration workflow",
+        "summary": "Collaboration and durable context workflow — Collaboration workflow",
         "topics": [
           "docs",
           "work",
@@ -173,6 +173,64 @@
         "file_count": 2,
         "character_count": 584,
         "token_count": 68
+      }
+    },
+    {
+      "version": "2.2.0",
+      "artifact": "v1/artifacts/amkisko/collaboration-workflow/2.2.0/amkisko-collaboration-workflow-2.2.0.praypkg",
+      "artifact_hash": "sha256:f6a664e7a37d704d8e9551ffe979c8c43bcdc901e2b72d1a4f166449dd96cdb4",
+      "tree_hash": "sha256:b9d6efb001a131f038089fb2565f1671fa3c5045c39dae75108580c17e943b7c",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "collaboration-workflow"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788761992",
+      "signature": "sha256:2cfd1e35ebb869e878280ca5f06642ed7512d93f2bc3c079b6893808e24d26ca",
+      "derived_metadata": {
+        "summary": "Collaboration and durable context workflow — Collaboration workflow",
+        "topics": [
+          "docs",
+          "work",
+          "amkisko",
+          "collaboration",
+          "conventions"
+        ],
+        "categories": [
+          "automation",
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage",
+          "reduces manual steps"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              8,
+              1,
+              2,
+              4,
+              9,
+              1,
+              9,
+              3,
+              2,
+              7,
+              7,
+              2,
+              4,
+              6,
+              2,
+              0
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 593,
+        "token_count": 67
       }
     }
   ]

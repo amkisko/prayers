@@ -86,7 +86,7 @@ Stop until one of these applies before adding a dependency:
 - an installed transitive dependency already covers it without a second library for the same job;
 - the feature needs a new package and tests will prove behavior.
 
-Run the dependency-audit skill when adding, replacing, or removing a direct dependency; when asked for a dependency audit; before a release that changes hot-path packages; or after a published advisory names a package in the graph.
+Run dependency-audit for direct dependency changes, graph audits, releases with hot-path package changes, and plausible dependency vulnerability or exploitation signals found during ordinary work. Keep the evidence and assessment in the live-work or dependency record.
 
 Related: `dependency-issues` records upstream defects found during real work; `minimal-implementation` covers YAGNI before adding deps; `engineering-audit` covers code and pipeline review.
 <!-- pray:3ac5d6ce -->
@@ -223,8 +223,8 @@ Related: `writing-prose` covers voice and quality constructs; `engineering-audit
 <!-- pray:48e8a6b3 -->
 ## Collaboration workflow
 
-- agent-assisted work with ongoing project value must leave a trace in the repo;
-- store only specific, decision-bearing, high-signal material; do not commit generic notes, copied chat logs, or filler;
-- use the lightest process that preserves traceability; design-only work does not need branch ceremony unless implementation work starts;
-- follow docs-conventions for docs/ versus usr/docs/ layout.
+- record durable project value in the live-work queue, including improvements to shared guidance or a skill;
+- keep only decision-bearing material; omit generic notes, copied chat, and filler;
+- use the lightest trace that preserves context; design-only work needs no branch unless implementation starts;
+- follow docs-conventions for `docs/` and `usr/docs/`.
 <!-- pray:48e8a6b3 -->
