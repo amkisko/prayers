@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/changelog-update",
+  "version": "2.1.1",
+  "artifact_url": "v1/artifacts/amkisko/changelog-update/2.1.1/amkisko-changelog-update-2.1.1.praypkg",
+  "artifact_hash": "sha256:a74edd4049c9e8e06b0bf55094890fc54cf248a1d6b0d887ee43d702ad7b6f72",
+  "piece_size": 16384,
+  "length": 1876,
+  "pieces": [
+    "sha256:a74edd4049c9e8e06b0bf55094890fc54cf248a1d6b0d887ee43d702ad7b6f72"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/changelog-update/2.1.1/amkisko-changelog-update-2.1.1.praypkg"
+  ],
+  "trackers": []
+}

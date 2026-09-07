@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 1.13.0 (2026-09-07)
+
+- Add `make validate-skills`: check package skill frontmatter with the Ruby standard library YAML parser.
+- Publish `amkisko/writing-prose` 3.4.0: target invented objections and empty contrasts; preserve meaning, necessary negation, scope, and uncertainty when editing.
+- Publish `amkisko/working-rules` 2.3.0: require observed evidence for reported completed actions and exact commands and results for validation.
+- Publish `amkisko/engineering-audit` 2.7.1 and `amkisko/changelog-update` 2.1.1: preserve necessary negation in direct findings and prose reviews.
+
 ## 1.12.0 (2026-09-05)
 
 - Publish `amkisko/dependency-policy` 4.0.0: invoke assessment when ordinary work exposes a plausible dependency vulnerability or exploitation signal; record target applicability, four assessment statuses, priority inputs, and disposition.

@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/engineering-audit",
+  "version": "2.7.1",
+  "artifact_url": "v1/artifacts/amkisko/engineering-audit/2.7.1/amkisko-engineering-audit-2.7.1.praypkg",
+  "artifact_hash": "sha256:b4122b0d129622e16cfcd9736a2591861344b5293843e07fec7e600b048453b9",
+  "piece_size": 16384,
+  "length": 12693,
+  "pieces": [
+    "sha256:b4122b0d129622e16cfcd9736a2591861344b5293843e07fec7e600b048453b9"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/engineering-audit/2.7.1/amkisko-engineering-audit-2.7.1.praypkg"
+  ],
+  "trackers": []
+}

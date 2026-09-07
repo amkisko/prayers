@@ -9,6 +9,6 @@
 - pull request description should include answers to questions: what problem is solved, why it matters, how the solution works, and any relevant context; if the change is non-trivial, include reproduction steps or a changelog entry with intent;
 - pull request checklist: changelog entry with intent or reproduction steps when relevant, test coverage, and quality checks done;
 - follow docs-conventions for usr/docs trace filenames and layout;
-- validation output must list exact commands run and observed results, and never claim tests pass unless they were executed and passed;
+- report completed actions only with observed evidence; validation output must list exact commands run and observed results;
 - ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load;
 - fix the cause of a race, not a retry around it; prefer positive names; compute at write when a read cannot paginate; do not change production design only so tests can reach it.
