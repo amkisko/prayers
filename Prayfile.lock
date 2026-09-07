@@ -26,10 +26,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/changelog-update"
-version = "2.1.0"
+version = "2.1.1"
 path = "./packages/changelog-update"
-tree_hash = "sha256:06c805944f70fa6d3095d6378e5187d506f308119895f15dbc6eca25068646b2"
-artifact_hash = "sha256:06c805944f70fa6d3095d6378e5187d506f308119895f15dbc6eca25068646b2"
+tree_hash = "sha256:c663239cfdcf932c0f95fbc260fce5fcf141cb4e955563c9112a9455a474f28a"
+artifact_hash = "sha256:c663239cfdcf932c0f95fbc260fce5fcf141cb4e955563c9112a9455a474f28a"
 artifact = "path:./packages/changelog-update"
 exports = ["skill"]
 dependencies = []
@@ -132,10 +132,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/engineering-audit"
-version = "2.7.0"
+version = "2.7.1"
 path = "./packages/engineering-audit"
-tree_hash = "sha256:c9b823521bb9bf4fadcc1f35cbef5bdca26c2f685ef7783df56a91c51c40e636"
-artifact_hash = "sha256:c9b823521bb9bf4fadcc1f35cbef5bdca26c2f685ef7783df56a91c51c40e636"
+tree_hash = "sha256:ddd8a315c3eede60c7c37fea5c0d444ef141387053c050cab9c01000a727eb5f"
+artifact_hash = "sha256:ddd8a315c3eede60c7c37fea5c0d444ef141387053c050cab9c01000a727eb5f"
 artifact = "path:./packages/engineering-audit"
 exports = ["skill"]
 dependencies = []
@@ -242,20 +242,20 @@ dependencies = []
 
 [[package]]
 name = "amkisko/working-rules"
-version = "2.2.0"
+version = "2.3.0"
 path = "./packages/working-rules"
-tree_hash = "sha256:ba1536746f47b5cc51b5798267fed3a73f6c3fb800376a9ccbe22fb6508696a1"
-artifact_hash = "sha256:ba1536746f47b5cc51b5798267fed3a73f6c3fb800376a9ccbe22fb6508696a1"
+tree_hash = "sha256:da04ed39a778175924e68acb1205ff4885a5a7d309ffb54eca472f26baf12a08"
+artifact_hash = "sha256:da04ed39a778175924e68acb1205ff4885a5a7d309ffb54eca472f26baf12a08"
 artifact = "path:./packages/working-rules"
 exports = ["working-rules"]
 dependencies = []
 
 [[package]]
 name = "amkisko/writing-prose"
-version = "3.3.0"
+version = "3.4.0"
 path = "./packages/writing-prose"
-tree_hash = "sha256:39bf1e353bc174dab8c85a205e3fb6e650c1db827467a786d8355695abc6761d"
-artifact_hash = "sha256:39bf1e353bc174dab8c85a205e3fb6e650c1db827467a786d8355695abc6761d"
+tree_hash = "sha256:51dfd68a57f740f2285f4a8e3e4aad6cebab19a7e6f74b866cc48931438d4ae3"
+artifact_hash = "sha256:51dfd68a57f740f2285f4a8e3e4aad6cebab19a7e6f74b866cc48931438d4ae3"
 artifact = "path:./packages/writing-prose"
 exports = ["writing-prose"]
 dependencies = []
@@ -273,10 +273,10 @@ id = "9068e4a2"
 target = "AGENTS.md"
 open_line = 10
 close_line = 25
-ideal_checksum = "sha256:a134a9bd0898ed0f3ebe24b7d6ae7f3d9c00a94f415722608b4b7757ca3536ee"
+ideal_checksum = "sha256:c5cc855a87b088b8e2bdb71721fdc2047bbdd8f4fde18e0e45d87325236ab4c9"
 package = "amkisko/working-rules"
 export = "working-rules"
-source_checksum = "sha256:ba1536746f47b5cc51b5798267fed3a73f6c3fb800376a9ccbe22fb6508696a1"
+source_checksum = "sha256:da04ed39a778175924e68acb1205ff4885a5a7d309ffb54eca472f26baf12a08"
 silenced = false
 
 [[managed_span]]
@@ -372,10 +372,10 @@ id = "ca94e22d"
 target = "AGENTS.md"
 open_line = 177
 close_line = 187
-ideal_checksum = "sha256:973ab605a8316b2a7c968b8782cc500d35f3d7a7c488d8ee4acac92dbba77b10"
+ideal_checksum = "sha256:9694a2c47fb8e70fc0f300773bb3237e2d4c1f12074ba5ec32e0507ee90bd9e1"
 package = "amkisko/writing-prose"
 export = "writing-prose"
-source_checksum = "sha256:39bf1e353bc174dab8c85a205e3fb6e650c1db827467a786d8355695abc6761d"
+source_checksum = "sha256:51dfd68a57f740f2285f4a8e3e4aad6cebab19a7e6f74b866cc48931438d4ae3"
 silenced = false
 
 [[managed_span]]
@@ -430,7 +430,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/changelog-update/changelog-update.md"
-content_hash = "sha256:83cbbcdbea50ec78de5b79b55a628f4ba2968604ff1680e2782ee3c8ef6bb72b"
+content_hash = "sha256:24cc79d2832f2e6c24f49181ca4b0122a3f4836e0be72e42b669faf259e6c10c"
 package = "amkisko/changelog-update"
 export = "skill"
 
@@ -496,7 +496,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/engineering-audit.md"
-content_hash = "sha256:42f62da7ea5b045daf635d7f7dbc18c5806caa4668b6d6fcbbfbe4bee0b6b00b"
+content_hash = "sha256:863efc91586065907251776dda5d16c912f76b224941af9250f52da2ffef0029"
 package = "amkisko/engineering-audit"
 export = "skill"
 

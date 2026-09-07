@@ -19,7 +19,7 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 - pull request description should include answers to questions: what problem is solved, why it matters, how the solution works, and any relevant context; if the change is non-trivial, include reproduction steps or a changelog entry with intent;
 - pull request checklist: changelog entry with intent or reproduction steps when relevant, test coverage, and quality checks done;
 - follow docs-conventions for usr/docs trace filenames and layout;
-- validation output must list exact commands run and observed results, and never claim tests pass unless they were executed and passed;
+- report completed actions only with observed evidence; validation output must list exact commands run and observed results;
 - ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load;
 - fix the cause of a race, not a retry around it; prefer positive names; compute at write when a read cannot paginate; do not change production design only so tests can reach it.
 <!-- pray:9068e4a2 -->
@@ -177,9 +177,9 @@ Related: `keep-the-work` covers staying on the failed place and keeping answers 
 <!-- pray:ca94e22d -->
 ## Writing and changelog prose checks
 
-Read once for marketing odor, once for negation-led sentences, once for stray em dashes, and once for paragraphs that break on clause instead of on scene; keep live notes and metadata honest and plain.
+Review for marketing language, invented objections, empty contrasts, stray em dashes, and paragraph flow; keep notes and metadata honest and plain.
 - repo trace under usr/docs: plain prose readable without a rendered preview. No markdown tables, bold, italic, or other styling. Prioritize factual accuracy over presentation.
-- Ease, lexical diversity, coherence, mechanics, and claim integrity are separate constructs. Automated matches, readability grades, similarity, and model preference are review prompts; rewrite for meaning.
+- Ease, lexical diversity, coherence, mechanics, and claim integrity are separate constructs. Automated matches, readability grades, similarity, and model preference are review prompts; preserve meaning, necessary negation, scope, and uncertainty when editing.
 - Keep agency on the person who acts. Tools and process nouns do mechanical work.
 - Technical names, APIs, CLI verbs, RFC titles, identifiers, and UI copy use instrument and protocol words: check-in, last-seen, probe, monitor, expected tick. Body and organism metaphors such as heartbeat, pulse, and organ stay out of contracts and code. HTTP `/health` remains the liveness probe until a later RFC.
 - One sentence holds one beat. Consecutive short sentences that only restated the same beat are a punchline stack.
