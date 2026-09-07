@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Run `make check-artifacts` with the Ruby standard library.
+
 ## 1.13.0 (2026-09-07)
 
 - Add `make validate-skills`: check package skill frontmatter with the Ruby standard library YAML parser.

@@ -115,7 +115,7 @@ git add prayers/v1/artifacts
 make check-artifacts
 ```
 
-`make validate-skills` checks package `SKILL.md` frontmatter with the Ruby standard library YAML parser. `make test` runs that checker's specs.
+`make validate-skills` checks package `SKILL.md` frontmatter with the Ruby standard library YAML parser. `make check-artifacts` checks catalog `.praypkg` paths with the same Ruby runtime. `make test` runs those checkers' specs.
 
 `make release` runs validate-skills, publish, plan, apply, verify, then check-artifacts. If check-artifacts reports untracked files, add those paths and rerun `make check-artifacts` only. Do not rerun `make publish`; it restamps unchanged catalog timestamps.
 

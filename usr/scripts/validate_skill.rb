@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Psych parses SKILL.md frontmatter. Python stdlib has no YAML parser, and the
-# system skill-creator validator cannot start without PyYAML.
+# Psych parses SKILL.md frontmatter.
 require "yaml"
 
 NAME_PATTERN = /\A[a-z0-9]+(?:-[a-z0-9]+)*\z/
