@@ -22,6 +22,7 @@
     "amkisko/minimal-implementation",
     "amkisko/operational-signal-intake",
     "amkisko/preferred-stack",
+    "amkisko/public-surface-recon",
     "amkisko/publish-checks",
     "amkisko/rejected-changes",
     "amkisko/rfc-process",

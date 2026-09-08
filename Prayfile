@@ -30,6 +30,7 @@ tree ".agents/skills" do
   pray "amkisko/changelog-update", path: "packages/changelog-update"
   pray "amkisko/claims-audit", path: "packages/claims-audit"
   pray "amkisko/rfc-process", path: "packages/rfc-process"
+  pray "amkisko/public-surface-recon", path: "packages/public-surface-recon"
 end
 
 pray "amkisko/community-security", path: "packages/community-security", file: "SECURITY.md"

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.15.0 (2026-09-08)
+
+- Add `amkisko/public-surface-recon` 1.0.0: blackbox public recon from HTTP, archives, and public repositories; tree under `.agents/skills`; do not compose into AGENTS.md.
+
 ## 1.14.0 (2026-09-08)
 
 - Add `amkisko/operational-signal-intake` 1.0.0: separate observed conditions, consequences, and hypotheses; correlate provider-neutral live evidence; route reliability, security, privacy, and user-impact work without treating a signal as proof.

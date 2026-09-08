@@ -1,0 +1,17 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/public-surface-recon",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/public-surface-recon/1.0.0/amkisko-public-surface-recon-1.0.0.praypkg",
+  "artifact_hash": "sha256:6ef330901d6ed89f35d1bc81b874dbbc8d722a543c7dab9976acfaf99efbda26",
+  "piece_size": 16384,
+  "length": 22318,
+  "pieces": [
+    "sha256:715e2ea621e085efc75f5f1d0c6c8885416452a11ea5340d29b4c97ffa1bbfad",
+    "sha256:f91ca284a7f1c4e93f184b1c7797469612ab616e39024eb7ae0f894239d03ac1"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/public-surface-recon/1.0.0/amkisko-public-surface-recon-1.0.0.praypkg"
+  ],
+  "trackers": []
+}
