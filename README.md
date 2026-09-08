@@ -75,6 +75,7 @@ end
 tree ".agents/skills" do
   pray "amkisko/dependency-policy", "~> 4.0"
   pray "amkisko/engineering-audit", "~> 2.7"
+  pray "amkisko/operational-signal-intake", "~> 1.0"
   pray "amkisko/changelog-update", "~> 2.1"
   pray "amkisko/claims-audit", "~> 1.0"
   pray "amkisko/rfc-process", "~> 1.2"
@@ -146,6 +147,7 @@ make check-artifacts
 | `amkisko/collaboration-workflow` | fragment | Durable context, discovered improvements, and agent traces |
 | `amkisko/getting-started` | fragment | How to install pray and wire a consumer |
 | `amkisko/engineering-audit` | skill | Language-agnostic pipeline audit with skippable product modes |
+| `amkisko/operational-signal-intake` | skill | Provider-neutral intake for live service, reliability, security, and user-impact evidence |
 | `amkisko/changelog-update` | skill | Changelog layering and house style |
 | `amkisko/community-security` | file | Shared SECURITY.md |
 | `amkisko/community-code-of-conduct` | file | Shared CODE_OF_CONDUCT.md |

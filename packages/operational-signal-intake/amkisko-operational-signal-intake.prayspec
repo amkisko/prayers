@@ -1,0 +1,18 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/operational-signal-intake"
+  spec.version = "1.0.0"
+  spec.summary = "Provider-neutral intake for live service, reliability, security, and user-impact signals"
+  spec.files = [
+    "README.md",
+    "skills/operational-signal-intake/SKILL.md",
+    "skills/operational-signal-intake/references/evidence-model.md",
+    "skills/operational-signal-intake/references/security-reliability.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/operational-signal-intake",
+      summary: "Operational signal intake skill"
+    }
+  }
+end
