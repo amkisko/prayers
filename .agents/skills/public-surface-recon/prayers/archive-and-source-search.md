@@ -26,8 +26,8 @@ Historical and off-site evidence for **each origin** in the registry, with a str
 
 ### Phase 1 — Archive per origin
 
-1. Run web archive CDX for **each origin** in registry (browser User-Agent if blocked).
-2. Per host: first snapshot, retired paths, auth migrations. Archived path → live check on **that** host.
+1. Run web archive CDX for **each origin** in registry. If the archive host refuses the request, record the block; do not spoof a browser User-Agent or other client marks to bypass it.
+2. Per host: first snapshot, retired paths, auth migrations. Archived path → live check on **that** host. For secret-shaped paths (`.env`, `.git/config`, private keys): record status and content-type only; do not quote the body.
 3. CDX filter for extensions suggesting source or config: `.map`, `package.json`, `Gemfile`, `go.mod`, `requirements.txt`, `.git/config`, `.env`, `docker-compose`.
 4. When live image metadata is stripped, compare archived favicon, logo, or og:image for retained EXIF or different branding.
 
@@ -122,3 +122,5 @@ For each candidate repo record: URL, stars/forks optional, **relation** (same pr
 - Repo named like product but different hostname needs explicit link evidence.
 - Public repo with only docs or SDK ≠ full application source; state what is missing for local run.
 - Prefer platform search and quoted web search over guessing private repo URLs.
+- Do not spoof a User-Agent or other client marks to bypass a block.
+- Live secret-shaped files: pattern and status only; no body quotes; no further sibling-path guessing for secrets.

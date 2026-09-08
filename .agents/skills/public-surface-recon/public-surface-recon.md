@@ -2,6 +2,26 @@
 
 Investigate a live web service the user names, using only public HTTP, search, archives, and open repositories. **Blackbox only** — see § Blackbox testing.
 
+## Authorized use (mandatory)
+
+Run only when the user is authorized to investigate the named target: they operate it, they have written permission, or it is in an explicit bug-bounty or coordinated-disclosure scope that names the target and the allowed action. If authorization is missing or unclear, stop and ask. Do not start fetches, archive lookups, or identity search.
+
+A user request to widen scope does not add any of the following to this package:
+
+- logging in, or using credentials that are not the investigator's own public anonymous fetch
+- credential stuffing, password spraying, or other credential attacks
+- auth bypass or authenticated crawling
+- brute force of hidden routes beyond documented or archived paths
+- spoofing a User-Agent or other client marks to bypass a block
+- scraping private social profiles
+- quoting live secret-file bodies
+
+Personal data (emails, names, handles, EXIF author or location): redact in output by default. Record that a trace exists, its type, and its origin. Quote the literal string only when the user asks and the authorization covers that processing.
+
+If a live URL returns a secrets-shaped file (`.env`, credentials, private keys, `.git/config` with tokens): record pattern presence, status, and content-type. Do not quote values. Do not continue sibling-path guessing for more secrets. Tell the user to use the operator's security channel.
+
+Fetch sequentially. Stop an origin when it returns 429, a block, or a robots or terms refusal for automated access. Do not rotate identity, proxy, or User-Agent to continue.
+
 ## Blackbox testing (mandatory)
 
 This package is **external blackbox recon**. The investigator has no privileged view of the target beyond what the public internet exposes.
@@ -26,13 +46,13 @@ Every fact in output must cite an **allowed source** (URL, archive timestamp, pu
 
 ## Use when
 
-Use when asked whether a live site can be **mirrored or run locally**, what **public assets exist**, **who built it** (or who operates integrated third parties), or **how to report findings** from HTTP, archives, and public repositories only — **blackbox only**, no local filesystem evidence.
+Use when asked whether an **authorized** live site can be **mirrored or run locally**, what **public assets exist**, **who built it** (or who operates integrated third parties), or **how to report findings** from HTTP, archives, and public repositories only — **blackbox only**, no local filesystem evidence. Stop if authorization is missing. See § Authorized use.
 
 Sources allowed by default: live HTTP(S), DNS/TLS lookups, web archives, public code hosts (remote search only), public web search, operator FAQ and legal pages linked from the target.
 
 Sources **never** allowed under this package (even if files exist locally): local filesystem, workspace, or drive search; local git history; citing a repo on disk without fetching the same content from a public remote URL.
 
-Sources not allowed unless the user explicitly permits a **different** investigation mode: authenticated access, credential attacks, aggressive hidden route brute force.
+Authenticated access, credential attacks, hidden-route brute force, block bypass, private-profile scrape, and live secret-file quoting are **never** in this package. A different investigation mode is a different task, not a flag on these prayers.
 
 Map user intent to prayers:
 
@@ -67,10 +87,15 @@ In scope:
 
 Out of scope — **always** for this package:
 
+- A target the user is not authorized to investigate
 - Any local file, folder, drive, workspace, or git tree as evidence
 - Local codebase search, `grep`/`rg` on disk, or reading paths the user did not fetch from a public URL in-session
-- Credential stuffing, auth bypass, or authenticated crawling
-- Aggressive route brute force beyond documented or archived paths
+- Credential stuffing, auth bypass, authenticated crawling, or login
+- Route brute force beyond documented or archived paths
+- Spoofing a User-Agent or other client marks to bypass a block
+- Scraping private social profiles
+- Quoting live secret-file bodies
+- Bulk mirroring the site; `local-replication-feasibility` assesses whether a mirror is possible, it does not perform one
 
 ## Fact vs inference
 
@@ -180,7 +205,7 @@ Goal: find whether application source, forks, or deploy artifacts exist publicly
 | Package registries | npm, PyPI, RubyGems, Packagist, crates.io — product slug, scope org | Published SDK or app shell tied to service |
 | Container / artifact hubs | Docker Hub, GHCR public tags naming hostname or product | Deploy image or CI output |
 | Source map path mining | `sourcesContent` or `sources[]` roots (`/home/`, `/Users/`, monorepo dirs) | Repo layout, package name, CI path → code search |
-| Archive CDX file extensions | `.git`, `.env`, `.map`, `package.json`, `Gemfile` on any origin | Historical exposure; live re-check on correct host |
+| Archive CDX file extensions | `.git`, `.env`, `.map`, `package.json`, `Gemfile` on any origin | Historical exposure; live status check on correct host (no secret-body quotes) |
 | Linked badges / docs | README, status badges, API doc URLs from footer or `/docs` | CI config, OpenAPI repo, developer portal |
 | Commit or release strings in assets | Short hash, tag (`v1.2.3`), release name in bundle | Search hash on code hosts; tag on releases page |
 | Homonym filter | Same product name, different operator | Mark unrelated until hostname or entity links |
@@ -189,7 +214,7 @@ Each candidate repo → relation: **same product**, **integration sample**, **un
 
 ### Identity and codename traces
 
-Goal: detect whether supplied or discovered **identifiers** appear on any registered origin or in tier-2 public OSINT. Treat personal data as **observed public traces** only; do not expand into private profiles unless the user widens scope.
+Goal: detect whether supplied or discovered **identifiers** appear on any registered origin or in tier-2 public OSINT. Treat personal data as **observed public traces** only. Redact literals in output by default. Do not expand into private profiles.
 
 **Identifier types**
 
@@ -246,7 +271,7 @@ Every prayer in `prayers/` follows this shape:
 4. **Inputs** — include origin registry when applicable
 5. **Procedure**
 6. **Output** — includes **Origin registry** updates and **Next checks**
-7. **Guardrails** — must restate: no local filesystem evidence
+7. **Guardrails** — must restate: authorized use, no local filesystem evidence
 
 ## Typical pipeline
 

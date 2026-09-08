@@ -193,3 +193,6 @@ Filled copy of `templates/investigation-report.html` with the same sections and 
 - Unresolved `unknown` origins must appear in open checks.
 - Markdown and HTML must carry the same facts; HTML is not a shortened summary.
 - Do not decorate prose with bold or italic except host labels in authentication bullets and inline code for paths.
+- Redact emails, names, handles, and EXIF author or location unless the user asked for literals.
+- Do not include secret-file bodies; record pattern presence and status only.
+- State that the investigation ran under authorized blackbox scope.
