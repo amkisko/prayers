@@ -596,6 +596,67 @@
         "character_count": 32080,
         "token_count": 512
       }
+    },
+    {
+      "version": "2.7.2",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.7.2/amkisko-engineering-audit-2.7.2.praypkg",
+      "artifact_hash": "sha256:43c6c316bd852e2a96b06df3325be8f4c45c2700caefaab2c7ad2c2a9c5c73d8",
+      "tree_hash": "sha256:271f3e7bf41cb14e6caa513b52835750c2027dce2a4fcf8200171c67ecb0bb43",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": "1788856855",
+      "signature": "sha256:427d1181c5e3074cdaddfe7cb6a002b763468953b23cafe89e0a90d151b05616",
+      "derived_metadata": {
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "topics": [
+          "when",
+          "mode",
+          "review",
+          "product",
+          "audit"
+        ],
+        "categories": [
+          "automation",
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior",
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              26,
+              21,
+              33,
+              41,
+              27,
+              38,
+              37,
+              30,
+              40,
+              31,
+              27,
+              39,
+              38,
+              36,
+              24,
+              24
+            ]
+          }
+        ],
+        "file_count": 12,
+        "character_count": 32337,
+        "token_count": 512
+      }
     }
   ]
 }
