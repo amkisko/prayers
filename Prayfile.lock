@@ -204,8 +204,8 @@ dependencies = []
 name = "amkisko/public-surface-recon"
 version = "1.0.0"
 path = "./packages/public-surface-recon"
-tree_hash = "sha256:0c9b6740fd5a76a36b64e318f7721fc31be8d36d9a8de3f0b9f56c901be48b43"
-artifact_hash = "sha256:0c9b6740fd5a76a36b64e318f7721fc31be8d36d9a8de3f0b9f56c901be48b43"
+tree_hash = "sha256:0d88f2e094f94fa30eb9373c20b8ce00ecba2a32ec353423a372614d9e313646"
+artifact_hash = "sha256:0d88f2e094f94fa30eb9373c20b8ce00ecba2a32ec353423a372614d9e313646"
 artifact = "path:./packages/public-surface-recon"
 exports = ["skill"]
 dependencies = []
@@ -588,61 +588,61 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/SKILL.md"
-content_hash = "sha256:ef294283b8830988695fb25afe07e6bcadefeacb32d3fc10a4953b85469af280"
+content_hash = "sha256:1499883f3364bde6e9fa93e2eb7440affa61ef780d7fdc1e277fc72c49f609af"
 package = "amkisko/public-surface-recon"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/prayers/archive-and-source-search.md"
-content_hash = "sha256:ff727b822a40ffd488ddcaa142636e3f99296f2c4606a1f070e26549def51b7b"
+content_hash = "sha256:61add210043a48773f252c54b35bdfb418be1d91498f79a58f2e27f460fb4593"
 package = "amkisko/public-surface-recon"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/prayers/build-artifact-review.md"
-content_hash = "sha256:c1704d5d99405bec3591744e0d4da0ed9e7713077f4d3db0289588376cdb6ef0"
+content_hash = "sha256:39d919c6d26bd8e7d6e48c7260d10ca28d378d52fe49375a6c395c0f294076fc"
 package = "amkisko/public-surface-recon"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/prayers/entity-correlation.md"
-content_hash = "sha256:26eec575788bae8c0afe3c8963118de1f1979886272314035afc31bee3ad4e7b"
+content_hash = "sha256:6fe4e35adf03b8b75071d5df68f03e8389b4a64d2c30fb5f8c68910908a63c61"
 package = "amkisko/public-surface-recon"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/prayers/identity-trace-search.md"
-content_hash = "sha256:96a28e2ac962182fc04c070a8c1f2df81b343e586349a86975bad67c1490929d"
+content_hash = "sha256:ed211c6e5e00981d505f1f9d8e8b99715b79e51ef7d119a9806796c73db6cc09"
 package = "amkisko/public-surface-recon"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/prayers/investigation-report.md"
-content_hash = "sha256:6baec80e9d6dfb7e9fce82896dbfac0bf15715bcda6db4d4d4c8fd7e6525c6cc"
+content_hash = "sha256:b73109903778e1a881d1a33a24016a0df2529591138fcaec1077508a97748e08"
 package = "amkisko/public-surface-recon"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/prayers/local-replication-feasibility.md"
-content_hash = "sha256:b5ad25665c0a21bb2bce60abde5b83bec9be7ea3ec52c70089cca95acfe88b55"
+content_hash = "sha256:6c3b38d83b795efe6f27a0accaa54e21b589df706b02817a125490f8b2037961"
 package = "amkisko/public-surface-recon"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/prayers/public-asset-inventory.md"
-content_hash = "sha256:11dd2ee694ec132b77127ba50364a24a24b3f1e5f9d410b0d4ac111ed1e918c9"
+content_hash = "sha256:6485d870d14bbc807128a89a86e76d83c3dc5f1eb013b5b1821e116664bf6771"
 package = "amkisko/public-surface-recon"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/prayers/service-identification.md"
-content_hash = "sha256:1f9dcef834970dc8ba614ea1374f540003bd156dd1b0b0b87bbfef9cc685787f"
+content_hash = "sha256:625199caba4414bb96e6655a71dfb47d6331621d091bdf36be211060da82f8d2"
 package = "amkisko/public-surface-recon"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/public-surface-recon.md"
-content_hash = "sha256:a16b7e59b7cb46c42dd070465146085ae47914bdc40d987a13614a854932cca9"
+content_hash = "sha256:cb62dfc9b7c6d6808b178169b91efb54e836d4a6fcb3ae7edba17f9465653e13"
 package = "amkisko/public-surface-recon"
 export = "skill"
 

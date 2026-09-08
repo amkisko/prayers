@@ -11,7 +11,7 @@ External blackbox testing. Facts come from live HTTP, archives, and public remot
 
 ## Use when
 
-Asked whether a **live site can be mirrored or run locally**, what **public assets exist**, **who built it**, or **how to report findings** from HTTP, archives, and public repositories only — **blackbox only**.
+Asked whether an **authorized** live site can be mirrored or run locally, what **public assets exist**, **who built it**, or **how to report findings** from HTTP, archives, and public repositories only — **blackbox only**. Stop if the user has no authorization for the named target. See `public-surface-recon.md` § Authorized use.
 
 | Question | Start here |
 |----------|------------|
@@ -43,7 +43,11 @@ Carry **origin registry** and **open checks** between prayers.
 
 ## Quick guardrails
 
+- **Authorized use:** operator, written permission, or named bounty / disclosure scope. Stop and ask if unclear. User "widen scope" does not add login, credential attacks, brute force, block bypass, private-profile scrape, or secret-body quotes.
 - **Blackbox:** no facts from local files, folders, drives, or workspace — public fetch and remote OSINT only.
+- Redact emails, names, handles, and EXIF author or location by default.
+- If a live secrets-shaped file answers: record pattern and status, do not quote values, stop sibling-path guessing for secrets.
+- Sequential fetches; stop on 429, block, or automated-access refusal; do not spoof User-Agent or rotate identity to continue.
 - Entry URL ≠ auth host ≠ assets host until checks close.
 - Inventory and searches extend to every origin the registry lists.
 - Every detection → at least one next check.

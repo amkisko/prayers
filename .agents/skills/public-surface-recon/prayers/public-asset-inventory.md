@@ -107,6 +107,8 @@ Inventory public surface **per origin** in the registry. Auth hosts and asset ho
 
 ## Guardrails
 
+- Confirm authorization before fetching; stop if missing. See `public-surface-recon.md` § Authorized use.
+- Sequential fetches. Stop an origin on 429, a block, or an automated-access refusal. Do not spoof User-Agent or rotate identity to continue.
 - Do not use local filesystem, workspace search, or disk git repos as evidence. Assets must be fetched from public URLs in-session.
 - Referenced asset on `cdn.other.example` ≠ hosted on entry host; inventory both.
 - Auth broker may host only UI while app stays on entry origin, or the reverse; use full URLs.

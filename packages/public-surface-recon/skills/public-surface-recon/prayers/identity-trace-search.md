@@ -2,7 +2,7 @@
 
 - Write analysis in English unless the user specifies otherwise.
 - **Blackbox only:** facts from public HTTP, archives, and remote OSINT — never from local files, folders, drives, or workspace.
-- Quote matched strings literally; redact only if the user asks.
+- Redact emails, personal names, and handles by default. Quote the literal string only when the user asks and authorization covers that processing.
 - Separate **on-service** (tier 1) from **off-service OSINT** (tier 2).
 - Record **origin + file or page** for every hit.
 
@@ -107,4 +107,4 @@ Do not treat tier 2 as proof the identifier works on production; queue live re-c
 - Report which origins were searched for each negative; absence on entry host ≠ absent everywhere.
 - Map path like `/Users/name/project` in a **publicly fetched** source map is trace evidence; do not open that path on the investigator's disk.
 - Common names and generic codewords → homonym check before tier 1 attribution.
-- Do not log into accounts or scrape private social profiles under default scope.
+- Do not log into accounts or scrape private social profiles. A user request to widen scope does not add those actions.

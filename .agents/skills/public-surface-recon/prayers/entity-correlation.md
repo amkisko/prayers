@@ -103,6 +103,7 @@ Answer with tier table per origin searched.
 
 ## Guardrails
 
+- Confirm authorization; stop if missing. See `public-surface-recon.md` § Authorized use.
 - Do not use local filesystem, workspace search, or disk git repos as evidence. Tier-1 hits must come from assets fetched from public origins.
 - "Not found on entry host" ≠ not found; report which origins were searched.
 - Auth broker logos on auth origin are tier-1 for auth entity even if absent on entry page.

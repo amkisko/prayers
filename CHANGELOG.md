@@ -3,6 +3,7 @@
 ## 1.15.0 (2026-09-08)
 
 - Add `amkisko/public-surface-recon` 1.0.0: blackbox public recon from HTTP, archives, and public repositories; tree under `.agents/skills`; do not compose into AGENTS.md.
+- Require authorized targets for `amkisko/public-surface-recon`: operator, written permission, or named bounty or disclosure scope; redact personal data by default; do not spoof a User-Agent to bypass a block or quote live secret files.
 
 ## 1.14.0 (2026-09-08)
 

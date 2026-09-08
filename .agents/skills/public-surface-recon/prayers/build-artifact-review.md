@@ -72,3 +72,4 @@ Review build or debug artifacts on **each assets origin** in the registry. Maps 
 - Same operator may use multiple asset origins; inventory each.
 - Pattern hit on CDN artifact is disclosure for that host's operator relationship, not automatically entry host breach.
 - Empty live metadata does not close the trace; queue archive snapshot of same image path.
+- If a live response is secrets-shaped: record pattern and status, do not quote values, stop sibling-path guessing for more secrets.

@@ -70,3 +70,4 @@ Assess fetch, store, and local run feasibility when **entry, auth, and assets ma
 - Mirroring entry HTML without CDN assets gives broken shell; list assets origins required.
 - Auth on external broker blocks full clone even if app source were public.
 - Verdict **low** while auth or assets origins lack inventory passes.
+- This prayer assesses feasibility. Do not perform a bulk site mirror as part of the investigation.

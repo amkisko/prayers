@@ -67,6 +67,7 @@ Establish what the user-given target is. Seed **origin registry**, entity list, 
 
 ## Guardrails
 
+- Confirm authorization before the first fetch; stop if missing. See `public-surface-recon.md` § Authorized use.
 - Do not use local filesystem, workspace search, or disk git repos as evidence.
 - User gave one URL; auth and assets may still be elsewhere — do not collapse hosts.
 - `www` vs `app` vs bare domain are separate origins until role checks close.
