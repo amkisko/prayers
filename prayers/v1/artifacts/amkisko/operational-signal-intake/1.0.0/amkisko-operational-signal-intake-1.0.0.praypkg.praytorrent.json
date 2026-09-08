@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/operational-signal-intake",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/operational-signal-intake/1.0.0/amkisko-operational-signal-intake-1.0.0.praypkg",
+  "artifact_hash": "sha256:c377f6baf57d3c482b3169e166fa8a71779430d5e88ca3a9506522d61d2312fb",
+  "piece_size": 16384,
+  "length": 6455,
+  "pieces": [
+    "sha256:c377f6baf57d3c482b3169e166fa8a71779430d5e88ca3a9506522d61d2312fb"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/operational-signal-intake/1.0.0/amkisko-operational-signal-intake-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

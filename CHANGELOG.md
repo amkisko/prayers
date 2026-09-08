@@ -1,9 +1,9 @@
 # CHANGELOG
 
-## Unreleased
+## 1.14.0 (2026-09-08)
 
 - Add `amkisko/operational-signal-intake` 1.0.0: separate observed conditions, consequences, and hypotheses; correlate provider-neutral live evidence; route reliability, security, privacy, and user-impact work without treating a signal as proof.
-- Update `amkisko/engineering-audit` to 2.7.2: route live evidence through operational signal intake before deeper observability review.
+- Publish `amkisko/engineering-audit` 2.7.2: route live evidence through operational signal intake before deeper observability review.
 - Run `make check-artifacts` with the Ruby standard library.
 
 ## 1.13.0 (2026-09-07)
