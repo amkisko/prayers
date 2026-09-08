@@ -1,7 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
 generated_by = "pray 1.12.0"
-manifest_hash = "sha256:238e3b7ba39f45ed35a8c25af24ad6316d8c009819eb325301eb79a3dc99254e"
+manifest_hash = "sha256:1c2c8f784d179adf50ff1865cbcff70d10ee4f73fbb4c62efbb495f3a4e18e3d"
 source = []
 
 [[package]]
@@ -132,10 +132,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/engineering-audit"
-version = "2.7.1"
+version = "2.7.2"
 path = "./packages/engineering-audit"
-tree_hash = "sha256:ddd8a315c3eede60c7c37fea5c0d444ef141387053c050cab9c01000a727eb5f"
-artifact_hash = "sha256:ddd8a315c3eede60c7c37fea5c0d444ef141387053c050cab9c01000a727eb5f"
+tree_hash = "sha256:271f3e7bf41cb14e6caa513b52835750c2027dce2a4fcf8200171c67ecb0bb43"
+artifact_hash = "sha256:271f3e7bf41cb14e6caa513b52835750c2027dce2a4fcf8200171c67ecb0bb43"
 artifact = "path:./packages/engineering-audit"
 exports = ["skill"]
 dependencies = []
@@ -178,6 +178,16 @@ tree_hash = "sha256:e68a5459effa93349471993df63a68f14d5db763bb0980d260dc210132e7
 artifact_hash = "sha256:e68a5459effa93349471993df63a68f14d5db763bb0980d260dc210132e73fc8"
 artifact = "path:./packages/minimal-implementation"
 exports = ["minimal-implementation"]
+dependencies = []
+
+[[package]]
+name = "amkisko/operational-signal-intake"
+version = "1.0.0"
+path = "./packages/operational-signal-intake"
+tree_hash = "sha256:69df63df3530d9739a15128e07e521c43dd95da349219ee010ab4d572d175ec1"
+artifact_hash = "sha256:69df63df3530d9739a15128e07e521c43dd95da349219ee010ab4d572d175ec1"
+artifact = "path:./packages/operational-signal-intake"
+exports = ["skill"]
 dependencies = []
 
 [[package]]
@@ -508,7 +518,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/observability.md"
-content_hash = "sha256:c743c1c0da77b0de175eba4ad777b56fdbfaf493bd1b03b6eb5eb903f09ea731"
+content_hash = "sha256:0a2cc8d92fa9ac8f241139ea1bc0eed9f6a1ad6a036e340d7105a74fbf8eff16"
 package = "amkisko/engineering-audit"
 export = "skill"
 
@@ -546,6 +556,24 @@ export = "skill"
 path = ".agents/skills/engineering-audit/trace-and-identification.md"
 content_hash = "sha256:40d944f97538810e0213eea2abdfd170b66bd1165885f51923e38a2d8e5b45ce"
 package = "amkisko/engineering-audit"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/operational-signal-intake/SKILL.md"
+content_hash = "sha256:ce3129af2ed5aaf5d9aa539a6d2cd03b35d66d51417a9c1730fa6daaf0a0f45d"
+package = "amkisko/operational-signal-intake"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/operational-signal-intake/references/evidence-model.md"
+content_hash = "sha256:0d9c1ec8d46efd8ed3e774be158cff0f70e8fea157e324cd071972d6702ec497"
+package = "amkisko/operational-signal-intake"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/operational-signal-intake/references/security-reliability.md"
+content_hash = "sha256:5baba7aceae55542fa8acf4aa235a318b1cd518a5570e221d086d46f7ae7f87e"
+package = "amkisko/operational-signal-intake"
 export = "skill"
 
 [[provisioned]]
