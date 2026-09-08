@@ -1,0 +1,26 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/public-surface-recon"
+  spec.version = "1.0.0"
+  spec.summary = "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence"
+  spec.files = [
+    "README.md",
+    "skills/public-surface-recon/SKILL.md",
+    "skills/public-surface-recon/public-surface-recon.md",
+    "skills/public-surface-recon/prayers/service-identification.md",
+    "skills/public-surface-recon/prayers/public-asset-inventory.md",
+    "skills/public-surface-recon/prayers/entity-correlation.md",
+    "skills/public-surface-recon/prayers/local-replication-feasibility.md",
+    "skills/public-surface-recon/prayers/archive-and-source-search.md",
+    "skills/public-surface-recon/prayers/identity-trace-search.md",
+    "skills/public-surface-recon/prayers/build-artifact-review.md",
+    "skills/public-surface-recon/prayers/investigation-report.md",
+    "skills/public-surface-recon/templates/investigation-report.html"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/public-surface-recon",
+      summary: "Public web surface reconnaissance for external services"
+    }
+  }
+end

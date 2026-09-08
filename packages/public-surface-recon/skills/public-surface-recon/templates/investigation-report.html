@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Investigation Report: ENTRY_HOST</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --surface: #fff;
+      --text: #1a1a1a;
+      --muted: #5c6370;
+      --border: #dde1e6;
+      --accent: #0f62fe;
+      --tier-1: #198038;
+      --tier-2: #b28600;
+      --tier-3: #8a3ffc;
+      --open: #da1e28;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+      font-size: 15px;
+      line-height: 1.55;
+      color: var(--text);
+      background: var(--bg);
+    }
+    .page {
+      max-width: 52rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    header {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      margin: 0 0 0.35rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .meta dt {
+      display: inline;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .meta dd {
+      display: inline;
+      margin: 0 1.25rem 0 0.35rem;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      background: #e8f0fe;
+      color: var(--accent);
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem 1.75rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      margin: 0 0 0.75rem;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+    h3 {
+      margin: 1.25rem 0 0.5rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--muted);
+    }
+    p { margin: 0 0 0.75rem; }
+    p:last-child { margin-bottom: 0; }
+    ul, ol {
+      margin: 0 0 0.75rem;
+      padding-left: 1.35rem;
+    }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--accent); }
+    code, .mono {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-size: 0.88em;
+      background: #f4f4f4;
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin: 0.75rem 0;
+    }
+    th, td {
+      text-align: left;
+      padding: 0.5rem 0.65rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    th {
+      font-weight: 600;
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    tr:last-child td { border-bottom: none; }
+    .confidence-high { color: var(--tier-1); font-weight: 600; }
+    .confidence-medium { color: var(--tier-2); font-weight: 600; }
+    .confidence-low { color: var(--open); font-weight: 600; }
+    .tier-1 { color: var(--tier-1); }
+    .tier-2 { color: var(--tier-2); }
+    .tier-3 { color: var(--tier-3); }
+    .flow {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-size: 0.85rem;
+      background: #f4f4f4;
+      padding: 0.75rem 1rem;
+      border-radius: 4px;
+      overflow-x: auto;
+      white-space: pre;
+      margin: 0.5rem 0 0.75rem;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
+    @media print {
+      body { background: #fff; }
+      .page { max-width: none; padding: 0; }
+      section, header { border: none; box-shadow: none; page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p class="badge">Blackbox investigation</p>
+      <h1>Investigation Report: ENTRY_HOST</h1>
+      <dl class="meta">
+        <dt>Date</dt><dd>ISO_DATE</dd>
+        <dt>Entry URL</dt><dd><a href="ENTRY_URL">ENTRY_URL</a></dd>
+        <dt>Scope</dt><dd>USER_SCOPE</dd>
+      </dl>
+    </header>
+
+    <!-- Prose first: answer user questions in plain sentences. -->
+    <section id="summary">
+      <h2>Executive summary</h2>
+      <!-- One short paragraph per user question. State confidence in the sentence (high / medium / low). -->
+      <p>SUMMARY_PARAGRAPH_1</p>
+      <p>SUMMARY_PARAGRAPH_2</p>
+    </section>
+
+    <section id="identification">
+      <h2>What this service is</h2>
+      <p>IDENTIFICATION_PROSE</p>
+    </section>
+
+    <section id="methodology">
+      <h2>Methodology</h2>
+      <p>Blackbox recon only. Facts come from live HTTP, web archives, and public remote indexes. No local files, folders, drives, or workspace were used.</p>
+      <p>METHODOLOGY_PROSE</p>
+      <h3>Origins fetched</h3>
+      <ul>
+        <li>ORIGIN_LIST_ITEM</li>
+      </ul>
+    </section>
+
+    <section id="origins">
+      <h2>Origin map</h2>
+      <p>ORIGIN_MAP_PROSE</p>
+      <table>
+        <thead>
+          <tr><th>Origin</th><th>Role</th><th>Relationship</th><th>Key findings</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="mono">ORIGIN</td><td>ROLE</td><td>RELATION</td><td>FINDING</td></tr>
+        </tbody>
+      </table>
+      <h3>Cross-origin flows</h3>
+      <div class="flow">FLOW_DIAGRAM</div>
+    </section>
+
+    <section id="surface">
+      <h2>Observed surface</h2>
+      <p>SURFACE_PROSE</p>
+      <!-- Per-origin subsections when multiple hosts matter -->
+      <h3>ORIGIN_HOST (ROLE)</h3>
+      <p>ORIGIN_SURFACE_PROSE</p>
+    </section>
+
+    <section id="entities">
+      <h2>Entities and attribution</h2>
+      <p>ENTITIES_PROSE</p>
+      <table>
+        <thead>
+          <tr><th>Entity</th><th>Relationship</th><th>Tier</th><th>Evidence origin</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>ENTITY</td><td>RELATION</td><td class="tier-1">1</td><td class="mono">ORIGIN</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="authentication">
+      <h2>Authentication</h2>
+      <p>AUTH_PROSE</p>
+      <ul>
+        <li><strong>UI host:</strong> UI_HOST</li>
+        <li><strong>Credential host:</strong> CRED_HOST</li>
+        <li><strong>Third parties:</strong> THIRD_PARTIES</li>
+      </ul>
+    </section>
+
+    <section id="assets">
+      <h2>Asset delivery and traces</h2>
+      <p>ASSETS_PROSE</p>
+      <table>
+        <thead>
+          <tr><th>Assets origin</th><th>Types</th><th>Operator</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="mono">CDN_HOST</td><td>TYPES</td><td>ENTITY</td></tr>
+        </tbody>
+      </table>
+      <h3>Image and binary traces</h3>
+      <ul>
+        <li>TRACE_ITEM</li>
+      </ul>
+    </section>
+
+    <section id="source">
+      <h2>Public source availability</h2>
+      <p>SOURCE_PROSE</p>
+      <table>
+        <thead>
+          <tr><th>Candidate</th><th>Relation</th><th>Evidence</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><a href="REPO_URL">REPO_NAME</a></td><td>RELATION</td><td>EVIDENCE</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="identity">
+      <h2>Identity and codename traces</h2>
+      <p>IDENTITY_PROSE</p>
+      <!-- Omit section when no identifiers were searched -->
+    </section>
+
+    <section id="artifacts">
+      <h2>Build artifacts and disclosure</h2>
+      <p>ARTIFACTS_PROSE</p>
+    </section>
+
+    <section id="replication">
+      <h2>Local replication</h2>
+      <p>REPLICATION_PROSE</p>
+    </section>
+
+    <section id="open">
+      <h2>Open checks</h2>
+      <p>OPEN_PROSE</p>
+      <table>
+        <thead>
+          <tr><th>Detection</th><th>Origin</th><th>Next fact</th><th>Suggested check</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>DETECTION</td><td class="mono">ORIGIN</td><td>FACT</td><td>CHECK</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="conclusions">
+      <h2>Conclusions</h2>
+      <p>CONCLUSIONS_PROSE</p>
+      <ul>
+        <li>CONCLUSION_BULLET</li>
+      </ul>
+    </section>
+
+    <section id="appendix">
+      <h2>Appendix: URLs by origin</h2>
+      <h3 class="mono">ORIGIN_HOST</h3>
+      <ul>
+        <li><a href="URL">URL</a></li>
+      </ul>
+    </section>
+
+    <footer>Generated by public-surface-recon. Blackbox sources only.</footer>
+  </div>
+</body>
+</html>
