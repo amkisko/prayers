@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 1.17.0 (2026-09-14)
+
+- Add `amkisko/infer-conventions` 1.0.0: find how a tree actually writes; encode genuine forks as formatter, linter, architecture-test, or CI checks; tree under `.agents/skills`; do not compose into AGENTS.md.
+- Publish `amkisko/working-rules` 2.4.0: sibling files and executable checks beat shared defaults; mixed styles stay a split until a path boundary explains both.
+- Publish `amkisko/minimal-implementation` 1.4.0: match the tree's structural height; a consistent absence of a layer is a convention.
+- Publish `amkisko/docs-conventions` 2.4.0: conventions that matter fail a command; they do not live in `usr/docs`.
+- Publish `amkisko/collaboration-workflow` 2.3.0: when encoding how this tree writes, use infer-conventions.
+
 ## 1.16.1 (2026-09-14)
 
 - Refresh catalog `published_at` to integer unix time across all published packages.

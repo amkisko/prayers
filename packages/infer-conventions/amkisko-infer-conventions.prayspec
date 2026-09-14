@@ -1,0 +1,17 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/infer-conventions"
+  spec.version = "1.0.0"
+  spec.summary = "Find how a tree actually writes; encode genuine forks as executable checks"
+  spec.files = [
+    "README.md",
+    "skills/infer-conventions/SKILL.md",
+    "skills/infer-conventions/infer-conventions.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/infer-conventions",
+      summary: "Infer project conventions and encode them as executable checks"
+    }
+  }
+end

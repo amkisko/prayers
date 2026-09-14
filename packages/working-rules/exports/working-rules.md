@@ -2,13 +2,14 @@
 - test only executable logic and user-facing behavior; tests should affect coverage metrics;
 - avoid tests that only assert implementation details; avoid file/page content/ordering/regex assertions; avoid duplicating tests;
 - user interface texts should never mention implementation technical details;
-- prefer files around <=150 LOC when cohesion allows, but never split coherent logic purely to satisfy line count; split only when it improves ownership, readability, and reviewability;
-- do not use abbreviations and short names for variables, methods, classes, etc. unless it is a very common abbreviation or short name;
+- prefer files around <=150 LOC when cohesion allows; split only when it improves ownership, readability, and reviewability;
+- do not use abbreviations or short names unless they are very common;
 - avoid explanatory comments, but allow intent comments for non-obvious constraints, invariants, concurrency edges, or external contract requirements;
-- keep the idea that code reflects user experience, so readability, structure, and clarity are product qualities;
-- pull request description should include answers to questions: what problem is solved, why it matters, how the solution works, and any relevant context; if the change is non-trivial, include reproduction steps or a changelog entry with intent;
+- readability, structure, and clarity are product qualities;
+- pull request description answers what problem is solved, why it matters, how the solution works, and relevant context; non-trivial changes include reproduction steps or a changelog entry with intent;
 - pull request checklist: changelog entry with intent or reproduction steps when relevant, test coverage, and quality checks done;
 - follow docs-conventions for usr/docs trace filenames and layout;
 - report completed actions only with observed evidence; validation output must list exact commands run and observed results;
 - ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load;
+- sibling files and executable checks beat shared defaults; mixed styles stay a split until a path boundary explains both;
 - fix the cause of a race, not a retry around it; prefer positive names; compute at write when a read cannot paginate; do not change production design only so tests can reach it.

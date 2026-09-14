@@ -31,6 +31,7 @@ tree ".agents/skills" do
   pray "amkisko/claims-audit", path: "packages/claims-audit"
   pray "amkisko/rfc-process", path: "packages/rfc-process"
   pray "amkisko/public-surface-recon", path: "packages/public-surface-recon"
+  pray "amkisko/infer-conventions", path: "packages/infer-conventions"
 end
 
 pray "amkisko/community-security", path: "packages/community-security", file: "SECURITY.md"

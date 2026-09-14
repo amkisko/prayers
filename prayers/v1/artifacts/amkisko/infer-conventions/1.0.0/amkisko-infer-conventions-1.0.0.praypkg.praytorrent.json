@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/infer-conventions",
+  "version": "1.0.0",
+  "artifact_url": "v1/artifacts/amkisko/infer-conventions/1.0.0/amkisko-infer-conventions-1.0.0.praypkg",
+  "artifact_hash": "sha256:b65c8d3d1e4d6495f0e65693a65fc5e0f2310d9b5ab34890f044a4ca4e8263e5",
+  "piece_size": 16384,
+  "length": 5652,
+  "pieces": [
+    "sha256:b65c8d3d1e4d6495f0e65693a65fc5e0f2310d9b5ab34890f044a4ca4e8263e5"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/infer-conventions/1.0.0/amkisko-infer-conventions-1.0.0.praypkg"
+  ],
+  "trackers": []
+}

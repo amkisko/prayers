@@ -51,13 +51,13 @@ source "amkisko", git: "https://github.com/amkisko/prayers.git"
 
 compose "AGENTS.md" do
   pray ".agents/project.md"
-  pray "amkisko/working-rules", "~> 2.2"
+  pray "amkisko/working-rules", "~> 2.4"
   pray "amkisko/security", "~> 1.2"
-  pray "amkisko/docs-conventions", "~> 2.3"
+  pray "amkisko/docs-conventions", "~> 2.4"
   pray "amkisko/dependency-issues", "~> 2.1"
   pray "amkisko/dependency-policy", "~> 4.0"
   pray "amkisko/ruby-conventions", "~> 1.2"
-  pray "amkisko/minimal-implementation", "~> 1.3"
+  pray "amkisko/minimal-implementation", "~> 1.4"
   pray "amkisko/finite-state-machines", "~> 1.2"
   pray "amkisko/branch-naming", "~> 1.0"
   pray "amkisko/preferred-stack", "~> 1.4"
@@ -69,7 +69,7 @@ compose "AGENTS.md" do
   pray "amkisko/rfc-process", "~> 1.2"
   pray "amkisko/rejected-changes", "~> 1.0"
   pray "amkisko/publish-checks", "~> 1.0"
-  pray "amkisko/collaboration-workflow", "~> 2.2"
+  pray "amkisko/collaboration-workflow", "~> 2.3"
 end
 
 tree ".agents/skills" do
@@ -80,6 +80,7 @@ tree ".agents/skills" do
   pray "amkisko/claims-audit", "~> 1.0"
   pray "amkisko/rfc-process", "~> 1.2"
   pray "amkisko/public-surface-recon", "~> 1.0"
+  pray "amkisko/infer-conventions", "~> 1.0"
 end
 
 pray "amkisko/community-security", "~> 1.2", file: "SECURITY.md"
@@ -90,7 +91,7 @@ pray "amkisko/community-contributing", "~> 1.1", file: "CONTRIBUTING.md"
 
 Swap `ruby-conventions` for `rust-conventions` or `elixir-conventions` on `.rs` and `.ex` trees. Compose one language pack, not all three. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Products with background workers compose `background-jobs`. Library-only trees may omit both.
 
-Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md.
+Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md.
 
 ## Compose budget
 
@@ -151,6 +152,7 @@ make check-artifacts
 | `amkisko/operational-signal-intake` | skill | Provider-neutral intake for live service, reliability, security, and user-impact evidence |
 | `amkisko/changelog-update` | skill | Changelog layering and house style |
 | `amkisko/public-surface-recon` | skill | Blackbox public web recon: HTTP, archives, public repos only |
+| `amkisko/infer-conventions` | skill | Find how a tree writes; encode genuine forks as executable checks |
 | `amkisko/community-security` | file | Shared SECURITY.md |
 | `amkisko/community-code-of-conduct` | file | Shared CODE_OF_CONDUCT.md |
 | `amkisko/community-governance` | file | Shared GOVERNANCE.md |
