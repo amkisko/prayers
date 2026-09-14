@@ -12,7 +12,7 @@
         "security"
       ],
       "signer": "amkisko",
-      "published_at": "1787991251",
+      "published_at": 1787991251,
       "signature": "sha256:437e9e0c7fcda01971339f5fba82dc75b2362e4a557135d5938dbbe65bd9ed27",
       "derived_metadata": {
         "summary": "Credential and secret handling for agents — Credentials and secrets hygiene for agent work",
@@ -73,7 +73,7 @@
         "security"
       ],
       "signer": "amkisko",
-      "published_at": "1787993885",
+      "published_at": 1787993885,
       "signature": "sha256:9c60898f98284f54a3f04d46b33ae077784072ee12b10db0dabe74019321143a",
       "derived_metadata": {
         "summary": "Credential, secret, and tracking hygiene for agents — Credentials, secrets, and tracking cautions for agent work",
@@ -134,7 +134,7 @@
         "security"
       ],
       "signer": "amkisko",
-      "published_at": "1788080176",
+      "published_at": 1788080176,
       "signature": "sha256:ed6c4e9f49a57da063bf73b38750c96fd615ae8c5bf00c280d4f0b74fba3cd84",
       "derived_metadata": {
         "summary": "Credential, secret, tracking, and ownership hygiene for agents — Credentials, secrets, tracking, and ownership cautions for agent work",

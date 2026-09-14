@@ -12,7 +12,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1788856855",
+      "published_at": 1788856855,
       "signature": "sha256:8c44eebfb5fb3eb490364c222338da57d0e0da69747555b5de205bd6abe09c51",
       "derived_metadata": {
         "summary": "Provider-neutral intake for live service, reliability, security, and user-impact signals — Operational signal intake skill",

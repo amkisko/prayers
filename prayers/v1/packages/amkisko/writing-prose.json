@@ -12,7 +12,7 @@
         "writing-prose"
       ],
       "signer": "amkisko",
-      "published_at": "1783404609",
+      "published_at": 1783404609,
       "signature": "sha256:71d23a21659df60021a4b4274a7120c610c0f4f77e0e7663e4f489da6f7725b7",
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
@@ -71,7 +71,7 @@
         "writing-prose"
       ],
       "signer": "amkisko",
-      "published_at": "1785128733",
+      "published_at": 1785128733,
       "signature": "sha256:4dfbe6049cbfdbda06e9fb10fe1f369c765e37fb71a2addd72e8735fc63212e8",
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
@@ -130,7 +130,7 @@
         "writing-prose"
       ],
       "signer": "amkisko",
-      "published_at": "1786792469",
+      "published_at": 1786792469,
       "signature": "sha256:e8c8c0791ffb5675996d9802fb2833718241f56cfabc4615b2918ccd7e9e1ef9",
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
@@ -189,7 +189,7 @@
         "writing-prose"
       ],
       "signer": "amkisko",
-      "published_at": "1787044282",
+      "published_at": 1787044282,
       "signature": "sha256:ca51818c66e35fd2a59bb0d0a6c936191061b5568ce46dc81f6cb4aaedb5bde0",
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
@@ -248,7 +248,7 @@
         "writing-prose"
       ],
       "signer": "amkisko",
-      "published_at": "1787991251",
+      "published_at": 1787991251,
       "signature": "sha256:94376fa8381fe4a733dd13e68a187437a839f9e4aa8c4e9fbf512c1091ad749e",
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
@@ -307,7 +307,7 @@
         "writing-prose"
       ],
       "signer": "amkisko",
-      "published_at": "1788018827",
+      "published_at": 1788018827,
       "signature": "sha256:4bb92c3e80bea35e26eab70d0484cc4c604c27a60e40f464cdb42ff89b0a5a1f",
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
@@ -366,7 +366,7 @@
         "writing-prose"
       ],
       "signer": "amkisko",
-      "published_at": "1788780203",
+      "published_at": 1788780203,
       "signature": "sha256:df5767187e9dc5a9f124f9f2d8711ea6f7f6f618f12163b406f2d15864f01beb",
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",

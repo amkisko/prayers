@@ -12,7 +12,7 @@
         "working-rules"
       ],
       "signer": "amkisko",
-      "published_at": "1783404609",
+      "published_at": 1783404609,
       "signature": "sha256:f43fb2938c4931ffbc126f85a835bc87cee3237e5f71d7e43bfa8af9e640dfa9",
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
@@ -68,7 +68,7 @@
         "working-rules"
       ],
       "signer": "amkisko",
-      "published_at": "1785093387",
+      "published_at": 1785093387,
       "signature": "sha256:ebfb116e8d5e09990d85a9db6d7c59bcc31755947013c704e0fee30d25c8950f",
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
@@ -124,7 +124,7 @@
         "working-rules"
       ],
       "signer": "amkisko",
-      "published_at": "1785095945",
+      "published_at": 1785095945,
       "signature": "sha256:f15eea5915f98332c37d83f87dc8cc43dc122a655be4ccac46cc4b2c44dfb82c",
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
@@ -183,7 +183,7 @@
         "working-rules"
       ],
       "signer": "amkisko",
-      "published_at": "1785128733",
+      "published_at": 1785128733,
       "signature": "sha256:ca4b2b0ba58dd6589ec342fdef800e657c60580de937f3e4e887b98c1a3febc4",
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
@@ -239,7 +239,7 @@
         "working-rules"
       ],
       "signer": "amkisko",
-      "published_at": "1787991251",
+      "published_at": 1787991251,
       "signature": "sha256:de4a758f56c9eaa455f87cd4693cf342ec40921dc6b3e2f0c9e13eab90111294",
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
@@ -297,7 +297,7 @@
         "working-rules"
       ],
       "signer": "amkisko",
-      "published_at": "1788033519",
+      "published_at": 1788033519,
       "signature": "sha256:11eb07618e0bcd280dbfd0c541c05cd3ead5517884fd09a2286de1fa702e0c16",
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
@@ -355,7 +355,7 @@
         "working-rules"
       ],
       "signer": "amkisko",
-      "published_at": "1788080176",
+      "published_at": 1788080176,
       "signature": "sha256:666195cf6530695de14d971211a81dfb0bad4b054afa858b1acc3fcc6427b410",
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
@@ -416,7 +416,7 @@
         "working-rules"
       ],
       "signer": "amkisko",
-      "published_at": "1788780203",
+      "published_at": 1788780203,
       "signature": "sha256:3afa46563cad5060f859b577ae9751bee775650002b7f78b0ee4ac3ef7db3c5a",
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",

@@ -12,7 +12,7 @@
         "ruby-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1785128733",
+      "published_at": 1785128733,
       "signature": "sha256:42eb166a3b2445db70dda26618b48dcb0d57caf44a96549948c189da6ca12a70",
       "derived_metadata": {
         "summary": "Ruby and Rails conventions for amkisko repositories — Ruby and Rails stack conventions",
@@ -70,7 +70,7 @@
         "ruby-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1788079162",
+      "published_at": 1788079162,
       "signature": "sha256:d4bcdbfe425dbc67165c6945c68bf9cd16b1375ba93b49b49d5626a345666850",
       "derived_metadata": {
         "summary": "Ruby and Rails conventions for amkisko repositories — Ruby and Rails stack conventions",
@@ -128,7 +128,7 @@
         "ruby-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1788276206",
+      "published_at": 1788276206,
       "signature": "sha256:1b03288f2b93d58f11d4e18fd5d0cd654675b35ed9ac1985aaa04bde27569a5c",
       "derived_metadata": {
         "summary": "Ruby and Rails conventions for amkisko repositories — Ruby and Rails stack conventions",

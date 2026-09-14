@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.16.1 (2026-09-14)
+
+- Refresh catalog `published_at` to integer unix time across all published packages.
+
 ## 1.16.0 (2026-09-14)
 
 - Publish `amkisko/engineering-audit` 2.8.0: name object-level authorization failures; use abstract syntax tree search to list candidate lookups; prove gaps with two-principal replay.
