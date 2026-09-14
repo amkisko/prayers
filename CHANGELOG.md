@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.18.0 (2026-09-14)
+
+- Publish `amkisko/engineering-audit` 2.9.0: double-check untrusted input at a trusted layer and again at the write; inventory ingress and mutations of request state, memory, cache, and storage.
+
 ## 1.17.0 (2026-09-14)
 
 - Add `amkisko/infer-conventions` 1.0.0: find how a tree actually writes; encode genuine forks as formatter, linter, architecture-test, or CI checks; tree under `.agents/skills`; do not compose into AGENTS.md.

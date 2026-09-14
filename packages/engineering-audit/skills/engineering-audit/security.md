@@ -47,9 +47,34 @@ A request parameter chooses a row inside an already-authorized set. It does not 
 
 Live or third-party replay requires explicit authorization that names the target and allowed action.
 
+## Input and mutation
+
+Untrusted input is double-checked: once at a trusted layer after a single canonical decode, and again at the write. Those are different controls. Ingress asks whether the value matches expected structure, type, range, related-field rules, and extra-field policy. Mutation asks which fields, paths, keys, or buffers may change.
+
+Keep these classes distinct from authorization:
+
+- missing validation: value not allowlisted at a trusted layer (CWE-20);
+- wrong order: decode after the check, or more than once (CWE-180);
+- sink encoding skipped: parameterization or output encoding is the last step before the interpreter (CWE-116);
+- assumed-immutable mutation: hidden fields, cookies, headers, or environment treated as server-owned (CWE-471);
+- extra-field write: undeclared properties persist, including autobinding (CWE-915);
+- shared-memory mutation: in-place request mutation, process-wide cache, or prototype-chain write (CWE-1321);
+- unsafe parse: deserializer chooses types or runs lifecycle methods (CWE-502);
+- storage path from caller: user-supplied name becomes a filesystem or object-store path.
+
+Client-side checks improve usability. The trusted-layer control is independent of them. A request body does not choose which fields persist. Assumed-immutable values come from server state.
+
+## Input and mutation assessment
+
+1. Inventory ingress: path, query, body, header, cookie, file, environment, command argument, webhook, job payload, third-party payload, deserialized blob, cache key, GraphQL variable.
+2. Inventory mutations: database write, cache set, file or object-store write, session or cookie write, in-place request mutation, recursive merge into shared objects, queue publish, and any log that can be replayed as input.
+3. Abstract syntax tree search can list parsers, binders, merges, and writes without a nearby schema or allowlist. A match is a candidate. Cross-file schema, store-level column rules, and post-write rejects can hide or fake a check.
+4. Prove with extra-field writes that must not persist; type, range, and related-field rejects; path-escape rejects; hidden-field or cookie tampers that must be ignored. Schema-validation pass or fail and extra-field persist counts are the countable indicators.
+5. Tests that only exercise the client form, or that mock away the binder, are futile coverage.
+
 ## Tests
 
-Separate missing security coverage, futile coverage (happy path only, boundary mocked away), and dangerous helpers that bypass real policy.
+Separate missing security coverage, futile coverage (happy path only, boundary mocked away, client form only), and dangerous helpers that bypass real policy.
 
 ## Threat-model steps
 
@@ -76,3 +101,6 @@ No trust boundary, secrets, or attacker path: skip and say so.
 - CWE-639, authorization bypass through a user-controlled key: https://cwe.mitre.org/data/definitions/639.html
 - OWASP Insecure Direct Object Reference Prevention Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html
 - OWASP API Security Top 10 2023, broken object-level authorization: https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/
+- CWE-20, improper input validation: https://cwe.mitre.org/data/definitions/20.html
+- CWE-915, improperly controlled modification of dynamically-determined object attributes: https://cwe.mitre.org/data/definitions/915.html
+- OWASP Input Validation Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
