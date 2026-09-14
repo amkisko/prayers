@@ -12,7 +12,7 @@
         "preferred-stack"
       ],
       "signer": "amkisko",
-      "published_at": "1787048755",
+      "published_at": 1787048755,
       "signature": "sha256:0764dff577e1780185b86bc4ebac96cacf55bf4b8042ef3c3fccdccc12897f23",
       "derived_metadata": {
         "summary": "Preferred languages and UX principles — Preferred stack guidance",
@@ -68,7 +68,7 @@
         "preferred-stack"
       ],
       "signer": "amkisko",
-      "published_at": "1787916888",
+      "published_at": 1787916888,
       "signature": "sha256:bc848d1ed4b49a1c72268fc080f4f67225dfa97e1c8d6c055f73bf69406d1b5f",
       "derived_metadata": {
         "summary": "Preferred languages and UX principles — Preferred stack guidance",
@@ -127,7 +127,7 @@
         "preferred-stack"
       ],
       "signer": "amkisko",
-      "published_at": "1787991251",
+      "published_at": 1787991251,
       "signature": "sha256:94dd1ea6df5497e6d78191bc6b145aaed1dff63867ffe72ce09f33d28ad03d85",
       "derived_metadata": {
         "summary": "Preferred languages and UX principles — Preferred stack guidance",
@@ -183,7 +183,7 @@
         "preferred-stack"
       ],
       "signer": "amkisko",
-      "published_at": "1787992969",
+      "published_at": 1787992969,
       "signature": "sha256:c0783989b572292c33dfdce9995897a015d7e5e781d0e232ee9a7ae7343e6c8d",
       "derived_metadata": {
         "summary": "Preferred languages and UX principles — Preferred stack guidance",
@@ -239,7 +239,7 @@
         "preferred-stack"
       ],
       "signer": "amkisko",
-      "published_at": "1788080176",
+      "published_at": 1788080176,
       "signature": "sha256:fc11e4fda3d473fd0985163b5f128aaf2cef845315615c58af953ade909b38d3",
       "derived_metadata": {
         "summary": "Preferred languages and UX principles — Preferred stack guidance",

@@ -12,7 +12,7 @@
         "publish-checks"
       ],
       "signer": "amkisko",
-      "published_at": "1787991251",
+      "published_at": 1787991251,
       "signature": "sha256:af901409c6cedf52d9032dab49d09f4b0bc64ef9bda6addc153d983f1caf5623",
       "derived_metadata": {
         "summary": "Pre-publish engineering checklist — Checks before publish",
@@ -71,7 +71,7 @@
         "publish-checks"
       ],
       "signer": "amkisko",
-      "published_at": "1788033519",
+      "published_at": 1788033519,
       "signature": "sha256:f8e7e9b3adebe6e4ae87d7873e305a96bd6e27c8b0311c904c5a0f6d0fb1d94f",
       "derived_metadata": {
         "summary": "Pre-publish engineering checklist — Checks before publish",

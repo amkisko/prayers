@@ -12,7 +12,7 @@
         "docs-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1783404609",
+      "published_at": 1783404609,
       "signature": "sha256:5263c0d709574e58ff746c7a6508e6fd71676cc64c98ba5b59019e319a74393e",
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
@@ -68,7 +68,7 @@
         "docs-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1785088499",
+      "published_at": 1785088499,
       "signature": "sha256:5cf6268b7b94c3eb04cdba33fcbc56c7caa8512c6d0136eca69d1af83617e11b",
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
@@ -126,7 +126,7 @@
         "docs-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1785093302",
+      "published_at": 1785093302,
       "signature": "sha256:be0d9247a6891c783b412f2e5391131acaf616e4408f158c5b1fedb92a16bec7",
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
@@ -184,7 +184,7 @@
         "docs-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1787991251",
+      "published_at": 1787991251,
       "signature": "sha256:1cf33de79c55852d7da5ed1c3de9f85dab5b02f7a0a67b6bf7ffa2ee7104337f",
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
@@ -242,7 +242,7 @@
         "docs-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1788018827",
+      "published_at": 1788018827,
       "signature": "sha256:a11626f9715050a84f6be900048fa9ac781a8df606ef72ec1cfb46d8f3082e70",
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Four usr/docs trees, purpose, and heading templates",
@@ -298,7 +298,7 @@
         "docs-conventions"
       ],
       "signer": "amkisko",
-      "published_at": "1788079162",
+      "published_at": 1788079162,
       "signature": "sha256:90648fa39e949b5ee1e7b4e60e3c570d87d390f8f259a67c49606ffd1a2a58e8",
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — usr/docs trees, usr/migrate, purpose, and heading templates",
