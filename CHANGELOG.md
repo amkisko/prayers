@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.16.0 (2026-09-14)
+
+- Publish `amkisko/engineering-audit` 2.8.0: name object-level authorization failures; use abstract syntax tree search to list candidate lookups; prove gaps with two-principal replay.
+
 ## 1.15.0 (2026-09-08)
 
 - Add `amkisko/public-surface-recon` 1.0.0: blackbox public recon from HTTP, archives, and public repositories; tree under `.agents/skills`; do not compose into AGENTS.md.
