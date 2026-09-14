@@ -1,6 +1,6 @@
 # amkisko/docs-conventions
 
-Human docs live under `docs/`. Durable agent and engineering trace lives under `usr/docs/` in four timestamp trees. Live console-first scripts live under `usr/migrate/`. Filename under `usr/docs/`: `YYYYMMDDHHMMSS_<kebab-case-title>.md`. Filename under `usr/migrate/`: the same timestamp kebab with the console language as the suffix. No README index in those trees. Keep absolute local paths and private data out of `docs/` and `usr/`.
+Human docs live under `docs/`. Durable agent and engineering trace lives under `usr/docs/` in four timestamp trees. Live console-first scripts live under `usr/migrate/`. Filename under `usr/docs/`: `YYYYMMDDHHMMSS_<kebab-case-title>.md`. Filename under `usr/migrate/`: the same timestamp kebab with the console language as the suffix. No README index in those trees. Keep absolute local paths and private data out of `docs/` and `usr/`. Project conventions that matter are executable checks; see `amkisko/infer-conventions`. Do not put those conventions in `usr/docs/`.
 
 Pitch, plan, and the open queue stay inside the live-work issue.
 

@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/minimal-implementation",
+  "version": "1.4.0",
+  "artifact_url": "v1/artifacts/amkisko/minimal-implementation/1.4.0/amkisko-minimal-implementation-1.4.0.praypkg",
+  "artifact_hash": "sha256:b8f51dfca51e3f81bf78ec3780335e9e45b39f16c0d207cbcabb15124e3c1e49",
+  "piece_size": 16384,
+  "length": 1736,
+  "pieces": [
+    "sha256:b8f51dfca51e3f81bf78ec3780335e9e45b39f16c0d207cbcabb15124e3c1e49"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/minimal-implementation/1.4.0/amkisko-minimal-implementation-1.4.0.praypkg"
+  ],
+  "trackers": []
+}

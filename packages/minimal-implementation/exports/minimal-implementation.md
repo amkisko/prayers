@@ -16,10 +16,11 @@ Before adding a new library directory or first-party package, stop until one app
 
 Rules:
 - match the language of the directory you are changing (see Preferred stack and tools above);
+- match the tree's structural height; a consistent absence of a layer is a convention; do not introduce a second pattern for the same job;
 - no abstractions unless three real variations need them; drop unused public methods;
 - no new dependency when stdlib, the framework for this tree, or an installed dependency suffices;
 - no boilerplate the task did not ask for;
-- deletion over addition; boring over clever; fewest files that stay readable (see file size guidance above);
+- deletion over addition; boring over clever; fewest files that stay readable;
 - when a request sounds overbuilt, ask whether a simpler existing path already covers it;
 - when two stdlib approaches are the same size, pick the edge-case-correct one; less code is not an excuse for a flimsier algorithm;
 - document deliberate shortcuts with an intent comment: name the known ceiling (global lock, O(n²) scan, naive heuristic) and the upgrade path when that ceiling matters.
@@ -30,6 +31,6 @@ Not optional even when minimizing scope:
 - security and accessibility;
 - calibration against real hardware and production drift when the platform ideal is not the spec;
 - anything explicitly requested in the task or ticket;
-- tests for non-trivial behavior per @spec/README.md and the testing bullets above; trivial one-liners need no new spec.
+- tests for non-trivial behavior per @spec/README.md; trivial one-liners need no new spec.
 
-Related: `keep-the-work` covers staying on the failed place and keeping answers after a refusal; `dependency-policy` covers third-party registry packages.
+Related: `keep-the-work` covers the failed place after a refusal; `dependency-policy` covers third-party registry packages; `infer-conventions` encodes how this tree writes as checks.

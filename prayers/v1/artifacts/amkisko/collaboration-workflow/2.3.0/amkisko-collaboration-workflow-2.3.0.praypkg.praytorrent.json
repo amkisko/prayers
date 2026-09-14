@@ -1,0 +1,16 @@
+{
+  "spec": "pray-torrent-v1",
+  "name": "amkisko/collaboration-workflow",
+  "version": "2.3.0",
+  "artifact_url": "v1/artifacts/amkisko/collaboration-workflow/2.3.0/amkisko-collaboration-workflow-2.3.0.praypkg",
+  "artifact_hash": "sha256:21c89e9a76bd06ec4ab19677b064289711776c223fa33b704c69e688ea477bd1",
+  "piece_size": 16384,
+  "length": 871,
+  "pieces": [
+    "sha256:21c89e9a76bd06ec4ab19677b064289711776c223fa33b704c69e688ea477bd1"
+  ],
+  "sources": [
+    "v1/artifacts/amkisko/collaboration-workflow/2.3.0/amkisko-collaboration-workflow-2.3.0.praypkg"
+  ],
+  "trackers": []
+}

@@ -1,0 +1,64 @@
+{
+  "name": "amkisko/infer-conventions",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/infer-conventions/1.0.0/amkisko-infer-conventions-1.0.0.praypkg",
+      "artifact_hash": "sha256:b65c8d3d1e4d6495f0e65693a65fc5e0f2310d9b5ab34890f044a4ca4e8263e5",
+      "tree_hash": "sha256:c8ffc44ec08b34b1610147b451362e3f72112d503d26626c19f3e479edea4883",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789394298,
+      "signature": "sha256:bc060aa217f170f2e6f87c5f84c94938749f8f4ffa472d2da47d1f4027479ed7",
+      "derived_metadata": {
+        "summary": "Find how a tree actually writes; encode genuine forks as executable checks — Infer project conventions and encode them as executable checks",
+        "topics": [
+          "check",
+          "encode",
+          "convention",
+          "architecture",
+          "conventions"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              37,
+              28,
+              43,
+              16,
+              40,
+              21,
+              32,
+              57,
+              20,
+              33,
+              21,
+              23,
+              55,
+              23,
+              29,
+              34
+            ]
+          }
+        ],
+        "file_count": 3,
+        "character_count": 12552,
+        "token_count": 512
+      }
+    }
+  ]
+}
