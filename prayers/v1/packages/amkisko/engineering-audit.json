@@ -12,7 +12,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1783404609",
+      "published_at": 1783404609,
       "signature": "sha256:afa48e1b3596d5c432abf1167225814c441447b745c772d13fe231cf5a713dcb",
       "derived_metadata": {
         "summary": "Pipeline-aware engineering audit skill — Engineering audit skill",
@@ -71,7 +71,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1787048755",
+      "published_at": 1787048755,
       "signature": "sha256:d06e49cab1ff46ffe0af417f19a75544f06a0b1d777f48afda77d10e2ec03f71",
       "derived_metadata": {
         "summary": "Pipeline-aware engineering audit skill — Engineering audit skill",
@@ -130,7 +130,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1787073834",
+      "published_at": 1787073834,
       "signature": "sha256:67dc2adec9c22bcb452ffce1a60af5e59cf0de18fa7dcb64352536092411c143",
       "derived_metadata": {
         "summary": "Pipeline-aware engineering audit skill with boundary and control mode — Engineering audit skill with boundary and control mode",
@@ -189,7 +189,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1787916888",
+      "published_at": 1787916888,
       "signature": "sha256:8bd3187bb035feb733172ed3b89e1a8f656cdd3af860a391829d701b2f9bc22b",
       "derived_metadata": {
         "summary": "Pipeline-aware engineering audit skill with boundary and control mode — Engineering audit skill with boundary and control mode",
@@ -248,7 +248,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1787926185",
+      "published_at": 1787926185,
       "signature": "sha256:7b8bbead80de493056cc67779920e31f2edeb782881fd295513f8aba82bb73ee",
       "derived_metadata": {
         "summary": "Pipeline-aware engineering audit skill with boundary, control, and identifier-after-refusal checks — Engineering audit skill with boundary, control, and identifier-after-refusal checks",
@@ -307,7 +307,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1787991251",
+      "published_at": 1787991251,
       "signature": "sha256:ec4a8bd170e3304c12e0099ecec8cd555b3be4053fdda5e704d9145e6f8a27c6",
       "derived_metadata": {
         "summary": "Pipeline-aware engineering audit skill with boundary, control, place-after-refusal, and resource-and-budget checks — Engineering audit skill with boundary, control, place-after-refusal, and resource-and-budget checks",
@@ -366,7 +366,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1787993885",
+      "published_at": 1787993885,
       "signature": "sha256:3b169142657ad20942dad3225600a933b6aea58bad84c5c07d37978f08be537c",
       "derived_metadata": {
         "summary": "Pipeline-aware engineering audit skill with boundary, control, place-after-refusal, resource-and-budget, and trace-and-i — Engineering audit skill with boundary, control, place-after-refusal, resource-and-budget, and trace-and-identification c",
@@ -425,7 +425,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1788032537",
+      "published_at": 1788032537,
       "signature": "sha256:4d5ab791887c301cb8891c4bb0886c46ea4ae729fa437760917e88e15733cfcb",
       "derived_metadata": {
         "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
@@ -486,7 +486,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1788080176",
+      "published_at": 1788080176,
       "signature": "sha256:d50a16072a02c33d513633826af7ea7ecb1ce7f4f8c28e3d805a1787977c261b",
       "derived_metadata": {
         "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
@@ -547,7 +547,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1788780203",
+      "published_at": 1788780203,
       "signature": "sha256:ad8d56177b6310a6ebc8258b8b54bdfef4574650b18ca8ca48f52b5b4e37d559",
       "derived_metadata": {
         "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
@@ -608,7 +608,7 @@
         "skill"
       ],
       "signer": "amkisko",
-      "published_at": "1788856855",
+      "published_at": 1788856855,
       "signature": "sha256:427d1181c5e3074cdaddfe7cb6a002b763468953b23cafe89e0a90d151b05616",
       "derived_metadata": {
         "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
@@ -655,6 +655,67 @@
         ],
         "file_count": 12,
         "character_count": 32337,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "2.8.0",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.8.0/amkisko-engineering-audit-2.8.0.praypkg",
+      "artifact_hash": "sha256:b4555da3344558724c107b438cde640c5db6e99e1d7ff515e016e9845fdf7f36",
+      "tree_hash": "sha256:35190d0de70274ce8579e17e12cf723ab3afb0ad7d3cab0e864bddf45f9810b2",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789391749,
+      "signature": "sha256:a160e80d5fc0fc981e3c878206f7cff9bb7cc4d1a0de00ba941c3fce1eb398e2",
+      "derived_metadata": {
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "topics": [
+          "when",
+          "mode",
+          "review",
+          "product",
+          "audit"
+        ],
+        "categories": [
+          "automation",
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior",
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              27,
+              21,
+              33,
+              40,
+              27,
+              38,
+              37,
+              30,
+              40,
+              34,
+              27,
+              38,
+              37,
+              35,
+              24,
+              24
+            ]
+          }
+        ],
+        "file_count": 12,
+        "character_count": 35162,
         "token_count": 512
       }
     }

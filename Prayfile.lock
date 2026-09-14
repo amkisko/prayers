@@ -1,6 +1,6 @@
 prayfile_lock = "1"
 spec = "0.1"
-generated_by = "pray 1.12.1"
+generated_by = "pray 1.14.0"
 manifest_hash = "sha256:aec8578d1e9fb3eda39b58cb0c0e5c9b6a96d7ef221534caa0ce41516b907575"
 source = []
 
@@ -132,10 +132,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/engineering-audit"
-version = "2.7.2"
+version = "2.8.0"
 path = "./packages/engineering-audit"
-tree_hash = "sha256:271f3e7bf41cb14e6caa513b52835750c2027dce2a4fcf8200171c67ecb0bb43"
-artifact_hash = "sha256:271f3e7bf41cb14e6caa513b52835750c2027dce2a4fcf8200171c67ecb0bb43"
+tree_hash = "sha256:35190d0de70274ce8579e17e12cf723ab3afb0ad7d3cab0e864bddf45f9810b2"
+artifact_hash = "sha256:35190d0de70274ce8579e17e12cf723ab3afb0ad7d3cab0e864bddf45f9810b2"
 artifact = "path:./packages/engineering-audit"
 exports = ["skill"]
 dependencies = []
@@ -510,13 +510,13 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/contracts.md"
-content_hash = "sha256:d7cc873d8e2aab9c79adb997253b0ee902abca8c102a6c1274c25325d6baa9e5"
+content_hash = "sha256:85060e453c9d8b84b79bd032f9d88a6a2469ea55a9504f073406d74db83736b1"
 package = "amkisko/engineering-audit"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/engineering-audit.md"
-content_hash = "sha256:863efc91586065907251776dda5d16c912f76b224941af9250f52da2ffef0029"
+content_hash = "sha256:a1c41be0f69c60b5ab8589f4e502a99ca108e52d38e4dde9a32a53667352b45f"
 package = "amkisko/engineering-audit"
 export = "skill"
 
@@ -558,7 +558,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/security.md"
-content_hash = "sha256:ec7912d0fc337b87ec12a1e3faf53c7490d9d1e599ec6d900535564a7bf7d457"
+content_hash = "sha256:e10ac63d39233590f1985111c90e47029a383c2d92cf9049e3070a2eb82189fa"
 package = "amkisko/engineering-audit"
 export = "skill"
 

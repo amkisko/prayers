@@ -13,7 +13,7 @@ Run this mode when the audited system publishes or consumes a protocol, API, or 
 - destination failure recorded as completed versus retried as if our code failed;
 - backward compatibility for callers you still support.
 
-Auth detail for each operation stays in security review mode.
+Authentication and object-level authorization for each operation stay in security review mode.
 
 ## Indicators
 
