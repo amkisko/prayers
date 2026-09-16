@@ -8,7 +8,7 @@
 - readability, structure, and clarity are product qualities;
 - pull request description answers what problem is solved, why it matters, how the solution works, and relevant context; non-trivial changes include reproduction steps or a changelog entry with intent;
 - pull request checklist: changelog entry with intent or reproduction steps when relevant, test coverage, and quality checks done;
-- follow docs-conventions for usr/docs trace filenames and layout;
+- follow docs-conventions for docs timestamp-tree filenames and layout;
 - report completed actions only with observed evidence; validation output must list exact commands run and observed results;
 - ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load;
 - sibling files and executable checks beat shared defaults; mixed styles stay a split until a path boundary explains both;
