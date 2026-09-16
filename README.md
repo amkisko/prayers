@@ -2,7 +2,7 @@
 
 Central distribution point for reusable agent guidance across amkisko gems and libraries.
 
-Packages here are generic guidance only: no project URLs, credentials, client names, deployment commands, or repository-specific paths. Project-specific context stays in the repository itself (`docs/` for human-facing material, `usr/docs/` for agent trace, `usr/migrate/` for console-first scripts), not in shared prayers.
+Packages here are generic guidance only: no project URLs, credentials, client names, deployment commands, or repository-specific paths. Project-specific context stays in the repository itself (`docs/` for documentation and working records, `usr/` for the workshop: working tools and operational material), not in shared prayers.
 
 ## Install pray
 
@@ -51,11 +51,11 @@ source "amkisko", git: "https://github.com/amkisko/prayers.git"
 
 compose "AGENTS.md" do
   pray ".agents/project.md"
-  pray "amkisko/working-rules", "~> 2.4"
+  pray "amkisko/working-rules", "~> 2.5"
   pray "amkisko/security", "~> 1.2"
-  pray "amkisko/docs-conventions", "~> 2.4"
-  pray "amkisko/dependency-issues", "~> 2.1"
-  pray "amkisko/dependency-policy", "~> 4.0"
+  pray "amkisko/docs-conventions", "~> 3.0"
+  pray "amkisko/dependency-issues", "~> 3.0"
+  pray "amkisko/dependency-policy", "~> 4.1"
   pray "amkisko/ruby-conventions", "~> 1.2"
   pray "amkisko/minimal-implementation", "~> 1.4"
   pray "amkisko/finite-state-machines", "~> 1.2"
@@ -64,20 +64,20 @@ compose "AGENTS.md" do
   pray "amkisko/keep-the-work", "~> 1.2"
   pray "amkisko/background-jobs", "~> 1.0"
   pray "amkisko/io-simulation", "~> 1.0"
-  pray "amkisko/writing-prose", "~> 3.3"
-  pray "amkisko/claims-audit", "~> 1.0"
+  pray "amkisko/writing-prose", "~> 3.5"
+  pray "amkisko/claims-audit", "~> 1.1"
   pray "amkisko/rfc-process", "~> 1.2"
   pray "amkisko/rejected-changes", "~> 1.0"
   pray "amkisko/publish-checks", "~> 1.0"
-  pray "amkisko/collaboration-workflow", "~> 2.3"
+  pray "amkisko/collaboration-workflow", "~> 2.4"
 end
 
 tree ".agents/skills" do
-  pray "amkisko/dependency-policy", "~> 4.0"
-  pray "amkisko/engineering-audit", "~> 2.7"
+  pray "amkisko/dependency-policy", "~> 4.1"
+  pray "amkisko/engineering-audit", "~> 2.10"
   pray "amkisko/operational-signal-intake", "~> 1.0"
-  pray "amkisko/changelog-update", "~> 2.1"
-  pray "amkisko/claims-audit", "~> 1.0"
+  pray "amkisko/changelog-update", "~> 3.0"
+  pray "amkisko/claims-audit", "~> 1.1"
   pray "amkisko/rfc-process", "~> 1.2"
   pray "amkisko/public-surface-recon", "~> 1.0"
   pray "amkisko/infer-conventions", "~> 1.0"
@@ -128,7 +128,7 @@ make check-artifacts
 |---------|------|---------|
 | `amkisko/working-rules` | fragment | Language-neutral engineering working rules |
 | `amkisko/security` | fragment | Credential, secret, tracking, and ownership hygiene for agents |
-| `amkisko/docs-conventions` | fragment | usr/docs trees, usr/migrate, purpose, and heading templates |
+| `amkisko/docs-conventions` | fragment | docs timestamp trees, usr workshop, purpose, and heading templates |
 | `amkisko/dependency-issues` | fragment | Dependency bug evidence and fix suggestions |
 | `amkisko/dependency-policy` | fragment + skill | Stop-before-add gate, target-scoped vulnerability assessment, and lag metrics |
 | `amkisko/ruby-conventions` | fragment | Ruby and Rails stack conventions |

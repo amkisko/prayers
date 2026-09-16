@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 1.19.0 (2026-09-16)
+
+- Publish `amkisko/docs-conventions` 3.0.0: working records live under `docs/` timestamp trees; `docs/` also holds maintained guides; placement does not imply polish or currency; `usr/` is the workshop for working tools and operational material.
+- Publish `amkisko/dependency-issues` 3.0.0: store upstream defect evidence under `docs/dependencies/`.
+- Publish `amkisko/changelog-update` 3.0.0: engineering drafts live under `docs/changelogs/`.
+- Publish `amkisko/writing-prose` 3.5.0: plain-prose checks apply to `docs/` timestamp trees.
+- Publish `amkisko/working-rules` 2.5.0: follow docs-conventions for `docs/` timestamp-tree filenames.
+- Publish `amkisko/collaboration-workflow` 2.4.0: follow docs-conventions for `docs/`.
+- Publish `amkisko/claims-audit` 1.1.0: working notes and evidence bundles use `docs/` timestamp trees.
+- Publish `amkisko/engineering-audit` 2.10.0: issue findings use `docs/issues/`.
+- Publish `amkisko/dependency-policy` 4.1.0: unresolved signals stay in `docs/issues/`; evidenced defects in `docs/dependencies/`.
+
 ## 1.18.0 (2026-09-14)
 
 - Publish `amkisko/engineering-audit` 2.9.0: double-check untrusted input at a trusted layer and again at the write; inventory ingress and mutations of request state, memory, cache, and storage.
