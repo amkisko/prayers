@@ -137,7 +137,7 @@ make check-artifacts
 | `amkisko/minimal-implementation` | fragment | Smallest correct change discipline |
 | `amkisko/finite-state-machines` | fragment | Explicit lifecycle modeling, including digital and physical state |
 | `amkisko/branch-naming` | fragment | Branch prefix conventions |
-| `amkisko/preferred-stack` | fragment | Language and UX preferences |
+| `amkisko/preferred-stack` | fragment | Language, UX, and visual-assessment communication |
 | `amkisko/keep-the-work` | fragment | Stay on the failed place and keep answers after a refusal |
 | `amkisko/background-jobs` | fragment | Shallow jobs, enqueue context, retries, destination failure |
 | `amkisko/io-simulation` | fragment | Simulated plant, control UI, and injectable IO faults |

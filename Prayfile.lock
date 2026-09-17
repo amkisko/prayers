@@ -1,6 +1,6 @@
 prayfile_lock = "1"
 spec = "0.1"
-generated_by = "pray 1.16.0"
+generated_by = "pray 1.17.0"
 manifest_hash = "sha256:2b9473ab6add99fea2811e9cc530cb5ad0db80c1617d4ceabe2638922dc8ffe3"
 source = []
 
@@ -202,10 +202,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/preferred-stack"
-version = "1.4.0"
+version = "1.5.0"
 path = "./packages/preferred-stack"
-tree_hash = "sha256:0b0a72d35f880e01683eb1edd99e3afd12be81a1cd839a6f4390a3b40113a67c"
-artifact_hash = "sha256:0b0a72d35f880e01683eb1edd99e3afd12be81a1cd839a6f4390a3b40113a67c"
+tree_hash = "sha256:e6294caf7ddc37ce5b7c50c97b23cf137a00dc3d96e9c891aa0f2fe7823123d7"
+artifact_hash = "sha256:e6294caf7ddc37ce5b7c50c97b23cf137a00dc3d96e9c891aa0f2fe7823123d7"
 artifact = "path:./packages/preferred-stack"
 exports = ["preferred-stack"]
 dependencies = []
@@ -299,10 +299,21 @@ name = "tree:.agents/skills"
 outputs = []
 
 [[managed_span]]
+id = "ae5d334a"
+target = "AGENTS.md"
+open_line = 8
+close_line = 10
+ideal_checksum = "sha256:76999710c29734233eba99ffa1c3305cf4305b299442b3482df350e68610d384"
+package = "local"
+export = ".agents/project.md"
+source_checksum = "sha256:0d7b3ee0b0d6be172b915e47f6752b5033213dfc44ef40660e15295f12f288f4"
+silenced = false
+
+[[managed_span]]
 id = "9068e4a2"
 target = "AGENTS.md"
-open_line = 10
-close_line = 26
+open_line = 12
+close_line = 28
 ideal_checksum = "sha256:6cfa0dd8c6896671fa375026c40f52b116ed2ddf818c6437f6a64e3a47e594a5"
 package = "amkisko/working-rules"
 export = "working-rules"
@@ -312,8 +323,8 @@ silenced = false
 [[managed_span]]
 id = "781b7711"
 target = "AGENTS.md"
-open_line = 28
-close_line = 48
+open_line = 30
+close_line = 50
 ideal_checksum = "sha256:63cfb984a6f2139ba4cf5c20106fec5a59a5aecfe12d4a3d54c415e60f0bf04e"
 package = "amkisko/security"
 export = "security"
@@ -323,8 +334,8 @@ silenced = false
 [[managed_span]]
 id = "bfe6ff38"
 target = "AGENTS.md"
-open_line = 50
-close_line = 58
+open_line = 52
+close_line = 60
 ideal_checksum = "sha256:c5c2a824e40c1292af99764643d24e3dcc22c3d857a128d4b129e056ffc4f781"
 package = "amkisko/docs-conventions"
 export = "docs-conventions"
@@ -334,8 +345,8 @@ silenced = false
 [[managed_span]]
 id = "edcc5f67"
 target = "AGENTS.md"
-open_line = 60
-close_line = 70
+open_line = 62
+close_line = 72
 ideal_checksum = "sha256:7ca393c0af513f42cd0d1a488f41b9afc99c5273e6c6d606678c777c2e36c9b1"
 package = "amkisko/dependency-issues"
 export = "dependency-issues"
@@ -345,8 +356,8 @@ silenced = false
 [[managed_span]]
 id = "3ac5d6ce"
 target = "AGENTS.md"
-open_line = 72
-close_line = 93
+open_line = 74
+close_line = 95
 ideal_checksum = "sha256:60c42487ebb75ecf52586f0568d829d0af183edd793f2b5fef70381076960c49"
 package = "amkisko/dependency-policy"
 export = "dependency-policy"
@@ -356,8 +367,8 @@ silenced = false
 [[managed_span]]
 id = "bf7304a6"
 target = "AGENTS.md"
-open_line = 95
-close_line = 132
+open_line = 97
+close_line = 134
 ideal_checksum = "sha256:e11f87dc4b1832dd38960787e773669e587e0bb431024bfafc49a841057ec618"
 package = "amkisko/minimal-implementation"
 export = "minimal-implementation"
@@ -367,8 +378,8 @@ silenced = false
 [[managed_span]]
 id = "120c3507"
 target = "AGENTS.md"
-open_line = 134
-close_line = 142
+open_line = 136
+close_line = 144
 ideal_checksum = "sha256:1e483401cb909d3d02c1001fed10975c1f2e8ecd11707b9efa7c2614f072a50a"
 package = "amkisko/finite-state-machines"
 export = "finite-state-machines"
@@ -378,8 +389,8 @@ silenced = false
 [[managed_span]]
 id = "26f3566a"
 target = "AGENTS.md"
-open_line = 144
-close_line = 164
+open_line = 146
+close_line = 166
 ideal_checksum = "sha256:84171d8d31bd90000e5e5e7e3d38105a72f1fdb840745b3b5d321e6bea7736c4"
 package = "amkisko/branch-naming"
 export = "branch-naming"
@@ -389,19 +400,19 @@ silenced = false
 [[managed_span]]
 id = "f528eeca"
 target = "AGENTS.md"
-open_line = 166
-close_line = 177
-ideal_checksum = "sha256:48e73ab63052a7d4223c9565f7a20c55b04a7967b0f910957bf0850dcc137db8"
+open_line = 168
+close_line = 182
+ideal_checksum = "sha256:afc58cc538bcafdb766b9ab813f83a1bd330ad1f1e8836468b52cd7a2835936f"
 package = "amkisko/preferred-stack"
 export = "preferred-stack"
-source_checksum = "sha256:0b0a72d35f880e01683eb1edd99e3afd12be81a1cd839a6f4390a3b40113a67c"
+source_checksum = "sha256:e6294caf7ddc37ce5b7c50c97b23cf137a00dc3d96e9c891aa0f2fe7823123d7"
 silenced = false
 
 [[managed_span]]
 id = "ca94e22d"
 target = "AGENTS.md"
-open_line = 179
-close_line = 189
+open_line = 184
+close_line = 194
 ideal_checksum = "sha256:9694a2c47fb8e70fc0f300773bb3237e2d4c1f12074ba5ec32e0507ee90bd9e1"
 package = "amkisko/writing-prose"
 export = "writing-prose"
@@ -411,8 +422,8 @@ silenced = false
 [[managed_span]]
 id = "d893ab3d"
 target = "AGENTS.md"
-open_line = 191
-close_line = 202
+open_line = 196
+close_line = 207
 ideal_checksum = "sha256:41729a24268f7987286f7a33bc56bcc38146b69f1e0480221f1b8311597d822d"
 package = "amkisko/claims-audit"
 export = "claims-audit"
@@ -422,8 +433,8 @@ silenced = false
 [[managed_span]]
 id = "08c294fb"
 target = "AGENTS.md"
-open_line = 204
-close_line = 212
+open_line = 209
+close_line = 217
 ideal_checksum = "sha256:4d97fabf0274428bc5dccc2e423f28f366514b53dcb1ef2af182671f454032ae"
 package = "amkisko/rejected-changes"
 export = "rejected-changes"
@@ -433,8 +444,8 @@ silenced = false
 [[managed_span]]
 id = "2543c1cc"
 target = "AGENTS.md"
-open_line = 214
-close_line = 223
+open_line = 219
+close_line = 228
 ideal_checksum = "sha256:32ac8ec5cfe64406bf94cb3df731c8fada8c2ffbf5c91da7ef7bce599f7ea8ff"
 package = "amkisko/publish-checks"
 export = "publish-checks"
@@ -444,8 +455,8 @@ silenced = false
 [[managed_span]]
 id = "48e8a6b3"
 target = "AGENTS.md"
-open_line = 225
-close_line = 232
+open_line = 230
+close_line = 237
 ideal_checksum = "sha256:a3bd9b613cd44ce570688f3eed01064986d22b0056358e8fc63299edf60fc537"
 package = "amkisko/collaboration-workflow"
 export = "collaboration-workflow"

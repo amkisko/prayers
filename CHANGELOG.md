@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Unreleased
+
+- Publish `amkisko/preferred-stack` 1.5.0: when a change presents a person-facing surface, name it and record a visual assessment as a team signal; pictures and previews stay source locators.
+
 ## 1.18.0 (2026-09-14)
 
 - Publish `amkisko/engineering-audit` 2.9.0: double-check untrusted input at a trusted layer and again at the write; inventory ingress and mutations of request state, memory, cache, and storage.
