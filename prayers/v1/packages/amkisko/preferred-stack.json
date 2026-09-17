@@ -283,6 +283,62 @@
         "character_count": 771,
         "token_count": 71
       }
+    },
+    {
+      "version": "1.5.0",
+      "artifact": "v1/artifacts/amkisko/preferred-stack/1.5.0/amkisko-preferred-stack-1.5.0.praypkg",
+      "artifact_hash": "sha256:7d0a10de651d3f5f151798687779b94ccc52cde64ee06bfec58998d05cc63f47",
+      "tree_hash": "sha256:e6294caf7ddc37ce5b7c50c97b23cf137a00dc3d96e9c891aa0f2fe7823123d7",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "preferred-stack"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789646044,
+      "signature": "sha256:da796431f5a77cc6b12713aed9b9a32f8e93806db0ae45bb48d3795959a84286",
+      "derived_metadata": {
+        "summary": "Preferred languages, UX principles, and visual-assessment communication — Preferred stack guidance",
+        "topics": [
+          "surface",
+          "assessment",
+          "visual",
+          "work",
+          "product"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              12,
+              9,
+              11,
+              8,
+              12,
+              14,
+              9,
+              6,
+              8,
+              14,
+              3,
+              3,
+              10,
+              3,
+              14,
+              7
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1423,
+        "token_count": 143
+      }
     }
   ]
 }
