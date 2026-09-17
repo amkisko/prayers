@@ -1,3 +1,3 @@
 # amkisko/preferred-stack
 
-Language and UX preferences shared across amkisko repositories.
+Language, UX, and visual-assessment communication shared across amkisko repositories.
