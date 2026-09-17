@@ -60,7 +60,7 @@ compose "AGENTS.md" do
   pray "amkisko/minimal-implementation", "~> 1.4"
   pray "amkisko/finite-state-machines", "~> 1.2"
   pray "amkisko/branch-naming", "~> 1.0"
-  pray "amkisko/preferred-stack", "~> 1.4"
+  pray "amkisko/preferred-stack", "~> 1.5"
   pray "amkisko/keep-the-work", "~> 1.2"
   pray "amkisko/background-jobs", "~> 1.0"
   pray "amkisko/io-simulation", "~> 1.0"
