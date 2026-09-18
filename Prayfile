@@ -5,6 +5,8 @@ pray do
   support_email "contact@kiskolabs.com"
 end
 
+publish "prayers", path: "prayers"
+
 compose "AGENTS.md" do
   pray ".agents/project.md"
   pray "amkisko/working-rules", path: "packages/working-rules"
