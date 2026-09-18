@@ -1,0 +1,64 @@
+{
+  "name": "amkisko/session-review",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/session-review/1.0.0/amkisko-session-review-1.0.0.praypkg",
+      "artifact_hash": "sha256:d2bacc444c7f9f064104ee27dfd2f5e7a9fa329bc6f0771acaaa722dec959ca6",
+      "tree_hash": "sha256:49ca92e9ec65920e752631e77614aa244f75995c33897a69f24c4f3b8baba875",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789714511,
+      "signature": "sha256:eb11f0ace675c4b7e953d2ce493d0b87165bcb393dfd14021c30b70fcbe69cb4",
+      "derived_metadata": {
+        "summary": "Review agent sessions for repeated work, corrections, and reusable patterns — Session review skill",
+        "topics": [
+          "review",
+          "repeated",
+          "when",
+          "work",
+          "project"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              30,
+              22,
+              40,
+              27,
+              56,
+              29,
+              31,
+              26,
+              15,
+              55,
+              20,
+              22,
+              44,
+              37,
+              31,
+              27
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 6280,
+        "token_count": 512
+      }
+    }
+  ]
+}
