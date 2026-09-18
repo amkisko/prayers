@@ -2,7 +2,12 @@
 
 ## Unreleased
 
+## 1.20.0 (2026-09-18)
+
 - Add `amkisko/session-review` 1.0.0: review agent sessions for repeated work, corrections, and reusable patterns; recommend the smallest script, tool, prayer package, convention, or no action; tree under `.agents/skills`; do not compose into AGENTS.md.
+- Publish `amkisko/writing-prose` 3.5.0: signed comments on a public tracker speak as the account holder; cite only what a public reader can open and check; do not expose source material that is not already public; do not post source material without consent.
+- Publish `amkisko/security` 1.3.0: when a live secret, credential, or confidential trace appears in the session, treat it as a security event, tell the person, do not quote the value, and do not send it to another third party or public surface.
+- Publish `amkisko/writing-prose` 3.5.1: point signed-comment related text at the security session notice.
 
 ## 1.19.0 (2026-09-17)
 
