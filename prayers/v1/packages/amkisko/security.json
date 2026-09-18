@@ -183,6 +183,67 @@
         "character_count": 2001,
         "token_count": 214
       }
+    },
+    {
+      "version": "1.3.0",
+      "artifact": "v1/artifacts/amkisko/security/1.3.0/amkisko-security-1.3.0.praypkg",
+      "artifact_hash": "sha256:d055cbe9b5067b3afbf2c0dbb35dd3fc623c6ef85085b06f5a6bf66ad69b498a",
+      "tree_hash": "sha256:a42de76cd3dc1e8a9e58d2785c195e4d53109a4d1982d7fc9717f548df27767a",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "security"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789733247,
+      "signature": "sha256:4c7e1b48895dce8c311f14b4cc94278e30140565bb66a957542783cc2c281738",
+      "derived_metadata": {
+        "summary": "Credential, secret, tracking, and ownership hygiene for agents — Credentials, secrets, tracking, and ownership cautions for agent work",
+        "topics": [
+          "secret",
+          "security",
+          "secrets",
+          "session",
+          "they"
+        ],
+        "categories": [
+          "automation",
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior",
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              14,
+              19,
+              18,
+              13,
+              18,
+              24,
+              19,
+              16,
+              19,
+              16,
+              18,
+              13,
+              10,
+              13,
+              12,
+              11
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 2395,
+        "token_count": 253
+      }
     }
   ]
 }
