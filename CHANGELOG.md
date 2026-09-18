@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Add `amkisko/session-review` 1.0.0: review agent sessions for repeated work, corrections, and reusable patterns; recommend the smallest script, tool, prayer package, convention, or no action; tree under `.agents/skills`; do not compose into AGENTS.md.
+
 ## 1.19.0 (2026-09-17)
 
 - Publish `amkisko/preferred-stack` 1.5.0: when a change presents a person-facing surface, name it and record a visual assessment as a team signal; pictures and previews stay source locators.

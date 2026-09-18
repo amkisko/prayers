@@ -81,6 +81,7 @@ tree ".agents/skills" do
   pray "amkisko/rfc-process", "~> 1.2"
   pray "amkisko/public-surface-recon", "~> 1.0"
   pray "amkisko/infer-conventions", "~> 1.0"
+  pray "amkisko/session-review", "~> 1.0"
 end
 
 pray "amkisko/community-security", "~> 1.2", file: "SECURITY.md"
@@ -91,7 +92,7 @@ pray "amkisko/community-contributing", "~> 1.1", file: "CONTRIBUTING.md"
 
 Swap `ruby-conventions` for `rust-conventions` or `elixir-conventions` on `.rs` and `.ex` trees. Compose one language pack, not all three. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Products with background workers compose `background-jobs`. Library-only trees may omit both.
 
-Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md.
+Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md. Tree `session-review` when reviewing agent sessions; do not compose it into AGENTS.md.
 
 ## Compose budget
 
@@ -153,6 +154,7 @@ make check-artifacts
 | `amkisko/changelog-update` | skill | Changelog layering and house style |
 | `amkisko/public-surface-recon` | skill | Blackbox public web recon: HTTP, archives, public repos only |
 | `amkisko/infer-conventions` | skill | Find how a tree writes; encode genuine forks as executable checks |
+| `amkisko/session-review` | skill | Review agent sessions for repeated work, corrections, and reusable patterns |
 | `amkisko/community-security` | file | Shared SECURITY.md |
 | `amkisko/community-code-of-conduct` | file | Shared CODE_OF_CONDUCT.md |
 | `amkisko/community-governance` | file | Shared GOVERNANCE.md |

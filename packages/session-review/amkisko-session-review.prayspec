@@ -1,0 +1,16 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/session-review"
+  spec.version = "1.0.0"
+  spec.summary = "Review agent sessions for repeated work, corrections, and reusable patterns"
+  spec.files = [
+    "README.md",
+    "skills/session-review/SKILL.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/session-review",
+      summary: "Session review skill"
+    }
+  }
+end
