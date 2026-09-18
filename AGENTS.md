@@ -34,6 +34,7 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 - Config and project files may hold references (vault paths, item ids, redacted fingerprints). They must not hold live tokens, API keys, passwords, or client secrets.
 - Do not pass secrets on command lines or in other process-visible arguments. Prefer secret-store lookup, short-lived credentials, or stdin/file descriptors that do not persist in shell history.
 - Do not commit secrets, paste them into issues or pull requests, or write them to logs. Rotate anything that may have been exposed.
+- if a live secret, credential, or confidential trace appears in this session, treat it as a security event: tell the person, do not quote the value, and do not send it to another third party; the inference provider already saw what reached this session
 
 ## Tracking and identification
 
@@ -191,6 +192,12 @@ Review for marketing language, invented objections, empty contrasts, stray em da
 - Technical names, APIs, CLI verbs, RFC titles, identifiers, and UI copy use instrument and protocol words: check-in, last-seen, probe, monitor, expected tick. Body and organism metaphors such as heartbeat, pulse, and organ stay out of contracts and code. HTTP `/health` remains the liveness probe until a later RFC.
 - One sentence holds one beat. Consecutive short sentences that only restated the same beat are a punchline stack.
 - For material external claims, quotations, dates, or research summaries, use the claims-audit skill.
+- signed comments on a public tracker speak as the account holder to the named person; chat stays in chat
+- cite only what a public reader can open and check; confidential traces, unique working locators, and unverifiable session evidence stay in chat; do not expose source material that is not already public, and do not post source material without the person's consent
+- greeting names the person, then a short body, a close, and the name from the tracker identity; first person when that person did the work
+- one primary commit, pull request, or release link; comment when asked; do not close, assign, or reopen unless asked
+
+Related: `security` forbids secrets in issues and owns the session notice when confidential material hits inference.
 <!-- pray:ca94e22d -->
 
 <!-- pray:d893ab3d -->
