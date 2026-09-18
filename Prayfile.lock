@@ -1,7 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
-generated_by = "pray 1.17.0"
-manifest_hash = "sha256:2b9473ab6add99fea2811e9cc530cb5ad0db80c1617d4ceabe2638922dc8ffe3"
+generated_by = "pray 1.18.0"
+manifest_hash = "sha256:b826d7f6a31272292b188ff317f00355c72cef470d8616bebf1635bd30a0bd96"
 source = []
 
 [[package]]
@@ -268,6 +268,16 @@ tree_hash = "sha256:357995aef5075f605816b67a66f30c9b1de96a0c701ae71576642ddea044
 artifact_hash = "sha256:357995aef5075f605816b67a66f30c9b1de96a0c701ae71576642ddea04418d8"
 artifact = "path:./packages/security"
 exports = ["security"]
+dependencies = []
+
+[[package]]
+name = "amkisko/session-review"
+version = "1.0.0"
+path = "./packages/session-review"
+tree_hash = "sha256:49ca92e9ec65920e752631e77614aa244f75995c33897a69f24c4f3b8baba875"
+artifact_hash = "sha256:49ca92e9ec65920e752631e77614aa244f75995c33897a69f24c4f3b8baba875"
+artifact = "path:./packages/session-review"
+exports = ["skill"]
 dependencies = []
 
 [[package]]
@@ -701,6 +711,12 @@ export = "skill"
 path = ".agents/skills/rfc-process/rfc-process.md"
 content_hash = "sha256:bce6c5bfee557049c1c3b2a5cb9f013f0d2203d5e50e687393649eec0dbd3a68"
 package = "amkisko/rfc-process"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/session-review/SKILL.md"
+content_hash = "sha256:f52872f181f59b78858c99895d19a35debc75d87344246b1e9582de64125c7e9"
+package = "amkisko/session-review"
 export = "skill"
 
 [[provisioned]]
