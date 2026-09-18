@@ -1,8 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
-generated_by = "pray 1.18.0"
-manifest_hash = "sha256:b826d7f6a31272292b188ff317f00355c72cef470d8616bebf1635bd30a0bd96"
-source = []
+generated_by = "pray 1.19.0"
+manifest_hash = "sha256:adc98c6423190595b898d8fa4418d044c5a3015bddf67d437f5dba2027829bd9"
 
 [[package]]
 name = "amkisko/background-jobs"

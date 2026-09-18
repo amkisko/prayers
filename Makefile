@@ -21,7 +21,7 @@ help:
 	@echo "  make test             skill frontmatter and artifact checker specs"
 	@echo "  make drift            drift report before review"
 	@echo "  make update           check for newer package versions"
-	@echo "  make publish          update prayers/v1 distribution metadata"
+	@echo "  make publish          update prayers/v1 from the Prayfile publish remote"
 	@echo "  make release          validate-skills, publish, plan, apply, verify, check-artifacts"
 	@echo "  make serve            local distribution server"
 	@echo "  make package PACKAGE_DIR=packages/<name>   build local .praypkg"
@@ -66,10 +66,10 @@ update: check-pray
 	$(PRAY) update
 
 publish: check-pray
-	$(PRAY) publish --root $(DIST_ROOT)
+	$(PRAY) publish
 
 serve: check-pray
-	$(PRAY) serve --root $(DIST_ROOT) --host $(SERVE_HOST) --port $(SERVE_PORT)
+	$(PRAY) serve --to prayers --host $(SERVE_HOST) --port $(SERVE_PORT)
 
 package: check-pray
 	@test -n "$(PACKAGE_DIR)" || { \

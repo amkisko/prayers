@@ -113,6 +113,8 @@ pray verify
 
 ## Publish or update a package
 
+Prayfile names the catalog dest with `publish "prayers", path: "prayers"`. `make publish` uses that remote.
+
 ```sh
 make publish
 git add prayers/v1/artifacts

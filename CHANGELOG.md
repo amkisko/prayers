@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Declare the local catalog dest in Prayfile as `publish "prayers", path: "prayers"`.
+
 ## 1.20.0 (2026-09-18)
 
 - Add `amkisko/session-review` 1.0.0: review agent sessions for repeated work, corrections, and reusable patterns; recommend the smallest script, tool, prayer package, convention, or no action; tree under `.agents/skills`; do not compose into AGENTS.md.
