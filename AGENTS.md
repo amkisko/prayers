@@ -24,14 +24,18 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 - report completed actions only with observed evidence; validation output must list exact commands run and observed results;
 - ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load;
 - sibling files and executable checks beat shared defaults; mixed styles stay a split until a path boundary explains both;
-- fix the cause of a race, not a retry around it; prefer positive names; compute at write when a read cannot paginate; do not change production design only so tests can reach it.
+- fix the cause of a race, not a retry around it; prefer positive names; compute at write when a read cannot paginate; do not change production design only so tests can reach it;
+- if process state and local cache files are both cleared, name what must be rebuilt and from which durable source;
+- side effects read committed state from a cursor; they are not steps of the write;
+- on a store or network hot path, name the expensive unit and keep a before-and-after budget;
+- after changing a published number, identifier, or contract field, search dependents and mark them stale or update them.
 <!-- pray:9068e4a2 -->
 
 <!-- pray:781b7711 -->
 ## Credentials and Secrets
 
 - Prefer a secret store or OS credential helper over embedding live secrets in config files, scripts, or documentation. Named managers (for example 1Password, Bitwarden, KeePassXC) are fine; the requirement is isolation, not a specific vendor.
-- Config and project files may hold references (vault paths, item ids, redacted fingerprints). They must not hold live tokens, API keys, passwords, or client secrets.
+- Config and project files may hold references (vault paths, item ids, redacted fingerprints). They must not hold live tokens, API keys, passwords, or client secrets. The same prohibition applies to skill files, prompt templates, and MCP environment settings.
 - Do not pass secrets on command lines or in other process-visible arguments. Prefer secret-store lookup, short-lived credentials, or stdin/file descriptors that do not persist in shell history.
 - Do not commit secrets, paste them into issues or pull requests, or write them to logs. Rotate anything that may have been exposed.
 - if a live secret, credential, or confidential trace appears in this session, treat it as a security event: tell the person, do not quote the value, and do not send it to another third party; the inference provider already saw what reached this session
@@ -46,6 +50,7 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 
 - Lookups go through an ownership set; request parameters pick which row; fail closed when access cannot be proven.
 - Treat user-supplied URLs as untrusted; rate-limit authentication and abuse-prone endpoints.
+- An invalid or expired credential gets a protocol-level failure status. A hop's own credential is never the caller's. Modes that relax access controls must remain disabled when their configuration is missing or invalid.
 
 Related: `engineering-audit` security mode asks whether a parameter establishes access and whether a worker skipped policy.
 <!-- pray:781b7711 -->
@@ -58,6 +63,7 @@ Related: `engineering-audit` security mode asks whether a parameter establishes 
 - issues, changelogs, and meetings make five things findable (use `##` headings or equivalent; omit empty sections): **Participants** (humans only; omit agents, tools, and binaries), **Decisions** (what was agreed), **Effects** (done, failed, recovered, rolled back), **Next** (todo, planned, open questions), **Source** (links upstream: meeting, issue, PR, commit, and downstream materializations); git history is the edit log; add an explicit note only when a later pass changes meaning (scope cut, rollback, decision reversed);
 - mention software, tools, agents, or binaries in a note only when that detail is needed for execution or later analysis; put it under Decisions, Effects, or Source, not under Participants;
 - never put local absolute paths or private material in `docs/` or under `usr/`: no home-directory or machine-specific filesystem paths, secrets, credentials, tokens, API keys, or personal private data; prefer repository-relative paths;
+- one home per fact; link, do not duplicate; goal and acceptance live apart from operating rules; when a decision changes shape, supersede it in place; name what the product does not do next to what it does;
 <!-- pray:bfe6ff38 -->
 
 <!-- pray:edcc5f67 -->
@@ -107,6 +113,8 @@ Before writing code, stop at each step until one applies:
 - can the change be one line; if so, make it one line?
 - only then write the minimum code that works.
 
+Before generating the main implementation of an unproven method, require a small runnable check that records a feasibility number or a failure verdict.
+
 Before adding a new library directory or first-party package, stop until one applies:
 - one product owns the contract and is the only caller: keep source in that tree;
 - a second in-repo caller, or no product runtime: unpublished in-repo package (own manifest, own tests, path-linked, 0.x, registry publish blocked);
@@ -139,7 +147,8 @@ Related: `keep-the-work` covers the failed place after a refusal; `dependency-po
 
 - model lifecycles with explicit finite state machines when status, allowed transitions, and side effects matter; prefer named states and guarded transitions over scattered conditionals and implicit enums alone; when who and when matter, model the event as a record, not a boolean flag;
 - finite state machines can compactly represent ordered sets or maps of strings supporting fast prefix, suffix, and fuzzy search; consider tries and automata when matching catalogs, codes, routes, or searchable vocabularies at scale;
-- when digital reported state and physical process state can diverge, name both machines and the observation that couples them; occupancy listing is not the lock; a reported identity is not the person or sample at the station.
+- when digital reported state and physical process state can diverge, name both machines and the observation that couples them; occupancy listing is not the lock; a reported identity is not the person or sample at the station;
+- a later artifact does not prove an earlier gate; a cache generation is not the durable commit; a lease is not ownership of the object; bound generated plans and refine after each completed step.
 
 Related: `engineering-audit` boundary mode asks when those states disagree without an alarm; `io-simulation` injects the faults that cause the split.
 <!-- pray:120c3507 -->
@@ -208,9 +217,10 @@ Treat checkable facts, quotations, dates, quantities, and causal statements as c
 - Inventing scenes, sources, numbers, or quotations is out of scope.
 - A link or citation in the text is not verification. The cited passage must support the claim's scope, date, population, and causal strength.
 - If a material external claim cannot be checked in this run, mark it unverifiable rather than rounding it to certainty.
+- Keep statement, domain, and quantifiers on a formal claim. Freeze quantities from the producing artifact. A later file does not prove an earlier check.
 - Run the claims-audit skill when asked to verify, fact-check, or research checkable claims, or when prose under edit states material external facts, quotations, dates, or research summaries.
 
-Related: `writing-prose` covers voice and quality constructs; `engineering-audit` covers code and pipeline behavior.
+Related: `writing-prose` covers voice and quality constructs; `engineering-audit` covers code and pipeline behavior; `derivation-audit` covers symbolic derivation when a consumer asks for that job.
 <!-- pray:d893ab3d -->
 
 <!-- pray:08c294fb -->
@@ -221,6 +231,7 @@ Related: `writing-prose` covers voice and quality constructs; `engineering-audit
 - non-trivial changes without tests
 - style-only rewrites without behavior change
 - AI-generated-looking code the author does not understand
+- compatibility aliases, shims, and legacy input shapes that remain accepted even though the change should remove them
 <!-- pray:08c294fb -->
 
 <!-- pray:2543c1cc -->
@@ -232,6 +243,7 @@ Related: `writing-prose` covers voice and quality constructs; `engineering-audit
 - add screenshots or screen recordings for UI changes
 - keep one pull request to one concern
 - understand any AI-assisted code you submit
+- review generated changes before requesting revisions; write review replies from the author's own understanding
 <!-- pray:2543c1cc -->
 
 <!-- pray:48e8a6b3 -->

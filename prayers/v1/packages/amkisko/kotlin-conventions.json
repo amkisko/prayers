@@ -1,0 +1,61 @@
+{
+  "name": "amkisko/kotlin-conventions",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/kotlin-conventions/1.0.0/amkisko-kotlin-conventions-1.0.0.praypkg",
+      "artifact_hash": "sha256:880f98c91b987029e14f1397fb82fdba653ff6832daa3525b09866861f26c3e2",
+      "tree_hash": "sha256:ee01659060b8300ac6434e78c3f0b0e3e81bc07392f37db4d6db3e7595a51a59",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "kotlin-conventions"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789972177,
+      "signature": "sha256:b3d052d4eaadc1ab6bd47770c5c26c29df92c8f7e7bb8479631733e2942ae2e9",
+      "derived_metadata": {
+        "summary": "Kotlin conventions for amkisko repositories — Kotlin stack conventions",
+        "topics": [
+          "conventions",
+          "amkisko",
+          "kotlin",
+          "follow",
+          "compose"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              8,
+              4,
+              5,
+              7,
+              18,
+              2,
+              4,
+              8,
+              4,
+              18,
+              4,
+              5,
+              6,
+              2,
+              1,
+              6
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 991,
+        "token_count": 102
+      }
+    }
+  ]
+}

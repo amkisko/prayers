@@ -56,6 +56,62 @@
         "character_count": 569,
         "token_count": 60
       }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/rust-conventions/1.1.0/amkisko-rust-conventions-1.1.0.praypkg",
+      "artifact_hash": "sha256:af113befdc9511952f47f213221458cab8cb02adf4ce6b43d301219848fabf8c",
+      "tree_hash": "sha256:e1e19df32c0da5132fedcfdddb0b6d7c22b525350fffd830c1db2a6efe68c2b0",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "rust-conventions"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789972177,
+      "signature": "sha256:790125b8808c7e8cf5e87830c22bbdfb85a5ffd7b1e3bfc248c08d4ef7677bfb",
+      "derived_metadata": {
+        "summary": "Rust conventions for amkisko repositories — Rust stack conventions",
+        "topics": [
+          "conventions",
+          "rust",
+          "follow",
+          "coverage",
+          "declared"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              6,
+              5,
+              7,
+              8,
+              12,
+              3,
+              4,
+              7,
+              2,
+              5,
+              6,
+              3,
+              7,
+              2,
+              1,
+              4
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 781,
+        "token_count": 82
+      }
     }
   ]
 }

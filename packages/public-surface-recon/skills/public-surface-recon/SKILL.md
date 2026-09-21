@@ -43,7 +43,7 @@ Carry **origin registry** and **open checks** between prayers.
 
 ## Quick guardrails
 
-- **Authorized use:** operator, written permission, or named bounty / disclosure scope. Stop and ask if unclear. User "widen scope" does not add login, credential attacks, brute force, block bypass, private-profile scrape, or secret-body quotes.
+- **Authorized use:** operator, written permission, or named bounty / disclosure scope. Stop and ask if unclear. User "widen scope" does not add login, credential attacks, brute force, block bypass, private-profile scrape, or secret-body quotes. This package is reconnaissance, not an autonomous pentest runner.
 - **Blackbox:** no facts from local files, folders, drives, or workspace — public fetch and remote OSINT only.
 - Redact emails, names, handles, and EXIF author or location by default.
 - If a live secrets-shaped file answers: record pattern and status, do not quote values, stop sibling-path guessing for secrets.

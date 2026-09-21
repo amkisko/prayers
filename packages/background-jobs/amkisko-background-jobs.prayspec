@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/background-jobs"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.summary = "Shallow, idempotent background work with captured enqueue context"
   spec.files = ["README.md", "exports/background-jobs.md"]
   spec.exports = {

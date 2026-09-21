@@ -9,6 +9,8 @@ Before writing code, stop at each step until one applies:
 - can the change be one line; if so, make it one line?
 - only then write the minimum code that works.
 
+Before generating the main implementation of an unproven method, require a small runnable check that records a feasibility number or a failure verdict.
+
 Before adding a new library directory or first-party package, stop until one applies:
 - one product owns the contract and is the only caller: keep source in that tree;
 - a second in-repo caller, or no product runtime: unpublished in-repo package (own manifest, own tests, path-linked, 0.x, registry publish blocked);

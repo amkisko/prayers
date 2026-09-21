@@ -400,6 +400,64 @@
         "character_count": 3983,
         "token_count": 424
       }
+    },
+    {
+      "version": "2.5.0",
+      "artifact": "v1/artifacts/amkisko/docs-conventions/2.5.0/amkisko-docs-conventions-2.5.0.praypkg",
+      "artifact_hash": "sha256:d2e83fd05d46b6c05f2fc3465f8ed0f2e492eef634423990afa0538af72f054b",
+      "tree_hash": "sha256:ff85a65b3c2d6084ca9e6ebd0560e57a40560339255a80bec775459470c7c5ec",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "docs-conventions"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789967123,
+      "signature": "sha256:2ef78f147da2264ea5dd8f635db4c4ea0fd4a6d71a083f3d93cf02ae16f8e994",
+      "derived_metadata": {
+        "summary": "Repository documentation layout and headings — usr/docs trees, usr/migrate, purpose, and heading templates",
+        "topics": [
+          "docs",
+          "what",
+          "live",
+          "only",
+          "under"
+        ],
+        "categories": [
+          "automation",
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage",
+          "reduces manual steps"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              32,
+              32,
+              30,
+              18,
+              62,
+              35,
+              41,
+              23,
+              12,
+              31,
+              23,
+              24,
+              30,
+              18,
+              25,
+              11
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 4191,
+        "token_count": 447
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/engineering-audit"
-  spec.version = "2.9.0"
-  spec.summary = "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, security, contract, and learned-systems modes"
+  spec.version = "2.10.0"
+  spec.summary = "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, security, contract, learned-systems, and lineage modes"
   spec.files = [
     "README.md",
     "skills/engineering-audit/SKILL.md",
@@ -13,8 +13,12 @@ Package::Specification.new do |spec|
     "skills/engineering-audit/performance.md",
     "skills/engineering-audit/observability.md",
     "skills/engineering-audit/security.md",
+    "skills/engineering-audit/http-identity.md",
+    "skills/engineering-audit/client-surface.md",
+    "skills/engineering-audit/native-interface.md",
     "skills/engineering-audit/contracts.md",
-    "skills/engineering-audit/learned-systems.md"
+    "skills/engineering-audit/learned-systems.md",
+    "skills/engineering-audit/lineage.md"
   ]
   spec.exports = {
     "skill" => {

@@ -1,0 +1,6 @@
+- use Kotlin and the build tool according to the versions declared in the repository;
+- follow idiomatic null handling, explicit visibility, and the compiler and linter conventions the project enables;
+- prefer explicit module boundaries; keep entry points thin and library code testable;
+- test coverage must follow the conventions declared in the relevant subtree; when a project defines coverage rules in `spec/README.md` or equivalent, follow those;
+- do not block the serving thread with filesystem operations or large memory copies; use a background dispatcher or a separate worker pool;
+- keep control-plane IO on a separate execution path from large data transfers;

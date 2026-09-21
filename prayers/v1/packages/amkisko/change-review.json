@@ -1,0 +1,64 @@
+{
+  "name": "amkisko/change-review",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/change-review/1.0.0/amkisko-change-review-1.0.0.praypkg",
+      "artifact_hash": "sha256:6e95c1d638b664cda6c5fcd72a18b7b679778a590ec7588193bfc2fd8520deaf",
+      "tree_hash": "sha256:9615be901e2a30853e20d6deffb495f6ab795634655fc8833dce9737996098cd",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789972177,
+      "signature": "sha256:49d1e5ee5b15ba10295ee9c571b65e13cef3382c95f988dd28810b1de11170a9",
+      "derived_metadata": {
+        "summary": "Review a git diff with coverage, path-matched criteria, and falsify-before-report — Change review skill",
+        "topics": [
+          "review",
+          "diff",
+          "audit",
+          "before",
+          "file"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              12,
+              4,
+              19,
+              17,
+              13,
+              11,
+              28,
+              13,
+              13,
+              23,
+              15,
+              21,
+              26,
+              31,
+              10,
+              25
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 2491,
+        "token_count": 281
+      }
+    }
+  ]
+}
