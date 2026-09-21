@@ -1,0 +1,64 @@
+{
+  "name": "amkisko/durable-cache",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/durable-cache/1.0.0/amkisko-durable-cache-1.0.0.praypkg",
+      "artifact_hash": "sha256:20b3544e343cd2dfbe45eaae018d820be67ad90c219d484834bb0f83c84187db",
+      "tree_hash": "sha256:a95a76dadbc6cf3ec52a3c808e1c18d366f4791bd5afa31937fffc46d3ce9e05",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "durable-cache"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789972177,
+      "signature": "sha256:e12e36a679fcbaf8aa4770e064e39e47fc5a8cf7ac1fca3fe73bb2502a6ec9ce",
+      "derived_metadata": {
+        "summary": "Cache versus durable truth on a shared store — Wipe test, single commit point, revalidate on read",
+        "topics": [
+          "cache",
+          "durable",
+          "amkisko",
+          "commit",
+          "state"
+        ],
+        "categories": [
+          "testing"
+        ],
+        "possible_effects": [
+          "improves validation"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              5,
+              5,
+              7,
+              6,
+              15,
+              17,
+              9,
+              10,
+              6,
+              12,
+              6,
+              9,
+              6,
+              8,
+              12,
+              5
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1256,
+        "token_count": 138
+      }
+    }
+  ]
+}

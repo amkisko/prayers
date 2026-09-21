@@ -12,4 +12,8 @@
 - report completed actions only with observed evidence; validation output must list exact commands run and observed results;
 - ignore style-only dust unless it harms correctness, operability, maintainability, or auditability under realistic load;
 - sibling files and executable checks beat shared defaults; mixed styles stay a split until a path boundary explains both;
-- fix the cause of a race, not a retry around it; prefer positive names; compute at write when a read cannot paginate; do not change production design only so tests can reach it.
+- fix the cause of a race, not a retry around it; prefer positive names; compute at write when a read cannot paginate; do not change production design only so tests can reach it;
+- if process state and local cache files are both cleared, name what must be rebuilt and from which durable source;
+- side effects read committed state from a cursor; they are not steps of the write;
+- on a store or network hot path, name the expensive unit and keep a before-and-after budget;
+- after changing a published number, identifier, or contract field, search dependents and mark them stale or update them.

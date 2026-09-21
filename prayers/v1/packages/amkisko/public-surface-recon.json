@@ -56,6 +56,62 @@
         "character_count": 62656,
         "token_count": 512
       }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/public-surface-recon/1.1.0/amkisko-public-surface-recon-1.1.0.praypkg",
+      "artifact_hash": "sha256:2e586068e84884929042e728d135adf089aa51059005f63da7ea96edc4b1c6c6",
+      "tree_hash": "sha256:222b73082d43f4af17cc07d1ffc9f735b3f67da0195bf4ccb99579d2563740e4",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789967123,
+      "signature": "sha256:87d2b4514394fea819be4124eee5a8c058c4bb27607dc879941d8c37fb09fd41",
+      "derived_metadata": {
+        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "topics": [
+          "public",
+          "only",
+          "prayers",
+          "blackbox",
+          "recon"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              36,
+              34,
+              32,
+              17,
+              50,
+              37,
+              33,
+              29,
+              21,
+              40,
+              14,
+              36,
+              33,
+              25,
+              31,
+              44
+            ]
+          }
+        ],
+        "file_count": 12,
+        "character_count": 67537,
+        "token_count": 512
+      }
     }
   ]
 }

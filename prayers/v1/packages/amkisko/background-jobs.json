@@ -59,6 +59,65 @@
         "character_count": 765,
         "token_count": 81
       }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/background-jobs/1.1.0/amkisko-background-jobs-1.1.0.praypkg",
+      "artifact_hash": "sha256:698d5f160bc94e6c1e1b01868615479b1ea7bd0f94d7ba4cec96b9097309c484",
+      "tree_hash": "sha256:b2f3752a8eef7f5bf41b0a177fc848504301f6138f98f414cdacb034a15a9132",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "background-jobs"
+      ],
+      "signer": "amkisko",
+      "published_at": 1789972177,
+      "signature": "sha256:4e6f560e9151ce0ed66e2f0c258089a33fd3460a001615c7903df2f2ff1ef6b7",
+      "derived_metadata": {
+        "summary": "Shallow, idempotent background work with captured enqueue context — Shallow jobs, enqueue context, retries, destination failure",
+        "topics": [
+          "background",
+          "enqueue",
+          "jobs",
+          "retry",
+          "call"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              9,
+              2,
+              4,
+              4,
+              4,
+              5,
+              10,
+              8,
+              3,
+              10,
+              4,
+              7,
+              10,
+              9,
+              3,
+              4
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 931,
+        "token_count": 96
+      }
     }
   ]
 }

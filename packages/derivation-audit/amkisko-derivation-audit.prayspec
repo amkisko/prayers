@@ -1,0 +1,16 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/derivation-audit"
+  spec.version = "1.0.0"
+  spec.summary = "Audit formal claims, registered checks, and symbolic derivation scope"
+  spec.files = [
+    "README.md",
+    "skills/derivation-audit/SKILL.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/derivation-audit",
+      summary: "Derivation audit skill"
+    }
+  }
+end

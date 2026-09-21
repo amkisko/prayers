@@ -1,0 +1,16 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/agent-run-supervision"
+  spec.version = "1.0.0"
+  spec.summary = "Supervise a live tool-calling agent run with ceilings and barriers"
+  spec.files = [
+    "README.md",
+    "skills/agent-run-supervision/SKILL.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/agent-run-supervision",
+      summary: "Agent-run supervision skill"
+    }
+  }
+end

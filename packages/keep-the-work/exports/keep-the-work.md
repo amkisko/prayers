@@ -9,6 +9,7 @@
 - redisplay a failed form on the same place; keep passing and failing answers
 - on an acknowledged forbidden, stay and offer the next human step the product supports; rewrite to sign-in only when credentials are missing
 - warn before a session timeout and give time to extend; restore in-progress answers after re-auth
+- restore in-progress answers after a process restart the same way as after re-auth
 - a live refresh or reconnect must not wipe the work still on the place
 
 Related: `preferred-stack` states the humane design preference; `engineering-audit` asks whether a person can still operate on the place they used after a refusal.

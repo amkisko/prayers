@@ -6,3 +6,4 @@
 - add screenshots or screen recordings for UI changes
 - keep one pull request to one concern
 - understand any AI-assisted code you submit
+- review generated changes before requesting revisions; write review replies from the author's own understanding

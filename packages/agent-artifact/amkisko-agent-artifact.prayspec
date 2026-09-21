@@ -1,0 +1,16 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/agent-artifact"
+  spec.version = "1.0.0"
+  spec.summary = "Review skill files, prompt templates, MCP configs, and tool schemas"
+  spec.files = [
+    "README.md",
+    "skills/agent-artifact/SKILL.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/agent-artifact",
+      summary: "Agent-artifact review skill"
+    }
+  }
+end

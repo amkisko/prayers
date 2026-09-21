@@ -3,6 +3,25 @@
 ## Unreleased
 
 - Declare the local catalog dest in Prayfile as `publish "prayers", path: "prayers"`.
+- Publish `amkisko/claims-audit` 1.1.0: formal-claim scope, freeze from artifacts, isolated contrary pass.
+- Publish `amkisko/engineering-audit` 2.10.0: agent-artifact inventory, evidence kinds and security dispositions, isolation and lifecycle, performance shapes, lineage, and skippable HTTP, client, and native companions.
+- Publish `amkisko/security` 1.4.0: apply the no-live-secret rule to skill files, prompt templates, and MCP environment settings; return protocol-level failures for invalid credentials.
+- Publish `amkisko/working-rules` 2.5.0: wipe test, side effects after commit, hot-path budget, stale dependents.
+- Publish `amkisko/background-jobs` 1.1.0: no outbound call from the write path; bounded desired-state reconciliation.
+- Publish `amkisko/keep-the-work` 1.3.0: restore in-progress answers after a process restart.
+- Publish `amkisko/finite-state-machines` 1.3.0: later artifact is not an earlier gate; cache generation is not the durable commit.
+- Publish `amkisko/docs-conventions` 2.5.0: one home per fact; supersede in place; name what the product does not do.
+- Publish `amkisko/rejected-changes` 1.1.0: aliases and shims when the old shape should have been deleted.
+- Publish `amkisko/publish-checks` 1.1.0: review generated changes before requesting revisions; review from the author's own understanding.
+- Publish `amkisko/minimal-implementation` 1.5.0: small runnable check before the main path of an unproven method.
+- Publish `amkisko/public-surface-recon` 1.1.0: reconnaissance, not an autonomous pentest runner.
+- Publish `amkisko/rust-conventions` 1.1.0: do not block the async runtime; separate control-plane IO from large data transfers.
+- Add `amkisko/change-review` 1.0.0: review a git diff with coverage and falsify-before-report; tree under `.agents/skills`; do not compose into AGENTS.md.
+- Add `amkisko/agent-artifact` 1.0.0: review skill files, prompt templates, MCP configs, and tool schemas; tree under `.agents/skills`; do not compose into AGENTS.md.
+- Add `amkisko/derivation-audit` 1.0.0: formal-claim and registered-check review; tree under `.agents/skills`; do not compose into AGENTS.md.
+- Add `amkisko/agent-run-supervision` 1.0.0: live tool-call ceilings and human barriers; tree under `.agents/skills`; do not compose into AGENTS.md.
+- Add `amkisko/durable-cache` 1.0.0: cache versus durable truth; compose only on multi-instance shared-store services.
+- Add `amkisko/kotlin-conventions` 1.0.0: Kotlin stack conventions; compose one language pack.
 
 ## 1.20.0 (2026-09-18)
 
