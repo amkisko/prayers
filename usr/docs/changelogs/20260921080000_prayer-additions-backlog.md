@@ -27,7 +27,7 @@ Validation commands and observed results:
 
 ## Next
 
-Consumers bump the composed pins in the README example, then pray install. Tree the new skills when those jobs are in scope. Tag after merge to main. Later: shorten composed always-on fragments so AGENTS.md returns under 16 KiB.
+Catalog cut moved to usr/docs/changelogs/20260921102600_prayers-1-21-0.md. Consumers bump the composed pins in the README example, then pray install. Tree the new skills when those jobs are in scope. Tag v1.21.0 after merge to main. Later: shorten composed always-on fragments so AGENTS.md returns under 16 KiB.
 
 ## Source
 

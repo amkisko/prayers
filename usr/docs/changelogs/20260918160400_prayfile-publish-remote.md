@@ -30,10 +30,10 @@ Did not run a live catalog publish.
 
 ## Next
 
-getting-started, rust-conventions, and elixir-conventions remain catalog-only until listed as path packages.
+getting-started and elixir-conventions remain catalog-only until listed as path packages. rust-conventions is now a path package. Catalog heading is CHANGELOG.md 1.21.0.
 
 ## Source
 
 usr/docs/issues/20260918160400_prayfile-publish-remote.md
 Upstream: pray 1.19.0 RFC 0118
-Downstream: CHANGELOG.md Unreleased
+Downstream: CHANGELOG.md 1.21.0, usr/docs/changelogs/20260921102600_prayers-1-21-0.md
