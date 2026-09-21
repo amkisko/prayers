@@ -51,7 +51,7 @@ source "amkisko", git: "https://github.com/amkisko/prayers.git"
 
 compose "AGENTS.md" do
   pray ".agents/project.md"
-  pray "amkisko/working-rules", "~> 2.4"
+  pray "amkisko/working-rules", "~> 2.5"
   pray "amkisko/security", "~> 1.4"
   pray "amkisko/docs-conventions", "~> 2.5"
   pray "amkisko/dependency-issues", "~> 2.1"

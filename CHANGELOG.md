@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## 1.21.0 (2026-09-21)
 
 - Declare the local catalog dest in Prayfile as `publish "prayers", path: "prayers"`.
 - Publish `amkisko/claims-audit` 1.1.0: formal-claim scope, freeze from artifacts, isolated contrary pass.
