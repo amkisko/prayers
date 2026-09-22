@@ -125,9 +125,9 @@ git add prayers/v1/artifacts
 make check-artifacts
 ```
 
-`make validate-skills` checks package `SKILL.md` frontmatter with the Ruby standard library YAML parser. `make check-artifacts` checks catalog `.praypkg` paths with the same Ruby runtime. `make test` runs those checkers' specs.
+`make publish` then rewrites catalog `derived_metadata.topics` from package summaries (`make catalog-topics`). Artifact hash, tree hash, and signature stay. `make validate-skills` checks package `SKILL.md` frontmatter with the Ruby standard library YAML parser. `make check-artifacts` checks catalog `.praypkg` paths with the same Ruby runtime. `make test` runs those checkers' specs and the topic rewriter specs.
 
-`make release` runs validate-skills, publish, plan, apply, verify, then check-artifacts. If check-artifacts reports untracked files, add those paths and rerun `make check-artifacts` only. Catalog `published_at` is an integer unix time. Do not rerun `make publish` after a successful catalog write: it can rebuild a same-version artifact when package source drifted.
+`make release` runs validate-skills, publish (including catalog-topics), plan, apply, verify, then check-artifacts. If check-artifacts reports untracked files, add those paths and rerun `make check-artifacts` only. Catalog `published_at` is an integer unix time. Do not rerun `make publish` after a successful catalog write: it can rebuild a same-version artifact when package source drifted.
 
 ## Package catalog
 
