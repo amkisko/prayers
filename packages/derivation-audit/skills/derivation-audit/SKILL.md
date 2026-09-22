@@ -47,7 +47,7 @@ Quantities that come from the derivation stay unverifiable until they are frozen
 
 ## Record
 
-Write durable findings under `usr/docs/issues` per `docs-conventions`. Outcomes follow `claims-audit`: supported, partially supported, unsupported, outdated, contested, unverifiable. Add unresolved when the solver did not close the claim.
+Write durable findings under `docs/issues` per `docs-conventions`. Outcomes follow `claims-audit`: supported, partially supported, unsupported, outdated, contested, unverifiable. Add unresolved when the solver did not close the claim.
 
 ## Routing
 

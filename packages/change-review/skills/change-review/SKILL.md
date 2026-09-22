@@ -37,7 +37,7 @@ Use observed, inference, or artifact-missing as the evidence kind. When security
 
 ## Record
 
-Write durable findings under `usr/docs/issues` when the review is more than a chat pass. Follow `docs-conventions`. The chat report may be compact; the file stays plain prose.
+Write durable findings under `docs/issues` when the review is more than a chat pass. Follow `docs-conventions`. The chat report may be compact; the file stays plain prose.
 
 ## Routing
 

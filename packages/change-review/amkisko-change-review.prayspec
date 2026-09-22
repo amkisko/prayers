@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/change-review"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.summary = "Review a git diff with coverage, path-matched criteria, and falsify-before-report"
   spec.files = [
     "README.md",

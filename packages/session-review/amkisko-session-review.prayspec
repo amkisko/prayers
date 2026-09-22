@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/session-review"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.summary = "Review agent sessions for repeated work, corrections, and reusable patterns"
   spec.files = [
     "README.md",

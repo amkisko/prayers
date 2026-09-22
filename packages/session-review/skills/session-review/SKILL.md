@@ -41,7 +41,7 @@ Start with a compact session summary when one already exists. Still inspect repr
 
 Inspect original transcripts. Distinguish observed fact from hypothesis. One incident is not a confirmed pattern. Do not invent recurrence.
 
-Cite concise locators (session identifier, turn, command) rather than copying long private transcripts. Keep secrets, credentials, and unrelated personal information out of the report and out of `usr/docs`.
+Cite concise locators (session identifier, turn, command) rather than copying long private transcripts. Keep secrets, credentials, and unrelated personal information out of the report and out of `docs/`.
 
 ## Smallest response
 
@@ -65,9 +65,9 @@ Before implementing an approved automation, name the replay input (the sessions 
 
 ## Record
 
-Write the durable result under `usr/docs/issues` per `docs-conventions`, one note per review episode. Update that note while the review is active, and link the previous review used to set the time window. Record scope, coverage, recommendations, and outcome. Follow the live-work heading template. The chat report may be compact; the file stays plain prose. Recording the review does not change skills or rules.
+Write the durable result under `docs/issues` per `docs-conventions`, one note per review episode. Update that note while the review is active, and link the previous review used to set the time window. Record scope, coverage, recommendations, and outcome. Follow the live-work heading template. The chat report may be compact; the file stays plain prose. Recording the review does not change skills or rules.
 
-Keep proposals in the project's review note. When work on a shared prayer begins in its source repository, record that work in the source repository's `usr/docs/issues`. Record an upstream dependency defect under `usr/docs/dependencies` only when evidence supports it, per `dependency-issues`.
+Keep proposals in the project's review note. When work on a shared prayer begins in its source repository, record that work in the source repository's `docs/issues`. Record an upstream dependency defect under `docs/dependencies` only when evidence supports it, per `dependency-issues`.
 
 For a reviewed distributed prayer, offer `pray confess <package> --accepted` or `pray confess <package> --rejected` to send a package verdict to its distribution point. Use `--note` for a concise finding and `--url` when the destination must be supplied. Check the destination and remove private transcript details before an authorized submission. Keep the full evidence and proposed improvement in the review note.
 
