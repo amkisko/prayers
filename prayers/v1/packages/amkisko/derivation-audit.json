@@ -59,6 +59,65 @@
         "character_count": 3123,
         "token_count": 318
       }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/derivation-audit/1.1.0/amkisko-derivation-audit-1.1.0.praypkg",
+      "artifact_hash": "sha256:c524c4b50675fc98993c2dd47f51d3a6184c1077944552738b0e560ed78b864d",
+      "tree_hash": "sha256:b075babc8bf9cca8c73b0b3b33d6eefd4107ac66b2aa07d2ab2ad6789b425745",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1790079659,
+      "signature": "sha256:1f7054738065b8f96c304c76453eb2e8b76f78ed04d173efd5014a3bd3b3a42a",
+      "derived_metadata": {
+        "summary": "Audit formal claims, registered checks, and symbolic derivation scope — Derivation audit skill",
+        "topics": [
+          "audit",
+          "solver",
+          "when",
+          "claim",
+          "derivation"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              13,
+              19,
+              24,
+              5,
+              14,
+              14,
+              22,
+              19,
+              37,
+              29,
+              22,
+              19,
+              34,
+              23,
+              12,
+              12
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 3119,
+        "token_count": 318
+      }
     }
   ]
 }

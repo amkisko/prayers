@@ -300,6 +300,66 @@
         "character_count": 2929,
         "token_count": 290
       }
+    },
+    {
+      "version": "3.0.0",
+      "artifact": "v1/artifacts/amkisko/changelog-update/3.0.0/amkisko-changelog-update-3.0.0.praypkg",
+      "artifact_hash": "sha256:beebf327180ff19f50609ce739626ecbe2236570d727667c40d31d7217d1fe01",
+      "tree_hash": "sha256:d6b77ea636343825ea49341b3176f7709ae21c54781eb38dabafcacd78e7233d",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1790079659,
+      "signature": "sha256:919882e9b6ef3fc3e0e633953693972bf7478f2f6171bbc6aa5a96bdedbc1eb2",
+      "derived_metadata": {
+        "summary": "Changelog layering and house style — Changelog update skill",
+        "topics": [
+          "changelog",
+          "changelogs",
+          "when",
+          "docs",
+          "release"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "possible_side_effects": [
+          "may affect downstream package distribution",
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              11,
+              6,
+              24,
+              13,
+              37,
+              24,
+              35,
+              12,
+              17,
+              21,
+              15,
+              22,
+              20,
+              10,
+              13,
+              10
+            ]
+          }
+        ],
+        "file_count": 3,
+        "character_count": 2901,
+        "token_count": 290
+      }
     }
   ]
 }

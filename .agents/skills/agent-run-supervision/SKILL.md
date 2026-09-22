@@ -33,7 +33,7 @@ Context compaction can drop constraints, authorization, or a do-not-touch rule. 
 
 ## Record
 
-Write durable findings under `usr/docs/issues` per `docs-conventions`. Tool-call and token counts belong in `engineering-audit` resource-and-budget.
+Write durable findings under `docs/issues` per `docs-conventions`. Tool-call and token counts belong in `engineering-audit` resource-and-budget.
 
 ## Routing
 
