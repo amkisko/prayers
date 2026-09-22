@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 1.22.0 (2026-09-22)
+
+- Publish `amkisko/docs-conventions` 3.0.0: working records live under `docs/` timestamp trees; `docs/` also holds maintained guides; placement does not imply polish or currency; `usr/` is the workshop for working tools and operational material.
+- Publish `amkisko/dependency-issues` 3.0.0: store upstream defect evidence under `docs/dependencies/`.
+- Publish `amkisko/changelog-update` 3.0.0: engineering drafts live under `docs/changelogs/`.
+- Publish `amkisko/writing-prose` 3.6.0: plain-prose checks apply to `docs/` timestamp trees.
+- Publish `amkisko/working-rules` 2.6.0: follow docs-conventions for `docs/` timestamp-tree filenames.
+- Publish `amkisko/collaboration-workflow` 2.4.0: follow docs-conventions for `docs/`.
+- Publish `amkisko/claims-audit` 1.2.0: working notes and evidence bundles use `docs/` timestamp trees.
+- Publish `amkisko/engineering-audit` 2.11.0: issue findings use `docs/issues/`.
+- Publish `amkisko/dependency-policy` 4.1.0: unresolved signals stay in `docs/issues/`; evidenced defects in `docs/dependencies/`.
+- Publish `amkisko/session-review` 1.1.0: durable review notes use `docs/issues` and `docs/dependencies`.
+- Publish `amkisko/change-review` 1.1.0: durable findings use `docs/issues`.
+- Publish `amkisko/agent-artifact` 1.1.0: durable findings use `docs/issues`.
+- Publish `amkisko/derivation-audit` 1.1.0: durable findings use `docs/issues`.
+- Publish `amkisko/agent-run-supervision` 1.1.0: durable findings use `docs/issues`.
+
 ## 1.21.0 (2026-09-21)
 
 - Declare the local catalog dest in Prayfile as `publish "prayers", path: "prayers"`.

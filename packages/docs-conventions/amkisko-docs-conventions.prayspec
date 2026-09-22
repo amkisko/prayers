@@ -1,13 +1,13 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/docs-conventions"
-  spec.version = "2.5.0"
+  spec.version = "3.0.0"
   spec.summary = "Repository documentation layout and headings"
   spec.files = ["README.md", "exports/docs-conventions.md"]
   spec.exports = {
     "docs-conventions" => {
       type: "fragment",
       path: "exports/docs-conventions.md",
-      summary: "usr/docs trees, usr/migrate, purpose, and heading templates"
+      summary: "docs timestamp trees, usr workshop, purpose, and heading templates"
     }
   }
 end

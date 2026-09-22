@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/engineering-audit"
-  spec.version = "2.10.0"
+  spec.version = "2.11.0"
   spec.summary = "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, security, contract, learned-systems, and lineage modes"
   spec.files = [
     "README.md",
