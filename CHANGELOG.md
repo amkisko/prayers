@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.23.0 (2026-09-22)
+
+- Rewrite catalog `derived_metadata.topics` from each package summary after `make publish`. Drop function words that pray 1.20.0 still ranks as topics.
+- Add `make catalog-topics`. Include it in `make publish` and `make test`. Keep existing package versions and artifact hashes.
+
 ## 1.22.0 (2026-09-22)
 
 - Publish `amkisko/docs-conventions` 3.0.0: working records live under `docs/` timestamp trees; `docs/` also holds maintained guides; placement does not imply polish or currency; `usr/` is the workshop for working tools and operational material.
