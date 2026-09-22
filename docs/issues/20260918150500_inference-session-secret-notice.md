@@ -46,6 +46,6 @@ Consumers bump amkisko/security ~> 1.3, then pray install. writing-prose ~> 3.5 
 
 ## Source
 
-usr/docs/issues/20260918150000_signed-comment-prose.md
+docs/issues/20260918150000_signed-comment-prose.md
 packages/community-security/exports/SECURITY.md
 packages/public-surface-recon/skills/public-surface-recon/public-surface-recon.md

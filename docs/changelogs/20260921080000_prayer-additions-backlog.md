@@ -27,10 +27,10 @@ Validation commands and observed results:
 
 ## Next
 
-Catalog cut moved to usr/docs/changelogs/20260921102600_prayers-1-21-0.md. Consumers bump the composed pins in the README example, then pray install. Tree the new skills when those jobs are in scope. Tag v1.21.0 after merge to main. Later: shorten composed always-on fragments so AGENTS.md returns under 16 KiB.
+Catalog cut moved to docs/changelogs/20260921102600_prayers-1-21-0.md. Consumers bump the composed pins in the README example, then pray install. Tree the new skills when those jobs are in scope. Tag v1.21.0 after merge to main. Later: shorten composed always-on fragments so AGENTS.md returns under 16 KiB.
 
 ## Source
 
-usr/docs/issues/20260921075200_todays-prayer-additions-backlog.md
-usr/docs/issues/20260921074000_spc-research-prayer-additions.md
-usr/docs/issues/20260921075000_codex-mathmatica-skills-prayer-additions.md
+docs/issues/20260921075200_todays-prayer-additions-backlog.md
+docs/issues/20260921074000_spc-research-prayer-additions.md
+docs/issues/20260921075000_codex-mathmatica-skills-prayer-additions.md

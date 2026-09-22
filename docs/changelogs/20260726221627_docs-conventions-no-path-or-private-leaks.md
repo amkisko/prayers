@@ -18,4 +18,4 @@ Merge PR. Consumers run pray update, plan, apply. Sweep existing notes for absol
 
 ## Source
 
-Follow-on request after Participants tightening; prior note usr/docs/changelogs/20260726221452_docs-conventions-human-participants.md.
+Follow-on request after Participants tightening; prior note docs/changelogs/20260726221452_docs-conventions-human-participants.md.

@@ -48,6 +48,6 @@ Consumers bump amkisko/engineering-audit ~> 2.8, then pray install. Tag v1.16.0 
 
 ## Source
 
-Upstream: packages/engineering-audit security.md; packages/security ownership-set fragment; usr/docs/issues/20260829223300_engineering-audit-product-modes.md; CWE-639; OWASP IDOR Prevention Cheat Sheet; OWASP API Security Top 10 2023 API1.
+Upstream: packages/engineering-audit security.md; packages/security ownership-set fragment; docs/issues/20260829223300_engineering-audit-product-modes.md; CWE-639; OWASP IDOR Prevention Cheat Sheet; OWASP API Security Top 10 2023 API1.
 
-Downstream: usr/docs/changelogs/20260914161200_engineering-audit-object-level-authorization.md, CHANGELOG.md 1.16.0
+Downstream: docs/changelogs/20260914161200_engineering-audit-object-level-authorization.md, CHANGELOG.md 1.16.0

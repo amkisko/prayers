@@ -20,4 +20,4 @@ None.
 
 ## Source
 
-Legal-risk review of feature/public-surface-recon before public push. Prior package note: usr/docs/changelogs/20260908132100_public-surface-recon.md.
+Legal-risk review of feature/public-surface-recon before public push. Prior package note: docs/changelogs/20260908132100_public-surface-recon.md.

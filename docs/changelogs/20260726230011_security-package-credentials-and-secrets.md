@@ -12,7 +12,7 @@ Keep amkisko/community-security as the root SECURITY.md file package. Naming: se
 
 Added packages/security. Reverted working-rules content and published 2.0.2 without the Credentials section. Updated Prayfile, README catalog, and consumer example. make release publishes both packages.
 
-Supersedes the 2.0.1 placement noted in usr/docs/changelogs/20260726225843_working-rules-credentials-and-secrets.md.
+Supersedes the 2.0.1 placement noted in docs/changelogs/20260726225843_working-rules-credentials-and-secrets.md.
 
 ## Next
 

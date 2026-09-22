@@ -34,4 +34,4 @@ Consumers bump amkisko/security ~> 1.3, then pray install. writing-prose ~> 3.5 
 
 ## Source
 
-usr/docs/issues/20260918150500_inference-session-secret-notice.md
+docs/issues/20260918150500_inference-session-secret-notice.md

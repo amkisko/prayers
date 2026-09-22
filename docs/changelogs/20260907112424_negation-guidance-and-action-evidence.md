@@ -43,12 +43,12 @@ No executable logic changed, so no test suite or text-matching tests were added 
 
 ## Next
 
-Local package skill frontmatter checks now run through make validate-skills. The upstream system validator still needs PyYAML or a stdlib parser; this repository no longer depends on it for those checks. See usr/docs/changelogs/20260907143500_skill-frontmatter-validator.md.
+Local package skill frontmatter checks now run through make validate-skills. The upstream system validator still needs PyYAML or a stdlib parser; this repository no longer depends on it for those checks. See docs/changelogs/20260907143500_skill-frontmatter-validator.md.
 
 ## Source
 
-Research and user approval context: usr/docs/issues/20260907111611_negation-guidance-claims-review.md.
+Research and user approval context: docs/issues/20260907111611_negation-guidance-claims-review.md.
 
-Existing validator issue and suggested fix: usr/docs/dependencies/20260905124000_skill-validator-pyyaml.md.
+Existing validator issue and suggested fix: docs/dependencies/20260905124000_skill-validator-pyyaml.md.
 
 Package source paths: packages/writing-prose, packages/working-rules, packages/engineering-audit, packages/changelog-update. Generated distribution: prayers/v1/packages/amkisko and prayers/v1/artifacts/amkisko. User-facing notes: CHANGELOG.md 1.13.0.

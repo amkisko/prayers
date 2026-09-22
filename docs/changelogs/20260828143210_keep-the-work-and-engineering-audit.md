@@ -36,5 +36,5 @@ Consumers bump docs-conventions ~> 2.2, writing-prose ~> 3.3, dependency-issues 
 
 ## Source
 
-Upstream: usr/docs/issues/20260828143210_keep-the-work-and-engineering-audit.md
+Upstream: docs/issues/20260828143210_keep-the-work-and-engineering-audit.md
 Downstream: CHANGELOG.md 1.7.0, README.md catalog, packages/keep-the-work, packages/engineering-audit 2.5.0, packages/security 1.1.0, packages/docs-conventions 2.2.0, packages/writing-prose 3.3.0, packages/dependency-issues 2.1.0, packages/dependency-policy 3.1.0

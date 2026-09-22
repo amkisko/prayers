@@ -14,7 +14,7 @@ Do not add fetch procedures for design files or preview catalogues. Optional lat
 
 ## Effects
 
-preferred-stack export names the surface, records what was assessed, and treats pictures and previews as locators. Package version 1.5.0. Later pass: prayers 1.19.0 catalog publish wrote the 1.5.0 artifact. See usr/docs/changelogs/20260917145600_prayers-1-19-0.md.
+preferred-stack export names the surface, records what was assessed, and treats pictures and previews as locators. Package version 1.5.0. Later pass: prayers 1.19.0 catalog publish wrote the 1.5.0 artifact. See docs/changelogs/20260917145600_prayers-1-19-0.md.
 
 ## Next
 

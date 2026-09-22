@@ -43,4 +43,4 @@ getting-started and elixir-conventions remain catalog-only until listed as path 
 ## Source
 
 Upstream: pray 1.19.0 RFC 0118
-Downstream: Prayfile, Makefile, README.md, CHANGELOG.md 1.21.0, usr/docs/changelogs/20260918160400_prayfile-publish-remote.md, usr/docs/changelogs/20260921102600_prayers-1-21-0.md
+Downstream: Prayfile, Makefile, README.md, CHANGELOG.md 1.21.0, docs/changelogs/20260918160400_prayfile-publish-remote.md, docs/changelogs/20260921102600_prayers-1-21-0.md

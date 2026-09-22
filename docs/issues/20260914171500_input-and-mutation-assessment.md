@@ -48,6 +48,6 @@ Consumers bump amkisko/engineering-audit ~> 2.9, then pray install. Tag v1.18.0 
 
 ## Source
 
-Upstream: packages/engineering-audit security.md, contracts.md, engineering-audit.md; usr/docs/issues/20260914160500_authorization-assessment-guidance.md; CWE-20; CWE-915; OWASP Input Validation Cheat Sheet; OWASP ASVS 5.0 V1 and V2.
+Upstream: packages/engineering-audit security.md, contracts.md, engineering-audit.md; docs/issues/20260914160500_authorization-assessment-guidance.md; CWE-20; CWE-915; OWASP Input Validation Cheat Sheet; OWASP ASVS 5.0 V1 and V2.
 
-Downstream: usr/docs/changelogs/20260914172200_engineering-audit-input-and-mutation.md, CHANGELOG.md 1.18.0
+Downstream: docs/changelogs/20260914172200_engineering-audit-input-and-mutation.md, CHANGELOG.md 1.18.0

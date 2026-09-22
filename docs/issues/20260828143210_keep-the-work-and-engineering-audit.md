@@ -28,6 +28,8 @@ Encoded as keep-the-work 1.0.0 and 1.1.0, preferred-stack 1.1.0 through 1.3.0, m
 
 Collapsed this episode from five usr/docs copies into one issues file plus one changelog. Restored meetings and dependencies as named trees with purpose and templates. Product changelog stays 1.7.0; 1.8.0 through 1.12.0 were never committed.
 
+Later pass, 2026-09-22: those timestamp trees live under docs/. See docs/issues/20260916173100_docs-working-records.md.
+
 Later pass: prose and consistency audit of that restore. Source now cites docs-conventions 2.2.0. The issues parenthetical says pitch, plan, and queue stay in that file. CHANGELOG 1.7.0 and the README state the four trees without a drop-clause. Em dashes in the fragments this pass touched became colons or full stops. make apply: AGENTS.md 16328 bytes (56 under 16 KiB). Rebuilt docs-conventions 2.2.0 at 2078 bytes, writing-prose 3.3.0 at 1269 bytes, dependency-issues 2.1.0 at 1335 bytes. docs-conventions fragment 1667 bytes. make verify exit 0. make drift exit 0. make check-artifacts ok after git add of those three praypkg files.
 
 ## Next
@@ -39,4 +41,4 @@ Commit unpublished work when ready. Write gardener and polyrun issue notes befor
 ## Source
 
 Upstream: packages/keep-the-work, packages/engineering-audit 2.4.0 and 2.5.0, packages/security 1.1.0, RFC 6973 section 7.1, packages/docs-conventions 2.2.0
-Downstream: usr/docs/changelogs/20260828143210_keep-the-work-and-engineering-audit.md, CHANGELOG.md 1.7.0
+Downstream: docs/changelogs/20260828143210_keep-the-work-and-engineering-audit.md, CHANGELOG.md 1.7.0

@@ -32,8 +32,8 @@ The local package skill check no longer uses the system validator. Report the mi
 
 ## Source
 
-Downstream: usr/docs/issues/20260905123351_dependency-vulnerability-assessments.md
+Downstream: docs/issues/20260905123351_dependency-vulnerability-assessments.md
 
-The same missing yaml import recurred on 2026-09-07 for engineering-audit and changelog-update. Native package builds and an independent Ruby YAML parse completed. Downstream evidence: usr/docs/changelogs/20260907112424_negation-guidance-and-action-evidence.md.
+The same missing yaml import recurred on 2026-09-07 for engineering-audit and changelog-update. Native package builds and an independent Ruby YAML parse completed. Downstream evidence: docs/changelogs/20260907112424_negation-guidance-and-action-evidence.md.
 
-Later pass, 2026-09-07: this repository now checks package SKILL.md frontmatter with usr/scripts/validate_skill.rb and the Ruby standard library YAML parser. make validate-skills and make test cover that check. Downstream: usr/docs/changelogs/20260907143500_skill-frontmatter-validator.md.
+Later pass, 2026-09-07: this repository now checks package SKILL.md frontmatter with usr/scripts/validate_skill.rb and the Ruby standard library YAML parser. make validate-skills and make test cover that check. Downstream: docs/changelogs/20260907143500_skill-frontmatter-validator.md.
