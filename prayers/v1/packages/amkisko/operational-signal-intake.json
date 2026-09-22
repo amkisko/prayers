@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Provider-neutral intake for live service, reliability, security, and user-impact signals — Operational signal intake skill",
         "topics": [
-          "evidence",
-          "audit",
+          "provider",
+          "neutral",
           "intake",
-          "source",
-          "user"
+          "live",
+          "service"
         ],
         "categories": [
           "security"

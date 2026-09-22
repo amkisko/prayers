@@ -18,10 +18,10 @@
         "summary": "Changes likely to be rejected in review — Likely rejected change patterns",
         "topics": [
           "changes",
-          "rejected",
-          "change",
           "likely",
-          "without"
+          "rejected",
+          "review",
+          "change"
         ],
         "categories": [
           "general"
@@ -76,11 +76,11 @@
       "derived_metadata": {
         "summary": "Changes likely to be rejected in review — Likely rejected change patterns",
         "topics": [
-          "change",
           "changes",
-          "rejected",
           "likely",
-          "without"
+          "rejected",
+          "review",
+          "change"
         ],
         "categories": [
           "general"

@@ -18,11 +18,11 @@
       "derived_metadata": {
         "summary": "Claim hygiene language and factual verification skill — Claim hygiene and when to verify",
         "topics": [
-          "claims",
-          "when",
-          "audit",
           "claim",
-          "evidence"
+          "hygiene",
+          "language",
+          "factual",
+          "verification"
         ],
         "categories": [
           "testing"
@@ -75,11 +75,11 @@
       "derived_metadata": {
         "summary": "Claim hygiene language and factual verification skill — Claim hygiene and when to verify",
         "topics": [
-          "claims",
-          "audit",
-          "when",
           "claim",
-          "ledger"
+          "hygiene",
+          "language",
+          "factual",
+          "verification"
         ],
         "categories": [
           "testing"
@@ -135,11 +135,11 @@
       "derived_metadata": {
         "summary": "Claim hygiene language and factual verification skill — Claim hygiene and when to verify",
         "topics": [
-          "claims",
-          "audit",
-          "when",
           "claim",
-          "ledger"
+          "hygiene",
+          "language",
+          "factual",
+          "verification"
         ],
         "categories": [
           "testing"

@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "when",
-          "only",
-          "tests",
-          "avoid",
-          "changelog"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "testing"
@@ -73,11 +73,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "when",
-          "only",
-          "tests",
-          "avoid",
-          "should"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "testing"
@@ -129,11 +129,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "when",
-          "only",
-          "secrets",
-          "tests",
-          "avoid"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "testing"
@@ -188,11 +188,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "when",
-          "only",
-          "tests",
-          "avoid",
-          "should"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "testing"
@@ -244,11 +244,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "tests",
-          "avoid",
-          "only",
-          "when",
-          "docs"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "documentation",
@@ -302,11 +302,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "tests",
-          "avoid",
-          "only",
-          "when",
-          "docs"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "documentation",
@@ -360,11 +360,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "tests",
-          "only",
-          "when",
-          "avoid",
-          "docs"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "documentation",
@@ -421,11 +421,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "only",
-          "tests",
-          "when",
-          "avoid",
-          "docs"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "documentation",
@@ -482,11 +482,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "only",
-          "tests",
-          "when",
-          "avoid",
-          "checks"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "testing"
@@ -541,11 +541,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "only",
-          "tests",
-          "when",
-          "avoid",
-          "after"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "testing"
@@ -600,11 +600,11 @@
       "derived_metadata": {
         "summary": "Shared engineering working rules — Core engineering working rules",
         "topics": [
-          "only",
-          "tests",
-          "when",
-          "avoid",
-          "after"
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
         ],
         "categories": [
           "testing"

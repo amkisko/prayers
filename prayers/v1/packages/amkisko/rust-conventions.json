@@ -17,11 +17,10 @@
       "derived_metadata": {
         "summary": "Rust conventions for amkisko repositories — Rust stack conventions",
         "topics": [
-          "conventions",
           "rust",
-          "follow",
-          "coverage",
-          "declared"
+          "conventions",
+          "repositories",
+          "stack"
         ],
         "categories": [
           "general"
@@ -73,11 +72,10 @@
       "derived_metadata": {
         "summary": "Rust conventions for amkisko repositories — Rust stack conventions",
         "topics": [
-          "conventions",
           "rust",
-          "follow",
-          "coverage",
-          "declared"
+          "conventions",
+          "repositories",
+          "stack"
         ],
         "categories": [
           "general"

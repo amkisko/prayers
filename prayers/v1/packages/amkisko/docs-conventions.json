@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
         "topics": [
-          "docs",
-          "changelogs",
-          "issues",
-          "meetings",
-          "plan"
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "docs"
         ],
         "categories": [
           "documentation"
@@ -73,11 +73,11 @@
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
         "topics": [
-          "docs",
-          "trace",
-          "under",
-          "agent",
-          "human"
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "docs"
         ],
         "categories": [
           "automation",
@@ -131,11 +131,11 @@
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
         "topics": [
-          "docs",
-          "under",
-          "trace",
-          "agents",
-          "only"
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "docs"
         ],
         "categories": [
           "automation",
@@ -189,11 +189,11 @@
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
         "topics": [
-          "docs",
-          "under",
-          "trace",
-          "agents",
-          "only"
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "docs"
         ],
         "categories": [
           "automation",
@@ -247,11 +247,11 @@
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — Four usr/docs trees, purpose, and heading templates",
         "topics": [
-          "docs",
-          "what",
-          "only",
-          "open",
-          "upstream"
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "four"
         ],
         "categories": [
           "documentation"
@@ -303,11 +303,11 @@
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — usr/docs trees, usr/migrate, purpose, and heading templates",
         "topics": [
-          "docs",
-          "only",
-          "live",
-          "under",
-          "what"
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "docs"
         ],
         "categories": [
           "documentation"
@@ -359,11 +359,11 @@
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — usr/docs trees, usr/migrate, purpose, and heading templates",
         "topics": [
-          "docs",
-          "only",
-          "live",
-          "under",
-          "what"
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "docs"
         ],
         "categories": [
           "automation",
@@ -417,11 +417,11 @@
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — usr/docs trees, usr/migrate, purpose, and heading templates",
         "topics": [
-          "docs",
-          "what",
-          "live",
-          "only",
-          "under"
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "docs"
         ],
         "categories": [
           "automation",
@@ -475,11 +475,11 @@
       "derived_metadata": {
         "summary": "Repository documentation layout and headings — docs timestamp trees, usr workshop, purpose, and heading templates",
         "topics": [
-          "what",
-          "only",
-          "that",
-          "docs",
-          "open"
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "docs"
         ],
         "categories": [
           "documentation"

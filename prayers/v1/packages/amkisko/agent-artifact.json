@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Review skill files, prompt templates, MCP configs, and tool schemas — Agent-artifact review skill",
         "topics": [
-          "agent",
+          "review",
           "skill",
           "files",
-          "when",
-          "audit"
+          "prompt",
+          "templates"
         ],
         "categories": [
           "automation"
@@ -76,11 +76,11 @@
       "derived_metadata": {
         "summary": "Review skill files, prompt templates, MCP configs, and tool schemas — Agent-artifact review skill",
         "topics": [
-          "agent",
+          "review",
           "skill",
           "files",
-          "when",
-          "audit"
+          "prompt",
+          "templates"
         ],
         "categories": [
           "automation"

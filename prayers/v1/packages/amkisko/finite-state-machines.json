@@ -18,10 +18,10 @@
         "summary": "Finite state machine modeling guidance — FSM modeling guidance",
         "topics": [
           "finite",
-          "machines",
           "state",
-          "explicit",
-          "transitions"
+          "machine",
+          "modeling",
+          "guidance"
         ],
         "categories": [
           "documentation"
@@ -73,11 +73,11 @@
       "derived_metadata": {
         "summary": "Finite state machine modeling, including digital and physical state — FSM modeling, including digital and physical state",
         "topics": [
-          "state",
-          "machines",
           "finite",
-          "when",
-          "reported"
+          "state",
+          "machine",
+          "modeling",
+          "including"
         ],
         "categories": [
           "general"
@@ -132,11 +132,11 @@
       "derived_metadata": {
         "summary": "Finite state machine modeling, including digital and physical state — FSM modeling, including digital and physical state",
         "topics": [
-          "state",
-          "machines",
           "finite",
-          "when",
-          "reported"
+          "state",
+          "machine",
+          "modeling",
+          "including"
         ],
         "categories": [
           "general"
@@ -191,11 +191,11 @@
       "derived_metadata": {
         "summary": "Finite state machine modeling, including digital and physical state — FSM modeling, including digital and physical state",
         "topics": [
-          "state",
-          "when",
-          "machines",
           "finite",
-          "reported"
+          "state",
+          "machine",
+          "modeling",
+          "including"
         ],
         "categories": [
           "general"
@@ -250,11 +250,11 @@
       "derived_metadata": {
         "summary": "Finite state machine modeling, including digital and physical state — FSM modeling, including digital and physical state",
         "topics": [
-          "state",
-          "when",
-          "machines",
           "finite",
-          "reported"
+          "state",
+          "machine",
+          "modeling",
+          "including"
         ],
         "categories": [
           "general"

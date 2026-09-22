@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Supervise a live tool-calling agent run with ceilings and barriers — Agent-run supervision skill",
         "topics": [
-          "agent",
-          "skill",
-          "supervision",
+          "supervise",
+          "live",
           "tool",
-          "ceilings"
+          "calling",
+          "agent"
         ],
         "categories": [
           "automation"
@@ -76,11 +76,11 @@
       "derived_metadata": {
         "summary": "Supervise a live tool-calling agent run with ceilings and barriers — Agent-run supervision skill",
         "topics": [
-          "agent",
-          "skill",
-          "supervision",
+          "supervise",
+          "live",
           "tool",
-          "ceilings"
+          "calling",
+          "agent"
         ],
         "categories": [
           "automation"

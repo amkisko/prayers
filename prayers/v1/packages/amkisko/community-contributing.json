@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Shared CONTRIBUTING.md for issues, PRs, and automation authorship — Contributing guidelines",
         "topics": [
+          "shared",
           "contributing",
+          "issues",
           "automation",
-          "context",
-          "change",
-          "issues"
+          "authorship"
         ],
         "categories": [
           "automation",
@@ -77,11 +77,11 @@
       "derived_metadata": {
         "summary": "Shared CONTRIBUTING.md for issues, PRs, and automation authorship — Contributing guidelines",
         "topics": [
-          "pull",
-          "automation",
+          "shared",
           "contributing",
-          "requests",
-          "review"
+          "issues",
+          "automation",
+          "authorship"
         ],
         "categories": [
           "automation",

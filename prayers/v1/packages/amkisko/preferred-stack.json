@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Preferred languages and UX principles — Preferred stack guidance",
         "topics": [
-          "amkisko",
-          "native",
           "preferred",
+          "languages",
+          "principles",
           "stack",
-          "accessible"
+          "guidance"
         ],
         "categories": [
           "documentation"
@@ -73,11 +73,11 @@
       "derived_metadata": {
         "summary": "Preferred languages and UX principles — Preferred stack guidance",
         "topics": [
-          "amkisko",
-          "humane",
-          "native",
           "preferred",
-          "stack"
+          "languages",
+          "principles",
+          "stack",
+          "guidance"
         ],
         "categories": [
           "documentation"
@@ -132,11 +132,11 @@
       "derived_metadata": {
         "summary": "Preferred languages and UX principles — Preferred stack guidance",
         "topics": [
-          "place",
-          "amkisko",
-          "native",
           "preferred",
-          "refusal"
+          "languages",
+          "principles",
+          "stack",
+          "guidance"
         ],
         "categories": [
           "documentation"
@@ -188,11 +188,11 @@
       "derived_metadata": {
         "summary": "Preferred languages and UX principles — Preferred stack guidance",
         "topics": [
-          "amkisko",
-          "native",
           "preferred",
+          "languages",
+          "principles",
           "stack",
-          "accessible"
+          "guidance"
         ],
         "categories": [
           "documentation"
@@ -244,11 +244,11 @@
       "derived_metadata": {
         "summary": "Preferred languages and UX principles — Preferred stack guidance",
         "topics": [
-          "amkisko",
-          "native",
           "preferred",
+          "languages",
+          "principles",
           "stack",
-          "accessibility"
+          "guidance"
         ],
         "categories": [
           "documentation"
@@ -300,11 +300,11 @@
       "derived_metadata": {
         "summary": "Preferred languages, UX principles, and visual-assessment communication — Preferred stack guidance",
         "topics": [
-          "surface",
-          "assessment",
+          "preferred",
+          "languages",
+          "principles",
           "visual",
-          "work",
-          "product"
+          "assessment"
         ],
         "categories": [
           "documentation"

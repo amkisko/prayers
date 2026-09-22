@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Shared SECURITY.md for vulnerability reporting and automation safety — Security policy and vulnerability reporting",
         "topics": [
+          "shared",
           "security",
-          "will",
-          "automation",
           "vulnerability",
-          "disclosure"
+          "reporting",
+          "automation"
         ],
         "categories": [
           "automation",
@@ -75,11 +75,11 @@
       "derived_metadata": {
         "summary": "Shared SECURITY.md for vulnerability reporting and automation safety — Security policy and vulnerability reporting",
         "topics": [
+          "shared",
           "security",
-          "will",
-          "automation",
           "vulnerability",
-          "disclosure"
+          "reporting",
+          "automation"
         ],
         "categories": [
           "automation",
@@ -133,11 +133,11 @@
       "derived_metadata": {
         "summary": "Shared SECURITY.md for vulnerability reporting and automation safety — Security policy and vulnerability reporting",
         "topics": [
+          "shared",
           "security",
-          "will",
-          "automation",
           "vulnerability",
-          "disclosure"
+          "reporting",
+          "automation"
         ],
         "categories": [
           "automation",

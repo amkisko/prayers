@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Control UI for simulated external IO — Simulated plant and control UI for live IO",
         "topics": [
-          "that",
-          "product",
-          "simulation",
+          "control",
+          "simulated",
+          "external",
           "plant",
-          "control"
+          "live"
         ],
         "categories": [
           "general"
@@ -73,11 +73,11 @@
       "derived_metadata": {
         "summary": "Control UI for simulated external IO and injectable plant faults — Simulated plant, control UI, and injectable plant faults",
         "topics": [
-          "that",
-          "plant",
-          "product",
-          "simulation",
-          "control"
+          "control",
+          "simulated",
+          "external",
+          "injectable",
+          "plant"
         ],
         "categories": [
           "general"

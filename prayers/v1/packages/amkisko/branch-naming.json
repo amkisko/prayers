@@ -17,11 +17,9 @@
       "derived_metadata": {
         "summary": "Branch naming conventions — # amkisko/branch-naming",
         "topics": [
-          "title",
           "branch",
-          "plan",
-          "trunk",
-          "2026"
+          "naming",
+          "conventions"
         ],
         "categories": [
           "general"
