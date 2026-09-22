@@ -17,11 +17,10 @@
       "derived_metadata": {
         "summary": "Kotlin conventions for amkisko repositories — Kotlin stack conventions",
         "topics": [
-          "conventions",
-          "amkisko",
           "kotlin",
-          "follow",
-          "compose"
+          "conventions",
+          "repositories",
+          "stack"
         ],
         "categories": [
           "general"

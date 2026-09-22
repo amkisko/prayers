@@ -19,9 +19,9 @@
         "topics": [
           "review",
           "diff",
-          "audit",
-          "before",
-          "file"
+          "coverage",
+          "path",
+          "matched"
         ],
         "categories": [
           "general"
@@ -78,9 +78,9 @@
         "topics": [
           "review",
           "diff",
-          "audit",
-          "before",
-          "file"
+          "coverage",
+          "path",
+          "matched"
         ],
         "categories": [
           "general"

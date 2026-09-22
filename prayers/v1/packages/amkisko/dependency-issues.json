@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Record and suggest fixes for clear dependency bugs — Dependency bug evidence and fix suggestions",
         "topics": [
-          "dependency",
-          "upstream",
-          "issues",
-          "evidence",
-          "when"
+          "record",
+          "suggest",
+          "fixes",
+          "clear",
+          "dependency"
         ],
         "categories": [
           "general"
@@ -73,11 +73,11 @@
       "derived_metadata": {
         "summary": "Record and suggest fixes for clear dependency bugs — Dependency bug evidence and fix suggestions",
         "topics": [
-          "dependency",
-          "upstream",
-          "issues",
-          "evidence",
-          "when"
+          "record",
+          "suggest",
+          "fixes",
+          "clear",
+          "dependency"
         ],
         "categories": [
           "general"
@@ -129,11 +129,11 @@
       "derived_metadata": {
         "summary": "Record and suggest fixes for clear dependency bugs — Dependency bug evidence and fix suggestions",
         "topics": [
-          "dependency",
-          "upstream",
-          "evidence",
-          "issues",
-          "work"
+          "record",
+          "suggest",
+          "fixes",
+          "clear",
+          "dependency"
         ],
         "categories": [
           "general"
@@ -185,11 +185,11 @@
       "derived_metadata": {
         "summary": "Record and suggest fixes for clear dependency bugs — Dependency bug evidence and fix suggestions",
         "topics": [
-          "dependency",
-          "upstream",
-          "evidence",
-          "issues",
-          "work"
+          "record",
+          "suggest",
+          "fixes",
+          "clear",
+          "dependency"
         ],
         "categories": [
           "general"

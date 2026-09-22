@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Shallow, idempotent background work with captured enqueue context — Shallow jobs, enqueue context, retries, destination failure",
         "topics": [
+          "shallow",
+          "idempotent",
           "background",
-          "enqueue",
-          "jobs",
-          "retry",
-          "capture"
+          "work",
+          "captured"
         ],
         "categories": [
           "general"
@@ -76,11 +76,11 @@
       "derived_metadata": {
         "summary": "Shallow, idempotent background work with captured enqueue context — Shallow jobs, enqueue context, retries, destination failure",
         "topics": [
+          "shallow",
+          "idempotent",
           "background",
-          "enqueue",
-          "jobs",
-          "retry",
-          "call"
+          "work",
+          "captured"
         ],
         "categories": [
           "general"

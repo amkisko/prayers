@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Find how a tree actually writes; encode genuine forks as executable checks — Infer project conventions and encode them as executable checks",
         "topics": [
-          "check",
-          "encode",
-          "convention",
-          "architecture",
-          "conventions"
+          "find",
+          "tree",
+          "actually",
+          "writes",
+          "encode"
         ],
         "categories": [
           "general"

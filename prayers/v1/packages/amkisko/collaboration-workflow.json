@@ -17,11 +17,10 @@
       "derived_metadata": {
         "summary": "Collaboration and durable context workflow — Collaboration workflow",
         "topics": [
-          "docs",
           "collaboration",
-          "work",
-          "agent",
-          "assisted"
+          "durable",
+          "context",
+          "workflow"
         ],
         "categories": [
           "automation",
@@ -75,11 +74,10 @@
       "derived_metadata": {
         "summary": "Collaboration and durable context workflow — Collaboration workflow",
         "topics": [
-          "docs",
-          "agent",
           "collaboration",
-          "human",
-          "work"
+          "durable",
+          "context",
+          "workflow"
         ],
         "categories": [
           "automation",
@@ -133,11 +131,10 @@
       "derived_metadata": {
         "summary": "Collaboration and durable context workflow — Collaboration workflow",
         "topics": [
-          "docs",
-          "work",
-          "agent",
-          "amkisko",
-          "assisted"
+          "collaboration",
+          "durable",
+          "context",
+          "workflow"
         ],
         "categories": [
           "automation",
@@ -191,11 +188,10 @@
       "derived_metadata": {
         "summary": "Collaboration and durable context workflow — Collaboration workflow",
         "topics": [
-          "docs",
-          "work",
-          "amkisko",
           "collaboration",
-          "conventions"
+          "durable",
+          "context",
+          "workflow"
         ],
         "categories": [
           "automation",
@@ -249,11 +245,10 @@
       "derived_metadata": {
         "summary": "Collaboration and durable context workflow — Collaboration workflow",
         "topics": [
-          "docs",
-          "conventions",
-          "work",
-          "amkisko",
-          "collaboration"
+          "collaboration",
+          "durable",
+          "context",
+          "workflow"
         ],
         "categories": [
           "automation",
@@ -310,11 +305,10 @@
       "derived_metadata": {
         "summary": "Collaboration and durable context workflow — Collaboration workflow",
         "topics": [
-          "conventions",
-          "docs",
-          "work",
-          "amkisko",
-          "collaboration"
+          "collaboration",
+          "durable",
+          "context",
+          "workflow"
         ],
         "categories": [
           "automation",

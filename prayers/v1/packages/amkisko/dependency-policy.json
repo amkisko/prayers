@@ -19,10 +19,10 @@
         "summary": "Dependency selection, alteration, and audit rules — Dependency selection and alteration rules",
         "topics": [
           "dependency",
+          "selection",
+          "alteration",
           "audit",
-          "when",
-          "path",
-          "advisory"
+          "rules"
         ],
         "categories": [
           "security"
@@ -79,10 +79,10 @@
         "summary": "Dependency selection, alteration, and audit rules — Dependency selection and alteration rules",
         "topics": [
           "dependency",
+          "selection",
+          "alteration",
           "audit",
-          "when",
-          "path",
-          "advisory"
+          "rules"
         ],
         "categories": [
           "security"
@@ -139,10 +139,10 @@
         "summary": "Dependency stop-gate and audit skill — Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
+          "stop",
+          "gate",
           "audit",
-          "when",
-          "path",
-          "recon"
+          "skill"
         ],
         "categories": [
           "security"
@@ -199,10 +199,10 @@
         "summary": "Dependency stop-gate and audit skill — Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
+          "stop",
+          "gate",
           "audit",
-          "when",
-          "path",
-          "recon"
+          "skill"
         ],
         "categories": [
           "security"
@@ -259,10 +259,10 @@
         "summary": "Dependency stop-gate and audit skill, including libyears-style freshness lag — Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
+          "stop",
+          "gate",
           "audit",
-          "when",
-          "path",
-          "recon"
+          "skill"
         ],
         "categories": [
           "security"
@@ -319,10 +319,10 @@
         "summary": "Dependency stop-gate and target-scoped audit skill — Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
-          "audit",
-          "when",
-          "work",
-          "adding"
+          "stop",
+          "gate",
+          "target",
+          "scoped"
         ],
         "categories": [
           "security"
@@ -379,10 +379,10 @@
         "summary": "Dependency stop-gate and target-scoped audit skill — Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
-          "audit",
-          "when",
-          "work",
-          "adding"
+          "stop",
+          "gate",
+          "target",
+          "scoped"
         ],
         "categories": [
           "security"

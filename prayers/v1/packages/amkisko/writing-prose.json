@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
         "topics": [
-          "docs",
-          "once",
           "plain",
-          "prose",
-          "writing"
+          "technical",
+          "writing",
+          "checks",
+          "changelog"
         ],
         "categories": [
           "documentation"
@@ -76,11 +76,11 @@
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
         "topics": [
-          "docs",
-          "once",
           "plain",
-          "prose",
-          "writing"
+          "technical",
+          "writing",
+          "checks",
+          "changelog"
         ],
         "categories": [
           "documentation"
@@ -135,11 +135,11 @@
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
         "topics": [
-          "docs",
-          "once",
-          "claims",
           "plain",
-          "prose"
+          "technical",
+          "writing",
+          "checks",
+          "changelog"
         ],
         "categories": [
           "documentation"
@@ -194,11 +194,11 @@
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
         "topics": [
-          "docs",
-          "once",
-          "claims",
           "plain",
-          "prose"
+          "technical",
+          "writing",
+          "checks",
+          "changelog"
         ],
         "categories": [
           "documentation"
@@ -253,11 +253,11 @@
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
         "topics": [
-          "docs",
-          "once",
-          "claims",
           "plain",
-          "prose"
+          "technical",
+          "writing",
+          "checks",
+          "changelog"
         ],
         "categories": [
           "documentation"
@@ -312,11 +312,11 @@
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
         "topics": [
-          "once",
-          "claims",
           "plain",
-          "prose",
-          "writing"
+          "technical",
+          "writing",
+          "checks",
+          "changelog"
         ],
         "categories": [
           "general"
@@ -371,11 +371,11 @@
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing and changelog prose checks",
         "topics": [
-          "claims",
           "plain",
-          "prose",
+          "technical",
           "writing",
-          "amkisko"
+          "checks",
+          "changelog"
         ],
         "categories": [
           "general"
@@ -430,11 +430,11 @@
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing, changelog, and signed-comment prose checks",
         "topics": [
-          "person",
-          "public",
-          "stay",
-          "amkisko",
-          "chat"
+          "plain",
+          "technical",
+          "writing",
+          "checks",
+          "changelog"
         ],
         "categories": [
           "security"
@@ -489,11 +489,11 @@
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing, changelog, and signed-comment prose checks",
         "topics": [
-          "person",
-          "material",
-          "when",
-          "public",
-          "stay"
+          "plain",
+          "technical",
+          "writing",
+          "checks",
+          "changelog"
         ],
         "categories": [
           "security"
@@ -548,11 +548,11 @@
       "derived_metadata": {
         "summary": "Plain technical writing checks — Writing, changelog, and signed-comment prose checks",
         "topics": [
-          "person",
-          "material",
-          "when",
-          "public",
-          "stay"
+          "plain",
+          "technical",
+          "writing",
+          "checks",
+          "changelog"
         ],
         "categories": [
           "security"

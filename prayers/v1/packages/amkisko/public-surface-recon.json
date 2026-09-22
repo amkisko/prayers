@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
         "topics": [
-          "public",
-          "prayers",
-          "only",
           "blackbox",
-          "origin"
+          "recon",
+          "http",
+          "archives",
+          "public"
         ],
         "categories": [
           "documentation"
@@ -73,11 +73,11 @@
       "derived_metadata": {
         "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
         "topics": [
-          "public",
-          "only",
-          "prayers",
           "blackbox",
-          "recon"
+          "recon",
+          "http",
+          "archives",
+          "public"
         ],
         "categories": [
           "documentation"

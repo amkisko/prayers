@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Shared GOVERNANCE.md for roles and decision making — Project governance and decision process",
         "topics": [
-          "architectural",
-          "changes",
-          "consensus",
+          "shared",
           "governance",
-          "maintainers"
+          "roles",
+          "decision",
+          "making"
         ],
         "categories": [
           "general"
@@ -73,11 +73,11 @@
       "derived_metadata": {
         "summary": "Shared GOVERNANCE.md for roles and decision making — Project governance and decision process",
         "topics": [
-          "changes",
+          "shared",
           "governance",
-          "approval",
-          "architectural",
-          "community"
+          "roles",
+          "decision",
+          "making"
         ],
         "categories": [
           "general"

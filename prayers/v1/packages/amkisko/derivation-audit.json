@@ -18,10 +18,10 @@
         "summary": "Audit formal claims, registered checks, and symbolic derivation scope — Derivation audit skill",
         "topics": [
           "audit",
-          "solver",
-          "when",
-          "claim",
-          "derivation"
+          "formal",
+          "claims",
+          "registered",
+          "checks"
         ],
         "categories": [
           "general"
@@ -77,10 +77,10 @@
         "summary": "Audit formal claims, registered checks, and symbolic derivation scope — Derivation audit skill",
         "topics": [
           "audit",
-          "solver",
-          "when",
-          "claim",
-          "derivation"
+          "formal",
+          "claims",
+          "registered",
+          "checks"
         ],
         "categories": [
           "general"

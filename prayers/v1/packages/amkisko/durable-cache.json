@@ -18,10 +18,10 @@
         "summary": "Cache versus durable truth on a shared store — Wipe test, single commit point, revalidate on read",
         "topics": [
           "cache",
+          "versus",
           "durable",
-          "amkisko",
-          "commit",
-          "state"
+          "truth",
+          "shared"
         ],
         "categories": [
           "testing"

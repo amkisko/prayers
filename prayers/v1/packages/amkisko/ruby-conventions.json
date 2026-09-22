@@ -18,10 +18,10 @@
         "summary": "Ruby and Rails conventions for amkisko repositories — Ruby and Rails stack conventions",
         "topics": [
           "ruby",
-          "conventions",
-          "migrations",
           "rails",
-          "data"
+          "conventions",
+          "repositories",
+          "stack"
         ],
         "categories": [
           "documentation",
@@ -75,11 +75,11 @@
       "derived_metadata": {
         "summary": "Ruby and Rails conventions for amkisko repositories — Ruby and Rails stack conventions",
         "topics": [
-          "conventions",
           "ruby",
           "rails",
-          "backfills",
-          "console"
+          "conventions",
+          "repositories",
+          "stack"
         ],
         "categories": [
           "documentation",
@@ -133,11 +133,11 @@
       "derived_metadata": {
         "summary": "Ruby and Rails conventions for amkisko repositories — Ruby and Rails stack conventions",
         "topics": [
-          "conventions",
           "ruby",
           "rails",
-          "test",
-          "backfills"
+          "conventions",
+          "repositories",
+          "stack"
         ],
         "categories": [
           "documentation",

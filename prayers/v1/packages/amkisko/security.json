@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Credential and secret handling for agents — Credentials and secrets hygiene for agent work",
         "topics": [
-          "secrets",
+          "credential",
           "secret",
-          "security",
-          "amkisko",
-          "config"
+          "handling",
+          "agents",
+          "credentials"
         ],
         "categories": [
           "automation",
@@ -78,11 +78,11 @@
       "derived_metadata": {
         "summary": "Credential, secret, and tracking hygiene for agents — Credentials, secrets, and tracking cautions for agent work",
         "topics": [
+          "credential",
           "secret",
-          "secrets",
-          "they",
-          "security",
-          "that"
+          "tracking",
+          "hygiene",
+          "agents"
         ],
         "categories": [
           "automation",
@@ -139,11 +139,11 @@
       "derived_metadata": {
         "summary": "Credential, secret, tracking, and ownership hygiene for agents — Credentials, secrets, tracking, and ownership cautions for agent work",
         "topics": [
+          "credential",
           "secret",
-          "secrets",
-          "security",
-          "they",
-          "that"
+          "tracking",
+          "ownership",
+          "hygiene"
         ],
         "categories": [
           "automation",
@@ -200,11 +200,11 @@
       "derived_metadata": {
         "summary": "Credential, secret, tracking, and ownership hygiene for agents — Credentials, secrets, tracking, and ownership cautions for agent work",
         "topics": [
+          "credential",
           "secret",
-          "security",
-          "secrets",
-          "session",
-          "they"
+          "tracking",
+          "ownership",
+          "hygiene"
         ],
         "categories": [
           "automation",
@@ -261,11 +261,11 @@
       "derived_metadata": {
         "summary": "Credential, secret, tracking, and ownership hygiene for agents — Credentials, secrets, tracking, and ownership cautions for agent work",
         "topics": [
-          "secret",
           "credential",
-          "security",
-          "files",
-          "live"
+          "secret",
+          "tracking",
+          "ownership",
+          "hygiene"
         ],
         "categories": [
           "automation",

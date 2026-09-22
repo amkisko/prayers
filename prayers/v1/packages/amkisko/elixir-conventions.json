@@ -17,11 +17,10 @@
       "derived_metadata": {
         "summary": "Elixir conventions for amkisko repositories — Elixir stack conventions",
         "topics": [
-          "conventions",
           "elixir",
-          "follow",
-          "coverage",
-          "declared"
+          "conventions",
+          "repositories",
+          "stack"
         ],
         "categories": [
           "general"

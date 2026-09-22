@@ -18,11 +18,11 @@
       "derived_metadata": {
         "summary": "RFC numbering, template, types, and statuses — When to write an RFC and how to claim an id",
         "topics": [
-          "rfcs",
-          "when",
-          "process",
+          "numbering",
           "template",
-          "nnnn"
+          "types",
+          "statuses",
+          "write"
         ],
         "categories": [
           "general"
@@ -78,11 +78,11 @@
       "derived_metadata": {
         "summary": "RFC numbering, template, types, and statuses — When to write an RFC and how to claim an id",
         "topics": [
-          "rfcs",
-          "process",
+          "numbering",
           "template",
-          "when",
-          "nnnn"
+          "types",
+          "statuses",
+          "write"
         ],
         "categories": [
           "general"
@@ -138,11 +138,11 @@
       "derived_metadata": {
         "summary": "RFC numbering, template, types, and statuses — When to write an RFC and how to claim an id",
         "topics": [
-          "rfcs",
-          "process",
+          "numbering",
           "template",
-          "when",
-          "nnnn"
+          "types",
+          "statuses",
+          "write"
         ],
         "categories": [
           "general"

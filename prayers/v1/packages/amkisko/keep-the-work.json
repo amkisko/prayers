@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Keep the place they used after a refusal — Stay on the failed place after a refusal",
         "topics": [
-          "error",
-          "person",
-          "humane",
-          "location",
-          "after"
+          "keep",
+          "place",
+          "used",
+          "refusal",
+          "stay"
         ],
         "categories": [
           "general"
@@ -76,11 +76,11 @@
       "derived_metadata": {
         "summary": "Keep the place they used and the work they already did after a refusal — Stay on the failed place and keep answers after a refusal",
         "topics": [
-          "error",
           "keep",
-          "person",
-          "after",
-          "humane"
+          "place",
+          "used",
+          "work",
+          "already"
         ],
         "categories": [
           "general"
@@ -135,11 +135,11 @@
       "derived_metadata": {
         "summary": "Keep the place they used and the work they already did after a refusal — Stay on the failed place and keep answers after a refusal",
         "topics": [
-          "place",
           "keep",
-          "they",
-          "refusal",
-          "after"
+          "place",
+          "used",
+          "work",
+          "already"
         ],
         "categories": [
           "general"
@@ -194,11 +194,11 @@
       "derived_metadata": {
         "summary": "Keep the place they used and the work they already did after a refusal — Stay on the failed place and keep answers after a refusal",
         "topics": [
-          "place",
           "keep",
-          "they",
-          "refusal",
-          "work"
+          "place",
+          "used",
+          "work",
+          "already"
         ],
         "categories": [
           "general"
@@ -253,11 +253,11 @@
       "derived_metadata": {
         "summary": "Keep the place they used and the work they already did after a refusal — Stay on the failed place and keep answers after a refusal",
         "topics": [
-          "place",
-          "after",
           "keep",
-          "they",
-          "refusal"
+          "place",
+          "used",
+          "work",
+          "already"
         ],
         "categories": [
           "general"

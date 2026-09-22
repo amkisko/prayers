@@ -18,10 +18,10 @@
         "summary": "Review agent sessions for repeated work, corrections, and reusable patterns — Session review skill",
         "topics": [
           "review",
+          "agent",
+          "sessions",
           "repeated",
-          "when",
-          "work",
-          "project"
+          "work"
         ],
         "categories": [
           "automation"
@@ -77,10 +77,10 @@
         "summary": "Review agent sessions for repeated work, corrections, and reusable patterns — Session review skill",
         "topics": [
           "review",
+          "agent",
+          "sessions",
           "repeated",
-          "when",
-          "work",
-          "project"
+          "work"
         ],
         "categories": [
           "automation"

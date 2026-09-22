@@ -17,11 +17,11 @@
       "derived_metadata": {
         "summary": "Install pray and consume amkisko shared prayers — Pray install and consumer workflow",
         "topics": [
-          "pray",
-          "amkisko",
           "install",
-          "prayers",
-          "distribution"
+          "pray",
+          "consume",
+          "shared",
+          "prayers"
         ],
         "categories": [
           "automation"
@@ -73,11 +73,11 @@
       "derived_metadata": {
         "summary": "Install pray and consume amkisko shared prayers — Pray install and consumer workflow",
         "topics": [
+          "install",
           "pray",
-          "amkisko",
-          "prayers",
-          "agents",
-          "install"
+          "consume",
+          "shared",
+          "prayers"
         ],
         "categories": [
           "automation"
