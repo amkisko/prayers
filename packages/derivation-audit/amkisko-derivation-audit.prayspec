@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/derivation-audit"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.summary = "Audit formal claims, registered checks, and symbolic derivation scope"
   spec.files = [
     "README.md",

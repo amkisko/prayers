@@ -293,6 +293,67 @@
         "character_count": 713,
         "token_count": 80
       }
+    },
+    {
+      "version": "2.4.0",
+      "artifact": "v1/artifacts/amkisko/collaboration-workflow/2.4.0/amkisko-collaboration-workflow-2.4.0.praypkg",
+      "artifact_hash": "sha256:09a95f92b01d5ab7bb9ccf12984535b4f55481e9c1448ce8a199ad7a45d198d3",
+      "tree_hash": "sha256:f0bcacf099badac4e3ba11d047ecdbe6d6fe56b61a80eded2badec43bd8b9b76",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "collaboration-workflow"
+      ],
+      "signer": "amkisko",
+      "published_at": 1790079659,
+      "signature": "sha256:4975999b29d40c18baffde88540700c0316bdd2a1d46f6cd46afd87e728ff641",
+      "derived_metadata": {
+        "summary": "Collaboration and durable context workflow — Collaboration workflow",
+        "topics": [
+          "conventions",
+          "docs",
+          "work",
+          "amkisko",
+          "collaboration"
+        ],
+        "categories": [
+          "automation",
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage",
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              8,
+              1,
+              4,
+              6,
+              12,
+              1,
+              7,
+              3,
+              4,
+              8,
+              7,
+              2,
+              6,
+              6,
+              2,
+              0
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 704,
+        "token_count": 77
+      }
     }
   ]
 }

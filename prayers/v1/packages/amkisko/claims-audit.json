@@ -117,6 +117,66 @@
         "character_count": 11304,
         "token_count": 512
       }
+    },
+    {
+      "version": "1.2.0",
+      "artifact": "v1/artifacts/amkisko/claims-audit/1.2.0/amkisko-claims-audit-1.2.0.praypkg",
+      "artifact_hash": "sha256:e75f0586a242e28625845268195f57a713f4b68e20388895b4fa98ee63ce4826",
+      "tree_hash": "sha256:c51de2099a2cd8b10309a1953378b0bc21743e1baa9df21e324e93325bc98a67",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "claims-audit",
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1790079659,
+      "signature": "sha256:08c7ad37497e75da6e8a06ac574248d33b290f2490c3db8f83d251a9707296fa",
+      "derived_metadata": {
+        "summary": "Claim hygiene language and factual verification skill — Claim hygiene and when to verify",
+        "topics": [
+          "claims",
+          "audit",
+          "when",
+          "claim",
+          "ledger"
+        ],
+        "categories": [
+          "testing"
+        ],
+        "possible_effects": [
+          "improves validation"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              24,
+              48,
+              42,
+              23,
+              15,
+              36,
+              62,
+              43,
+              40,
+              30,
+              16,
+              20,
+              24,
+              26,
+              48,
+              15
+            ]
+          }
+        ],
+        "file_count": 5,
+        "character_count": 11404,
+        "token_count": 512
+      }
     }
   ]
 }

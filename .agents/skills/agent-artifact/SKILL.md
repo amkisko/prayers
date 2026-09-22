@@ -40,7 +40,7 @@ Cite OWASP LLM01, LLM06, and the OWASP MCP Top 10 when those frames apply. Keep 
 
 ## Record
 
-Write durable findings under `usr/docs/issues` per `docs-conventions`. Apply the `security` fragment's no-live-secret rule to skill files, prompt templates, and MCP environment settings as well as config files.
+Write durable findings under `docs/issues` per `docs-conventions`. Apply the `security` fragment's no-live-secret rule to skill files, prompt templates, and MCP environment settings as well as config files.
 
 ## Routing
 

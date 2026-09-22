@@ -59,6 +59,65 @@
         "character_count": 2608,
         "token_count": 273
       }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/agent-run-supervision/1.1.0/amkisko-agent-run-supervision-1.1.0.praypkg",
+      "artifact_hash": "sha256:884c0c351ff077762d980558e9136738950b1910ff7ba66d11d71f29fcfb705d",
+      "tree_hash": "sha256:896817531ded283dcd62356be44d31dd653c139031209ea0546a61438f066cb7",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1790079659,
+      "signature": "sha256:c854fe3fcab6123bc61642081bed16e2bef931d3c16ac78956e99a8477fc1a92",
+      "derived_metadata": {
+        "summary": "Supervise a live tool-calling agent run with ceilings and barriers — Agent-run supervision skill",
+        "topics": [
+          "agent",
+          "skill",
+          "supervision",
+          "tool",
+          "ceilings"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              17,
+              5,
+              16,
+              6,
+              31,
+              19,
+              18,
+              19,
+              12,
+              22,
+              9,
+              16,
+              30,
+              17,
+              13,
+              23
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 2604,
+        "token_count": 273
+      }
     }
   ]
 }

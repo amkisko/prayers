@@ -1,7 +1,8 @@
-- `docs/` is for human-facing documentation without agent context; use stable descriptive filenames;
-- `usr/docs/` is for durable agent and engineering trace; keep inference input (AGENTS.md, `.agents/`) separate from human docs; conventions that matter fail a command;
-- `usr/migrate/` holds live console-first scripts for a change that must run before new code is on the process; later schema migrate is schema-only and idempotent;
-- four usr/docs timestamp trees, no README index, filename `YYYYMMDDHHMMSS_<kebab-case-title>.md`: `issues` (live work: contract, findings, open next; pitch, plan, and queue stay here), `changelogs` (what shipped), `meetings` (one sitting: who was there and what they agreed), `dependencies` (upstream defects from real work);
+- `docs/` holds maintained explanations and working records; use stable descriptive filenames for guides; placement does not imply polish or currency;
+- keep inference input (AGENTS.md, `.agents/`) separate from `docs/`; conventions that matter fail a command;
+- `usr/` is the workshop for working tools and operational material;
+- `usr/migrate/` holds console-first scripts that must run before new code is on the process; later schema migrate is schema-only and idempotent;
+- four `docs/` timestamp trees, no README index, filename `YYYYMMDDHHMMSS_<kebab-case-title>.md`: `issues` (live work: contract, findings, open next; pitch, plan, and queue stay here), `changelogs` (what shipped), `meetings` (one sitting: who was there and what they agreed), `dependencies` (upstream defects from real work);
 - issues, changelogs, and meetings make five things findable (use `##` headings or equivalent; omit empty sections): **Participants** (humans only; omit agents, tools, and binaries), **Decisions** (what was agreed), **Effects** (done, failed, recovered, rolled back), **Next** (todo, planned, open questions), **Source** (links upstream: meeting, issue, PR, commit, and downstream materializations); git history is the edit log; add an explicit note only when a later pass changes meaning (scope cut, rollback, decision reversed);
 - mention software, tools, agents, or binaries in a note only when that detail is needed for execution or later analysis; put it under Decisions, Effects, or Source, not under Participants;
 - never put local absolute paths or private material in `docs/` or under `usr/`: no home-directory or machine-specific filesystem paths, secrets, credentials, tokens, API keys, or personal private data; prefer repository-relative paths;
