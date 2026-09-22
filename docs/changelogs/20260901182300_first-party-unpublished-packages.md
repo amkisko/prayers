@@ -20,5 +20,5 @@ Consumers bump minimal-implementation ~> 1.3 and ruby-conventions ~> 1.2, then p
 
 ## Source
 
-usr/docs/issues/20260901181840_first-party-unpublished-packages.md
+docs/issues/20260901181840_first-party-unpublished-packages.md
 Downstream: CHANGELOG.md 1.11.0

@@ -10,7 +10,7 @@ Phrase for any project; keep product-harder rules (for example CLI bans on env o
 
 ## Effects
 
-Bumped amkisko/working-rules to 2.0.1 with Credentials and Secrets inline. Later moved to amkisko/security; see usr/docs/changelogs/20260726230011_security-package-credentials-and-secrets.md.
+Bumped amkisko/working-rules to 2.0.1 with Credentials and Secrets inline. Later moved to amkisko/security; see docs/changelogs/20260726230011_security-package-credentials-and-secrets.md.
 
 ## Next
 

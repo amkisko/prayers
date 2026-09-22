@@ -34,4 +34,4 @@ Consumers bump amkisko/writing-prose ~> 3.5, then pray install. Tag v1.20.0 afte
 
 ## Source
 
-usr/docs/issues/20260918150000_signed-comment-prose.md
+docs/issues/20260918150000_signed-comment-prose.md

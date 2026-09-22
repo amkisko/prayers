@@ -18,7 +18,7 @@
 - `rbenv exec ruby usr/scripts/validate_skill_test.rb` passed 13 runs and 36 assertions. `rbenv exec ruby usr/scripts/check_artifacts_test.rb` passed 9 runs and 37 assertions.
 - `make package PACKAGE_DIR=packages/operational-signal-intake` built an archive containing only the declared manifest, README, skill, and two references; the scratch archive was moved outside the repository after inspection.
 - `make install` resolved 26 local packages, updated engineering-audit to 2.7.2, installed operational-signal-intake 1.0.0, and provisioned its skill files. `make plan` then reported everything up to date. `make verify` and `make drift` exited successfully. `rbenv exec ruby usr/scripts/check_artifacts.rb ./prayers` reported `check-artifacts: ok`.
-- Catalog publish for prayers 1.14.0 wrote artifacts for operational-signal-intake 1.0.0 and engineering-audit 2.7.2. See usr/docs/changelogs/20260908114024_prayers-1-14-0.md.
+- Catalog publish for prayers 1.14.0 wrote artifacts for operational-signal-intake 1.0.0 and engineering-audit 2.7.2. See docs/changelogs/20260908114024_prayers-1-14-0.md.
 
 ## Next
 

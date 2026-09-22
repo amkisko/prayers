@@ -25,6 +25,6 @@ The upstream system validator still needs PyYAML or a stdlib parser. This reposi
 
 ## Source
 
-Existing validator issue: usr/docs/dependencies/20260905124000_skill-validator-pyyaml.md
+Existing validator issue: docs/dependencies/20260905124000_skill-validator-pyyaml.md
 
-Prior workaround record: usr/docs/changelogs/20260907112424_negation-guidance-and-action-evidence.md
+Prior workaround record: docs/changelogs/20260907112424_negation-guidance-and-action-evidence.md

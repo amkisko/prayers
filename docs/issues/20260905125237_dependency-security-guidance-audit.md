@@ -98,6 +98,8 @@ Fix pass: resolved the authorization gap by limiting the default assessment to p
 
 Unresolved signals now remain in `usr/docs/issues/` until an advisory or evidence establishes an upstream defect. Every `under_investigation` assessment requires a responsible person and a review date or evidence condition. The full-audit completion goal, ranking, alteration checks, and required output now cover plausible signals and the security-only record fields.
 
+Later pass, 2026-09-22: those trees live under docs/issues and docs/dependencies. See docs/issues/20260916173100_docs-working-records.md.
+
 Release routing walkthrough: an ordinary task that surfaces suspicious dependency behavior matches the package-scoped skill trigger, selects only `vulnerability-assessment.md`, and preserves an unresolved public signal in the live-work queue. An ordinary non-security bug matches none of the dependency-security triggers and does not start a dependency audit. This is a deterministic check of the generated instruction contract, not an independent model evaluation.
 
 The prose fixes use active agency, name a product release as one target, avoid implying VEX artifact conformance, and state scoring guidance positively. The final package source, provisioned skill, catalog, artifact, and torrent agree. AGENTS.md is 16,327 bytes, 57 bytes under the 16 KiB house limit.
@@ -114,7 +116,7 @@ The package findings are resolved. Keep independent model-behavior evaluation ou
 
 ## Source
 
-Implementation: usr/docs/issues/20260905123351_dependency-vulnerability-assessments.md
+Implementation: docs/issues/20260905123351_dependency-vulnerability-assessments.md
 CISA Minimum Requirements for Vulnerability Exploitability eXchange: https://www.cisa.gov/sites/default/files/2023-04/minimum-requirements-for-vex-508c.pdf
 CISA Known Exploited Vulnerabilities Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
 FIRST Exploit Prediction Scoring System: https://www.first.org/epss/

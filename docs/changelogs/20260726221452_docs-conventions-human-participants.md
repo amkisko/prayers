@@ -16,7 +16,7 @@ Updated packages/docs-conventions export and prayspec. Regenerated AGENTS.md man
 
 Consumers run pray update, plan, apply after merge. Optional: clean existing notes that put agents or binaries under Participants.
 
-Later pass: 2.1.1 also bans absolute local paths and private material in docs/ and usr/docs (see usr/docs/changelogs/20260726221627_docs-conventions-no-path-or-private-leaks.md).
+Later pass: 2.1.1 also bans absolute local paths and private material in docs/ and usr/docs (see docs/changelogs/20260726221627_docs-conventions-no-path-or-private-leaks.md).
 
 ## Source
 

@@ -20,5 +20,5 @@ Consumers bump amkisko/engineering-audit ~> 2.9, then pray install. Tag v1.18.0 
 
 ## Source
 
-Upstream: usr/docs/issues/20260914171500_input-and-mutation-assessment.md
+Upstream: docs/issues/20260914171500_input-and-mutation-assessment.md
 Downstream: CHANGELOG.md 1.18.0, packages/engineering-audit 2.9.0

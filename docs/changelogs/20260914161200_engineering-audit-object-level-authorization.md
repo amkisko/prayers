@@ -20,5 +20,5 @@ Consumers bump amkisko/engineering-audit ~> 2.8, then pray install. Tag v1.16.0 
 
 ## Source
 
-Upstream: usr/docs/issues/20260914160500_authorization-assessment-guidance.md
+Upstream: docs/issues/20260914160500_authorization-assessment-guidance.md
 Downstream: CHANGELOG.md 1.16.0, packages/engineering-audit 2.8.0

@@ -60,12 +60,12 @@ An in-memory Ruby comparison replaced the exact phrases above and used String#by
 Command: git diff --check
 Result: exit 0, no diagnostics; this covers tracked changes only.
 
-Command: git diff --no-index --check /dev/null usr/docs/issues/20260907111611_negation-guidance-claims-review.md
+Command: git diff --no-index --check /dev/null docs/issues/20260907111611_negation-guidance-claims-review.md
 Result: exit 1 for the new-file difference, with no whitespace diagnostics.
 
 No executable code changed. No test suite, installation, package build, or publication ran. Output behavior under the proposed instructions remains untested.
 
-Later pass, 2026-09-07: the user approved implementation. Updated writing-prose 3.4.0, working-rules 2.3.0, engineering-audit 2.7.1, and changelog-update 2.1.1 in package sources referenced by Prayfile. Built and published the four versions to the local catalog, then regenerated managed instructions and the lockfile with make install. AGENTS.md is 16,311 bytes. Full validation and the validator fallback are recorded in usr/docs/changelogs/20260907112424_negation-guidance-and-action-evidence.md. The proposed edits are complete; the earlier unchanged-source statements describe the research pass.
+Later pass, 2026-09-07: the user approved implementation. Updated writing-prose 3.4.0, working-rules 2.3.0, engineering-audit 2.7.1, and changelog-update 2.1.1 in package sources referenced by Prayfile. Built and published the four versions to the local catalog, then regenerated managed instructions and the lockfile with make install. AGENTS.md is 16,311 bytes. Full validation and the validator fallback are recorded in docs/changelogs/20260907112424_negation-guidance-and-action-evidence.md. The proposed edits are complete; the earlier unchanged-source statements describe the research pass.
 
 ## Next
 
@@ -87,6 +87,6 @@ S4. OpenAI Help Center, Customizing Your ChatGPT Personality. Official living do
 
 S5. Cursor, Rules. Official living documentation. User Rules and project-rule scope. https://prod.cursor.com/docs/rules
 
-Local evidence: README.md, Compose budget; Prayfile; packages/writing-prose/exports/writing-prose.md; packages/writing-prose/amkisko-writing-prose.prayspec; packages/working-rules/exports/working-rules.md; packages/claims-audit/skills/claims-audit/claims-audit.md; packages/engineering-audit/skills/engineering-audit/engineering-audit.md; packages/changelog-update/skills/changelog-update/changelog-update.md; usr/docs/changelogs/20260815131000_writing-prose-3-claims-audit.md.
+Local evidence: README.md, Compose budget; Prayfile; packages/writing-prose/exports/writing-prose.md; packages/writing-prose/amkisko-writing-prose.prayspec; packages/working-rules/exports/working-rules.md; packages/claims-audit/skills/claims-audit/claims-audit.md; packages/engineering-audit/skills/engineering-audit/engineering-audit.md; packages/changelog-update/skills/changelog-update/changelog-update.md; docs/changelogs/20260815131000_writing-prose-3-claims-audit.md.
 
 Web query log: Rezaei Blanco 2024 affirmative interpretations CondaQA 17 36 negation; "Langenkamp" "earned parallelism"; "negation" affirmative negative instructions language models prompt study; site.cursor.com/docs "Candid"; site.cursor.com/docs/rules "User Rules"; site.langenkamp.io "Earned Parallelism". The first queries located S1 and contrary evidence S3; Cursor results led to S5 but did not establish the claimed preset or voice default. Langenkamp direct retrieval remained unsuccessful. S2 and S4 were opened from the supplied citations.

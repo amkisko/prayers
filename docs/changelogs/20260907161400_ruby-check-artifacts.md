@@ -26,4 +26,4 @@ Publisher scripts in usr/scripts are Ruby. Historical notes still mention the sy
 
 Prior Python catalog check: usr/scripts/check_artifacts.py in git history before this change.
 
-Skill frontmatter already on Ruby: usr/docs/changelogs/20260907143500_skill-frontmatter-validator.md
+Skill frontmatter already on Ruby: docs/changelogs/20260907143500_skill-frontmatter-validator.md

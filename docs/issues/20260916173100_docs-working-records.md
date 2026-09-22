@@ -30,6 +30,8 @@ Validation commands and observed results:
 
 Later pass, 2026-09-22: catalog publish wrote fourteen new artifact sets. AGENTS.md is 19,782 bytes. Product changelog is 1.22.0. Record: docs/changelogs/20260922121638_prayers-1-22-0.md.
 
+Later pass, 2026-09-22: Source locators in moved timestamp notes now point at docs/issues, docs/changelogs, and docs/dependencies. Historical statements of what earlier package versions published still name usr/docs as a fact of those episodes. No usr/docs directory remains in this repository.
+
 Later pass: packages/docs-conventions/README.md now states the motivation. The trees live under docs/ to use that familiar location and to reduce the local convention people need to learn. usr/ is the workshop for working tools and operational material. Named trees such as usr/migrate are instances, not the type.
 
 ## Next

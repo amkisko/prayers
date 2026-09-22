@@ -28,4 +28,4 @@ Consumers bump docs-conventions ~> 2.3 and ruby-conventions ~> 1.1, then pray in
 
 ## Source
 
-usr/docs/issues/20260830111500_ruby-conventions-data-backfill.md
+docs/issues/20260830111500_ruby-conventions-data-backfill.md
