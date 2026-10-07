@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## Unreleased
+
+- Publish `amkisko/docs-conventions` 3.1.0: add `docs/reviews` for one review episode; five timestamp trees.
+- Publish `amkisko/session-review` 1.2.0: durable review notes use `docs/reviews`.
+- Add `amkisko/ci-review` 1.1.0: retrospective over CI runs; group failures by root cause; separate wall-clock and queue times; review re-runs, cache usage, and required check lanes; rank at most five fixes; durable notes under `docs/reviews`; tree under `.agents/skills`; do not compose it into AGENTS.md.
+- Publish `amkisko/keep-the-work` 1.4.0: alternate-id GET redirects show; mutations stay; redisplay typed values the widget rewrote; confirm that cannot run is not consent; failed catalog picker keeps the typed query.
+- Publish `amkisko/preferred-stack` 1.6.0: product locale for person-facing dates; combobox with paged live list for growing association catalogs; empty assignment default; write commands look like commands.
+- Publish `amkisko/ruby-conventions` 1.3.0: path generate and lookup order; no global find; path(record) versus string id; date text when product locale differs; TimeZoneConverter prepend; association pickers reuse paged list API.
+- Publish `amkisko/working-rules` 2.7.0: after an identifier shape change, search path helpers that pass a string id.
+- Publish `amkisko/engineering-audit` 2.12.0: product-surface asks locale dates, paged pickers, empty assignment, and confirm; contracts treat uuid primary key as the only id field.
+
 ## 1.23.0 (2026-09-22)
 
 - Rewrite catalog `derived_metadata.topics` from each package summary after `make publish`. Drop function words that pray 1.20.0 still ranks as topics.

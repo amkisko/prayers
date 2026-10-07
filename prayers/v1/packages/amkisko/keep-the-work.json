@@ -295,6 +295,65 @@
         "character_count": 1555,
         "token_count": 176
       }
+    },
+    {
+      "version": "1.4.0",
+      "artifact": "v1/artifacts/amkisko/keep-the-work/1.4.0/amkisko-keep-the-work-1.4.0.praypkg",
+      "artifact_hash": "sha256:58f6b796099927747009ad567ea112f794ab1d85676383b189adb301da38b022",
+      "tree_hash": "sha256:19cf9775e51bab1e2f974ea8719e682bf48d1280aeb3afdde0dc872b8b1db1a9",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "keep-the-work"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791378711,
+      "signature": "sha256:53cf0149abe65a7f59888f3ebedc956feac4190b1c8ba3e4c3e862d0b6616431",
+      "derived_metadata": {
+        "summary": "Keep the place they used and the work they already did after a refusal — Stay on the failed place and keep answers after a refusal",
+        "topics": [
+          "keep",
+          "place",
+          "used",
+          "work",
+          "already"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              12,
+              24,
+              15,
+              18,
+              12,
+              17,
+              10,
+              13,
+              21,
+              19,
+              9,
+              4,
+              14,
+              18,
+              18,
+              10
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 2084,
+        "token_count": 234
+      }
     }
   ]
 }
