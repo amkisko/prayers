@@ -35,6 +35,7 @@ tree ".agents/skills" do
   pray "amkisko/public-surface-recon", path: "packages/public-surface-recon"
   pray "amkisko/infer-conventions", path: "packages/infer-conventions"
   pray "amkisko/session-review", path: "packages/session-review"
+  pray "amkisko/ci-review", path: "packages/ci-review"
   pray "amkisko/change-review", path: "packages/change-review"
   pray "amkisko/agent-artifact", path: "packages/agent-artifact"
   pray "amkisko/derivation-audit", path: "packages/derivation-audit"

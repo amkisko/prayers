@@ -65,7 +65,7 @@ Before implementing an approved automation, name the replay input (the sessions 
 
 ## Record
 
-Write the durable result under `docs/issues` per `docs-conventions`, one note per review episode. Update that note while the review is active, and link the previous review used to set the time window. Record scope, coverage, recommendations, and outcome. Follow the live-work heading template. The chat report may be compact; the file stays plain prose. Recording the review does not change skills or rules.
+Write the durable result under `docs/reviews` per `docs-conventions`, one note per review episode. Update that note while the review is active, and link the previous review used to set the time window. Record scope, coverage, recommendations, and outcome. Follow the reviews heading template. The chat report may be compact; the file stays plain prose. Recording the review does not change skills or rules.
 
 Keep proposals in the project's review note. When work on a shared prayer begins in its source repository, record that work in the source repository's `docs/issues`. Record an upstream dependency defect under `docs/dependencies` only when evidence supports it, per `dependency-issues`.
 

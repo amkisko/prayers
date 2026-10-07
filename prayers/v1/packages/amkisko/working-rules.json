@@ -642,6 +642,65 @@
         "character_count": 2460,
         "token_count": 270
       }
+    },
+    {
+      "version": "2.7.0",
+      "artifact": "v1/artifacts/amkisko/working-rules/2.7.0/amkisko-working-rules-2.7.0.praypkg",
+      "artifact_hash": "sha256:e6028fb82e5d53c965890a18b912c1b94a2f2e2e97281314033adf511f43b7b3",
+      "tree_hash": "sha256:ba8b5539a54adebbcaedc15b0dedee3c7e4dfd5edcccf136e4a36111f77cedda",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "working-rules"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791378711,
+      "signature": "sha256:cb3ceb7d2c403a42b31f3400ef5a61845bd0962b8842910337ca3d5c4b58ea83",
+      "derived_metadata": {
+        "summary": "Shared engineering working rules — Core engineering working rules",
+        "topics": [
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
+        ],
+        "categories": [
+          "testing"
+        ],
+        "possible_effects": [
+          "improves validation"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              27,
+              12,
+              26,
+              17,
+              22,
+              20,
+              18,
+              18,
+              22,
+              24,
+              13,
+              10,
+              13,
+              17,
+              15,
+              12
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 2581,
+        "token_count": 286
+      }
     }
   ]
 }

@@ -28,7 +28,7 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 - if process state and local cache files are both cleared, name what must be rebuilt and from which durable source;
 - side effects read committed state from a cursor; they are not steps of the write;
 - on a store or network hot path, name the expensive unit and keep a before-and-after budget;
-- after changing a published number, identifier, or contract field, search dependents and mark them stale or update them.
+- after changing a published number, identifier, or contract field, search dependents and mark them stale or update them; when a published identifier shape changes, search path helpers that pass a string id, not only those that pass a record.
 <!-- pray:9068e4a2 -->
 
 <!-- pray:781b7711 -->
@@ -60,8 +60,8 @@ Related: `engineering-audit` security mode asks whether a parameter establishes 
 - keep inference input (AGENTS.md, `.agents/`) separate from `docs/`; conventions that matter fail a command;
 - `usr/` is the workshop for working tools and operational material;
 - `usr/migrate/` holds console-first scripts that must run before new code is on the process; later schema migrate is schema-only and idempotent;
-- four `docs/` timestamp trees, no README index, filename `YYYYMMDDHHMMSS_<kebab-case-title>.md`: `issues` (live work: contract, findings, open next; pitch, plan, and queue stay here), `changelogs` (what shipped), `meetings` (one sitting: who was there and what they agreed), `dependencies` (upstream defects from real work);
-- issues, changelogs, and meetings make five things findable (use `##` headings or equivalent; omit empty sections): **Participants** (humans only; omit agents, tools, and binaries), **Decisions** (what was agreed), **Effects** (done, failed, recovered, rolled back), **Next** (todo, planned, open questions), **Source** (links upstream: meeting, issue, PR, commit, and downstream materializations); git history is the edit log; add an explicit note only when a later pass changes meaning (scope cut, rollback, decision reversed);
+- five `docs/` timestamp trees, no README index, filename `YYYYMMDDHHMMSS_<kebab-case-title>.md`: `issues` (live work: contract, findings, open next; pitch, plan, and queue stay here), `reviews` (one review episode: session or CI scope, coverage, recommendations, outcome), `changelogs` (what shipped), `meetings` (one sitting: who was there and what they agreed), `dependencies` (upstream defects from real work);
+- issues, reviews, changelogs, and meetings make five things findable (use `##` headings or equivalent; omit empty sections): **Participants** (humans only; omit agents, tools, and binaries), **Decisions** (what was agreed), **Effects** (done, failed, recovered, rolled back), **Next** (todo, planned, open questions), **Source** (links upstream: meeting, issue, review, PR, commit, and downstream materializations); git history is the edit log; add an explicit note only when a later pass changes meaning (scope cut, rollback, decision reversed);
 - mention software, tools, agents, or binaries in a note only when that detail is needed for execution or later analysis; put it under Decisions, Effects, or Source, not under Participants;
 - never put local absolute paths or private material in `docs/` or under `usr/`: no home-directory or machine-specific filesystem paths, secrets, credentials, tokens, API keys, or personal private data; prefer repository-relative paths;
 - one home per fact; link, do not duplicate; goal and acceptance live apart from operating rules; when a decision changes shape, supersede it in place; name what the product does not do next to what it does;
@@ -188,6 +188,10 @@ Examples:
 - when the change presents a screen, document, or other person-facing surface, name that surface in the work product (reply, pull request, live-work note) and record a visual assessment: hierarchy, copy, interactive states, empty/loading/error, a narrow surface, and whether a person can finish the task; record what was assessed and what remains for a human; skip and say so when there is no such surface
 - pictures, previews, tickets, and chat threads are source locators for that signal; the assessment is the running product plus the written need
 - product-contract and architecture work stay distinct from this visual-surface assessment
+- person-facing dates and times follow the product locale form; native HTML date and datetime-local follow the browser locale and are not that form; machine APIs, data attributes, filenames, and CSV machine columns stay ISO unless the product already published another contract
+- a catalog picker for growing association lists is a combobox that queries the product's live list API as the person types; each request takes a bounded page; further rows load on type or on scroll; a datalist or a select of every row is not that control
+- catalog assignment starts empty when a default first row would apply a change
+- a command that writes a record must look like a command
 
 Related: `keep-the-work` covers staying on the failed place after a refusal.
 <!-- pray:f528eeca -->

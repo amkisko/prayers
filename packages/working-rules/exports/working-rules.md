@@ -16,4 +16,4 @@
 - if process state and local cache files are both cleared, name what must be rebuilt and from which durable source;
 - side effects read committed state from a cursor; they are not steps of the write;
 - on a store or network hot path, name the expensive unit and keep a before-and-after budget;
-- after changing a published number, identifier, or contract field, search dependents and mark them stale or update them.
+- after changing a published number, identifier, or contract field, search dependents and mark them stale or update them; when a published identifier shape changes, search path helpers that pass a string id, not only those that pass a record.

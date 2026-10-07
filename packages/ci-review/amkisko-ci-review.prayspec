@@ -1,0 +1,16 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/ci-review"
+  spec.version = "1.1.0"
+  spec.summary = "Retrospective over CI runs with ranked fix proposals"
+  spec.files = [
+    "README.md",
+    "skills/ci-review/SKILL.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/ci-review",
+      summary: "CI review skill"
+    }
+  }
+end
