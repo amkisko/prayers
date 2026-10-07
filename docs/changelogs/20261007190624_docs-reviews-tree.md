@@ -10,7 +10,7 @@ docs-conventions export and README name five trees and document reviews purpose.
 
 ## Next
 
-Product release ships the three package versions and catalog artifacts.
+Shipped in prayers 1.24.0. Consumers bump docs-conventions ~> 3.1, session-review ~> 1.2, and ci-review ~> 1.1, then pray update, plan, apply.
 
 ## Source
 

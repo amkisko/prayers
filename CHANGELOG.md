@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.24.0 (2026-10-07)
+
 - Publish `amkisko/docs-conventions` 3.1.0: add `docs/reviews` for one review episode; five timestamp trees.
 - Publish `amkisko/session-review` 1.2.0: durable review notes use `docs/reviews`.
 - Add `amkisko/ci-review` 1.1.0: retrospective over CI runs; group failures by root cause; separate wall-clock and queue times; review re-runs, cache usage, and required check lanes; rank at most five fixes; durable notes under `docs/reviews`; tree under `.agents/skills`; do not compose it into AGENTS.md.

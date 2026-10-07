@@ -10,7 +10,7 @@ Source versions and exports updated. README example pins raised. CHANGELOG Unrel
 
 ## Next
 
-Consumers bump amkisko/keep-the-work ~> 1.4, preferred-stack ~> 1.6, ruby-conventions ~> 1.3, working-rules ~> 2.7, engineering-audit ~> 2.12, then pray install.
+Shipped in prayers 1.24.0. Consumers bump amkisko/keep-the-work ~> 1.4, preferred-stack ~> 1.6, ruby-conventions ~> 1.3, working-rules ~> 2.7, engineering-audit ~> 2.12, then pray install.
 
 ## Source
 
