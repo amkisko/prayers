@@ -16,14 +16,14 @@ Bump docs-conventions to 3.1.0, session-review to 1.2.0, and ci-review to 1.1.0 
 
 ## Effects
 
-Package sources and skill Record sections updated. CHANGELOG Unreleased lists the three package bumps. Historical package-design issues stay under docs/issues; only future review episodes use docs/reviews.
+Package sources and skill Record sections updated. CHANGELOG 1.24.0 lists the three package bumps. Historical package-design issues stay under docs/issues; only future review episodes use docs/reviews.
 
-Validated with ruby usr/scripts/validate_skill.rb on session-review and ci-review (both valid). Ran make PRAY=$HOME/.cargo/bin/pray install plan apply verify: docs-conventions 3.1.0, session-review 1.2.0, ci-review 1.1.0 locked; AGENTS.md names five trees including reviews; provisioned skills Record under docs/reviews. Catalog publish into prayers/v1 still pending the product release.
+Validated with ruby usr/scripts/validate_skill.rb on session-review and ci-review (both valid). Ran make PRAY=$HOME/.cargo/bin/pray install plan apply verify: docs-conventions 3.1.0, session-review 1.2.0, ci-review 1.1.0 locked; AGENTS.md names five trees including reviews; provisioned skills Record under docs/reviews. Catalog artifacts published in prayers 1.24.0.
 
 ## Next
 
-Git-track with the product release, including make publish for catalog artifacts. Consumers bump docs-conventions ~> 3.1, session-review ~> 1.2, and ci-review ~> 1.1, then pray update, plan, apply.
+Consumers bump docs-conventions ~> 3.1, session-review ~> 1.2, and ci-review ~> 1.1, then pray update, plan, apply.
 
 ## Source
 
-Upstream: packages/docs-conventions, packages/session-review, packages/ci-review. Downstream: docs/changelogs/20261007190624_docs-reviews-tree.md, docs/issues/20261007160956_ci-review.md, docs/issues/20260918093132_session-review.md.
+Upstream: packages/docs-conventions, packages/session-review, packages/ci-review. Downstream: docs/changelogs/20261007190624_docs-reviews-tree.md, docs/changelogs/20261007163007_prayers-1-24-0.md, docs/issues/20261007160956_ci-review.md, docs/issues/20260918093132_session-review.md.

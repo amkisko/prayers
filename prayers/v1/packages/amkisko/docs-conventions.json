@@ -514,6 +514,62 @@
         "character_count": 4817,
         "token_count": 505
       }
+    },
+    {
+      "version": "3.1.0",
+      "artifact": "v1/artifacts/amkisko/docs-conventions/3.1.0/amkisko-docs-conventions-3.1.0.praypkg",
+      "artifact_hash": "sha256:d2f94394fa9860eed0dddbf4153958a4c324b96fbf5dbc94a3470f5fd74658ae",
+      "tree_hash": "sha256:6cd4008fa91a10928288a978e57de3c24ca3ad2d4343466ad101f466b459e6f4",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "docs-conventions"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791390571,
+      "signature": "sha256:fd097cc061bd753a1adf737bf685cdf24b6051854bb9ffc45d89f0fbf9afaafe",
+      "derived_metadata": {
+        "summary": "Repository documentation layout and headings — docs timestamp trees, usr workshop, purpose, and heading templates",
+        "topics": [
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "docs"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              36,
+              35,
+              33,
+              23,
+              57,
+              41,
+              38,
+              22,
+              14,
+              47,
+              24,
+              31,
+              31,
+              26,
+              37,
+              17
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 5114,
+        "token_count": 512
+      }
     }
   ]
 }
