@@ -1,0 +1,28 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/security-audit"
+  spec.version = "0.1.2"
+  spec.summary = "Coverage-led repository security audit with independent validation and checked run artifacts"
+  spec.files = [
+    "README.md",
+    "skills/security-audit/SKILL.md",
+    "skills/security-audit/references/run-contract.md",
+    "skills/security-audit/references/hunting.md",
+    "skills/security-audit/references/validation-and-reporting.md",
+    "skills/security-audit/references/schemas/run-metadata.schema.json",
+    "skills/security-audit/references/schemas/coverage-ledger.schema.json",
+    "skills/security-audit/references/schemas/findings.schema.json",
+    "skills/security-audit/scripts/object_shape.rb",
+    "skills/security-audit/scripts/path_verifier.rb",
+    "skills/security-audit/scripts/coverage_validation.rb",
+    "skills/security-audit/scripts/finding_validation.rb",
+    "skills/security-audit/scripts/run_validation.rb",
+    "skills/security-audit/scripts/validate_run.rb"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/security-audit",
+      summary: "Full repository security audit with coverage ledger and independently validated findings"
+    }
+  }
+end

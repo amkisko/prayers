@@ -1,7 +1,8 @@
 ## Writing and changelog prose checks
 
 Review for marketing language, invented objections, empty contrasts, stray em dashes, and paragraph flow; keep notes and metadata honest and plain.
-- docs timestamp trees: plain prose readable without a rendered preview. No markdown tables, bold, italic, or other styling. Prioritize factual accuracy over presentation.
+- docs timestamp trees, shared prayer sources (fragments, skill bodies, prompt templates, files under `prayers/`), and agent deliverable templates: plain prose readable without a rendered preview. No markdown tables, bold, italic, or other styling. Prioritize factual accuracy over presentation.
+- Prefer characters typed from a normal keyboard layout. Do not use special Unicode punctuation or symbols for structure or emphasis: no Unicode arrows, em or en dashes, ellipsis characters, not-equal signs, curly quotes, section signs, or similar. Use ASCII stand-ins (`->`, `-`, `...`, `!=`, straight `"` / `'`) or plain words (`then`, `section`). Do not draw pipelines or diagrams with inaccessible glyphs; use a numbered or bulleted list, or a `text` fence with ASCII only.
 - Ease, lexical diversity, coherence, mechanics, and claim integrity are separate constructs. Automated matches, readability grades, similarity, and model preference are review prompts; preserve meaning, necessary negation, scope, and uncertainty when editing.
 - Keep agency on the person who acts. Tools and process nouns do mechanical work.
 - Technical names, APIs, CLI verbs, RFC titles, identifiers, and UI copy use instrument and protocol words: check-in, last-seen, probe, monitor, expected tick. Body and organism metaphors such as heartbeat, pulse, and organ stay out of contracts and code. HTTP `/health` remains the liveness probe until a later RFC.

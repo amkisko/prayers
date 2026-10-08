@@ -59,6 +59,65 @@
         "character_count": 15049,
         "token_count": 512
       }
+    },
+    {
+      "version": "1.0.1",
+      "artifact": "v1/artifacts/amkisko/operational-signal-intake/1.0.1/amkisko-operational-signal-intake-1.0.1.praypkg",
+      "artifact_hash": "sha256:372522130fa7c81283f4f125ccd91f9a48ae7dda645cde4d1919019536a04211",
+      "tree_hash": "sha256:60543f9067e470651d3886e5f590198af712bc4b5230f16eadbf82f5e8badc0e",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444170,
+      "signature": "sha256:9bb45d66d6b81eec975d9d887d8ecf3ec23b0407fe10eadc94c24d6c7ddf29d4",
+      "derived_metadata": {
+        "summary": "Provider-neutral intake for live service, reliability, security, and user-impact signals — Operational signal intake skill",
+        "topics": [
+          "provider",
+          "neutral",
+          "intake",
+          "live",
+          "service"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              43,
+              31,
+              32,
+              22,
+              37,
+              31,
+              42,
+              33,
+              27,
+              30,
+              32,
+              10,
+              29,
+              32,
+              44,
+              37
+            ]
+          }
+        ],
+        "file_count": 4,
+        "character_count": 15054,
+        "token_count": 512
+      }
     }
   ]
 }

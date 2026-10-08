@@ -7,6 +7,11 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 
 <!-- pray:ae5d334a -->
 ## Shared instructions
+
+- package sources in this repository are shared prayers: fragments under `exports/`, skill bodies, prompt templates, and files under `prayers/` follow the same prose and formatting rules as `writing-prose` and `docs-conventions`; agents and humans authoring them must not treat prayer text as exempt from plain-prose discipline;
+- plain prose readable without a rendered preview: no markdown tables, bold, italic, or other styling; use headings, bullet lists, backticks for technical names, YAML frontmatter, and code fences when the contract needs them; prefer labeled bullets over tables for multi-field rows;
+- prefer characters typed from a normal keyboard; no special Unicode punctuation or symbols for structure (arrows, em dashes, ellipsis characters, not-equal signs, curly quotes, section signs); use ASCII (`->`, `-`, `...`, `!=`, straight quotes) or plain words; pipelines and flow diagrams are numbered or bulleted lists, or ASCII-only `text` fences;
+- investigation and skill deliverable templates must teach the same plain-prose shape; do not ship emphasis, table scaffolding, or inaccessible glyphs that consumers will copy into `docs/` notes or reports;
 <!-- pray:ae5d334a -->
 
 <!-- pray:9068e4a2 -->
@@ -51,6 +56,7 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 - Lookups go through an ownership set; request parameters pick which row; fail closed when access cannot be proven.
 - Treat user-supplied URLs as untrusted; rate-limit authentication and abuse-prone endpoints.
 - An invalid or expired credential gets a protocol-level failure status. A hop's own credential is never the caller's. Modes that relax access controls must remain disabled when their configuration is missing or invalid.
+- Crawl preferences in `robots.txt` and Content-Signal style directives declare intent to cooperative clients. They are not authentication, ownership proof, or a technical block. They do not replace rate limits or fail-closed access checks.
 
 Related: `engineering-audit` security mode asks whether a parameter establishes access and whether a worker skipped policy.
 <!-- pray:781b7711 -->
@@ -61,7 +67,7 @@ Related: `engineering-audit` security mode asks whether a parameter establishes 
 - `usr/` is the workshop for working tools and operational material;
 - `usr/migrate/` holds console-first scripts that must run before new code is on the process; later schema migrate is schema-only and idempotent;
 - five `docs/` timestamp trees, no README index, filename `YYYYMMDDHHMMSS_<kebab-case-title>.md`: `issues` (live work: contract, findings, open next; pitch, plan, and queue stay here), `reviews` (one review episode: session or CI scope, coverage, recommendations, outcome), `changelogs` (what shipped), `meetings` (one sitting: who was there and what they agreed), `dependencies` (upstream defects from real work);
-- issues, reviews, changelogs, and meetings make five things findable (use `##` headings or equivalent; omit empty sections): **Participants** (humans only; omit agents, tools, and binaries), **Decisions** (what was agreed), **Effects** (done, failed, recovered, rolled back), **Next** (todo, planned, open questions), **Source** (links upstream: meeting, issue, review, PR, commit, and downstream materializations); git history is the edit log; add an explicit note only when a later pass changes meaning (scope cut, rollback, decision reversed);
+- issues, reviews, changelogs, and meetings make five things findable (use `##` headings or equivalent; omit empty sections): Participants (humans only; omit agents, tools, and binaries), Decisions (what was agreed), Effects (done, failed, recovered, rolled back), Next (todo, planned, open questions), Source (links upstream: meeting, issue, review, PR, commit, and downstream materializations); git history is the edit log; add an explicit note only when a later pass changes meaning (scope cut, rollback, decision reversed);
 - mention software, tools, agents, or binaries in a note only when that detail is needed for execution or later analysis; put it under Decisions, Effects, or Source, not under Participants;
 - never put local absolute paths or private material in `docs/` or under `usr/`: no home-directory or machine-specific filesystem paths, secrets, credentials, tokens, API keys, or personal private data; prefer repository-relative paths;
 - one home per fact; link, do not duplicate; goal and acceptance live apart from operating rules; when a decision changes shape, supersede it in place; name what the product does not do next to what it does;
@@ -72,7 +78,7 @@ Related: `engineering-audit` security mode asks whether a parameter establishes 
 
 When work surfaces a clearly visible bug or defect in a dependency (wrong behavior, broken API contract, regression between versions, or a fix already merged upstream but not released), say so in the task output and suggest a concrete fix path: upgrade, pin, patch, vendor, workaround, or upstream report.
 
-Store evidence under `docs/dependencies/#{YYYYMMDDHHMMSS}_<kebab-case-title>.md`; no README index in that tree. Each file should make these findable (use `##` headings or equivalent; omit empty sections): **Dependency** (name, version constraint, lockfile entry if any), **Symptom** (what breaks and where), **Evidence** (repro steps, logs, stack traces, links to issues or commits), **Suggested fix** (upgrade, pin, patch, workaround, or upstream report), **Next** (todo, planned, open questions), **Source** (links upstream: issue, PR, release note, commit, and downstream materializations in this repo). Git history is the edit log.
+Store evidence under `docs/dependencies/#{YYYYMMDDHHMMSS}_<kebab-case-title>.md`; no README index in that tree. Each file should make these findable (use `##` headings or equivalent; omit empty sections): Dependency (name, version constraint, lockfile entry if any), Symptom (what breaks and where), Evidence (repro steps, logs, stack traces, links to issues or commits), Suggested fix (upgrade, pin, patch, workaround, or upstream report), Next (todo, planned, open questions), Source (links upstream: issue, PR, release note, commit, and downstream materializations in this repo). Git history is the edit log.
 
 Do not open drive-by dependency hunts; record only issues encountered while doing the requested work and only when the defect is evident from behavior or published upstream facts, not speculation.
 
@@ -86,10 +92,10 @@ Rules for adding, changing, or removing third-party packages. Apply across langu
 
 Terminology:
 
-- package manifest — declares intent (`gemspec`, `package.json`, `Cargo.toml`, `mix.exs`, etc.)
-- lockfile — pins the resolved graph CI and developers install
-- registry — published versions consumers resolve (`RubyGems`, `npm`, `crates.io`, `Hex`, etc.)
-- hot path — code on the security, auth, crypto, IO, or request/response boundary users rely on
+- package manifest - declares intent (`gemspec`, `package.json`, `Cargo.toml`, `mix.exs`, etc.)
+- lockfile - pins the resolved graph CI and developers install
+- registry - published versions consumers resolve (`RubyGems`, `npm`, `crates.io`, `Hex`, etc.)
+- hot path - code on the security, auth, crypto, IO, or request/response boundary users rely on
 
 Stop until one of these applies before adding a dependency:
 
@@ -130,7 +136,7 @@ Rules:
 - deletion over addition; boring over clever; fewest files that stay readable;
 - when a request sounds overbuilt, ask whether a simpler existing path already covers it;
 - when two stdlib approaches are the same size, pick the edge-case-correct one; less code is not an excuse for a flimsier algorithm;
-- document deliberate shortcuts with an intent comment: name the known ceiling (global lock, O(n²) scan, naive heuristic) and the upgrade path when that ceiling matters.
+- document deliberate shortcuts with an intent comment: name the known ceiling (global lock, O(n^2) scan, naive heuristic) and the upgrade path when that ceiling matters.
 
 Not optional even when minimizing scope:
 - input validation at trust boundaries;
@@ -161,10 +167,10 @@ Use kebab-case after the prefix.
 
 Prefixes:
 
-- `feature/<title>` — new capability
-- `patch/<title>` — bugfix or chore
-- `trunk/<title>` — release candidate or integration work before `main`
-- `plan/<title>` — exploration or ideation
+- `feature/<title>` - new capability
+- `patch/<title>` - bugfix or chore
+- `trunk/<title>` - release candidate or integration work before `main`
+- `plan/<title>` - exploration or ideation
 
 Examples:
 
@@ -200,7 +206,8 @@ Related: `keep-the-work` covers staying on the failed place after a refusal.
 ## Writing and changelog prose checks
 
 Review for marketing language, invented objections, empty contrasts, stray em dashes, and paragraph flow; keep notes and metadata honest and plain.
-- docs timestamp trees: plain prose readable without a rendered preview. No markdown tables, bold, italic, or other styling. Prioritize factual accuracy over presentation.
+- docs timestamp trees, shared prayer sources (fragments, skill bodies, prompt templates, files under `prayers/`), and agent deliverable templates: plain prose readable without a rendered preview. No markdown tables, bold, italic, or other styling. Prioritize factual accuracy over presentation.
+- Prefer characters typed from a normal keyboard layout. Do not use special Unicode punctuation or symbols for structure or emphasis: no Unicode arrows, em or en dashes, ellipsis characters, not-equal signs, curly quotes, section signs, or similar. Use ASCII stand-ins (`->`, `-`, `...`, `!=`, straight `"` / `'`) or plain words (`then`, `section`). Do not draw pipelines or diagrams with inaccessible glyphs; use a numbered or bulleted list, or a `text` fence with ASCII only.
 - Ease, lexical diversity, coherence, mechanics, and claim integrity are separate constructs. Automated matches, readability grades, similarity, and model preference are review prompts; preserve meaning, necessary negation, scope, and uncertainty when editing.
 - Keep agency on the person who acts. Tools and process nouns do mechanical work.
 - Technical names, APIs, CLI verbs, RFC titles, identifiers, and UI copy use instrument and protocol words: check-in, last-seen, probe, monitor, expected tick. Body and organism metaphors such as heartbeat, pulse, and organ stay out of contracts and code. HTTP `/health` remains the liveness probe until a later RFC.

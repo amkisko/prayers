@@ -1,18 +1,18 @@
 ## Language
 
 - Write analysis in English unless the user specifies otherwise.
-- **Blackbox only:** facts from public HTTP, archives, and remote OSINT — never from local files, folders, drives, or workspace.
+- Blackbox only: facts from public HTTP, archives, and remote OSINT - never from local files, folders, drives, or workspace.
 - Redact emails, personal names, and handles by default. Quote the literal string only when the user asks and authorization covers that processing.
-- Separate **on-service** (tier 1) from **off-service OSINT** (tier 2).
-- Record **origin + file or page** for every hit.
+- Separate on-service (tier 1) from off-service OSINT (tier 2).
+- Record origin + file or page for every hit.
 
 ## Use when
 
-Checking whether **codenames, nicknames, emails, or personal names** appear on the service, or following identity strings discovered in maps, comments, or metadata. Run after inventory or artifact review when identifiers are known or surfaced.
+Checking whether codenames, nicknames, emails, or personal names appear on the service, or following identity strings discovered in maps, comments, or metadata. Run after inventory or artifact review when identifiers are known or surfaced.
 
 ## Purpose
 
-Systematic search for identity and codename traces across **all origins**, using on-service assets first then basic public OSINT corroboration.
+Systematic search for identity and codename traces across all origins, using on-service assets first then basic public OSINT corroboration.
 
 ## Inputs
 
@@ -26,17 +26,13 @@ Systematic search for identity and codename traces across **all origins**, using
 
 ### 1. Build identifier list
 
-From user input and prior prayers, collect candidates:
-
-| Token | Type | Source of token |
-|-------|------|-----------------|
-| | email / name / nickname / codename | user / map path / HTML / EXIF / comment |
+From user input and prior prayers, collect candidates. For each token record: token, type (email / name / nickname / codename), source of token (user / map path / HTML / EXIF / comment).
 
 Derive variants: case-folded, `firstname.lastname`, `first-last`, local-part only, `@domain` for org mailbox domain.
 
 ### 2. On-service search (tier 1)
 
-For **each origin** in registry and **each identifier**:
+For each origin in registry and each identifier:
 
 1. HTML pages already fetched: body, comments, `mailto:`, meta author, JSON-LD, hidden fields.
 2. Text assets (JS, CSS, JSON, SVG) from that origin: literal match; for source maps, record `sources[]` path and line if present.
@@ -44,7 +40,7 @@ For **each origin** in registry and **each identifier**:
 4. If inventory lists public error or metadata endpoints on this origin, check responses for identifiers.
 5. `site:<hostname> "<identifier>"` web search when live fetch missed archived-only text.
 
-Result per pair: **hit / no hit / partial** with location.
+Result per pair: hit / no hit / partial with location.
 
 ### 3. Codename and internal name passes
 
@@ -66,45 +62,45 @@ Do not treat tier 2 as proof the identifier works on production; queue live re-c
 
 ### 5. Queue and entities
 
-- New email domain → entity (operator mailbox domain) + DNS/MX check if relevant.
-- New person name on map path → open check: search same path prefix on code hosts.
-- Codename on assets only → open check: `archive-and-source-search` for repo slug.
+- New email domain -> entity (operator mailbox domain) + DNS/MX check if relevant.
+- New person name on map path -> open check: search same path prefix on code hosts.
+- Codename on assets only -> open check: `archive-and-source-search` for repo slug.
 
 ## Output
 
 ```markdown
 ## Identity and codename trace search
 
-**Entry URL:** <url>
-**Origins searched:** <list>
-**Identifiers:** <count>
+Entry URL: <url>
+Origins searched: <list>
+Identifiers: <count>
 
 ### Identifier index
-| Token | Type | User / derived from |
+For each token: token, type, user or derived from.
 
 ### On-service hits (tier 1)
-| Identifier | Origin | Location | Snippet context | Match quality |
+For each hit: identifier, origin, location, snippet context, match quality.
 
 ### On-service negatives
-| Identifier | Origins searched | Notes |
+For each: identifier, origins searched, notes.
 
 ### Off-service corroboration (tier 2)
-| Identifier | Finding | URL | Relation to target |
+For each: identifier, finding, URL, relation to target.
 
 ### Codename / internal name
-| Token | Origin or source | Evidence |
+For each token: token, origin or source, evidence.
 
 ### New entities
-| Entity | Type | Found via | Origin |
+For each: entity, type, found via, origin.
 
 ### Next checks
-| Detection | Origin | Next fact to verify | Suggested check | Status |
+For each check: detection, origin, next fact to verify, suggested check, status.
 ```
 
 ## Guardrails
 
 - Do not use local filesystem, workspace search, or disk git repos as evidence.
-- Report which origins were searched for each negative; absence on entry host ≠ absent everywhere.
-- Map path like `/Users/name/project` in a **publicly fetched** source map is trace evidence; do not open that path on the investigator's disk.
-- Common names and generic codewords → homonym check before tier 1 attribution.
+- Report which origins were searched for each negative; absence on entry host != absent everywhere.
+- Map path like `/Users/name/project` in a publicly fetched source map is trace evidence; do not open that path on the investigator's disk.
+- Common names and generic codewords -> homonym check before tier 1 attribution.
 - Do not log into accounts or scrape private social profiles. A user request to widen scope does not add those actions.

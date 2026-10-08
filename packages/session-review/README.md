@@ -4,7 +4,7 @@ Review agent sessions for repeated work, corrections, and reusable patterns. Rec
 
 Exports:
 
-- `session-review` skill — scope coverage, confirm recurrence from original transcripts, rank recommendations, record without changing skills or rules
+- `session-review` skill - scope coverage, confirm recurrence from original transcripts, rank recommendations, record without changing skills or rules
 
 Tree this skill under `.agents/skills`. Do not compose it into AGENTS.md.
 

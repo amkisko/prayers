@@ -1,0 +1,16 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/agent-discovery"
+  spec.version = "1.0.2"
+  spec.summary = "When and what to publish for agent HTTP discovery on a product site"
+  spec.files = [
+    "README.md",
+    "skills/agent-discovery/SKILL.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/agent-discovery",
+      summary: "Agent HTTP discovery maturity ladder for product sites"
+    }
+  }
+end

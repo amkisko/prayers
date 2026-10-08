@@ -180,6 +180,66 @@
         "character_count": 8252,
         "token_count": 512
       }
+    },
+    {
+      "version": "1.2.1",
+      "artifact": "v1/artifacts/amkisko/rfc-process/1.2.1/amkisko-rfc-process-1.2.1.praypkg",
+      "artifact_hash": "sha256:9d1aeb404dd1bb47d538d025a4ee9758e4ea33782da865bd053a364b861881bf",
+      "tree_hash": "sha256:89d73f025fdccabad68dba8b664d1aa3ac8c2a28a33eb4d2f5d93df4ae1756f4",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "rfc-process",
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444170,
+      "signature": "sha256:7378cfcf90e0adca68fe27336a2e30136f025cb421bbf2227fc5d115c81f8ef6",
+      "derived_metadata": {
+        "summary": "RFC numbering, template, types, and statuses — When to write an RFC and how to claim an id",
+        "topics": [
+          "numbering",
+          "template",
+          "types",
+          "statuses",
+          "write"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              30,
+              24,
+              26,
+              40,
+              24,
+              34,
+              29,
+              30,
+              24,
+              34,
+              29,
+              17,
+              46,
+              28,
+              49,
+              48
+            ]
+          }
+        ],
+        "file_count": 5,
+        "character_count": 8257,
+        "token_count": 512
+      }
     }
   ]
 }

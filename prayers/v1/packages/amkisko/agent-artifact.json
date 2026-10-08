@@ -118,6 +118,183 @@
         "character_count": 2953,
         "token_count": 307
       }
+    },
+    {
+      "version": "1.2.0",
+      "artifact": "v1/artifacts/amkisko/agent-artifact/1.2.0/amkisko-agent-artifact-1.2.0.praypkg",
+      "artifact_hash": "sha256:7c0e46f0520377d51828116f8d138803552a16f1284c77ed2e347a668361de30",
+      "tree_hash": "sha256:36e43d672dd670dcf7b3f94ed362540f0724da32ceb9887a127071eab032df52",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791443405,
+      "signature": "sha256:61912dd2c535bf25d4195d9f4155ec00122ac7aecc03538bb2a731bf1f7fb650",
+      "derived_metadata": {
+        "summary": "Review skill files, prompt templates, MCP configs, and tool schemas — Agent-artifact review skill",
+        "topics": [
+          "review",
+          "skill",
+          "files",
+          "prompt",
+          "templates"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              31,
+              13,
+              22,
+              26,
+              38,
+              35,
+              19,
+              32,
+              26,
+              33,
+              25,
+              21,
+              48,
+              28,
+              12,
+              41
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 4178,
+        "token_count": 450
+      }
+    },
+    {
+      "version": "1.2.1",
+      "artifact": "v1/artifacts/amkisko/agent-artifact/1.2.1/amkisko-agent-artifact-1.2.1.praypkg",
+      "artifact_hash": "sha256:077c2889aa0ed018946f7c9cbccab137c5d80013e4094d50608cf71f5c79c690",
+      "tree_hash": "sha256:ff722b58e1dcc9bcd912703da686ed5550571e29efe0a0f27efa165f7ea8fd80",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791443890,
+      "signature": "sha256:4934c600613b6fa93cd8258c1386b2d12488be33123fc0a06f1f829e4989e838",
+      "derived_metadata": {
+        "summary": "Review skill files, prompt templates, MCP configs, and tool schemas — Agent-artifact review skill",
+        "topics": [
+          "review",
+          "skill",
+          "files",
+          "prompt",
+          "templates"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              31,
+              13,
+              22,
+              26,
+              38,
+              35,
+              19,
+              32,
+              26,
+              33,
+              25,
+              21,
+              48,
+              28,
+              12,
+              41
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 4170,
+        "token_count": 450
+      }
+    },
+    {
+      "version": "1.2.2",
+      "artifact": "v1/artifacts/amkisko/agent-artifact/1.2.2/amkisko-agent-artifact-1.2.2.praypkg",
+      "artifact_hash": "sha256:e2cbfefa7e3dd4cd71184625fb1402815361c0b9ee8b510b02c9007914a78ec1",
+      "tree_hash": "sha256:890275d7f29a40f69b2747b132bc9a9dadffc896eae53920fa36707b47bd5dc1",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444170,
+      "signature": "sha256:8e15209bd6e626c08bc080bf5d9eb05d4885d82ac0c9f63e88429a47fb6d1f0f",
+      "derived_metadata": {
+        "summary": "Review skill files, prompt templates, MCP configs, and tool schemas — Agent-artifact review skill",
+        "topics": [
+          "review",
+          "skill",
+          "files",
+          "prompt",
+          "templates"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              31,
+              13,
+              22,
+              26,
+              38,
+              35,
+              19,
+              32,
+              26,
+              33,
+              25,
+              21,
+              48,
+              28,
+              12,
+              41
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 4174,
+        "token_count": 450
+      }
     }
   ]
 }

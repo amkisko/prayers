@@ -4,10 +4,10 @@ Rules for adding, changing, or removing third-party packages. Apply across langu
 
 Terminology:
 
-- package manifest — declares intent (`gemspec`, `package.json`, `Cargo.toml`, `mix.exs`, etc.)
-- lockfile — pins the resolved graph CI and developers install
-- registry — published versions consumers resolve (`RubyGems`, `npm`, `crates.io`, `Hex`, etc.)
-- hot path — code on the security, auth, crypto, IO, or request/response boundary users rely on
+- package manifest - declares intent (`gemspec`, `package.json`, `Cargo.toml`, `mix.exs`, etc.)
+- lockfile - pins the resolved graph CI and developers install
+- registry - published versions consumers resolve (`RubyGems`, `npm`, `crates.io`, `Hex`, etc.)
+- hot path - code on the security, auth, crypto, IO, or request/response boundary users rely on
 
 Stop until one of these applies before adding a dependency:
 

@@ -4,7 +4,7 @@ Audit formal claims, registered checks, and symbolic derivation scope. Use when 
 
 Exports:
 
-- `derivation-audit` skill — identity versus implication, registered rows, unresolved solver output
+- `derivation-audit` skill - identity versus implication, registered rows, unresolved solver output
 
 Tree this skill under `.agents/skills`. Do not compose it into AGENTS.md.
 

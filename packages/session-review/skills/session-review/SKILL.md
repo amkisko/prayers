@@ -16,7 +16,7 @@ A retrospective over agent sessions: find repeated work, corrections, and reusab
 ## Quick reference
 
 ```text
-scope and coverage → original transcripts → candidate patterns → confirm recurrence → smallest response → rank recommendations → record without changing skills or rules
+scope and coverage -> original transcripts -> candidate patterns -> confirm recurrence -> smallest response -> rank recommendations -> record without changing skills or rules
 ```
 
 By default, report findings and recommendations. Edit skills, rules, integrations, or canonical preferences when the person's request authorizes those changes or they approve a concrete proposal.

@@ -1,7 +1,7 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/agent-run-supervision"
-  spec.version = "1.1.0"
-  spec.summary = "Supervise a live tool-calling agent run with ceilings and barriers"
+  spec.version = "1.2.1"
+  spec.summary = "Supervise a live tool-calling agent run with invocation budgets, ceilings, and barriers"
   spec.files = [
     "README.md",
     "skills/agent-run-supervision/SKILL.md"

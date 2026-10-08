@@ -118,6 +118,124 @@
         "character_count": 2604,
         "token_count": 273
       }
+    },
+    {
+      "version": "1.2.0",
+      "artifact": "v1/artifacts/amkisko/agent-run-supervision/1.2.0/amkisko-agent-run-supervision-1.2.0.praypkg",
+      "artifact_hash": "sha256:ad1079ceaada5164e62ef7a401f883ac10b0568939e6812424919676f8744087",
+      "tree_hash": "sha256:7f217aae8e392b093cac57874369717d6a38a5cf143c5dd175d10d24f445df5e",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791443890,
+      "signature": "sha256:06f9fb662bc7497304539fecadc5ba52b805bd2aefd484271b1db676e21c6711",
+      "derived_metadata": {
+        "summary": "Supervise a live tool-calling agent run with invocation budgets, ceilings, and barriers — Agent-run supervision skill",
+        "topics": [
+          "supervise",
+          "live",
+          "tool",
+          "calling",
+          "agent"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              29,
+              6,
+              18,
+              12,
+              35,
+              25,
+              26,
+              26,
+              20,
+              25,
+              15,
+              22,
+              39,
+              23,
+              21,
+              27
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 3538,
+        "token_count": 369
+      }
+    },
+    {
+      "version": "1.2.1",
+      "artifact": "v1/artifacts/amkisko/agent-run-supervision/1.2.1/amkisko-agent-run-supervision-1.2.1.praypkg",
+      "artifact_hash": "sha256:77af165928fefb3036dcbf0193093d4f8d9ec87478160b4c42fce4d184c537f3",
+      "tree_hash": "sha256:b2c53ebebb3a779cdf7a99b32cee37f9be608327931e9d30f0ecd7ea84fd733f",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444170,
+      "signature": "sha256:f0f6481d8cbce821c85398ddbb9843b57bdde04acd952e60218ac72bd15d055c",
+      "derived_metadata": {
+        "summary": "Supervise a live tool-calling agent run with invocation budgets, ceilings, and barriers — Agent-run supervision skill",
+        "topics": [
+          "supervise",
+          "live",
+          "tool",
+          "calling",
+          "agent"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              29,
+              6,
+              18,
+              12,
+              35,
+              25,
+              26,
+              26,
+              20,
+              25,
+              15,
+              22,
+              39,
+              23,
+              21,
+              27
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 3542,
+        "token_count": 369
+      }
     }
   ]
 }

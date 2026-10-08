@@ -1,10 +1,10 @@
 # amkisko/agent-run-supervision
 
-Supervise a live tool-calling agent run: hard ceilings, no-progress detection, human barrier, isolation map.
+Supervise a live tool-calling agent run: invocation budget with validation reserve, hard ceilings, bounded malformed-result retry, no-progress detection, incomplete terminal state, human barrier, and isolation map.
 
 Exports:
 
-- `agent-run-supervision` skill — tool-call and wall-clock caps, approval and completion states, supervision cost
+- `agent-run-supervision` skill - agent-invocation, tool-call, and wall-clock caps; approval, complete, and incomplete states; supervision cost
 
 Tree this skill under `.agents/skills`. Do not compose it into AGENTS.md.
 

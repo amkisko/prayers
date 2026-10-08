@@ -4,7 +4,7 @@ Learn how a repository actually writes, then encode genuine forks as checks that
 
 Exports:
 
-- `infer-conventions` skill — orient, sweep genuine forks, map architecture, confirm, add a formatter, linter, architecture-test, or CI check
+- `infer-conventions` skill - orient, sweep genuine forks, map architecture, confirm, add a formatter, linter, architecture-test, or CI check
 
 Tree this skill under `.agents/skills`. Do not compose it into AGENTS.md.
 

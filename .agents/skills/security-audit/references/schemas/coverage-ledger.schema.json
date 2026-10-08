@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/amkisko/prayers/security-audit/coverage-ledger.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "units"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "attack_class", "status", "finding_fingerprints", "unresolved"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "attack_class": {"type": "string", "minLength": 1},
+          "status": {"enum": ["planned", "covered", "candidate", "blocked", "deferred", "out_of_scope"]},
+          "owner": {"type": "string", "minLength": 1},
+          "reviewed_paths": {"type": "array", "items": {"type": "string", "minLength": 1}},
+          "checks": {"type": "array", "items": {"type": "string", "minLength": 1}},
+          "finding_fingerprints": {"type": "array", "items": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}},
+          "unresolved": {"type": "array", "items": {"type": "string", "minLength": 1}}
+        }
+      }
+    }
+  }
+}

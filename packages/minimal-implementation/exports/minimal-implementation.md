@@ -25,7 +25,7 @@ Rules:
 - deletion over addition; boring over clever; fewest files that stay readable;
 - when a request sounds overbuilt, ask whether a simpler existing path already covers it;
 - when two stdlib approaches are the same size, pick the edge-case-correct one; less code is not an excuse for a flimsier algorithm;
-- document deliberate shortcuts with an intent comment: name the known ceiling (global lock, O(n²) scan, naive heuristic) and the upgrade path when that ceiling matters.
+- document deliberate shortcuts with an intent comment: name the known ceiling (global lock, O(n^2) scan, naive heuristic) and the upgrade path when that ceiling matters.
 
 Not optional even when minimizing scope:
 - input validation at trust boundaries;

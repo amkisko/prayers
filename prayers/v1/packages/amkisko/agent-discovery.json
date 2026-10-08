@@ -1,0 +1,182 @@
+{
+  "name": "amkisko/agent-discovery",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/agent-discovery/1.0.0/amkisko-agent-discovery-1.0.0.praypkg",
+      "artifact_hash": "sha256:a7bba263fe6a688306dda13ded90ec7080936953dafad2f80fe9d0daaa7117c3",
+      "tree_hash": "sha256:97d4bf69cd40506856ebb17032f3ff3b34c7b4e7c421c650ae86a3c22f39becc",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791443405,
+      "signature": "sha256:8869681e159a7439d40c2529406de09fca70847984bf5c8b561867d87fd912fa",
+      "derived_metadata": {
+        "summary": "When and what to publish for agent HTTP discovery on a product site — Agent HTTP discovery maturity ladder for product sites",
+        "topics": [
+          "publish",
+          "agent",
+          "http",
+          "discovery",
+          "product"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              33,
+              25,
+              26,
+              23,
+              44,
+              45,
+              26,
+              28,
+              29,
+              32,
+              37,
+              39,
+              56,
+              25,
+              17,
+              27
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 4873,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "1.0.1",
+      "artifact": "v1/artifacts/amkisko/agent-discovery/1.0.1/amkisko-agent-discovery-1.0.1.praypkg",
+      "artifact_hash": "sha256:0e36f7027c56922f048db9649dd1febae49c40d189972845a4f6ea30b39b4ea3",
+      "tree_hash": "sha256:83193669ea74c0976b2833935892b0f57629da397be1f090def33ae9d99d3827",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791443890,
+      "signature": "sha256:9490135ae4b4daaaaf54be0005db8e83eed731859ea152c7f2255fe0d46f2c8e",
+      "derived_metadata": {
+        "summary": "When and what to publish for agent HTTP discovery on a product site — Agent HTTP discovery maturity ladder for product sites",
+        "topics": [
+          "publish",
+          "agent",
+          "http",
+          "discovery",
+          "product"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              34,
+              25,
+              26,
+              22,
+              45,
+              45,
+              26,
+              28,
+              29,
+              32,
+              37,
+              38,
+              56,
+              25,
+              16,
+              28
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 4777,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "1.0.2",
+      "artifact": "v1/artifacts/amkisko/agent-discovery/1.0.2/amkisko-agent-discovery-1.0.2.praypkg",
+      "artifact_hash": "sha256:b7aa5dd3e0fbc71c3a324748a2f403621923dc86e654e2cea3f4884fceea11c3",
+      "tree_hash": "sha256:821eeeb05ddad51ff749080dd5fcfd5164ebeee3ae63b8b0a2e2e27cd1e9f556",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444170,
+      "signature": "sha256:0ce3588b021dc869c70e86a0a1eddbd3f3df2192a824c207fefa9378815eb0f2",
+      "derived_metadata": {
+        "summary": "When and what to publish for agent HTTP discovery on a product site — Agent HTTP discovery maturity ladder for product sites",
+        "topics": [
+          "publish",
+          "agent",
+          "http",
+          "discovery",
+          "product"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              34,
+              25,
+              26,
+              22,
+              45,
+              45,
+              26,
+              28,
+              29,
+              32,
+              37,
+              38,
+              56,
+              25,
+              16,
+              28
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 4781,
+        "token_count": 512
+      }
+    }
+  ]
+}

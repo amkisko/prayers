@@ -2,6 +2,7 @@
   "spec": "prayfile-distribution-1",
   "packages": [
     "amkisko/agent-artifact",
+    "amkisko/agent-discovery",
     "amkisko/agent-run-supervision",
     "amkisko/background-jobs",
     "amkisko/branch-naming",
@@ -37,6 +38,7 @@
     "amkisko/ruby-conventions",
     "amkisko/rust-conventions",
     "amkisko/security",
+    "amkisko/security-audit",
     "amkisko/session-review",
     "amkisko/working-rules",
     "amkisko/writing-prose"

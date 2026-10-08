@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/durable-cache"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.summary = "Cache versus durable truth on a shared store"
   spec.files = ["README.md", "exports/durable-cache.md"]
   spec.exports = {

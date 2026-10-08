@@ -420,6 +420,126 @@
         "character_count": 26578,
         "token_count": 512
       }
+    },
+    {
+      "version": "4.1.1",
+      "artifact": "v1/artifacts/amkisko/dependency-policy/4.1.1/amkisko-dependency-policy-4.1.1.praypkg",
+      "artifact_hash": "sha256:83df4c8a77b52627a66a4891406d252e2c23dbaa3908825480d29696310bbe0c",
+      "tree_hash": "sha256:03e0970b9da7af22609464587fb20cd0ff48b8bd58fc8ea26f09942eaa73c7af",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "dependency-policy",
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791443890,
+      "signature": "sha256:267edc6324407e87038871104b9aa2bda4f2642bca578a16a20b4ea2cfb4b5b6",
+      "derived_metadata": {
+        "summary": "Dependency stop-gate and target-scoped audit skill — Stop-before-add gate and when to audit",
+        "topics": [
+          "dependency",
+          "stop",
+          "gate",
+          "target",
+          "scoped"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              47,
+              25,
+              53,
+              29,
+              29,
+              36,
+              32,
+              32,
+              33,
+              31,
+              26,
+              21,
+              48,
+              25,
+              28,
+              17
+            ]
+          }
+        ],
+        "file_count": 7,
+        "character_count": 26291,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "4.1.2",
+      "artifact": "v1/artifacts/amkisko/dependency-policy/4.1.2/amkisko-dependency-policy-4.1.2.praypkg",
+      "artifact_hash": "sha256:56fb459e615f230b227664ddce663211488e489c0aa3650259ed7b1ff583ec82",
+      "tree_hash": "sha256:2c65b1f2ad8e02cd2d256d09fc7d8bbeae9c99a579061cf32ca54fd817081599",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "dependency-policy",
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444170,
+      "signature": "sha256:bdbfad25315a4fceda6e4fdc159e6f7c2325dca6f2f52c1cb38091de5ab3d397",
+      "derived_metadata": {
+        "summary": "Dependency stop-gate and target-scoped audit skill — Stop-before-add gate and when to audit",
+        "topics": [
+          "dependency",
+          "stop",
+          "gate",
+          "target",
+          "scoped"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              47,
+              25,
+              53,
+              29,
+              29,
+              36,
+              32,
+              32,
+              33,
+              31,
+              26,
+              21,
+              48,
+              25,
+              28,
+              17
+            ]
+          }
+        ],
+        "file_count": 7,
+        "character_count": 26304,
+        "token_count": 512
+      }
     }
   ]
 }

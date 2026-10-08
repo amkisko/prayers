@@ -4,7 +4,7 @@ Retrospective over this repository's CI runs: counts, failure families, wall-clo
 
 Exports:
 
-- `ci-review` skill — scope coverage, confirm recurrence from run evidence, rank recommendations, record without changing pipelines
+- `ci-review` skill - scope coverage, confirm recurrence from run evidence, rank recommendations, record without changing pipelines
 
 Tree this skill under `.agents/skills`. Do not compose it into AGENTS.md.
 
