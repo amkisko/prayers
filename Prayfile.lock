@@ -1,7 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
 generated_by = "pray 1.20.0"
-manifest_hash = "sha256:64beff78746228935da1ff37fc670a925ead13c754b117f550367e35dd9d07bd"
+manifest_hash = "sha256:2c5cfcf47211cdd292dbece02e78b22bb64f4b0347957a09ec2e7a60a6ea4a6f"
 source = []
 
 [[package]]
@@ -218,6 +218,16 @@ tree_hash = "sha256:29f294f1d0064ed034a2d26bec73f626efea83b75333611123e7d0757f30
 artifact_hash = "sha256:29f294f1d0064ed034a2d26bec73f626efea83b75333611123e7d0757f301ca9"
 artifact = "path:./packages/finite-state-machines"
 exports = ["finite-state-machines"]
+dependencies = []
+
+[[package]]
+name = "amkisko/getting-started"
+version = "1.1.1"
+path = "./packages/getting-started"
+tree_hash = "sha256:ac1605718e8da741ae52a889759e98754109d675c2c9889f5da78f9fd0c6b6b4"
+artifact_hash = "sha256:ac1605718e8da741ae52a889759e98754109d675c2c9889f5da78f9fd0c6b6b4"
+artifact = "path:./packages/getting-started"
+exports = ["getting-started"]
 dependencies = []
 
 [[package]]
