@@ -2,23 +2,21 @@
 
 ## Unreleased
 
-- Publish `amkisko/security-audit` 0.1.2: reject unknown JSON fields in run documents; cache source line counts in the path verifier.
-- Fix `check_prayer_prose` so failure line numbers match the original file after YAML frontmatter and code fences.
-- Add `usr/scripts/check_prayer_prose.rb` and wire it into `make test`, `make check-prayer-prose`, and `make release`; reject package markdown tables, bold emphasis, and non-ASCII punctuation (README.md skipped).
-- Add GitHub Actions `Test` workflow (`.github/workflows/test.yml`) running `make validate-skills` and `make test` on pull requests and pushes to `main`.
-- Add `docs/release-runbook.md`, `docs/ci.md` (GitHub Actions is the in-repo CI host), and claims-audit `references/external-skill-intake.md` (`amkisko/claims-audit` 1.2.2) for external skill research intake.
-- Publish `amkisko/writing-prose` 3.7.0: prefer keyboard-accessible ASCII for structure; forbid Unicode arrows, em dashes, ellipsis characters, and similar glyphs in docs, prayers, and deliverable templates; pipelines use lists or ASCII-only text.
-- Replace inaccessible Unicode punctuation across shared prayer and skill sources with ASCII stand-ins; rewrite `public-surface-recon` typical pipeline as a numbered list (`public-surface-recon` 1.3.2 and related package patch bumps).
-- Align prayer and skill prose with writing-prose: strip non-mandatory bold and markdown tables from `public-surface-recon` 1.3.0 (investigation report templates use labeled bullets), `docs-conventions` 3.1.1, `dependency-issues` 3.0.1, `dependency-policy` 4.1.1, `engineering-audit` 2.14.1, `changelog-update` 3.0.1, `agent-discovery` 1.0.1, and `agent-artifact` 1.2.1.
-- Add `amkisko/security-audit` 0.1.1: full repository security audit with reconnaissance, explicit coverage ledger, bounded agent budget, independent validation, checked source and evidence references, and truthful complete or incomplete run status; tree beside `engineering-audit`; do not compose it into AGENTS.md.
-- Publish `amkisko/engineering-audit` 2.14.2: separate coverage state from finding verdict; add a security finding contract, safe validation rules, and companions for supply chain and release, cloud deployment, protocols and messaging, availability abuse, data isolation, and local application boundaries.
-- Publish `amkisko/agent-run-supervision` 1.2.1: cap total agent invocations, reserve validator capacity, allow one bounded malformed-result retry, and record incomplete terminal runs.
+## 1.25.0 (2026-10-08)
 
-- Add `amkisko/agent-discovery` 1.0.0: maturity ladder for product sites that publish agent HTTP discovery; site-type gating; RFCs before drafts; no vendor readiness score chase; tree under `.agents/skills`; do not compose into AGENTS.md.
-- Publish `amkisko/public-surface-recon` 1.2.0: add `agent-discovery-surface` prayer for robots, Link headers, markdown negotiation, and bounded well-known probes; site-type gating; do not invoke MCP tools or call third-party scanners by default.
-- Publish `amkisko/agent-artifact` 1.2.0: separate local skill trees from HTTP-published discovery; public skill markdown and discovery JSON stay untrusted and secret-free.
-- Publish `amkisko/engineering-audit` 2.13.0: learned-systems treats public agent discovery documents as a trust boundary before tool sessions.
+- Add `amkisko/security-audit` 0.1.2: full repository security audit with reconnaissance, explicit coverage ledger, bounded agent budget, independent validation, checked source and evidence references, truthful complete or incomplete run status, reject unknown JSON fields in run documents, and cached source line counts in the path verifier; tree beside `engineering-audit`; do not compose it into AGENTS.md.
+- Add `amkisko/agent-discovery` 1.0.2: maturity ladder for product sites that publish agent HTTP discovery; site-type gating; RFCs before drafts; no vendor readiness score chase; tree under `.agents/skills`; do not compose into AGENTS.md.
+- Publish `amkisko/writing-prose` 3.7.0: prefer keyboard-accessible ASCII for structure; forbid Unicode arrows, em dashes, ellipsis characters, and similar glyphs in docs, prayers, and deliverable templates; pipelines use lists or ASCII-only text.
+- Publish `amkisko/public-surface-recon` 1.3.2: add `agent-discovery-surface` prayer for robots, Link headers, markdown negotiation, and bounded well-known probes; site-type gating; plain-prose investigation templates with labeled bullets; numbered typical pipeline; ASCII punctuation; do not invoke MCP tools or call third-party scanners by default.
+- Publish `amkisko/engineering-audit` 2.14.2: separate coverage state from finding verdict; security finding contract and safe validation rules; learned-systems treats public agent discovery documents as a trust boundary; companions for supply chain and release, cloud deployment, protocols and messaging, availability abuse, data isolation, and local application.
+- Publish `amkisko/agent-artifact` 1.2.2: separate local skill trees from HTTP-published discovery; public skill markdown and discovery JSON stay untrusted and secret-free.
+- Publish `amkisko/agent-run-supervision` 1.2.1: cap total agent invocations, reserve validator capacity, allow one bounded malformed-result retry, and record incomplete terminal runs.
 - Publish `amkisko/security` 1.5.0: robots.txt and Content-Signal style preferences are not authentication or a technical block.
+- Publish `amkisko/claims-audit` 1.2.2: add `references/external-skill-intake.md` for external skill research intake.
+- Align prayer and skill prose with writing-prose: strip non-mandatory bold and markdown tables; replace inaccessible Unicode punctuation with ASCII stand-ins across `docs-conventions` 3.1.1, `dependency-issues` 3.0.1, `dependency-policy` 4.1.2, `changelog-update` 3.0.2, and related package patch bumps.
+- Add `usr/scripts/check_prayer_prose.rb` and wire it into `make test`, `make check-prayer-prose`, and `make release`; reject package markdown tables, bold emphasis, and non-ASCII punctuation (README.md skipped); failure line numbers match the original file after YAML frontmatter and code fences.
+- Add GitHub Actions `Test` workflow (`.github/workflows/test.yml`) running `make validate-skills` and `make test` on pull requests and pushes to `main`.
+- Add `docs/release-runbook.md` and `docs/ci.md` (GitHub Actions is the in-repo CI host).
 
 ## 1.24.0 (2026-10-07)
 

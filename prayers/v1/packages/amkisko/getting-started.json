@@ -112,6 +112,62 @@
         "character_count": 1214,
         "token_count": 121
       }
+    },
+    {
+      "version": "1.1.1",
+      "artifact": "v1/artifacts/amkisko/getting-started/1.1.1/amkisko-getting-started-1.1.1.praypkg",
+      "artifact_hash": "sha256:dd28238f035847f91d10fcd60264e382470505fb3c6ec16e4d23cc40fe77ddc1",
+      "tree_hash": "sha256:ac1605718e8da741ae52a889759e98754109d675c2c9889f5da78f9fd0c6b6b4",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "getting-started"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791446396,
+      "signature": "sha256:d72aaa3b7606a37f4b7a53a4e71747d44444fefa6b9a15a1a450199d48ef1930",
+      "derived_metadata": {
+        "summary": "Install pray and consume amkisko shared prayers — Pray install and consumer workflow",
+        "topics": [
+          "install",
+          "pray",
+          "consume",
+          "shared",
+          "prayers"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              4,
+              5,
+              5,
+              7,
+              13,
+              0,
+              6,
+              5,
+              2,
+              21,
+              3,
+              6,
+              29,
+              4,
+              9,
+              2
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1216,
+        "token_count": 121
+      }
     }
   ]
 }
