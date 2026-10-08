@@ -38,8 +38,10 @@ tree ".agents/skills" do
   pray "amkisko/ci-review", path: "packages/ci-review"
   pray "amkisko/change-review", path: "packages/change-review"
   pray "amkisko/agent-artifact", path: "packages/agent-artifact"
+  pray "amkisko/agent-discovery", path: "packages/agent-discovery"
   pray "amkisko/derivation-audit", path: "packages/derivation-audit"
   pray "amkisko/agent-run-supervision", path: "packages/agent-run-supervision"
+  pray "amkisko/security-audit", path: "packages/security-audit"
 end
 
 pray "amkisko/community-security", path: "packages/community-security", file: "SECURITY.md"

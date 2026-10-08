@@ -116,6 +116,64 @@
         "character_count": 5676,
         "token_count": 512
       }
+    },
+    {
+      "version": "1.1.1",
+      "artifact": "v1/artifacts/amkisko/ci-review/1.1.1/amkisko-ci-review-1.1.1.praypkg",
+      "artifact_hash": "sha256:dd26fc119752141830cbac7b0ed3373c2c46db148b7f236d2d3abb36b5288205",
+      "tree_hash": "sha256:8cd2f16adbff529f17317472ba5637ed67c8c270016e78cd8f4ac0677500a05e",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444170,
+      "signature": "sha256:49fc9d7005234ec52a18dc212d419b760fe7ac3f30ee9d67aae7aa81db198e16",
+      "derived_metadata": {
+        "summary": "Retrospective over CI runs with ranked fix proposals — CI review skill",
+        "topics": [
+          "retrospective",
+          "over",
+          "runs",
+          "ranked",
+          "proposals"
+        ],
+        "categories": [
+          "documentation",
+          "testing"
+        ],
+        "possible_effects": [
+          "clarifies usage",
+          "improves validation"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              42,
+              27,
+              40,
+              29,
+              30,
+              28,
+              30,
+              29,
+              20,
+              53,
+              27,
+              24,
+              20,
+              38,
+              38,
+              37
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 5681,
+        "token_count": 512
+      }
     }
   ]
 }

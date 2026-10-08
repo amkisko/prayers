@@ -52,7 +52,7 @@ source "amkisko", git: "https://github.com/amkisko/prayers.git"
 compose "AGENTS.md" do
   pray ".agents/project.md"
   pray "amkisko/working-rules", "~> 2.7"
-  pray "amkisko/security", "~> 1.4"
+  pray "amkisko/security", "~> 1.5"
   pray "amkisko/docs-conventions", "~> 3.1"
   pray "amkisko/dependency-issues", "~> 3.0"
   pray "amkisko/dependency-policy", "~> 4.0"
@@ -64,7 +64,7 @@ compose "AGENTS.md" do
   pray "amkisko/keep-the-work", "~> 1.4"
   pray "amkisko/background-jobs", "~> 1.1"
   pray "amkisko/io-simulation", "~> 1.0"
-  pray "amkisko/writing-prose", "~> 3.5"
+  pray "amkisko/writing-prose", "~> 3.7"
   pray "amkisko/claims-audit", "~> 1.1"
   pray "amkisko/rfc-process", "~> 1.2"
   pray "amkisko/rejected-changes", "~> 1.1"
@@ -74,19 +74,21 @@ end
 
 tree ".agents/skills" do
   pray "amkisko/dependency-policy", "~> 4.0"
-  pray "amkisko/engineering-audit", "~> 2.12"
+  pray "amkisko/engineering-audit", "~> 2.14"
   pray "amkisko/operational-signal-intake", "~> 1.0"
   pray "amkisko/changelog-update", "~> 3.0"
   pray "amkisko/claims-audit", "~> 1.1"
   pray "amkisko/rfc-process", "~> 1.2"
-  pray "amkisko/public-surface-recon", "~> 1.1"
+  pray "amkisko/public-surface-recon", "~> 1.3"
   pray "amkisko/infer-conventions", "~> 1.0"
   pray "amkisko/session-review", "~> 1.2"
   pray "amkisko/ci-review", "~> 1.1"
   pray "amkisko/change-review", "~> 1.0"
-  pray "amkisko/agent-artifact", "~> 1.0"
+  pray "amkisko/agent-artifact", "~> 1.2"
+  pray "amkisko/agent-discovery", "~> 1.0"
   pray "amkisko/derivation-audit", "~> 1.0"
-  pray "amkisko/agent-run-supervision", "~> 1.0"
+  pray "amkisko/agent-run-supervision", "~> 1.2"
+  pray "amkisko/security-audit", "~> 0.1"
 end
 
 pray "amkisko/community-security", "~> 1.2", file: "SECURITY.md"
@@ -97,7 +99,7 @@ pray "amkisko/community-contributing", "~> 1.1", file: "CONTRIBUTING.md"
 
 Swap `ruby-conventions` for `rust-conventions`, `elixir-conventions`, or `kotlin-conventions` on those language trees. Compose one language pack, not all four. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Products with background workers compose `background-jobs`. Multi-instance services with a shared store may compose `durable-cache`. Library-only trees may omit those product fragments.
 
-Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md. Tree `session-review` when reviewing agent sessions; do not compose it into AGENTS.md. Tree `ci-review` when reviewing CI run health; do not compose it into AGENTS.md. Tree `change-review` when reviewing a git diff; do not compose it into AGENTS.md. Tree `agent-artifact` when reviewing skill files or MCP configs; do not compose it into AGENTS.md. Tree `derivation-audit` when reviewing a formal derivation; do not compose it into AGENTS.md. Tree `agent-run-supervision` when supervising a live tool-calling run; do not compose it into AGENTS.md.
+Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md. Tree `session-review` when reviewing agent sessions; do not compose it into AGENTS.md. Tree `ci-review` when reviewing CI run health; do not compose it into AGENTS.md. Tree `change-review` when reviewing a git diff; do not compose it into AGENTS.md. Tree `agent-artifact` when reviewing skill files or MCP configs; do not compose it into AGENTS.md. Tree `agent-discovery` when deciding what a product should publish for agent HTTP discovery; do not compose it into AGENTS.md. Tree `derivation-audit` when reviewing a formal derivation; do not compose it into AGENTS.md. Tree `agent-run-supervision` when supervising a live tool-calling run; do not compose it into AGENTS.md. Tree `security-audit` beside `engineering-audit` for full repository security audits; do not compose it into AGENTS.md.
 
 ## Compose budget
 
@@ -126,7 +128,7 @@ git add prayers/v1/artifacts
 make check-artifacts
 ```
 
-`make publish` then rewrites catalog `derived_metadata.topics` from package summaries (`make catalog-topics`). Artifact hash, tree hash, and signature stay. `make validate-skills` checks package `SKILL.md` frontmatter with the Ruby standard library YAML parser. `make check-artifacts` checks catalog `.praypkg` paths with the same Ruby runtime. `make test` runs those checkers' specs and the topic rewriter specs.
+`make publish` then rewrites catalog `derived_metadata.topics` from package summaries (`make catalog-topics`). Artifact hash, tree hash, and signature stay. `make validate-skills` checks package `SKILL.md` frontmatter with the Ruby standard library YAML parser. `make check-artifacts` checks catalog `.praypkg` paths with the same Ruby runtime. `make test` runs those checkers' specs, the topic rewriter specs, and the security-audit run-contract specs.
 
 `make release` runs validate-skills, publish (including catalog-topics), plan, apply, verify, then check-artifacts. If check-artifacts reports untracked files, add those paths and rerun `make check-artifacts` only. Catalog `published_at` is an integer unix time. Do not rerun `make publish` after a successful catalog write: it can rebuild a same-version artifact when package source drifted.
 
@@ -167,8 +169,10 @@ make check-artifacts
 | `amkisko/ci-review` | skill | Retrospective over CI runs with ranked fix proposals |
 | `amkisko/change-review` | skill | Review a git diff with coverage and falsify-before-report |
 | `amkisko/agent-artifact` | skill | Review skill files, prompt templates, MCP configs, and tool schemas |
+| `amkisko/agent-discovery` | skill | When and what to publish for agent HTTP discovery on a product site |
 | `amkisko/derivation-audit` | skill | Audit formal claims, registered checks, and symbolic derivation scope |
 | `amkisko/agent-run-supervision` | skill | Supervise a live tool-calling run with ceilings and barriers |
+| `amkisko/security-audit` | skill | Full repository security audit with coverage ledger and independent validation |
 | `amkisko/community-security` | file | Shared SECURITY.md |
 | `amkisko/community-code-of-conduct` | file | Shared CODE_OF_CONDUCT.md |
 | `amkisko/community-governance` | file | Shared GOVERNANCE.md |

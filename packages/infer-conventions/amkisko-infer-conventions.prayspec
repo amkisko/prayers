@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/infer-conventions"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.summary = "Find how a tree actually writes; encode genuine forks as executable checks"
   spec.files = [
     "README.md",

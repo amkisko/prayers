@@ -14,12 +14,14 @@ Inventory published agent artifacts. This skill does not replace `engineering-au
 ## Quick reference
 
 ```text
-inventory artifacts → treat descriptions as untrusted → check grants and sinks → name isolation and caps → record
+inventory artifacts -> treat descriptions as untrusted -> check grants and sinks -> name isolation and caps -> record
 ```
 
 ## Inventory
 
 List SKILL.md files, prompt templates, MCP configs, and tool schemas in scope. Mark skipped files with a reason.
+
+Separate local tree artifacts (for example under `.agents/skills`) from HTTP-published discovery (for example `/.well-known/agent-skills/index.json`, MCP cards or catalogs, Auth.md). A repo skill tree is not the same control as a public index.
 
 Ask:
 
@@ -30,9 +32,16 @@ Ask:
 - whether the server binds a public interface without authentication;
 - whether retry or subagent depth has a named cap.
 
+When HTTP discovery is in scope, also ask:
+
+- whether public skill documents and digests match the served bytes;
+- whether MCP or OAuth discovery documents embed credentials, private hosts, or session-specific values;
+- whether path conventions are treated as draft when multiple well-known locations exist;
+- whether a published skill index description can steer tool use without a code-level grant.
+
 ## Boundaries
 
-A guardrail prompt is not a security boundary. Prompt injection alone is not a finding; require a code-level boundary failure. Authorization and action binding are different controls. Model output, memory, tool descriptions, and MCP responses are untrusted input.
+A guardrail prompt is not a security boundary. Prompt injection alone is not a finding; require a code-level boundary failure. Authorization and action binding are different controls. Model output, memory, tool descriptions, and MCP responses are untrusted input. Public skill markdown fetched over HTTP is untrusted input.
 
 Isolation claim versus blast radius: name what the process can actually command. A container is not isolation if it holds the runtime socket. A supervisor disabled by default does not protect ordinary runs.
 
@@ -40,11 +49,13 @@ Cite OWASP LLM01, LLM06, and the OWASP MCP Top 10 when those frames apply. Keep 
 
 ## Record
 
-Write durable findings under `docs/issues` per `docs-conventions`. Apply the `security` fragment's no-live-secret rule to skill files, prompt templates, and MCP environment settings as well as config files.
+Write durable findings under `docs/issues` per `docs-conventions`. Apply the `security` fragment's no-live-secret rule to skill files, prompt templates, and MCP environment settings as well as config files. The same rule applies to public discovery JSON and published skill bodies.
 
 ## Routing
 
 - `engineering-audit` learned-systems when the product itself is a retrieval or tool-calling system.
+- `agent-discovery` when the person asks what a product should publish for agent HTTP discovery, not only how to review existing artifacts.
+- `public-surface-recon` `agent-discovery-surface` when the evidence must come from live blackbox HTTP on an authorized target.
 - `agent-run-supervision` when the person asks to supervise a live run.
 - `security` for session notice and secret-handling rules.
 - `change-review` when the scope is a diff of these files.

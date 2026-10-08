@@ -1,0 +1,123 @@
+{
+  "name": "amkisko/security-audit",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "artifact": "v1/artifacts/amkisko/security-audit/0.1.0/amkisko-security-audit-0.1.0.praypkg",
+      "artifact_hash": "sha256:454044c2a97ecc2ec76f5a5820ff65280e7127da8585f4d6a607363624616025",
+      "tree_hash": "sha256:c39dce9e0b25191f7863242a0e0dbbebf57e449dbac05faba7599f41380abbd2",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791443890,
+      "signature": "sha256:cbff74fc24c48ca160b4a1d70381a0bd719ba6c597e5d2bbb1329d9c2345d23c",
+      "derived_metadata": {
+        "summary": "Coverage-led repository security audit with independent validation and checked run artifacts — Full repository security audit with coverage ledger and independently validated findings",
+        "topics": [
+          "coverage",
+          "repository",
+          "security",
+          "audit",
+          "independent"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              29,
+              23,
+              42,
+              39,
+              33,
+              32,
+              33,
+              24,
+              42,
+              29,
+              27,
+              30,
+              41,
+              38,
+              22,
+              28
+            ]
+          }
+        ],
+        "file_count": 13,
+        "character_count": 36504,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "0.1.1",
+      "artifact": "v1/artifacts/amkisko/security-audit/0.1.1/amkisko-security-audit-0.1.1.praypkg",
+      "artifact_hash": "sha256:780ad5869f42d739e24d66c7cd16b5ba2f9cc978d95d7b6385e5bd3fda1fc0cd",
+      "tree_hash": "sha256:e89688459addb192d24e18fde8c8efe5e12e1b7ffe5444e963a46f26feb3932c",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444397,
+      "signature": "sha256:f81e1daa4ce572cd0a6aee7958a7473c3755af32ced26e883ddc39296b993a19",
+      "derived_metadata": {
+        "summary": "Coverage-led repository security audit with independent validation and checked run artifacts — Full repository security audit with coverage ledger and independently validated findings",
+        "topics": [
+          "coverage",
+          "repository",
+          "security",
+          "audit",
+          "independent"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              29,
+              23,
+              42,
+              39,
+              33,
+              32,
+              33,
+              24,
+              42,
+              29,
+              27,
+              30,
+              41,
+              38,
+              22,
+              28
+            ]
+          }
+        ],
+        "file_count": 13,
+        "character_count": 37059,
+        "token_count": 512
+      }
+    }
+  ]
+}

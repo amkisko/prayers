@@ -8,7 +8,7 @@ Install the CLI:
 cargo install --git https://github.com/kiskolabs/pray --locked pray
 ```
 
-Declare destinations with `compose`, `tree`, and `pray …, file:`:
+Declare destinations with `compose`, `tree`, and `pray ..., file:`:
 
 ```prayfile
 prayfile "1"

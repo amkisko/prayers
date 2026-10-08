@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/amkisko/prayers/security-audit/findings.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "findings"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["fingerprint", "owner", "validator", "title", "verdict", "confidence", "location", "trace", "artifact_paths"],
+        "properties": {
+          "fingerprint": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+          "owner": {"type": "string", "minLength": 1},
+          "validator": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "verdict": {"enum": ["confirmed", "needs_validation", "rejected"]},
+          "likelihood": {"enum": ["low", "medium", "high", "critical"]},
+          "impact": {"enum": ["low", "medium", "high", "critical"]},
+          "severity": {"enum": ["low", "medium", "high", "critical"]},
+          "confidence": {"enum": ["low", "medium", "high"]},
+          "location": {"$ref": "#/$defs/location"},
+          "trace": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/trace_step"}},
+          "artifact_paths": {"type": "array", "items": {"type": "string", "minLength": 1}},
+          "lower_trust_principal": {"type": "string", "minLength": 1},
+          "starting_capability": {"type": "string", "minLength": 1},
+          "input_or_action": {"type": "string", "minLength": 1},
+          "intended_control": {"type": "string", "minLength": 1},
+          "crossed_boundary": {"type": "string", "minLength": 1},
+          "affected_principal_or_resource": {"type": "string", "minLength": 1},
+          "conditions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "observed_minimum_result": {"type": "string", "minLength": 1},
+          "smallest_fix": {"type": "string", "minLength": 1},
+          "blockers": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "validation_plan": {"type": "string", "minLength": 1},
+          "rejection_reason": {"type": "string", "minLength": 1}
+        },
+        "allOf": [
+          {
+            "if": {"properties": {"verdict": {"const": "confirmed"}}},
+            "then": {
+              "required": ["likelihood", "impact", "severity", "lower_trust_principal", "starting_capability", "input_or_action", "intended_control", "crossed_boundary", "affected_principal_or_resource", "conditions", "observed_minimum_result", "smallest_fix"]
+            }
+          },
+          {
+            "if": {"properties": {"verdict": {"const": "needs_validation"}}},
+            "then": {
+              "required": ["likelihood", "impact", "lower_trust_principal", "starting_capability", "input_or_action", "intended_control", "crossed_boundary", "affected_principal_or_resource", "conditions", "blockers", "validation_plan"],
+              "not": {"required": ["severity"]}
+            }
+          },
+          {
+            "if": {"properties": {"verdict": {"const": "rejected"}}},
+            "then": {
+              "required": ["rejection_reason"],
+              "not": {"required": ["severity"]}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "line"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "line": {"type": "integer", "minimum": 1}
+      }
+    },
+    "trace_step": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "line", "role"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "line": {"type": "integer", "minimum": 1},
+        "role": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/amkisko/prayers/security-audit/run-metadata.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run_id", "source_ref", "status", "started_at", "agent_budget"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "source_ref": {"type": "string", "minLength": 1},
+    "status": {"enum": ["complete", "incomplete"]},
+    "started_at": {"type": "string", "format": "date-time"},
+    "finished_at": {"type": "string", "format": "date-time"},
+    "report_path": {"type": "string", "minLength": 1},
+    "incomplete_reason": {"type": "string", "minLength": 1},
+    "agent_budget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["maximum_invocations", "used_invocations", "reserved_validation"],
+      "properties": {
+        "maximum_invocations": {"type": "integer", "minimum": 0},
+        "used_invocations": {"type": "integer", "minimum": 0},
+        "reserved_validation": {"type": "integer", "minimum": 0}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "complete"}}},
+      "then": {"required": ["finished_at", "report_path"]},
+      "else": {"required": ["incomplete_reason"]}
+    }
+  ]
+}

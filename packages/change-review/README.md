@@ -4,7 +4,7 @@ Review a git diff: account for every changed file, path-matched criteria, falsif
 
 Exports:
 
-- `change-review` skill — coverage, line-range cites, falsify-before-report
+- `change-review` skill - coverage, line-range cites, falsify-before-report
 
 Tree this skill under `.agents/skills`. Do not compose it into AGENTS.md.
 

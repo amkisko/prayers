@@ -54,6 +54,60 @@
         "character_count": 485,
         "token_count": 53
       }
+    },
+    {
+      "version": "1.0.1",
+      "artifact": "v1/artifacts/amkisko/branch-naming/1.0.1/amkisko-branch-naming-1.0.1.praypkg",
+      "artifact_hash": "sha256:947a217df76896e8bfedb81d0425ca6f782af1e97fd6a589a6d8c99db53c57bd",
+      "tree_hash": "sha256:492e92e5f39d70ed160cf06f4ae83aeb49b79f9c4098880edfa64a68d072d3ed",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "branch-naming"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444170,
+      "signature": "sha256:7339157fc9863774b1adedaf2d26736ed7223692387bd0693c6198833e82539e",
+      "derived_metadata": {
+        "summary": "Branch naming conventions — # amkisko/branch-naming",
+        "topics": [
+          "branch",
+          "naming",
+          "conventions"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              2,
+              1,
+              2,
+              5,
+              8,
+              4,
+              0,
+              4,
+              2,
+              1,
+              7,
+              5,
+              2,
+              5,
+              3,
+              2
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 485,
+        "token_count": 53
+      }
     }
   ]
 }

@@ -17,5 +17,6 @@
 - Lookups go through an ownership set; request parameters pick which row; fail closed when access cannot be proven.
 - Treat user-supplied URLs as untrusted; rate-limit authentication and abuse-prone endpoints.
 - An invalid or expired credential gets a protocol-level failure status. A hop's own credential is never the caller's. Modes that relax access controls must remain disabled when their configuration is missing or invalid.
+- Crawl preferences in `robots.txt` and Content-Signal style directives declare intent to cooperative clients. They are not authentication, ownership proof, or a technical block. They do not replace rate limits or fail-closed access checks.
 
 Related: `engineering-audit` security mode asks whether a parameter establishes access and whether a worker skipped policy.

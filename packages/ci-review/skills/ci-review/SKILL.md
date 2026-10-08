@@ -20,7 +20,7 @@ A retrospective over continuous integration runs for this repository. Report fin
 ## Quick reference
 
 ```text
-scope and coverage → collect run evidence → group failures → separate queue from wall-clock → rank at most five fixes → record without changing pipelines
+scope and coverage -> collect run evidence -> group failures -> separate queue from wall-clock -> rank at most five fixes -> record without changing pipelines
 ```
 
 By default, report findings and recommendations. Edit pipelines, runners, caches, or required checks when the person's request authorizes those changes or they approve a concrete proposal.

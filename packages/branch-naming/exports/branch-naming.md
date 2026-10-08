@@ -4,10 +4,10 @@ Use kebab-case after the prefix.
 
 Prefixes:
 
-- `feature/<title>` — new capability
-- `patch/<title>` — bugfix or chore
-- `trunk/<title>` — release candidate or integration work before `main`
-- `plan/<title>` — exploration or ideation
+- `feature/<title>` - new capability
+- `patch/<title>` - bugfix or chore
+- `trunk/<title>` - release candidate or integration work before `main`
+- `plan/<title>` - exploration or ideation
 
 Examples:
 

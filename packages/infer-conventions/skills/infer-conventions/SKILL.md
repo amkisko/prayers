@@ -21,7 +21,7 @@ that matters fails a command.
 ## Quick reference
 
 ```text
-orient → genuine-fork sweep → architecture and house pass → confirm → add the check that fails on violation → summarize
+orient -> genuine-fork sweep -> architecture and house pass -> confirm -> add the check that fails on violation -> summarize
 ```
 
 Default is confirm: encode only what the person approves. Encode without asking only when the invocation said to. Mixed styles still go to the person.

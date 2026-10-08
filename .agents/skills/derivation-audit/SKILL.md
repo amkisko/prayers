@@ -16,7 +16,7 @@ The consumer owns the executable and the style exemplar. Stay on concepts. Do no
 ## Quick reference
 
 ```text
-keep statement domain quantifiers → classify the claim → inspect registered checks → treat solver output → record unresolved
+keep statement domain quantifiers -> classify the claim -> inspect registered checks -> treat solver output -> record unresolved
 ```
 
 ## Claim classes

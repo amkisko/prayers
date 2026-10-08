@@ -27,11 +27,11 @@ Trace the path instead of jumping from a utilization value to a cause:
 
 ```text
 demand or input
-→ work and amplification
-→ waits, queues, retries, or retained resources
-→ constrained resource and ceiling
-→ rejection, timeout, incorrect result, or stalled progress
-→ user or operator consequence
+-> work and amplification
+-> waits, queues, retries, or retained resources
+-> constrained resource and ceiling
+-> rejection, timeout, incorrect result, or stalled progress
+-> user or operator consequence
 ```
 
 At each step record the observed value, baseline, unit, window, and contradictory evidence. Check ordinary traffic growth, an expensive input shape, resource leaks, unbounded cardinality, retry storms, poison work, lock contention, dependency slowness, deployment changes, and telemetry overhead before attributing intent.

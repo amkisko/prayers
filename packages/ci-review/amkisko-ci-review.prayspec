@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/ci-review"
-  spec.version = "1.1.0"
+  spec.version = "1.1.1"
   spec.summary = "Retrospective over CI runs with ranked fix proposals"
   spec.files = [
     "README.md",

@@ -1,4 +1,4 @@
-.PHONY: help check-pray check-artifacts catalog-topics validate-skills test install plan apply verify drift update publish serve package clean release
+.PHONY: help check-pray check-artifacts check-prayer-prose catalog-topics validate-skills test install plan apply verify drift update publish serve package clean release
 
 PRAY ?= pray
 DIST_ROOT := ./prayers
@@ -19,7 +19,8 @@ help:
 	@echo "  make check-artifacts  catalog .praypkg files exist and are git-tracked"
 	@echo "  make catalog-topics   rewrite derived_metadata.topics from package summaries"
 	@echo "  make validate-skills  package SKILL.md frontmatter via Ruby YAML"
-	@echo "  make test             skill frontmatter, artifact checker, and catalog topic specs"
+	@echo "  make check-prayer-prose  fail package markdown with tables, bold, or non-ASCII punctuation"
+	@echo "  make test             skill, artifact, catalog topic, prayer prose, and security-audit run specs"
 	@echo "  make drift            drift report before review"
 	@echo "  make update           check for newer package versions"
 	@echo "  make publish          update prayers/v1 from the Prayfile publish remote"
@@ -59,10 +60,16 @@ catalog-topics:
 validate-skills:
 	ruby usr/scripts/validate_skill.rb
 
+check-prayer-prose:
+	ruby usr/scripts/check_prayer_prose.rb .
+
 test:
 	ruby usr/scripts/validate_skill_test.rb
 	ruby usr/scripts/check_artifacts_test.rb
 	ruby usr/scripts/catalog_topics_test.rb
+	ruby usr/scripts/check_prayer_prose_test.rb
+	ruby usr/scripts/check_prayer_prose.rb .
+	ruby usr/scripts/security_audit_run_test.rb
 
 drift: check-pray
 	$(PRAY) drift
@@ -88,4 +95,4 @@ clean:
 	@find . -maxdepth 1 -name '*.praypkg' -delete 2>/dev/null || true
 	@echo "removed root *.praypkg scratch files"
 
-release: validate-skills publish plan apply verify check-artifacts
+release: validate-skills check-prayer-prose publish plan apply verify check-artifacts

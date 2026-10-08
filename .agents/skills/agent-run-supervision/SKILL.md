@@ -14,16 +14,20 @@ Supervise a live tool-calling run. This skill does not replace `session-review` 
 ## Quick reference
 
 ```text
-name isolation → set tool-call and wall-clock caps → detect identical calls → request approval or stop → measure supervision cost
+name isolation -> set tool-call and wall-clock caps -> detect identical calls -> request approval or stop -> measure supervision cost
 ```
 
 ## Ceilings
 
 Set hard tool-call and wall-clock ceilings. Detect identical calls and lack of progress. Stop gracefully when a cap is hit. Bound generated plans. Refine after each completed step.
 
+When the worker may invoke agents, set a total invocation budget before work starts. Count retries and nested agents against the same budget. Reserve the final portion for an independent critic or validator; hunting may not consume that reserve. Default to the smallest budget that covers one reconnaissance pass, disjoint work owners, and one validator. A malformed result gets at most one bounded retry.
+
 ## Barriers
 
 Distinguish the human-approval state (`ask`) from the terminal state (`done`). State whether supervision is enabled by default. Record each supervisor's measurements and cost. Claims that extra supervisors improve quality by a multiplier stay inference until a benchmark demonstrates the effect.
+
+Also distinguish `complete` from terminal `incomplete`. A cap, missing approval, malformed result after the retry, unavailable validator, or lost authorization ends as incomplete with the reason and unfinished work. Do not rename an orderly stop as successful completion.
 
 ## Isolation
 
@@ -33,7 +37,7 @@ Context compaction can drop constraints, authorization, or a do-not-touch rule. 
 
 ## Record
 
-Write durable findings under `docs/issues` per `docs-conventions`. Tool-call and token counts belong in `engineering-audit` resource-and-budget.
+Write durable findings under `docs/issues` per `docs-conventions`. Record the invocation maximum, used count, reserved validation count, retries, terminal state, and incomplete reason. Tool-call and token counts belong in `engineering-audit` resource-and-budget.
 
 ## Routing
 

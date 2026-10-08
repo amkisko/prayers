@@ -14,7 +14,7 @@ Review the changed files in a diff. This skill does not replace `engineering-aud
 ## Quick reference
 
 ```text
-list changed files → mark skips → path-matched criteria → read the file → cite existing lines → falsify against the diff → report
+list changed files -> mark skips -> path-matched criteria -> read the file -> cite existing lines -> falsify against the diff -> report
 ```
 
 ## Coverage

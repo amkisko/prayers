@@ -112,6 +112,239 @@
         "character_count": 67537,
         "token_count": 512
       }
+    },
+    {
+      "version": "1.2.0",
+      "artifact": "v1/artifacts/amkisko/public-surface-recon/1.2.0/amkisko-public-surface-recon-1.2.0.praypkg",
+      "artifact_hash": "sha256:e4f1ae2bfc0adec2e0477b75a2917492cbade5c906312ab4b4e8f82ab7c4811f",
+      "tree_hash": "sha256:c44c4e244e64644e91d46ac2b4fc7603b712336f1f9ec92a78d49540accbd60f",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791443405,
+      "signature": "sha256:56341f07cfb03aeecc1fb6115b9d7ae93634ecfb68e80cf180eeed40d6217aa3",
+      "derived_metadata": {
+        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "topics": [
+          "blackbox",
+          "recon",
+          "http",
+          "archives",
+          "public"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              31,
+              36,
+              31,
+              22,
+              55,
+              33,
+              35,
+              32,
+              18,
+              40,
+              18,
+              37,
+              31,
+              24,
+              29,
+              40
+            ]
+          }
+        ],
+        "file_count": 13,
+        "character_count": 75860,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "1.3.0",
+      "artifact": "v1/artifacts/amkisko/public-surface-recon/1.3.0/amkisko-public-surface-recon-1.3.0.praypkg",
+      "artifact_hash": "sha256:51005bce410429c684c7b3776cce0b400208132779c186140742c976a95e446b",
+      "tree_hash": "sha256:f0a28cef035f6a3e1b8b63a9ae127fae40a823518086cf57140500015bf06ede",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791443890,
+      "signature": "sha256:5431157aeb3fd1c1b3ae3090c1a9e21e1d6e4e93b112b225845367575a459228",
+      "derived_metadata": {
+        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "topics": [
+          "blackbox",
+          "recon",
+          "http",
+          "archives",
+          "public"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              31,
+              36,
+              31,
+              23,
+              55,
+              31,
+              35,
+              32,
+              18,
+              40,
+              18,
+              37,
+              31,
+              25,
+              29,
+              40
+            ]
+          }
+        ],
+        "file_count": 13,
+        "character_count": 74606,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "1.3.1",
+      "artifact": "v1/artifacts/amkisko/public-surface-recon/1.3.1/amkisko-public-surface-recon-1.3.1.praypkg",
+      "artifact_hash": "sha256:d1dc77741812482b8bb88834dec37751e8315adab224165bdf0d18a012551a26",
+      "tree_hash": "sha256:cf51dacf0fe79c8be8c2e35c13e3e292a7fd403a443d71595531302ea36447ea",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444170,
+      "signature": "sha256:e0f746a602d04c45bddba89f3f38493ec3984519ce6970ac21e4a4885512bf9f",
+      "derived_metadata": {
+        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "topics": [
+          "blackbox",
+          "recon",
+          "http",
+          "archives",
+          "public"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              31,
+              36,
+              31,
+              23,
+              55,
+              31,
+              35,
+              32,
+              18,
+              40,
+              18,
+              37,
+              31,
+              25,
+              29,
+              40
+            ]
+          }
+        ],
+        "file_count": 13,
+        "character_count": 74750,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "1.3.2",
+      "artifact": "v1/artifacts/amkisko/public-surface-recon/1.3.2/amkisko-public-surface-recon-1.3.2.praypkg",
+      "artifact_hash": "sha256:faf944af41fb9e58b4f53d8b7b7bffa20773864337df3d9a2b5b3b99883e5dde",
+      "tree_hash": "sha256:3c578a6232285d025551fc069037525305e89e174955ba0c68aba449aee3e5b2",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1791444191,
+      "signature": "sha256:7471676bc1193e5c1775a46f0f7b6304d9425d59b63718f5942f2eaf4f070545",
+      "derived_metadata": {
+        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "topics": [
+          "blackbox",
+          "recon",
+          "http",
+          "archives",
+          "public"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              31,
+              36,
+              31,
+              23,
+              55,
+              31,
+              35,
+              32,
+              18,
+              40,
+              18,
+              37,
+              31,
+              25,
+              29,
+              40
+            ]
+          }
+        ],
+        "file_count": 13,
+        "character_count": 74756,
+        "token_count": 512
+      }
     }
   ]
 }
