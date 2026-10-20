@@ -35,11 +35,12 @@ Later pass validation (reports + support + migrate):
 - make PRAY=$HOME/.cargo/bin/pray apply && verify: exit 0; AGENTS.md 22936 bytes; three usr/ bullets present.
 - ruby usr/scripts/check_prayer_prose.rb packages/docs-conventions packages/ruby-conventions: check-prayer-prose: ok.
 
+Later pass: tagged v1.26.0 on 415c359; GitHub release https://github.com/amkisko/prayers/releases/tag/v1.26.0.
+
 ## Next
 
-1. Merge trunk/2026-10-20-usr-workshop-trees; tag v1.26.0; GitHub release from CHANGELOG 1.26.0.
-2. Consumers bump docs-conventions ~> 3.2, then pray update, plan, apply.
-3. Consumer repos: keep read-only scripts under `usr/reports`; move mutating support console scripts from `usr/reports` or `usr/console` into `usr/support` when ready.
+1. Consumers bump docs-conventions ~> 3.2, then pray update, plan, apply.
+2. Consumer repos: keep read-only scripts under `usr/reports`; move mutating support console scripts from `usr/reports` or `usr/console` into `usr/support` when ready.
 
 ## Source
 
