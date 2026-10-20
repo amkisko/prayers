@@ -1,7 +1,9 @@
 - `docs/` holds maintained explanations and working records; use stable descriptive filenames for guides; placement does not imply polish or currency;
 - keep inference input (AGENTS.md, `.agents/`) separate from `docs/`; conventions that matter fail a command;
 - `usr/` is the workshop for working tools and operational material;
-- `usr/migrate/` holds console-first scripts that must run before new code is on the process; later schema migrate is schema-only and idempotent;
+- `usr/reports/` holds read-only analysis and investigation console scripts; no mutations;
+- `usr/support/` holds product and customer support console scripts that mutate or write; a person pastes or runs them after review; programmable agents do not run them against a live process;
+- `usr/migrate/` holds schema and data migration scripts for manual running before new code is on the process; later schema migrate is schema-only and idempotent;
 - five `docs/` timestamp trees, no README index, filename `YYYYMMDDHHMMSS_<kebab-case-title>.md`: `issues` (live work: contract, findings, open next; pitch, plan, and queue stay here), `reviews` (one review episode: session or CI scope, coverage, recommendations, outcome), `changelogs` (what shipped), `meetings` (one sitting: who was there and what they agreed), `dependencies` (upstream defects from real work);
 - issues, reviews, changelogs, and meetings make five things findable (use `##` headings or equivalent; omit empty sections): Participants (humans only; omit agents, tools, and binaries), Decisions (what was agreed), Effects (done, failed, recovered, rolled back), Next (todo, planned, open questions), Source (links upstream: meeting, issue, review, PR, commit, and downstream materializations); git history is the edit log; add an explicit note only when a later pass changes meaning (scope cut, rollback, decision reversed);
 - mention software, tools, agents, or binaries in a note only when that detail is needed for execution or later analysis; put it under Decisions, Effects, or Source, not under Participants;

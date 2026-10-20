@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 1.26.0 (2026-10-20)
+
+- Publish `amkisko/docs-conventions` 3.2.0: name `usr/reports` for read-only analysis and investigation console scripts (no mutations); name `usr/support` for product and customer support console scripts that mutate or write (person runs after review; agents do not run against a live process); keep `usr/migrate` for schema and data migration scripts for manual running; do not invent `usr/console`.
+- Publish `amkisko/ruby-conventions` 1.3.1: point Related at `usr/reports`, `usr/support`, and `usr/migrate`.
+
 ## 1.25.0 (2026-10-08)
 
 - Add `amkisko/security-audit` 0.1.2: full repository security audit with reconnaissance, explicit coverage ledger, bounded agent budget, independent validation, checked source and evidence references, truthful complete or incomplete run status, reject unknown JSON fields in run documents, and cached source line counts in the path verifier; tree beside `engineering-audit`; do not compose it into AGENTS.md.

@@ -138,7 +138,7 @@ make check-artifacts
 |---------|------|---------|
 | `amkisko/working-rules` | fragment | Language-neutral engineering working rules |
 | `amkisko/security` | fragment | Credential, secret, tracking, and ownership hygiene for agents |
-| `amkisko/docs-conventions` | fragment | docs timestamp trees, usr workshop, purpose, and heading templates |
+| `amkisko/docs-conventions` | fragment | docs timestamp trees, usr reports support migrate, purpose, and heading templates |
 | `amkisko/dependency-issues` | fragment | Dependency bug evidence and fix suggestions |
 | `amkisko/dependency-policy` | fragment + skill | Stop-before-add gate, target-scoped vulnerability assessment, and lag metrics |
 | `amkisko/ruby-conventions` | fragment | Ruby and Rails stack conventions |
