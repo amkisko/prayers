@@ -65,6 +65,7 @@ Related: `engineering-audit` security mode asks whether a parameter establishes 
 - `docs/` holds maintained explanations and working records; use stable descriptive filenames for guides; placement does not imply polish or currency;
 - keep inference input (AGENTS.md, `.agents/`) separate from `docs/`; conventions that matter fail a command;
 - `usr/` is the workshop for working tools and operational material;
+- `usr/scripts/` holds maintainer scripts invoked from a checkout, Makefile, CI, or a runner on a named path; not paste-into-live-console support or migrate work;
 - `usr/reports/` holds read-only analysis and investigation console scripts; no mutations;
 - `usr/support/` holds product and customer support console scripts that mutate or write; a person pastes or runs them after review; programmable agents do not run them against a live process;
 - `usr/migrate/` holds schema and data migration scripts for manual running before new code is on the process; later schema migrate is schema-only and idempotent;

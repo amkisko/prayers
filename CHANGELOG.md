@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 1.27.0 (2026-10-20)
+
+- Publish `amkisko/docs-conventions` 3.3.0: name `usr/scripts` for maintainer scripts invoked from a checkout, Makefile, CI, or a runner on a named path; keep `usr/reports`, `usr/support`, and `usr/migrate` as before.
+- Publish `amkisko/ruby-conventions` 1.3.2: point Related at `usr/scripts` plus the console workshop trees.
+
 ## 1.26.0 (2026-10-20)
 
 - Publish `amkisko/docs-conventions` 3.2.0: name `usr/reports` for read-only analysis and investigation console scripts (no mutations); name `usr/support` for product and customer support console scripts that mutate or write (person runs after review; agents do not run against a live process); keep `usr/migrate` for schema and data migration scripts for manual running; do not invent `usr/console`.
