@@ -290,6 +290,64 @@
         "character_count": 2169,
         "token_count": 225
       }
+    },
+    {
+      "version": "1.3.2",
+      "artifact": "v1/artifacts/amkisko/ruby-conventions/1.3.2/amkisko-ruby-conventions-1.3.2.praypkg",
+      "artifact_hash": "sha256:0a7f1f59f29ac80cee68d20c3068b4dbd75abd145085704a142bdcc8f25e9084",
+      "tree_hash": "sha256:9e9757f6e058d351c672702a32d11f1ccce44f2ec7e061baa02184c1753c11a4",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "ruby-conventions"
+      ],
+      "signer": "amkisko",
+      "published_at": 1792509699,
+      "signature": "sha256:839e490740f8cc63079e0bbc66d8a1e226f267c572be63b3d96952977832ab84",
+      "derived_metadata": {
+        "summary": "Ruby and Rails conventions for amkisko repositories — Ruby and Rails stack conventions",
+        "topics": [
+          "ruby",
+          "rails",
+          "conventions",
+          "repositories",
+          "stack"
+        ],
+        "categories": [
+          "documentation",
+          "testing"
+        ],
+        "possible_effects": [
+          "clarifies usage",
+          "improves validation"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              13,
+              22,
+              5,
+              13,
+              16,
+              13,
+              14,
+              21,
+              15,
+              19,
+              8,
+              9,
+              18,
+              10,
+              18,
+              15
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 2233,
+        "token_count": 229
+      }
     }
   ]
 }
