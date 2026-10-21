@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Publish `amkisko/docs-conventions` 3.5.0: add `docs/plans` for uncertain future design notes; mark `docs/issues` as certain current live work and `docs/changelogs` as factual past; six timestamp trees.
+- Publish `amkisko/collaboration-workflow` 2.5.0: put design-only exploration under `docs/plans`.
+- Include `docs/plans` in the plain-prose check for timestamp-tree notes.
+
 ## 1.28.0 (2026-10-21)
 
 - Publish `amkisko/docs-conventions` 3.4.1: name a confirmed current operator under Participants and keep solo sessions explicit.

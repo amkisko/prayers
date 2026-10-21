@@ -16,7 +16,7 @@ BOLD_PATTERN = /
 # Single-marker italic is not checked: globs like v*.*.* and snake_case collide.
 TABLE_LINE_PATTERN = /^\|.+\|\s*$/
 FENCE_PATTERN = /```[\s\S]*?```/
-TIMESTAMP_DOC_TREES = %w[issues reviews changelogs meetings dependencies].freeze
+TIMESTAMP_DOC_TREES = %w[plans issues reviews changelogs meetings dependencies].freeze
 
 def non_ascii_punctuation?(character)
   return false if character.ord < 128
