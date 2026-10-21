@@ -28,13 +28,13 @@ Package `amkisko/docs-conventions` 3.4.0 added an identity inference chain. The 
 
 The release also extends `check-prayer-prose` to timestamp-tree notes and catalog JSON.
 
+Tagged prayers `v1.28.0` on commit `e00e452` and published https://github.com/amkisko/prayers/releases/tag/v1.28.0.
+
 ## Next
 
-1. Review and commit the prayers 1.28.0 release preparation with `amkisko/docs-conventions` 3.4.1.
-2. Tag prayers 1.28.0 from the release commit.
-3. Consumers run `pray update`, `pray plan`, and `pray apply` after the release.
-4. Consumers may backfill open notes when the operator is known.
-5. A later session review may check whether omissions recur after consumers install 3.4.1.
+1. Consumers run `pray update`, `pray plan`, and `pray apply` for docs-conventions 3.4.1.
+2. Consumers may backfill open notes when the operator is known.
+3. A later session review may check whether omissions recur after consumers install 3.4.1.
 
 ## Source
 
