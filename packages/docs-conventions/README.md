@@ -1,18 +1,22 @@
 # amkisko/docs-conventions
 
-`docs/` is the documentation entry point. It holds maintained guides and procedures with stable descriptive filenames, and working records in five timestamp trees. The trees live here to use that familiar location and to reduce the local convention people need to learn. These records keep their character: provisional findings, historical evidence, and working notes. Placement does not imply that a file is polished, current, or equally authoritative. Purpose and contents carry that information.
+`docs/` is the documentation entry point. It holds maintained guides and procedures with stable descriptive filenames, and working records in six timestamp trees. The trees live here to use that familiar location and to reduce the local convention people need to learn. These records keep their character: provisional findings, historical evidence, and working notes. Placement does not imply that a file is polished, current, or equally authoritative. Purpose and contents carry that information.
+
+Three trees mark time. `docs/plans` holds the uncertain future: design-only notes before anyone commits to build. `docs/issues` holds the certain current: live work in play. `docs/changelogs` holds the factual past: what shipped. The names stay common and searchable; do not rename them to futures, currents, or pasts.
 
 `usr/` is the repository workshop. It holds working tools and operational material. Named trees under it follow their own purpose; `usr/scripts/`, `usr/reports/`, `usr/support/`, and `usr/migrate/` are four of them. Filename under the timestamp trees: `YYYYMMDDHHMMSS_<kebab-case-title>.md`. Filename under `usr/reports/`, `usr/support/`, and `usr/migrate/`: the same timestamp kebab with the console language as the suffix. Filename under `usr/scripts/`: a stable descriptive name (not a timestamp tree). No README index in those trees. Keep absolute local paths and private data out of `docs/` and `usr/`. Project conventions that matter are executable checks; see `amkisko/infer-conventions`. A consumer workflow that always supplies a confirmed operator identity may check new or touched files for a missing or blank `## Participants` section. This package does not ship that check. Do not store those conventions as working records.
 
-Pitch, plan, and the open queue stay inside the live-work issue.
+The open queue of committed live work stays inside the live-work issue. Design exploration that is not yet committed work goes under `docs/plans`.
 
 ## Purpose
 
-issues: live work still in play. Contract, findings, open next. One file per episode.
+plans: uncertain future. Design-only notes before work is committed. One file per design thread. When implementation starts, open or update an issue; what shipped goes to changelogs.
+
+issues: certain current. Live work still in play. Contract, findings, open next. One file per episode. The open queue stays here.
 
 reviews: one review episode. Session or CI scope, coverage, recommendations, and outcome. Open implementation work after the review goes to issues. What shipped goes to changelogs.
 
-changelogs: engineering record of what shipped. Feeds `CHANGELOG.md`.
+changelogs: factual past. Engineering record of what shipped. Feeds `CHANGELOG.md`.
 
 meetings: one sitting. Who was there and what they agreed that day. Open work after the sitting goes to issues. What shipped goes to changelogs.
 

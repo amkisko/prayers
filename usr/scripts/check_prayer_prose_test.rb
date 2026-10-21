@@ -108,7 +108,7 @@ class CheckPrayerProseTest < Minitest::Test
 
   def test_rejects_unicode_punctuation_in_timestamp_docs
     Dir.mktmpdir do |root|
-      write_package_markdown(root, "docs/issues/20261021120000_example.md", <<~MARKDOWN)
+      write_package_markdown(root, "docs/plans/20261021120000_example.md", <<~MARKDOWN)
         ## Decisions
 
         Replace this – that.
@@ -116,7 +116,7 @@ class CheckPrayerProseTest < Minitest::Test
 
       problems = find_prayer_prose_problems(root)
       assert_equal 1, problems.size
-      assert_equal "docs/issues/20261021120000_example.md", problems.first[:path]
+      assert_equal "docs/plans/20261021120000_example.md", problems.first[:path]
       assert_includes problems.first[:message], "non-ASCII"
     end
   end

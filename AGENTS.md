@@ -69,7 +69,7 @@ Related: `engineering-audit` security mode asks whether a parameter establishes 
 - `usr/reports/` holds read-only analysis and investigation console scripts; no mutations;
 - `usr/support/` holds product and customer support console scripts that mutate or write; a person pastes or runs them after review; programmable agents do not run them against a live process;
 - `usr/migrate/` holds schema and data migration scripts for manual running before new code is on the process; later schema migrate is schema-only and idempotent;
-- five `docs/` timestamp trees, no README index, filename `YYYYMMDDHHMMSS_<kebab-case-title>.md`: `issues` (live work: contract, findings, open next; pitch, plan, and queue stay here), `reviews` (one review episode: session or CI scope, coverage, recommendations, outcome), `changelogs` (what shipped), `meetings` (one sitting: who was there and what they agreed), `dependencies` (upstream defects from real work);
+- six `docs/` timestamp trees, no README index, filename `YYYYMMDDHHMMSS_<kebab-case-title>.md`: `plans` (uncertain future: design-only notes before work is committed), `issues` (certain current: live work in play; contract, findings, open next; the open queue stays here), `reviews` (one review episode: session or CI scope, coverage, recommendations, outcome), `changelogs` (factual past: what shipped), `meetings` (one sitting: who was there and what they agreed), `dependencies` (upstream defects from real work);
 - issues, reviews, changelogs, and meetings make five things findable with `##` headings or equivalent: Participants (humans), Decisions (what was agreed), Effects (done, failed, recovered, rolled back), Next (todo, planned, open questions), Source (links upstream and downstream);
 - name the current operator under Participants when the current session provides their display name or that person confirms it; solo sessions still get one Participants line;
 - if the current operator cannot be identified without inference, omit Participants rather than guess from git configuration, commit history, filesystem paths, OS accounts, or login names;
@@ -271,6 +271,6 @@ Related: `writing-prose` covers voice and quality constructs; `engineering-audit
 
 - record durable project value in the live-work queue, including improvements to shared guidance or a skill;
 - keep only decision-bearing material; omit generic notes, copied chat, and filler;
-- use the lightest trace that preserves context; design-only work needs no branch unless implementation starts;
+- use the lightest trace that preserves context; design-only work needs no branch unless implementation starts; put that exploration under `docs/plans`;
 - follow docs-conventions for `docs/` and `usr/`; when encoding how this tree writes, use infer-conventions.
 <!-- pray:48e8a6b3 -->
