@@ -6,8 +6,8 @@ Publish docs-conventions 3.5.0 with `docs/plans` and an explicit time axis for p
 
 ## Effects
 
-Published docs-conventions 3.5.0 and collaboration-workflow 2.5.0 into the local catalog. AGENTS.md and Prayfile.lock updated. Plain-prose checker covers `docs/plans`. Product changelog Unreleased names both bumps.
+Published docs-conventions 3.5.0 and collaboration-workflow 2.5.0 into the local catalog. AGENTS.md and Prayfile.lock updated. Plain-prose checker covers `docs/plans`. Product changelog 1.29.0 names both bumps. Tagged `v1.29.0` and published https://github.com/amkisko/prayers/releases/tag/v1.29.0.
 
 ## Next
 
-Cut a prayers release when ready. Consumer fork re-pins after that publish.
+Consumer fork re-pins docs-conventions 3.5.0 and collaboration-workflow 2.5.0 after install.
