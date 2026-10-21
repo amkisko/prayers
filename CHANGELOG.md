@@ -2,7 +2,12 @@
 
 ## Unreleased
 
-- Publish `amkisko/docs-conventions` 3.4.0: Participants is not empty when the current operator is known; always name that person on new notes in issues, reviews, changelogs, and meetings; add an operator display-name resolution chain; Problem / Fix outlines do not replace the five headings; consumers may add an `infer-conventions` check for a missing or blank Participants section (not shipped here).
+## 1.28.0 (2026-10-21)
+
+- Publish `amkisko/docs-conventions` 3.4.1: name a confirmed current operator under Participants and keep solo sessions explicit.
+- Prevent participant misattribution: do not infer identity from repository or machine metadata.
+- Retain the five-heading structure when adapting ticket outlines.
+- Check timestamp-tree notes and catalog JSON for plain-prose formatting; normalize generated catalog summary separators to ASCII.
 
 ## 1.27.0 (2026-10-20)
 

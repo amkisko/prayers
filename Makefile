@@ -19,7 +19,7 @@ help:
 	@echo "  make check-artifacts  catalog .praypkg files exist and are git-tracked"
 	@echo "  make catalog-topics   rewrite derived_metadata.topics from package summaries"
 	@echo "  make validate-skills  package SKILL.md frontmatter via Ruby YAML"
-	@echo "  make check-prayer-prose  fail package markdown with tables, bold, or non-ASCII punctuation"
+	@echo "  make check-prayer-prose  fail governed prose with tables, bold, or non-ASCII punctuation"
 	@echo "  make test             skill, artifact, catalog topic, prayer prose, and security-audit run specs"
 	@echo "  make drift            drift report before review"
 	@echo "  make update           check for newer package versions"

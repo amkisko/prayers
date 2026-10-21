@@ -31,6 +31,10 @@ def topics_from_summary(summary)
   topics
 end
 
+def normalize_summary_punctuation(summary)
+  summary.gsub("—", "-")
+end
+
 def rewrite_catalog_payload(payload)
   versions = payload["versions"]
   return false unless versions.is_a?(Array)
@@ -43,12 +47,19 @@ def rewrite_catalog_payload(payload)
     summary = metadata["summary"]
     next unless summary.is_a?(String) && !summary.strip.empty?
 
+    normalized_summary = normalize_summary_punctuation(summary)
+    if normalized_summary != summary
+      metadata["summary"] = normalized_summary
+      summary = normalized_summary
+      changed = true
+    end
+
     topics = topics_from_summary(summary)
     next if topics.empty?
-    next if metadata["topics"] == topics
-
-    metadata["topics"] = topics
-    changed = true
+    if metadata["topics"] != topics
+      metadata["topics"] = topics
+      changed = true
+    end
   end
   changed
 end

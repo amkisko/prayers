@@ -15,7 +15,7 @@
       "published_at": 1787991251,
       "signature": "sha256:437e9e0c7fcda01971339f5fba82dc75b2362e4a557135d5938dbbe65bd9ed27",
       "derived_metadata": {
-        "summary": "Credential and secret handling for agents — Credentials and secrets hygiene for agent work",
+        "summary": "Credential and secret handling for agents - Credentials and secrets hygiene for agent work",
         "topics": [
           "credential",
           "secret",
@@ -76,7 +76,7 @@
       "published_at": 1787993885,
       "signature": "sha256:9c60898f98284f54a3f04d46b33ae077784072ee12b10db0dabe74019321143a",
       "derived_metadata": {
-        "summary": "Credential, secret, and tracking hygiene for agents — Credentials, secrets, and tracking cautions for agent work",
+        "summary": "Credential, secret, and tracking hygiene for agents - Credentials, secrets, and tracking cautions for agent work",
         "topics": [
           "credential",
           "secret",
@@ -137,7 +137,7 @@
       "published_at": 1788080176,
       "signature": "sha256:ed6c4e9f49a57da063bf73b38750c96fd615ae8c5bf00c280d4f0b74fba3cd84",
       "derived_metadata": {
-        "summary": "Credential, secret, tracking, and ownership hygiene for agents — Credentials, secrets, tracking, and ownership cautions for agent work",
+        "summary": "Credential, secret, tracking, and ownership hygiene for agents - Credentials, secrets, tracking, and ownership cautions for agent work",
         "topics": [
           "credential",
           "secret",
@@ -198,7 +198,7 @@
       "published_at": 1789733247,
       "signature": "sha256:4c7e1b48895dce8c311f14b4cc94278e30140565bb66a957542783cc2c281738",
       "derived_metadata": {
-        "summary": "Credential, secret, tracking, and ownership hygiene for agents — Credentials, secrets, tracking, and ownership cautions for agent work",
+        "summary": "Credential, secret, tracking, and ownership hygiene for agents - Credentials, secrets, tracking, and ownership cautions for agent work",
         "topics": [
           "credential",
           "secret",
@@ -259,7 +259,7 @@
       "published_at": 1789972177,
       "signature": "sha256:4e5ccf07971095247788067a350e165ec2c6bfdbcdbcdd10e58fb493cb6066f7",
       "derived_metadata": {
-        "summary": "Credential, secret, tracking, and ownership hygiene for agents — Credentials, secrets, tracking, and ownership cautions for agent work",
+        "summary": "Credential, secret, tracking, and ownership hygiene for agents - Credentials, secrets, tracking, and ownership cautions for agent work",
         "topics": [
           "credential",
           "secret",
@@ -320,7 +320,7 @@
       "published_at": 1791443405,
       "signature": "sha256:a19f7ae4f9ca60ec724e751f56609762f11f9c7a0c3837ccae67ebb71bfafecb",
       "derived_metadata": {
-        "summary": "Credential, secret, tracking, and ownership hygiene for agents — Credentials, secrets, tracking, and ownership cautions for agent work",
+        "summary": "Credential, secret, tracking, and ownership hygiene for agents - Credentials, secrets, tracking, and ownership cautions for agent work",
         "topics": [
           "credential",
           "secret",

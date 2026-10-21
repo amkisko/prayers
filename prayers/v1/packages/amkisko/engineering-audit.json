@@ -15,7 +15,7 @@
       "published_at": 1783404609,
       "signature": "sha256:afa48e1b3596d5c432abf1167225814c441447b745c772d13fe231cf5a713dcb",
       "derived_metadata": {
-        "summary": "Pipeline-aware engineering audit skill — Engineering audit skill",
+        "summary": "Pipeline-aware engineering audit skill - Engineering audit skill",
         "topics": [
           "pipeline",
           "aware",
@@ -74,7 +74,7 @@
       "published_at": 1787048755,
       "signature": "sha256:d06e49cab1ff46ffe0af417f19a75544f06a0b1d777f48afda77d10e2ec03f71",
       "derived_metadata": {
-        "summary": "Pipeline-aware engineering audit skill — Engineering audit skill",
+        "summary": "Pipeline-aware engineering audit skill - Engineering audit skill",
         "topics": [
           "pipeline",
           "aware",
@@ -133,7 +133,7 @@
       "published_at": 1787073834,
       "signature": "sha256:67dc2adec9c22bcb452ffce1a60af5e59cf0de18fa7dcb64352536092411c143",
       "derived_metadata": {
-        "summary": "Pipeline-aware engineering audit skill with boundary and control mode — Engineering audit skill with boundary and control mode",
+        "summary": "Pipeline-aware engineering audit skill with boundary and control mode - Engineering audit skill with boundary and control mode",
         "topics": [
           "pipeline",
           "aware",
@@ -192,7 +192,7 @@
       "published_at": 1787916888,
       "signature": "sha256:8bd3187bb035feb733172ed3b89e1a8f656cdd3af860a391829d701b2f9bc22b",
       "derived_metadata": {
-        "summary": "Pipeline-aware engineering audit skill with boundary and control mode — Engineering audit skill with boundary and control mode",
+        "summary": "Pipeline-aware engineering audit skill with boundary and control mode - Engineering audit skill with boundary and control mode",
         "topics": [
           "pipeline",
           "aware",
@@ -251,7 +251,7 @@
       "published_at": 1787926185,
       "signature": "sha256:7b8bbead80de493056cc67779920e31f2edeb782881fd295513f8aba82bb73ee",
       "derived_metadata": {
-        "summary": "Pipeline-aware engineering audit skill with boundary, control, and identifier-after-refusal checks — Engineering audit skill with boundary, control, and identifier-after-refusal checks",
+        "summary": "Pipeline-aware engineering audit skill with boundary, control, and identifier-after-refusal checks - Engineering audit skill with boundary, control, and identifier-after-refusal checks",
         "topics": [
           "pipeline",
           "aware",
@@ -310,7 +310,7 @@
       "published_at": 1787991251,
       "signature": "sha256:ec4a8bd170e3304c12e0099ecec8cd555b3be4053fdda5e704d9145e6f8a27c6",
       "derived_metadata": {
-        "summary": "Pipeline-aware engineering audit skill with boundary, control, place-after-refusal, and resource-and-budget checks — Engineering audit skill with boundary, control, place-after-refusal, and resource-and-budget checks",
+        "summary": "Pipeline-aware engineering audit skill with boundary, control, place-after-refusal, and resource-and-budget checks - Engineering audit skill with boundary, control, place-after-refusal, and resource-and-budget checks",
         "topics": [
           "pipeline",
           "aware",
@@ -369,7 +369,7 @@
       "published_at": 1787993885,
       "signature": "sha256:3b169142657ad20942dad3225600a933b6aea58bad84c5c07d37978f08be537c",
       "derived_metadata": {
-        "summary": "Pipeline-aware engineering audit skill with boundary, control, place-after-refusal, resource-and-budget, and trace-and-i — Engineering audit skill with boundary, control, place-after-refusal, resource-and-budget, and trace-and-identification c",
+        "summary": "Pipeline-aware engineering audit skill with boundary, control, place-after-refusal, resource-and-budget, and trace-and-i - Engineering audit skill with boundary, control, place-after-refusal, resource-and-budget, and trace-and-identification c",
         "topics": [
           "pipeline",
           "aware",
@@ -428,7 +428,7 @@
       "published_at": 1788032537,
       "signature": "sha256:4d5ab791887c301cb8891c4bb0886c46ea4ae729fa437760917e88e15733cfcb",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -489,7 +489,7 @@
       "published_at": 1788080176,
       "signature": "sha256:d50a16072a02c33d513633826af7ea7ecb1ce7f4f8c28e3d805a1787977c261b",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -550,7 +550,7 @@
       "published_at": 1788780203,
       "signature": "sha256:ad8d56177b6310a6ebc8258b8b54bdfef4574650b18ca8ca48f52b5b4e37d559",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -611,7 +611,7 @@
       "published_at": 1788856855,
       "signature": "sha256:427d1181c5e3074cdaddfe7cb6a002b763468953b23cafe89e0a90d151b05616",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -672,7 +672,7 @@
       "published_at": 1789391749,
       "signature": "sha256:a160e80d5fc0fc981e3c878206f7cff9bb7cc4d1a0de00ba941c3fce1eb398e2",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -733,7 +733,7 @@
       "published_at": 1789395816,
       "signature": "sha256:7604916e558a08531eb56f01077684426b29e57eb6f7ec5e167912893b670f63",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -794,7 +794,7 @@
       "published_at": 1789972177,
       "signature": "sha256:0eaf5abf868d745a24e7209deaf4c3e5fe5467e15064714021fd23be31e1ec4c",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -855,7 +855,7 @@
       "published_at": 1790079659,
       "signature": "sha256:fdf5ad31a431211668b740f16ef5c21a3556880d369df3fff6489223012dc08a",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -916,7 +916,7 @@
       "published_at": 1791378711,
       "signature": "sha256:dfbf6966b427b1473525fe379003093a148446deab0363bb069b02aa4eb71d89",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -977,7 +977,7 @@
       "published_at": 1791443405,
       "signature": "sha256:209c65fc3e48c703aa64fbb2291942f8b99f977623640dfb3aa5473f08753d06",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -1038,7 +1038,7 @@
       "published_at": 1791443890,
       "signature": "sha256:a68d8d1e77f323e0bfa58fa31eef102137de4819b726208db42c5e9107c4bc76",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",
@@ -1099,7 +1099,7 @@
       "published_at": 1791444170,
       "signature": "sha256:42745195f801747200acfc215ac1b2097d8f90584800e0fbec733503309b50d1",
       "derived_metadata": {
-        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit — Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
         "topics": [
           "language",
           "agnostic",

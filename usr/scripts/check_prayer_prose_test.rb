@@ -106,6 +106,34 @@ class CheckPrayerProseTest < Minitest::Test
     end
   end
 
+  def test_rejects_unicode_punctuation_in_timestamp_docs
+    Dir.mktmpdir do |root|
+      write_package_markdown(root, "docs/issues/20261021120000_example.md", <<~MARKDOWN)
+        ## Decisions
+
+        Replace this – that.
+      MARKDOWN
+
+      problems = find_prayer_prose_problems(root)
+      assert_equal 1, problems.size
+      assert_equal "docs/issues/20261021120000_example.md", problems.first[:path]
+      assert_includes problems.first[:message], "non-ASCII"
+    end
+  end
+
+  def test_rejects_unicode_punctuation_in_prayer_catalog_json
+    Dir.mktmpdir do |root|
+      write_package_markdown(root, "prayers/v1/packages/amkisko/example.json", <<~JSON)
+        {"summary":"Example — generated summary"}
+      JSON
+
+      problems = find_prayer_prose_problems(root)
+      assert_equal 1, problems.size
+      assert_equal "prayers/v1/packages/amkisko/example.json", problems.first[:path]
+      assert_includes problems.first[:message], "non-ASCII"
+    end
+  end
+
   def test_ignores_table_and_arrow_inside_code_fence
     Dir.mktmpdir do |root|
       write_package_markdown(root, "packages/example/exports/example.md", <<~MARKDOWN)

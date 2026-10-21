@@ -16,7 +16,7 @@
       "published_at": 1783404609,
       "signature": "sha256:5ed4191d68a765158a0ab25f22c802af7ba5b8402cf65c9b0a440ac83339e905",
       "derived_metadata": {
-        "summary": "Dependency selection, alteration, and audit rules — Dependency selection and alteration rules",
+        "summary": "Dependency selection, alteration, and audit rules - Dependency selection and alteration rules",
         "topics": [
           "dependency",
           "selection",
@@ -76,7 +76,7 @@
       "published_at": 1785128733,
       "signature": "sha256:a9a70f2b492e4f9f687d3ba52728a298b71388cbe556ed7c49095e6b74699461",
       "derived_metadata": {
-        "summary": "Dependency selection, alteration, and audit rules — Dependency selection and alteration rules",
+        "summary": "Dependency selection, alteration, and audit rules - Dependency selection and alteration rules",
         "topics": [
           "dependency",
           "selection",
@@ -136,7 +136,7 @@
       "published_at": 1787991251,
       "signature": "sha256:6f6e50eaf42cee74679152b08dca784ea9df8f61caf435eb02f06e929af21948",
       "derived_metadata": {
-        "summary": "Dependency stop-gate and audit skill — Stop-before-add gate and when to audit",
+        "summary": "Dependency stop-gate and audit skill - Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
           "stop",
@@ -196,7 +196,7 @@
       "published_at": 1787994857,
       "signature": "sha256:281867ca640c595b3c4e1a26a2b60d6d5747ecf8032ead655d78b8e78f0a73d0",
       "derived_metadata": {
-        "summary": "Dependency stop-gate and audit skill — Stop-before-add gate and when to audit",
+        "summary": "Dependency stop-gate and audit skill - Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
           "stop",
@@ -256,7 +256,7 @@
       "published_at": 1788032537,
       "signature": "sha256:87cf946a58ef3ee0d54f447697db712641811662ab4799102f8cc55f9b2decb7",
       "derived_metadata": {
-        "summary": "Dependency stop-gate and audit skill, including libyears-style freshness lag — Stop-before-add gate and when to audit",
+        "summary": "Dependency stop-gate and audit skill, including libyears-style freshness lag - Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
           "stop",
@@ -316,7 +316,7 @@
       "published_at": 1788761992,
       "signature": "sha256:48511777f6fa10d8fc4b0014eac9a4e036d7939b0ae1c97cabc79f07f2f86895",
       "derived_metadata": {
-        "summary": "Dependency stop-gate and target-scoped audit skill — Stop-before-add gate and when to audit",
+        "summary": "Dependency stop-gate and target-scoped audit skill - Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
           "stop",
@@ -376,7 +376,7 @@
       "published_at": 1790079659,
       "signature": "sha256:0dbd5422cc33d5c64b2fd931622105410f2961f23a5d76f66055bee460d5e1f7",
       "derived_metadata": {
-        "summary": "Dependency stop-gate and target-scoped audit skill — Stop-before-add gate and when to audit",
+        "summary": "Dependency stop-gate and target-scoped audit skill - Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
           "stop",
@@ -436,7 +436,7 @@
       "published_at": 1791443890,
       "signature": "sha256:267edc6324407e87038871104b9aa2bda4f2642bca578a16a20b4ea2cfb4b5b6",
       "derived_metadata": {
-        "summary": "Dependency stop-gate and target-scoped audit skill — Stop-before-add gate and when to audit",
+        "summary": "Dependency stop-gate and target-scoped audit skill - Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
           "stop",
@@ -496,7 +496,7 @@
       "published_at": 1791444170,
       "signature": "sha256:bdbfad25315a4fceda6e4fdc159e6f7c2325dca6f2f52c1cb38091de5ab3d397",
       "derived_metadata": {
-        "summary": "Dependency stop-gate and target-scoped audit skill — Stop-before-add gate and when to audit",
+        "summary": "Dependency stop-gate and target-scoped audit skill - Stop-before-add gate and when to audit",
         "topics": [
           "dependency",
           "stop",

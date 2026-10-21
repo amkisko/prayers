@@ -15,7 +15,7 @@
       "published_at": 1788863010,
       "signature": "sha256:2ddf783d77d7df67eb0abaa81e8e29b546db7a1e3885c6b4fe5505cab336b883",
       "derived_metadata": {
-        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "summary": "Blackbox recon - HTTP, archives, public repos only; never local filesystem evidence - Public web surface reconnaissance for external services",
         "topics": [
           "blackbox",
           "recon",
@@ -71,7 +71,7 @@
       "published_at": 1789967123,
       "signature": "sha256:87d2b4514394fea819be4124eee5a8c058c4bb27607dc879941d8c37fb09fd41",
       "derived_metadata": {
-        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "summary": "Blackbox recon - HTTP, archives, public repos only; never local filesystem evidence - Public web surface reconnaissance for external services",
         "topics": [
           "blackbox",
           "recon",
@@ -127,7 +127,7 @@
       "published_at": 1791443405,
       "signature": "sha256:56341f07cfb03aeecc1fb6115b9d7ae93634ecfb68e80cf180eeed40d6217aa3",
       "derived_metadata": {
-        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "summary": "Blackbox recon - HTTP, archives, public repos only; never local filesystem evidence - Public web surface reconnaissance for external services",
         "topics": [
           "blackbox",
           "recon",
@@ -183,7 +183,7 @@
       "published_at": 1791443890,
       "signature": "sha256:5431157aeb3fd1c1b3ae3090c1a9e21e1d6e4e93b112b225845367575a459228",
       "derived_metadata": {
-        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "summary": "Blackbox recon - HTTP, archives, public repos only; never local filesystem evidence - Public web surface reconnaissance for external services",
         "topics": [
           "blackbox",
           "recon",
@@ -242,7 +242,7 @@
       "published_at": 1791444170,
       "signature": "sha256:e0f746a602d04c45bddba89f3f38493ec3984519ce6970ac21e4a4885512bf9f",
       "derived_metadata": {
-        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "summary": "Blackbox recon - HTTP, archives, public repos only; never local filesystem evidence - Public web surface reconnaissance for external services",
         "topics": [
           "blackbox",
           "recon",
@@ -301,7 +301,7 @@
       "published_at": 1791444191,
       "signature": "sha256:7471676bc1193e5c1775a46f0f7b6304d9425d59b63718f5942f2eaf4f070545",
       "derived_metadata": {
-        "summary": "Blackbox recon — HTTP, archives, public repos only; never local filesystem evidence — Public web surface reconnaissance for external services",
+        "summary": "Blackbox recon - HTTP, archives, public repos only; never local filesystem evidence - Public web surface reconnaissance for external services",
         "topics": [
           "blackbox",
           "recon",

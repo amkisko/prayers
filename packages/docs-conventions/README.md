@@ -2,7 +2,7 @@
 
 `docs/` is the documentation entry point. It holds maintained guides and procedures with stable descriptive filenames, and working records in five timestamp trees. The trees live here to use that familiar location and to reduce the local convention people need to learn. These records keep their character: provisional findings, historical evidence, and working notes. Placement does not imply that a file is polished, current, or equally authoritative. Purpose and contents carry that information.
 
-`usr/` is the repository workshop. It holds working tools and operational material. Named trees under it follow their own purpose; `usr/scripts/`, `usr/reports/`, `usr/support/`, and `usr/migrate/` are four of them. Filename under the timestamp trees: `YYYYMMDDHHMMSS_<kebab-case-title>.md`. Filename under `usr/reports/`, `usr/support/`, and `usr/migrate/`: the same timestamp kebab with the console language as the suffix. Filename under `usr/scripts/`: a stable descriptive name (not a timestamp tree). No README index in those trees. Keep absolute local paths and private data out of `docs/` and `usr/`. Project conventions that matter are executable checks; see `amkisko/infer-conventions`. A consumer check may fail new or touched files under `docs/issues`, `docs/reviews`, `docs/changelogs`, and `docs/meetings` when `## Participants` is missing or the section body is blank; this package does not ship that check. Do not store those conventions as working records.
+`usr/` is the repository workshop. It holds working tools and operational material. Named trees under it follow their own purpose; `usr/scripts/`, `usr/reports/`, `usr/support/`, and `usr/migrate/` are four of them. Filename under the timestamp trees: `YYYYMMDDHHMMSS_<kebab-case-title>.md`. Filename under `usr/reports/`, `usr/support/`, and `usr/migrate/`: the same timestamp kebab with the console language as the suffix. Filename under `usr/scripts/`: a stable descriptive name (not a timestamp tree). No README index in those trees. Keep absolute local paths and private data out of `docs/` and `usr/`. Project conventions that matter are executable checks; see `amkisko/infer-conventions`. A consumer workflow that always supplies a confirmed operator identity may check new or touched files for a missing or blank `## Participants` section. This package does not ship that check. Do not store those conventions as working records.
 
 Pitch, plan, and the open queue stay inside the live-work issue.
 
@@ -54,7 +54,13 @@ Todo, planned, open questions.
 Upstream and downstream links.
 ```
 
-Participants list humans only. Always name the current operator on new notes in these four trees; solo sessions still get one Participants line. Also list other humans who decided or reported in that episode when known; do not list every person who ever touched related code. Resolve the display name before writing (first match wins): `git config user.name`; else latest local commit author (`git log -1 --format='%an'`); else a tracker or workspace profile matching `git config user.email`; else an OS or home nickname marked as unresolved display name. Prefer a person display name over a login nickname when both exist. Problem / Fix and similar ticket outlines do not replace the five headings; map that content into Decisions and Effects. Omit other empty sections. Git history is the edit log. Add an explicit note only when a later pass changes meaning.
+Participants list humans only. Name the current operator when the current session provides their display name or that person confirms it. Solo sessions still get one Participants line.
+
+If the current operator cannot be identified without inference, omit Participants. Do not guess from git configuration, commit history, filesystem paths, OS accounts, or login names.
+
+List other humans who decided or reported in the episode when known. Do not list every person who touched related code. Problem / Fix and similar ticket outlines do not replace the five headings; map that content into Decisions and Effects.
+
+Omit other empty sections. Git history is the edit log. Add an explicit note only when a later pass changes meaning.
 
 ## Template: dependencies
 
