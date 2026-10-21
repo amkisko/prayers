@@ -28,10 +28,11 @@ Validation:
 - `RBENV_VERSION=3.4.10 make PRAY=<installed-pray> release`: published docs-conventions 3.4.1, rewrote catalog topics, updated Prayfile.lock and AGENTS.md, and passed verify. The final artifact check reported the expected untracked 3.4.1 archive. The machine-specific executable path is omitted from this repository note.
 - `git add prayers/v1/artifacts/amkisko/docs-conventions/3.4.1/amkisko-docs-conventions-3.4.1.praypkg` followed by `RBENV_VERSION=3.4.10 make check-artifacts`: exit 0, `check-artifacts: ok`.
 - `pray drift` with the installed Cargo executable: exit 0, no drift output. The machine-specific executable path is omitted.
+- Tagged `v1.28.0` on `e00e452` and published the GitHub release at https://github.com/amkisko/prayers/releases/tag/v1.28.0. Tag pushed to gitlab.com, github.com, and codeberg.org remotes.
 
 ## Next
 
-Review and commit the release preparation, then tag prayers 1.28.0. Consumers run `pray update`, `pray plan`, and `pray apply` after the release. Open live-work notes may be backfilled when the operator is known. A later session review may check whether omissions recur after consumers install 3.4.1.
+Consumers run `pray update`, `pray plan`, and `pray apply` for docs-conventions 3.4.1. Open live-work notes may be backfilled when the operator is known. A later session review may check whether omissions recur after consumers install 3.4.1.
 
 ## Source
 
