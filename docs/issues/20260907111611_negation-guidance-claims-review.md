@@ -30,7 +30,7 @@ Repository inspected at eeec628. The working tree was clean before this research
 
 Claim ledger follows. Attachment A is the Russian analysis; attachment B is the English analysis with a claims table.
 
-C1. Location: attachment B, Rezaei and Blanco row and subsequent discussion. Claim: only 17–36% of generated affirmative interpretations preserved meaning. Outcome: unsupported. Source S1, Table 3, printed page 605, gives 64% for AHB and 83% for ACG, with 90% for unrestricted SCG paraphrases. The complements are 36% and 17% failure rates. Nearby paper prose conflicts with the table. Action: cite the table and disclose the inconsistency; the study supports a risk of semantic loss in this method, not a universal error rate for affirmative writing. It also reports improved downstream question answering when paraphrases supplement the original input.
+C1. Location: attachment B, Rezaei and Blanco row and subsequent discussion. Claim: only 17-36% of generated affirmative interpretations preserved meaning. Outcome: unsupported. Source S1, Table 3, printed page 605, gives 64% for AHB and 83% for ACG, with 90% for unrestricted SCG paraphrases. The complements are 36% and 17% failure rates. Nearby paper prose conflicts with the table. Action: cite the table and disclose the inconsistency; the study supports a risk of semantic loss in this method, not a universal error rate for affirmative writing. It also reports improved downstream question answering when paraphrases supplement the original input.
 
 C2. Location: attachment B, Boggia statistics. Outcome: partially supported. S2 Table 4 reports 72%, 70%, and 48% reductions, with p-values 0.03, 0.004, and 0.43. Section 4 reports roughly 2.2 and 0.2 model/human density ratios in oratory and informal Q&A. Its limitations identify pilot samples, one Claude family, an unvalidated English detector, and unequal Italian detector precision for model and human text. English per-genre significance does not survive strict multiplicity correction. Adapter content fidelity is unreported. Action: retain these as attributed exploratory findings; avoid generalizing to current coding agents or calling the effect established across LLMs.
 
@@ -81,7 +81,7 @@ S1. MohammadHossein Rezaei and Eduardo Blanco, Paraphrasing in Affirmative Terms
 
 S2. Federico Boggia, Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it, July 2026 arXiv preprint. Primary exploratory research. Sections 4.1, 7.8, and Limitations. https://arxiv.org/html/2607.21498
 
-S3. Alex Bleakley, Saying what not to do: Can state-of-the-art language models understand negated instructions?, 2023 experiment report. Primary author report, older models and format constraints, with linked code. Tables 1–4 and Results and conclusions. https://alexbleakley.com/blog/saying-what-not-to-do
+S3. Alex Bleakley, Saying what not to do: Can state-of-the-art language models understand negated instructions?, 2023 experiment report. Primary author report, older models and format constraints, with linked code. Tables 1-4 and Results and conclusions. https://alexbleakley.com/blog/saying-what-not-to-do
 
 S4. OpenAI Help Center, Customizing Your ChatGPT Personality. Official living documentation. Candid overview, preference interaction, and conversational examples. https://help.openai.com/en/articles/11899719-customizing-your-chatgpt-personality
 

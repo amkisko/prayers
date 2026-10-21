@@ -15,7 +15,7 @@
       "published_at": 1789972177,
       "signature": "sha256:db7ebe671fc9a9c4a239fa18c4655f6841095ba83b8196877bf8e6f44c31d8f5",
       "derived_metadata": {
-        "summary": "Supervise a live tool-calling agent run with ceilings and barriers — Agent-run supervision skill",
+        "summary": "Supervise a live tool-calling agent run with ceilings and barriers - Agent-run supervision skill",
         "topics": [
           "supervise",
           "live",
@@ -74,7 +74,7 @@
       "published_at": 1790079659,
       "signature": "sha256:c854fe3fcab6123bc61642081bed16e2bef931d3c16ac78956e99a8477fc1a92",
       "derived_metadata": {
-        "summary": "Supervise a live tool-calling agent run with ceilings and barriers — Agent-run supervision skill",
+        "summary": "Supervise a live tool-calling agent run with ceilings and barriers - Agent-run supervision skill",
         "topics": [
           "supervise",
           "live",
@@ -133,7 +133,7 @@
       "published_at": 1791443890,
       "signature": "sha256:06f9fb662bc7497304539fecadc5ba52b805bd2aefd484271b1db676e21c6711",
       "derived_metadata": {
-        "summary": "Supervise a live tool-calling agent run with invocation budgets, ceilings, and barriers — Agent-run supervision skill",
+        "summary": "Supervise a live tool-calling agent run with invocation budgets, ceilings, and barriers - Agent-run supervision skill",
         "topics": [
           "supervise",
           "live",
@@ -192,7 +192,7 @@
       "published_at": 1791444170,
       "signature": "sha256:f0f6481d8cbce821c85398ddbb9843b57bdde04acd952e60218ac72bd15d055c",
       "derived_metadata": {
-        "summary": "Supervise a live tool-calling agent run with invocation budgets, ceilings, and barriers — Agent-run supervision skill",
+        "summary": "Supervise a live tool-calling agent run with invocation budgets, ceilings, and barriers - Agent-run supervision skill",
         "topics": [
           "supervise",
           "live",

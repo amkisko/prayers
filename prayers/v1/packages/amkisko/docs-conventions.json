@@ -15,7 +15,7 @@
       "published_at": 1783404609,
       "signature": "sha256:5263c0d709574e58ff746c7a6508e6fd71676cc64c98ba5b59019e319a74393e",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
+        "summary": "Repository documentation layout and headings - Docs tree naming and five-heading structure",
         "topics": [
           "repository",
           "documentation",
@@ -71,7 +71,7 @@
       "published_at": 1785088499,
       "signature": "sha256:5cf6268b7b94c3eb04cdba33fcbc56c7caa8512c6d0136eca69d1af83617e11b",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
+        "summary": "Repository documentation layout and headings - Docs tree naming and five-heading structure",
         "topics": [
           "repository",
           "documentation",
@@ -129,7 +129,7 @@
       "published_at": 1785093302,
       "signature": "sha256:be0d9247a6891c783b412f2e5391131acaf616e4408f158c5b1fedb92a16bec7",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
+        "summary": "Repository documentation layout and headings - Docs tree naming and five-heading structure",
         "topics": [
           "repository",
           "documentation",
@@ -187,7 +187,7 @@
       "published_at": 1787991251,
       "signature": "sha256:1cf33de79c55852d7da5ed1c3de9f85dab5b02f7a0a67b6bf7ffa2ee7104337f",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — Docs tree naming and five-heading structure",
+        "summary": "Repository documentation layout and headings - Docs tree naming and five-heading structure",
         "topics": [
           "repository",
           "documentation",
@@ -245,7 +245,7 @@
       "published_at": 1788018827,
       "signature": "sha256:a11626f9715050a84f6be900048fa9ac781a8df606ef72ec1cfb46d8f3082e70",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — Four usr/docs trees, purpose, and heading templates",
+        "summary": "Repository documentation layout and headings - Four usr/docs trees, purpose, and heading templates",
         "topics": [
           "repository",
           "documentation",
@@ -301,7 +301,7 @@
       "published_at": 1788079162,
       "signature": "sha256:90648fa39e949b5ee1e7b4e60e3c570d87d390f8f259a67c49606ffd1a2a58e8",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — usr/docs trees, usr/migrate, purpose, and heading templates",
+        "summary": "Repository documentation layout and headings - usr/docs trees, usr/migrate, purpose, and heading templates",
         "topics": [
           "repository",
           "documentation",
@@ -357,7 +357,7 @@
       "published_at": 1789394555,
       "signature": "sha256:a1cd511887730b39e0f96d39db8dc8e7a0c457a1b070db2e56699ddf3c55da4f",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — usr/docs trees, usr/migrate, purpose, and heading templates",
+        "summary": "Repository documentation layout and headings - usr/docs trees, usr/migrate, purpose, and heading templates",
         "topics": [
           "repository",
           "documentation",
@@ -415,7 +415,7 @@
       "published_at": 1789967123,
       "signature": "sha256:2ef78f147da2264ea5dd8f635db4c4ea0fd4a6d71a083f3d93cf02ae16f8e994",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — usr/docs trees, usr/migrate, purpose, and heading templates",
+        "summary": "Repository documentation layout and headings - usr/docs trees, usr/migrate, purpose, and heading templates",
         "topics": [
           "repository",
           "documentation",
@@ -473,7 +473,7 @@
       "published_at": 1790079659,
       "signature": "sha256:98e03d362c2c3bb7c1a2a4e922493b769c0996fd6d94e3878da36504da96f65c",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — docs timestamp trees, usr workshop, purpose, and heading templates",
+        "summary": "Repository documentation layout and headings - docs timestamp trees, usr workshop, purpose, and heading templates",
         "topics": [
           "repository",
           "documentation",
@@ -529,7 +529,7 @@
       "published_at": 1791390571,
       "signature": "sha256:fd097cc061bd753a1adf737bf685cdf24b6051854bb9ffc45d89f0fbf9afaafe",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — docs timestamp trees, usr workshop, purpose, and heading templates",
+        "summary": "Repository documentation layout and headings - docs timestamp trees, usr workshop, purpose, and heading templates",
         "topics": [
           "repository",
           "documentation",
@@ -585,7 +585,7 @@
       "published_at": 1791443890,
       "signature": "sha256:1aadf0ca1cb1e2ea8df16a47aa2263ec434010eca957842473db614d610d471c",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — docs timestamp trees, usr workshop, purpose, and heading templates",
+        "summary": "Repository documentation layout and headings - docs timestamp trees, usr workshop, purpose, and heading templates",
         "topics": [
           "repository",
           "documentation",
@@ -641,7 +641,7 @@
       "published_at": 1792509320,
       "signature": "sha256:c659d43215e827fb714ccc99a15eeaf1f677d62bee0419c2e2fd4c823c0994d7",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — docs timestamp trees, usr reports support migrate, purpose, and heading templates",
+        "summary": "Repository documentation layout and headings - docs timestamp trees, usr reports support migrate, purpose, and heading templates",
         "topics": [
           "repository",
           "documentation",
@@ -700,7 +700,7 @@
       "published_at": 1792509699,
       "signature": "sha256:ecea5510268525227734110a41eb0aca88ccc7e53400102a5e9d94f2f3206ff4",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — docs timestamp trees, usr scripts reports support migrate, purpose, and heading templates",
+        "summary": "Repository documentation layout and headings - docs timestamp trees, usr scripts reports support migrate, purpose, and heading templates",
         "topics": [
           "repository",
           "documentation",
@@ -759,7 +759,7 @@
       "published_at": 1792578546,
       "signature": "sha256:a57166e48d6482334906369117f1c10c63711d9c41805639e8835cda1b79cbb9",
       "derived_metadata": {
-        "summary": "Repository documentation layout and headings — docs timestamp trees, usr scripts reports support migrate, purpose, and heading templates",
+        "summary": "Repository documentation layout and headings - docs timestamp trees, usr scripts reports support migrate, purpose, and heading templates",
         "topics": [
           "repository",
           "documentation",
@@ -801,6 +801,65 @@
         ],
         "file_count": 2,
         "character_count": 8363,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "3.4.1",
+      "artifact": "v1/artifacts/amkisko/docs-conventions/3.4.1/amkisko-docs-conventions-3.4.1.praypkg",
+      "artifact_hash": "sha256:f9d1be454876dd2396aa88348fbc9036834789422ab64f305cccc1a3618f1cea",
+      "tree_hash": "sha256:8f3209dbfb313e1da74e57d181844fe1a3c94c8d27dcd7f301325877ca14dcb2",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "docs-conventions"
+      ],
+      "signer": "amkisko",
+      "published_at": 1792584782,
+      "signature": "sha256:1f33cbd204002e7592129de12b15f6ee8183c12a19198dc4bd0048832ed66741",
+      "derived_metadata": {
+        "summary": "Repository documentation layout and headings - docs timestamp trees, usr scripts reports support migrate, purpose, and heading templates",
+        "topics": [
+          "repository",
+          "documentation",
+          "layout",
+          "headings",
+          "docs"
+        ],
+        "categories": [
+          "documentation"
+        ],
+        "possible_effects": [
+          "clarifies usage"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              35,
+              35,
+              36,
+              29,
+              50,
+              36,
+              39,
+              22,
+              16,
+              43,
+              22,
+              31,
+              32,
+              25,
+              38,
+              23
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 7982,
         "token_count": 512
       }
     }

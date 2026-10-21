@@ -42,9 +42,22 @@ class CatalogTopicsTest < Minitest::Test
     )
   end
 
+  def test_rewrite_replaces_non_ascii_summary_separator
+    payload = catalog_payload(
+      summary: "Repository documentation — heading templates",
+      topics: %w[repository documentation heading templates]
+    )
+
+    assert rewrite_catalog_payload(payload)
+    assert_equal(
+      "Repository documentation - heading templates",
+      payload.dig("versions", 0, "derived_metadata", "summary")
+    )
+  end
+
   def test_rewrite_is_idempotent_when_topics_already_match
     payload = catalog_payload(
-      summary: "Finite state machines — named states and guarded transitions",
+      summary: "Finite state machines - named states and guarded transitions",
       topics: %w[finite state machines named states]
     )
     refute rewrite_catalog_payload(payload)

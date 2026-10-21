@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Fail package prayer markdown that uses non-mandatory styling or inaccessible
-# Unicode punctuation. README.md files are skipped. Code fences and YAML
+# Fail governed prose that uses non-mandatory styling or inaccessible Unicode
+# punctuation. Package README.md files are skipped. Code fences and YAML
 # frontmatter are ignored. See writing-prose and .agents/project.md.
 
 require "pathname"
@@ -16,6 +16,7 @@ BOLD_PATTERN = /
 # Single-marker italic is not checked: globs like v*.*.* and snake_case collide.
 TABLE_LINE_PATTERN = /^\|.+\|\s*$/
 FENCE_PATTERN = /```[\s\S]*?```/
+TIMESTAMP_DOC_TREES = %w[issues reviews changelogs meetings dependencies].freeze
 
 def non_ascii_punctuation?(character)
   return false if character.ord < 128
@@ -68,11 +69,19 @@ def package_markdown_paths(packages_root)
   end
 end
 
-def find_prayer_prose_problems(repo_root)
-  packages_root = File.join(repo_root, "packages")
-  return [] unless Dir.exist?(packages_root)
+def governed_prose_paths(repo_root)
+  paths = package_markdown_paths(File.join(repo_root, "packages"))
+  paths.concat(
+    TIMESTAMP_DOC_TREES.flat_map do |tree|
+      Dir.glob(File.join(repo_root, "docs", tree, "**", "*.md"))
+    end
+  )
+  paths.concat(Dir.glob(File.join(repo_root, "prayers", "**", "*.json")))
+  paths.sort
+end
 
-  package_markdown_paths(packages_root).flat_map do |path|
+def find_prayer_prose_problems(repo_root)
+  governed_prose_paths(repo_root).flat_map do |path|
     raw = File.read(path, encoding: "UTF-8")
     skips = skip_ranges_for(raw)
     display = begin

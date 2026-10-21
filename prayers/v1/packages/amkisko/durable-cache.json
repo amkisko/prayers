@@ -15,7 +15,7 @@
       "published_at": 1789972177,
       "signature": "sha256:e12e36a679fcbaf8aa4770e064e39e47fc5a8cf7ac1fca3fe73bb2502a6ec9ce",
       "derived_metadata": {
-        "summary": "Cache versus durable truth on a shared store — Wipe test, single commit point, revalidate on read",
+        "summary": "Cache versus durable truth on a shared store - Wipe test, single commit point, revalidate on read",
         "topics": [
           "cache",
           "versus",
@@ -74,7 +74,7 @@
       "published_at": 1791444170,
       "signature": "sha256:c2bdfe68cba71b30cf547008f6dbb25af0f7ec08e89e2dd46f5f9bafb0707038",
       "derived_metadata": {
-        "summary": "Cache versus durable truth on a shared store — Wipe test, single commit point, revalidate on read",
+        "summary": "Cache versus durable truth on a shared store - Wipe test, single commit point, revalidate on read",
         "topics": [
           "cache",
           "versus",
