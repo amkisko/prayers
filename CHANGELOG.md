@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 1.30.0 (2026-10-22)
+
+- Publish `amkisko/durable-cache` 2.0.0: cover soft and persistent caches, materialized and reconciled state, content-addressed computation caches, and shared HTTP response caches; define truth, reusable identity, consistency, rebuild, invalidation, deletion, concurrency, isolation, and resource budgets; compose and tree the package together.
+- Publish `amkisko/engineering-audit` 2.14.3: align cache and derived-state checks with the `durable-cache` contract, route detailed lifecycle review to that skill when available, and inspect cache invalidation, rebuild, and source-load signals.
+
 ## 1.29.0 (2026-10-21)
 
 - Publish `amkisko/docs-conventions` 3.5.0: add `docs/plans` for uncertain future design notes; mark `docs/issues` as certain current live work and `docs/changelogs` as factual past; six timestamp trees.

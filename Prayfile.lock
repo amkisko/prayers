@@ -1,8 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
 generated_by = "pray 1.21.0"
-manifest_hash = "sha256:2c5cfcf47211cdd292dbece02e78b22bb64f4b0347957a09ec2e7a60a6ea4a6f"
-source = []
+manifest_hash = "sha256:a4b9e5dae412500d6f6ef16caf27af46598219642829a6d77806f4b91540bb0b"
 
 [[package]]
 name = "amkisko/agent-artifact"
@@ -192,20 +191,20 @@ dependencies = []
 
 [[package]]
 name = "amkisko/durable-cache"
-version = "1.0.1"
+version = "2.0.0"
 path = "./packages/durable-cache"
-tree_hash = "sha256:f1516f16ab868be1a0c97632008b28ca8fe9478bd884beac72505775c792f7b4"
-artifact_hash = "sha256:f1516f16ab868be1a0c97632008b28ca8fe9478bd884beac72505775c792f7b4"
+tree_hash = "sha256:47cdc9ec8d2b40a8ff95ea799f71fa4d0904efd692e78d3b57b956d6b3f4d6e5"
+artifact_hash = "sha256:47cdc9ec8d2b40a8ff95ea799f71fa4d0904efd692e78d3b57b956d6b3f4d6e5"
 artifact = "path:./packages/durable-cache"
-exports = ["durable-cache"]
+exports = ["skill"]
 dependencies = []
 
 [[package]]
 name = "amkisko/engineering-audit"
-version = "2.14.2"
+version = "2.14.3"
 path = "./packages/engineering-audit"
-tree_hash = "sha256:245fbe7241bdf783e3e7b6e3eeae915b0ce35d3491fca92cfad406eda5012e9c"
-artifact_hash = "sha256:245fbe7241bdf783e3e7b6e3eeae915b0ce35d3491fca92cfad406eda5012e9c"
+tree_hash = "sha256:787ec304d6614b70348fdc0a1bcc5469b798d78c7ec5af33f7e1fbe967eb1977"
+artifact_hash = "sha256:787ec304d6614b70348fdc0a1bcc5469b798d78c7ec5af33f7e1fbe967eb1977"
 artifact = "path:./packages/engineering-audit"
 exports = ["skill"]
 dependencies = []
@@ -686,8 +685,26 @@ package = "amkisko/derivation-audit"
 export = "skill"
 
 [[provisioned]]
+path = ".agents/skills/durable-cache/SKILL.md"
+content_hash = "sha256:61197257050753d0ea1e00d9e014b3b48e619cdbc9c455789b902c98b8c61de0"
+package = "amkisko/durable-cache"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/durable-cache/references/cache-kinds.md"
+content_hash = "sha256:e7f9f4c8fc00ae11e1d218a6a1689e35136030e340d135b0097e2da1339fe5b3"
+package = "amkisko/durable-cache"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/durable-cache/references/http-response-cache.md"
+content_hash = "sha256:8b6c35064569d3523553b3997e87ea5ba261f9e7e46bb1e4c8eb9ddff9fd997e"
+package = "amkisko/durable-cache"
+export = "skill"
+
+[[provisioned]]
 path = ".agents/skills/engineering-audit/SKILL.md"
-content_hash = "sha256:1996a3231c5748ee2a2033b3bf9ebc8e1d22d4cb5c9dbf51ef1f11e016249716"
+content_hash = "sha256:3b059bed7a745e5b00688e63c65beadbc3816497ad4f8a5e97ae273f111e0c0b"
 package = "amkisko/engineering-audit"
 export = "skill"
 
@@ -723,7 +740,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/engineering-audit.md"
-content_hash = "sha256:abf2964421fc0c0ae61f736c0e77fd0df12486c5dbda1ca039a87bf8828f1a3e"
+content_hash = "sha256:98b46292f23f6fded267677e85503f1e5eeb13155a0f3e8fa15c5c358b9b10e3"
 package = "amkisko/engineering-audit"
 export = "skill"
 
@@ -759,7 +776,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/observability.md"
-content_hash = "sha256:2f4c64af0a600ab9c86a7f0531398d114cde6ce0df58e552d1ebb8445fa3be16"
+content_hash = "sha256:deb9e8cb7b4fce6f1d90a99cf902bcd9353ee0b90038ed259e0d22640b70d04f"
 package = "amkisko/engineering-audit"
 export = "skill"
 

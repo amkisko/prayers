@@ -59,6 +59,7 @@ compose "AGENTS.md" do
   pray "amkisko/ruby-conventions", "~> 1.3"
   pray "amkisko/minimal-implementation", "~> 1.5"
   pray "amkisko/finite-state-machines", "~> 1.3"
+  pray "amkisko/durable-cache", "~> 2.0"
   pray "amkisko/branch-naming", "~> 1.0"
   pray "amkisko/preferred-stack", "~> 1.6"
   pray "amkisko/keep-the-work", "~> 1.4"
@@ -74,6 +75,7 @@ end
 
 tree ".agents/skills" do
   pray "amkisko/dependency-policy", "~> 4.0"
+  pray "amkisko/durable-cache", "~> 2.0"
   pray "amkisko/engineering-audit", "~> 2.14"
   pray "amkisko/operational-signal-intake", "~> 1.0"
   pray "amkisko/changelog-update", "~> 3.0"
@@ -97,9 +99,9 @@ pray "amkisko/community-governance", "~> 1.1", file: "GOVERNANCE.md"
 pray "amkisko/community-contributing", "~> 1.1", file: "CONTRIBUTING.md"
 ```
 
-Swap `ruby-conventions` for `rust-conventions`, `elixir-conventions`, or `kotlin-conventions` on those language trees. Compose one language pack, not all four. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Products with background workers compose `background-jobs`. Multi-instance services with a shared store may compose `durable-cache`. Library-only trees may omit those product fragments.
+Swap `ruby-conventions` for `rust-conventions`, `elixir-conventions`, or `kotlin-conventions` on those language trees. Compose one language pack, not all four. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Products with background workers compose `background-jobs`. Products with a cache or rebuildable derived serving state compose and tree `durable-cache`. Trees without those product surfaces may omit the corresponding packages.
 
-Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` whenever you compose it: selection heuristics live in the skill. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md. Tree `session-review` when reviewing agent sessions; do not compose it into AGENTS.md. Tree `ci-review` when reviewing CI run health; do not compose it into AGENTS.md. Tree `change-review` when reviewing a git diff; do not compose it into AGENTS.md. Tree `agent-artifact` when reviewing skill files or MCP configs; do not compose it into AGENTS.md. Tree `agent-discovery` when deciding what a product should publish for agent HTTP discovery; do not compose it into AGENTS.md. Tree `derivation-audit` when reviewing a formal derivation; do not compose it into AGENTS.md. Tree `agent-run-supervision` when supervising a live tool-calling run; do not compose it into AGENTS.md. Tree `security-audit` beside `engineering-audit` for full repository security audits; do not compose it into AGENTS.md.
+Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` and `durable-cache` whenever you compose them: their decision procedures live in the skills. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md. Tree `session-review` when reviewing agent sessions; do not compose it into AGENTS.md. Tree `ci-review` when reviewing CI run health; do not compose it into AGENTS.md. Tree `change-review` when reviewing a git diff; do not compose it into AGENTS.md. Tree `agent-artifact` when reviewing skill files or MCP configs; do not compose it into AGENTS.md. Tree `agent-discovery` when deciding what a product should publish for agent HTTP discovery; do not compose it into AGENTS.md. Tree `derivation-audit` when reviewing a formal derivation; do not compose it into AGENTS.md. Tree `agent-run-supervision` when supervising a live tool-calling run; do not compose it into AGENTS.md. Tree `security-audit` beside `engineering-audit` for full repository security audits; do not compose it into AGENTS.md.
 
 ## Compose budget
 
@@ -145,7 +147,7 @@ make check-artifacts
 | `amkisko/rust-conventions` | fragment | Rust stack conventions |
 | `amkisko/elixir-conventions` | fragment | Elixir and OTP stack conventions |
 | `amkisko/kotlin-conventions` | fragment | Kotlin stack conventions |
-| `amkisko/durable-cache` | fragment | Cache versus durable truth on a shared store |
+| `amkisko/durable-cache` | fragment + skill | Cache and rebuildable derived state versus durable truth |
 | `amkisko/minimal-implementation` | fragment | Smallest correct change discipline |
 | `amkisko/finite-state-machines` | fragment | Explicit lifecycle modeling, including digital and physical state |
 | `amkisko/branch-naming` | fragment | Branch prefix conventions |

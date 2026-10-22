@@ -1145,6 +1145,20 @@
         "character_count": 60948,
         "token_count": 512
       }
+    },
+    {
+      "version": "2.14.3",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.14.3/amkisko-engineering-audit-2.14.3.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "artifact_hash": "sha256:fea8f6dc877ac19ebc6f678e48fc3a48d3b0ea88856a4f662160144b0a856cab",
+      "tree_hash": "sha256:787ec304d6614b70348fdc0a1bcc5469b798d78c7ec5af33f7e1fbe967eb1977",
+      "signer": "local",
+      "published_at": 1792651923,
+      "signature": "sha256:ce3f5832db48d5dec776a794ef35175ec71a083e256413db6f3066e5488dd350"
     }
   ]
 }
