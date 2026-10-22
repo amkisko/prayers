@@ -118,6 +118,21 @@
         "character_count": 1256,
         "token_count": 138
       }
+    },
+    {
+      "version": "2.0.0",
+      "artifact": "v1/artifacts/amkisko/durable-cache/2.0.0/amkisko-durable-cache-2.0.0.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "durable-cache",
+        "skill"
+      ],
+      "artifact_hash": "sha256:e35047abbbcfc28399269a3bcfa70862a0b61db752fa5e4670d7d44373ffa68d",
+      "tree_hash": "sha256:47cdc9ec8d2b40a8ff95ea799f71fa4d0904efd692e78d3b57b956d6b3f4d6e5",
+      "signer": "local",
+      "published_at": 1792651345,
+      "signature": "sha256:e20d7e01f5975c6f3771637628b7de9afd245cebbdbd3345c440613fe3bc1ee0"
     }
   ]
 }

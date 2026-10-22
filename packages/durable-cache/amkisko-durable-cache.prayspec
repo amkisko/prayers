@@ -1,13 +1,24 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/durable-cache"
-  spec.version = "1.0.1"
-  spec.summary = "Cache versus durable truth on a shared store"
-  spec.files = ["README.md", "exports/durable-cache.md"]
+  spec.version = "2.0.0"
+  spec.summary = "Cache and rebuildable derived state versus durable truth"
+  spec.files = [
+    "README.md",
+    "exports/durable-cache.md",
+    "skills/durable-cache/SKILL.md",
+    "skills/durable-cache/references/cache-kinds.md",
+    "skills/durable-cache/references/http-response-cache.md"
+  ]
   spec.exports = {
     "durable-cache" => {
       type: "fragment",
       path: "exports/durable-cache.md",
-      summary: "Wipe test, single commit point, revalidate on read"
+      summary: "Truth, reusable identity, freshness, rebuild, invalidation, and budgets"
+    },
+    "skill" => {
+      type: "folder",
+      path: "skills/durable-cache",
+      summary: "Design and validate caches and rebuildable derived state"
     }
   }
 end
