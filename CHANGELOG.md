@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.31.0 (2026-10-23)
+
+- Publish `amkisko/delivery-budgets` 1.0.0: compose fragment for named artifact size budgets, sibling build-timing reports, and required when/where sample identity on every sample; skip only when the tree never becomes shipped bytes.
+
 ## 1.30.0 (2026-10-22)
 
 - Publish `amkisko/durable-cache` 2.0.0: cover soft and persistent caches, materialized and reconciled state, content-addressed computation caches, and shared HTTP response caches; define truth, reusable identity, consistency, rebuild, invalidation, deletion, concurrency, isolation, and resource budgets; compose and tree the package together.

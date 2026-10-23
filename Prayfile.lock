@@ -1,7 +1,8 @@
 prayfile_lock = "1"
 spec = "0.1"
-generated_by = "pray 1.21.0"
-manifest_hash = "sha256:a4b9e5dae412500d6f6ef16caf27af46598219642829a6d77806f4b91540bb0b"
+generated_by = "pray 1.22.0"
+manifest_hash = "sha256:196e8153ee4e047363beb13d2b4da1f0575190b1efcf502fc0d54b0639c5f40f"
+source = []
 
 [[package]]
 name = "amkisko/agent-artifact"
@@ -144,6 +145,16 @@ tree_hash = "sha256:1770c2bef0f168be900862b012e53b8480da5d6117df0170d3fa753179e3
 artifact_hash = "sha256:1770c2bef0f168be900862b012e53b8480da5d6117df0170d3fa753179e3320e"
 artifact = "path:./packages/community-security"
 exports = ["security"]
+dependencies = []
+
+[[package]]
+name = "amkisko/delivery-budgets"
+version = "1.0.0"
+path = "./packages/delivery-budgets"
+tree_hash = "sha256:5e10cc00dab4ee3a21a0694a83b7c8e4352be6058aa64ad2b4d8c8422a62bc0f"
+artifact_hash = "sha256:5e10cc00dab4ee3a21a0694a83b7c8e4352be6058aa64ad2b4d8c8422a62bc0f"
+artifact = "path:./packages/delivery-budgets"
+exports = ["delivery-budgets"]
 dependencies = []
 
 [[package]]

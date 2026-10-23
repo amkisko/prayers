@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/delivery-budgets"
+  spec.version = "1.0.0"
+  spec.summary = "CI size and build-timing budgets for shipped artifacts"
+  spec.files = ["README.md", "exports/delivery-budgets.md"]
+  spec.exports = {
+    "delivery-budgets" => {
+      type: "fragment",
+      path: "exports/delivery-budgets.md",
+      summary: "Named size and timing budgets with when/where samples"
+    }
+  }
+end
