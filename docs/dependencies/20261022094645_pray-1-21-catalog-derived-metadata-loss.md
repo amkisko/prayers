@@ -26,6 +26,7 @@ Until fixed, inspect the catalog diff after each publish, restore historical met
 
 - Open an upstream issue with a minimal repository containing one historical catalog record with `derived_metadata` and one new package version.
 - Decide whether new versions must carry derived metadata or whether this repository should retire `make catalog-topics` and its documented contract.
+- Later observation (pray 1.22.0, 2026-10-23): wholesale rewrite and metadata stripping did not recur on a one-package publish; new versions can gain `derived_metadata` again. `durable-cache` 2.0.0 and `engineering-audit` 2.14.3 still lack it. Residual serializer noise is tracked in docs/dependencies/20261023221634_pray-1-22-catalog-serializer-noise.md.
 
 ## Source
 

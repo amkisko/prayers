@@ -64,6 +64,7 @@ compose "AGENTS.md" do
   pray "amkisko/preferred-stack", "~> 1.6"
   pray "amkisko/keep-the-work", "~> 1.4"
   pray "amkisko/background-jobs", "~> 1.1"
+  pray "amkisko/delivery-budgets", "~> 1.0"
   pray "amkisko/io-simulation", "~> 1.0"
   pray "amkisko/writing-prose", "~> 3.7"
   pray "amkisko/claims-audit", "~> 1.1"
@@ -99,7 +100,7 @@ pray "amkisko/community-governance", "~> 1.1", file: "GOVERNANCE.md"
 pray "amkisko/community-contributing", "~> 1.1", file: "CONTRIBUTING.md"
 ```
 
-Swap `ruby-conventions` for `rust-conventions`, `elixir-conventions`, or `kotlin-conventions` on those language trees. Compose one language pack, not all four. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Products with background workers compose `background-jobs`. Products with a cache or rebuildable derived serving state compose and tree `durable-cache`. Trees without those product surfaces may omit the corresponding packages.
+Swap `ruby-conventions` for `rust-conventions`, `elixir-conventions`, or `kotlin-conventions` on those language trees. Compose one language pack, not all four. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Products with background workers compose `background-jobs`. Products that ship byte-bearing artifacts compose `delivery-budgets`. Products with a cache or rebuildable derived serving state compose and tree `durable-cache`. Trees without those product surfaces may omit the corresponding packages.
 
 Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` and `durable-cache` whenever you compose them: their decision procedures live in the skills. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md. Tree `session-review` when reviewing agent sessions; do not compose it into AGENTS.md. Tree `ci-review` when reviewing CI run health; do not compose it into AGENTS.md. Tree `change-review` when reviewing a git diff; do not compose it into AGENTS.md. Tree `agent-artifact` when reviewing skill files or MCP configs; do not compose it into AGENTS.md. Tree `agent-discovery` when deciding what a product should publish for agent HTTP discovery; do not compose it into AGENTS.md. Tree `derivation-audit` when reviewing a formal derivation; do not compose it into AGENTS.md. Tree `agent-run-supervision` when supervising a live tool-calling run; do not compose it into AGENTS.md. Tree `security-audit` beside `engineering-audit` for full repository security audits; do not compose it into AGENTS.md.
 
@@ -154,6 +155,7 @@ make check-artifacts
 | `amkisko/preferred-stack` | fragment | Language, UX, and visual-assessment communication |
 | `amkisko/keep-the-work` | fragment | Stay on the failed place and keep answers after a refusal |
 | `amkisko/background-jobs` | fragment | Shallow jobs, enqueue context, retries, destination failure |
+| `amkisko/delivery-budgets` | fragment | CI size and build-timing budgets for shipped artifacts |
 | `amkisko/io-simulation` | fragment | Simulated plant, control UI, and injectable IO faults |
 | `amkisko/writing-prose` | fragment | Plain technical writing checks |
 | `amkisko/claims-audit` | fragment + skill | Claim hygiene and factual verification |
