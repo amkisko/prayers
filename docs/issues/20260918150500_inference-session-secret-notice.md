@@ -4,7 +4,7 @@ When a live secret, credential, or confidential trace is already in the session,
 
 ## Participants
 
-Andrei Makarov.
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

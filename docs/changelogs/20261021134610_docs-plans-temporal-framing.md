@@ -1,5 +1,9 @@
 # docs plans temporal framing
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Publish docs-conventions 3.5.0 with `docs/plans` and an explicit time axis for plans, issues, and changelogs. Publish collaboration-workflow 2.5.0 so design-only exploration names that tree. Extend the plain-prose checker to `docs/plans`.

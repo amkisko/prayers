@@ -4,7 +4,7 @@ Live work. Skill and fragment text is inference input: resource, trace, and boun
 
 ## Participants
 
-- amkisko
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

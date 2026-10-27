@@ -2,7 +2,7 @@
 
 ## Participants
 
-- Andrei Makarov
+Andrei Makarov (@amkisko)
 
 ## Decisions
 
@@ -21,18 +21,6 @@ Person-facing surface: CHANGELOG.md and README catalog row. Hierarchy is version
 - Catalog: `prayers/v1/packages/amkisko/delivery-budgets.json` and `prayers/v1/artifacts/amkisko/delivery-budgets/1.0.0/`.
 - Prayfile path package and Prayfile.lock entry for 1.0.0. AGENTS.md unchanged.
 
-## Validation
-
-- `make validate-skills`: 17 skills valid; exit 0.
-- `make check-prayer-prose`: ok.
-- `make PRAY=<cargo-pray> publish`: published `amkisko/delivery-budgets` 1.0.0; 40 unchanged; `catalog-topics` rewritten 1 file. Restored unrelated newline and field-order noise on four existing catalog JSON files.
-- `make PRAY=<cargo-pray> plan apply verify`: lockfile gained delivery-budgets 1.0.0; AGENTS.md unchanged; verify exit 0.
-- `make check-artifacts` after staging the new `.praypkg` and catalog: ok.
-- `make PRAY=<cargo-pray> drift`: exit 0; no findings.
-- `make test`: 61 runs, 181 assertions; 0 failures, 0 errors.
-- `git diff --check` and `git diff --cached --check`: exit 0.
-- `pray` version: 1.22.0 (cargo binary).
-
 ## Next
 
 - Commit on `trunk/1.31.0-delivery-budgets`, open PR, merge to `main`.
@@ -45,3 +33,15 @@ Person-facing surface: CHANGELOG.md and README catalog row. Hierarchy is version
 docs/issues/20261023211000_delivery-budgets-prayer.md
 packages/delivery-budgets/
 Downstream: CHANGELOG.md 1.31.0
+## Validation
+
+- `make validate-skills`: 17 skills valid; exit 0.
+- `make check-prayer-prose`: ok.
+- `make PRAY=<cargo-pray> publish`: published `amkisko/delivery-budgets` 1.0.0; 40 unchanged; `catalog-topics` rewritten 1 file. Restored unrelated newline and field-order noise on four existing catalog JSON files.
+- `make PRAY=<cargo-pray> plan apply verify`: lockfile gained delivery-budgets 1.0.0; AGENTS.md unchanged; verify exit 0.
+- `make check-artifacts` after staging the new `.praypkg` and catalog: ok.
+- `make PRAY=<cargo-pray> drift`: exit 0; no findings.
+- `make test`: 61 runs, 181 assertions; 0 failures, 0 errors.
+- `git diff --check` and `git diff --cached --check`: exit 0.
+- `pray` version: 1.22.0 (cargo binary).
+

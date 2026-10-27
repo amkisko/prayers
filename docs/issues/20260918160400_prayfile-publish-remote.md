@@ -4,7 +4,7 @@ Live work. Publisher dest is a project contract. Resource, trace, and boundary m
 
 ## Participants
 
-- amkisko
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

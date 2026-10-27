@@ -1,5 +1,9 @@
 # Place, path, locale, and catalog package bumps
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Publish keep-the-work 1.4.0, preferred-stack 1.6.0, ruby-conventions 1.3.0, working-rules 2.7.0, and engineering-audit 2.12.0. Fold place, path, locale, and catalog guidance into those packages. No new always-on prayer. claims-audit unchanged.

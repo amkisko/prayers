@@ -1,3 +1,7 @@
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 The user approved the research recommendations. Clarify prose review so necessary negative answers, prohibitions, scope, and uncertainty survive editing. Require observed evidence when reporting completed actions.

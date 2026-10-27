@@ -1,5 +1,9 @@
 # Docs reviews tree
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Publish docs-conventions 3.1.0 with a fifth timestamp tree, reviews. Publish session-review 1.2.0 and ci-review 1.1.0 so durable review episodes write under docs/reviews.

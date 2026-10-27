@@ -4,7 +4,7 @@ Live work. Skill text is inference input: resource, trace, and boundary modes sk
 
 ## Participants
 
-- amkisko
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

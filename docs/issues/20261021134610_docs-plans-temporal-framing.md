@@ -1,5 +1,9 @@
 # docs plans temporal framing
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 `docs/plans`, `docs/issues`, and `docs/changelogs` mark time. Plans hold the uncertain future: design-only notes before work is committed. Issues hold the certain current: live work in play and the open queue. Changelogs hold the factual past: what shipped. Keep those common names; do not rename the trees to futures, currents, or pasts.

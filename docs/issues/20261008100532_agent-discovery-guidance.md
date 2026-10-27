@@ -4,7 +4,7 @@ Fold useful agent HTTP discovery practice into prayers. Do not vendor-wrap a rea
 
 ## Participants
 
-Andrei Makarov.
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

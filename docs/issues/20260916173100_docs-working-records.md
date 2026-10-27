@@ -4,7 +4,7 @@ Live work. Move issues, changelogs, meetings, and dependency records under docs/
 
 ## Participants
 
-- amkisko
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

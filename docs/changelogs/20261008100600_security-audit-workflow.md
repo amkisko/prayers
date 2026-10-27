@@ -1,5 +1,9 @@
 # Security audit workflow
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Ship security-audit 0.1.1 as a tree-only skill beside engineering-audit. Keep focused subsystem security review in engineering-audit and package advisory reachability in dependency-audit.

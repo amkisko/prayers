@@ -1,5 +1,9 @@
 # Operational signal intake
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 - Add a skill-only package for provider-neutral intake of live service evidence. Do not add an always-on fragment to the shared compose budget.

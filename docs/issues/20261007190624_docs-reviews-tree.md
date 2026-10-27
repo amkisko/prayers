@@ -4,7 +4,7 @@ Live work. Convention change for durable review-episode notes.
 
 ## Participants
 
-- amkisko
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

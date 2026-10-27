@@ -1,3 +1,7 @@
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Replace the system Python skill validator for this repository. Package skill frontmatter is parsed with the Ruby standard library YAML parser. That parser does not require PyYAML.
