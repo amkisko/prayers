@@ -4,7 +4,7 @@ Fold product-place gaps into existing packages. No new always-on prayer. Keep cl
 
 ## Participants
 
-Andrei Makarov.
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

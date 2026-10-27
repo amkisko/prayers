@@ -4,7 +4,7 @@ Live work for this unpublished pass. Skill and fragment text is inference input:
 
 ## Participants
 
-- amkisko
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

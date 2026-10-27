@@ -4,7 +4,7 @@ Live work. Fragment text is inference input.
 
 ## Participants
 
-- amkisko
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

@@ -4,7 +4,7 @@ Public issue and pull request comments are speech under the account holder's nam
 
 ## Participants
 
-Andrei Makarov.
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

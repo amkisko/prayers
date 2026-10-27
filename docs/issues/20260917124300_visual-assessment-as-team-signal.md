@@ -4,7 +4,7 @@ Anyone who changes a person-facing surface must name that need and record a visu
 
 ## Participants
 
-Andrei Makarov.
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

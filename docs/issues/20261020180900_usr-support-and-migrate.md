@@ -4,7 +4,7 @@ Live work. Name shared workshop trees for maintainer scripts, read-only investig
 
 ## Participants
 
-- amkisko
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

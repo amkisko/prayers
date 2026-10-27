@@ -1,3 +1,7 @@
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Replace usr/scripts/check_artifacts.py with a Ruby checker that uses the standard library JSON parser and git. make check-artifacts and make test call that checker. Package skill validation already ran on Ruby.

@@ -4,7 +4,7 @@ Shared prayer and skill texts used markdown bold and tables where writing-prose 
 
 ## Participants
 
-Andrei Makarov.
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

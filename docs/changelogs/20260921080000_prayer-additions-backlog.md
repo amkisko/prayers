@@ -4,7 +4,7 @@ Implement the 2026-09-21 research backlog: updates to existing packages and six 
 
 ## Participants
 
-- amkisko
+Andrei Makarov (@amkisko)
 
 ## Decisions
 

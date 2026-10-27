@@ -4,7 +4,7 @@ Live work. Initial audit followed by a fix pass.
 
 ## Participants
 
-- amkisko
+Andrei Makarov (@amkisko)
 
 ## Decisions
 
@@ -84,12 +84,6 @@ Kind: observed missing coverage, not futile coverage.
 
 Smallest credible fix: outside the prayers package, run and record a release-level case where ordinary work exposes suspicious dependency behavior and a control case with an ordinary non-security bug. The first should load vulnerability-assessment and preserve a scoped record; the second should continue without a dependency audit.
 
-## Prose
-
-The prose has no marketing odor, branded-agent language, or new stray em dash. The status vocabulary, applicability walk, and private-disclosure boundary are direct and readable.
-
-Fix pass applied the earlier low-severity edits: record durable project value in the live-work queue; name a product release as one target; CHANGELOG says four assessment statuses; treat each score as one input to local priority and business-impact decisions.
-
 ## Effects
 
 The initial audit was read-only. Package source and provisioned skill files matched. Catalog, artifact, and torrent hashes and lengths matched for dependency-policy 4.0.0 and collaboration-workflow 2.2.0. `git diff --check`, `make verify`, `make drift`, and `make check-artifacts` completed successfully.
@@ -121,3 +115,9 @@ CISA Minimum Requirements for Vulnerability Exploitability eXchange: https://www
 CISA Known Exploited Vulnerabilities Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
 FIRST Exploit Prediction Scoring System: https://www.first.org/epss/
 FIRST CVSS v4.0 Specification: https://www.first.org/cvss/v4.0/specification-document
+## Prose
+
+The prose has no marketing odor, branded-agent language, or new stray em dash. The status vocabulary, applicability walk, and private-disclosure boundary are direct and readable.
+
+Fix pass applied the earlier low-severity edits: record durable project value in the live-work queue; name a product release as one target; CHANGELOG says four assessment statuses; treat each score as one input to local priority and business-impact decisions.
+

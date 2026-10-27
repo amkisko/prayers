@@ -1,3 +1,7 @@
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Research scope: assess the two supplied analyses of negation guidance against package sources and primary publications. Recommendations below are proposals. Package sources, managed instructions, and published artifacts remain unchanged.
