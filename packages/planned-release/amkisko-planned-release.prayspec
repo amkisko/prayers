@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/planned-release"
+  spec.version = "1.0.0"
+  spec.summary = "Sprint milestones, week-numbered release collection, candidate, cut, and shared bench"
+  spec.files = ["README.md", "exports/planned-release.md"]
+  spec.exports = {
+    "planned-release" => {
+      type: "fragment",
+      path: "exports/planned-release.md",
+      summary: "Two-week sprint, YYYYwNN milestones, release collection, candidate, cut, publish"
+    }
+  }
+end

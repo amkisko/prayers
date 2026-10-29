@@ -2,12 +2,14 @@
 
 Checklist for cutting a prayers distribution release. Prefer this over rediscovering trunk naming and publish steps in chat.
 
+This repository binding (see `planned-release`): distribution cuts use a semver release id and CHANGELOG collection (dated exception to the default `YYYYwNN` sprint milestone grammar). Payload is the Unreleased CHANGELOG set plus matching package versions; candidate is `trunk/<title>`; stable line is `main`; cut is merge of the candidate to `main`; publish is git tag `vX.Y.Z` plus GitHub release. Leave forge-visible evidence for membership (CHANGELOG and PR), active candidate, and the published tag. Product repositories that follow sprint trains keep `YYYYwNN` milestones and release collection as the default agreement.
+
 ## Before the cut
 
 1. Confirm `CHANGELOG.md` Unreleased bullets name the packages and versions that actually change.
 2. Confirm package `*.prayspec` versions match those bullets.
 3. Run `make validate-skills`, `make check-prayer-prose`, and `make test`.
-4. Use a `trunk/<title>` branch for the release candidate when integrating before `main` (see branch-naming). Patch and feature work stay on their own prefixes until merged.
+4. Use a `trunk/<title>` branch for the release candidate when integrating before `main` (see branch-naming and planned-release). Patch and feature work stay on their own prefixes until merged.
 
 ## Publish catalog artifacts
 
