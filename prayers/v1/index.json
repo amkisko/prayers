@@ -31,6 +31,7 @@
     "amkisko/kotlin-conventions",
     "amkisko/minimal-implementation",
     "amkisko/operational-signal-intake",
+    "amkisko/planned-release",
     "amkisko/preferred-stack",
     "amkisko/public-surface-recon",
     "amkisko/publish-checks",

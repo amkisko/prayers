@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.32.0 (2026-10-29)
+
 - Publish `amkisko/preferred-stack` 1.7.0: define native-first as nearest semantic authority plus execution proximity; keep house language shortcuts; add a skill with proximity bands for greenfield and polyglot selection; tree the skill beside the compose fragment.
 - Publish `amkisko/minimal-implementation` 1.5.2: point Related at `preferred-stack` for language choice when no tree owns the path yet.
 - Add `amkisko/planned-release` 1.2.0: shrink the compose fragment to commitment, collection period, `YYYYwNN` period label, and prepare/deliver calendar events; move defaults, vocabulary, invariants, binding, and lifecycle into the skill.

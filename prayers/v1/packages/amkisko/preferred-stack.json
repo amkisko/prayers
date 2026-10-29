@@ -398,6 +398,66 @@
         "character_count": 2095,
         "token_count": 221
       }
+    },
+    {
+      "version": "1.7.0",
+      "artifact": "v1/artifacts/amkisko/preferred-stack/1.7.0/amkisko-preferred-stack-1.7.0.praypkg",
+      "artifact_hash": "sha256:d7a89afca509856e12ec3406e7e490218012d6186b2a86a3af672f8a817e4854",
+      "tree_hash": "sha256:735c29130c102331c51f33d346b2f63b9d954c76bff629f819233b321a09f13d",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "preferred-stack",
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1793287540,
+      "signature": "sha256:1d973cc6f491a2ced79aedfab2d030be2845acddb8bbd120129a9cf82fb9b940",
+      "derived_metadata": {
+        "summary": "Preferred languages by proximity, UX principles, and visual-assessment communication - Native-first language stop-gates, house shortcuts, and UX assessment",
+        "topics": [
+          "preferred",
+          "languages",
+          "proximity",
+          "principles",
+          "visual"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              31,
+              21,
+              33,
+              26,
+              53,
+              58,
+              24,
+              29,
+              19,
+              49,
+              32,
+              15,
+              39,
+              14,
+              41,
+              28
+            ]
+          }
+        ],
+        "file_count": 4,
+        "character_count": 13909,
+        "token_count": 512
+      }
     }
   ]
 }
