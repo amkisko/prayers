@@ -61,7 +61,8 @@ compose "AGENTS.md" do
   pray "amkisko/finite-state-machines", "~> 1.3"
   pray "amkisko/durable-cache", "~> 2.0"
   pray "amkisko/branch-naming", "~> 1.0"
-  pray "amkisko/preferred-stack", "~> 1.6"
+  pray "amkisko/planned-release", "~> 1.2"
+  pray "amkisko/preferred-stack", "~> 1.7"
   pray "amkisko/keep-the-work", "~> 1.4"
   pray "amkisko/background-jobs", "~> 1.1"
   pray "amkisko/delivery-budgets", "~> 1.0"
@@ -77,6 +78,8 @@ end
 tree ".agents/skills" do
   pray "amkisko/dependency-policy", "~> 4.0"
   pray "amkisko/durable-cache", "~> 2.0"
+  pray "amkisko/preferred-stack", "~> 1.7"
+  pray "amkisko/planned-release", "~> 1.2"
   pray "amkisko/engineering-audit", "~> 2.14"
   pray "amkisko/operational-signal-intake", "~> 1.0"
   pray "amkisko/changelog-update", "~> 3.0"
@@ -152,7 +155,8 @@ make check-artifacts
 | `amkisko/minimal-implementation` | fragment | Smallest correct change discipline |
 | `amkisko/finite-state-machines` | fragment | Explicit lifecycle modeling, including digital and physical state |
 | `amkisko/branch-naming` | fragment | Branch prefix conventions |
-| `amkisko/preferred-stack` | fragment | Language, UX, and visual-assessment communication |
+| `amkisko/preferred-stack` | fragment + skill | Language by proximity, UX, and visual-assessment communication |
+| `amkisko/planned-release` | fragment + skill | Release commitment, collection period, and process signals |
 | `amkisko/keep-the-work` | fragment | Stay on the failed place and keep answers after a refusal |
 | `amkisko/background-jobs` | fragment | Shallow jobs, enqueue context, retries, destination failure |
 | `amkisko/delivery-budgets` | fragment | CI size and build-timing budgets for shipped artifacts |

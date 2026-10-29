@@ -1,0 +1,66 @@
+{
+  "name": "amkisko/planned-release",
+  "versions": [
+    {
+      "version": "1.2.0",
+      "artifact": "v1/artifacts/amkisko/planned-release/1.2.0/amkisko-planned-release-1.2.0.praypkg",
+      "artifact_hash": "sha256:c240c0206fa09707ef4840166199a173f22ede76e849951da9683cc6923eb450",
+      "tree_hash": "sha256:c3834dc1fe14fba62390aa2473857f51a31c0e868b8ef6747a32aa27edc3afa5",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "planned-release",
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1793287540,
+      "signature": "sha256:42f1e8509df94a30989e2ff7549598a6398c409aa4e95d0d2739d66b92d44e9e",
+      "derived_metadata": {
+        "summary": "Team release commitment, collection period, week label, prepare and deliver - Commitment, collection period, YYYYwNN label, prepare and deliver events",
+        "topics": [
+          "team",
+          "release",
+          "commitment",
+          "collection",
+          "period"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may affect downstream package distribution",
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              33,
+              39,
+              15,
+              23,
+              58,
+              37,
+              21,
+              17,
+              14,
+              44,
+              47,
+              53,
+              30,
+              24,
+              23,
+              34
+            ]
+          }
+        ],
+        "file_count": 4,
+        "character_count": 15330,
+        "token_count": 512
+      }
+    }
+  ]
+}
