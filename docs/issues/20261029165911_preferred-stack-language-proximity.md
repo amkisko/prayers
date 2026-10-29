@@ -20,13 +20,12 @@ Andrei Makarov (@amkisko)
 - `minimal-implementation` 1.5.2 Related points at preferred-stack.
 - Prayfile skill tree entry added; CHANGELOG Unreleased updated.
 - Prose audit recorded in `docs/reviews/20261029170200_preferred-stack-proximity-prose-audit.md` (passes 1-3).
+- Shipped in prayers 1.32.0: https://github.com/amkisko/prayers/releases/tag/v1.32.0
 
 ## Next
 
-1. Reviewer reads fragment versus skill versus proximity-bands before merge.
-2. Package and publish when cutting the catalog (`make package` needs zstd on the host).
-3. Optional later: align Cursor `language-and-stack` default with the fragment house shortcuts.
-4. `pray drift` may still report `renderer_drift` on AGENTS.md while `pray render --check` is clean (same watch item as planned-release).
+1. Optional later: align Cursor `language-and-stack` default with the fragment house shortcuts.
+2. `pray drift` may still report `renderer_drift` on AGENTS.md while `pray render --check` is clean (same watch item as planned-release).
 
 ## Source
 
