@@ -1,8 +1,8 @@
 # Release runbook
 
-Checklist for cutting a prayers distribution release. Prefer this over rediscovering trunk naming and publish steps in chat.
+Checklist for cutting a prayers distribution release.
 
-This repository binding (see `planned-release`): distribution cuts use a semver release id and CHANGELOG collection (dated exception to the default `YYYYwNN` sprint milestone grammar). Payload is the Unreleased CHANGELOG set plus matching package versions; candidate is `trunk/<title>`; stable line is `main`; cut is merge of the candidate to `main`; publish is git tag `vX.Y.Z` plus GitHub release. Leave forge-visible evidence for membership (CHANGELOG and PR), active candidate, and the published tag. Product repositories that follow sprint trains keep `YYYYwNN` milestones and release collection as the default agreement.
+This repository binding (see `planned-release`) is a dated exception to the default `YYYYwNN` sprint milestone grammar: release id is semver; payload is the Unreleased CHANGELOG set plus matching package versions; candidate is `trunk/<title>`; stable line is `main`; cut is merge of the candidate to `main`; publish is git tag `vX.Y.Z` plus GitHub release. Leave forge-visible evidence for membership (CHANGELOG and PR), active candidate, and the published tag. Product repositories that follow sprint trains keep `YYYYwNN` milestones and release collection as the default agreement.
 
 ## Before the cut
 
@@ -19,7 +19,7 @@ This repository binding (see `planned-release`): distribution cuts use a semver 
 4. Run `make install`, `make apply`, and `make verify` when compose or tree inputs changed.
 5. Run `make drift` and fix tracked drift before review.
 
-`make release` runs validate-skills, check-prayer-prose, publish, plan, apply, verify, and check-artifacts. It does not create a git tag or GitHub release.
+`make release` runs validate-skills, check-prayer-prose, publish, plan, apply, verify, and check-artifacts. Tag and GitHub release stay manual steps below.
 
 ## Tag and GitHub release
 

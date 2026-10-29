@@ -2,8 +2,8 @@
 
 ## Unreleased
 
-- Add `amkisko/planned-release` 1.0.0: compose fragment for two-week sprint cadence, `YYYYwNN` milestones, release collection into a milestone, shared-workbench agreements, optional candidate, cut versus publish, project bindings, and separated health signals. Trees without milestone collection are out of scope.
-- Publish `amkisko/branch-naming` 1.0.2: point Related at `planned-release` and name the candidate versus literature-trunk collision.
+- Add `amkisko/planned-release` 1.0.0: compose fragment for two-week sprint cadence, ISO week release ids (`YYYYwNN`), release collection into a milestone, optional candidate, cut versus publish, project bindings, and forge-queryable process signals with sample identity, audit disposition, and project baseline ceilings. Trees without milestone collection are out of scope.
+- Publish `amkisko/branch-naming` 1.0.2: point Related at `planned-release` and separate candidate `trunk/<title>` from the stable-line role.
 
 ## 1.31.0 (2026-10-23)
 
