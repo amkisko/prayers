@@ -189,7 +189,7 @@ Examples:
 - `plan/auth-redesign-notes`
 - `plan/2026-q2-roadmap`
 
-Related: `planned-release` owns release id, payload membership, candidate lifecycle, cut versus publish, and project bindings. The `trunk/<title>` prefix names a candidate branch; it is not the literature "trunk" (stable line).
+Related: `planned-release` owns release id, payload membership, candidate lifecycle, cut versus publish, and project bindings. The `trunk/<title>` prefix names a candidate branch. The stable line is a separate role.
 <!-- pray:26f3566a -->
 
 <!-- pray:f528eeca -->
@@ -280,42 +280,25 @@ Related: `writing-prose` covers voice and quality constructs; `engineering-audit
 <!-- pray:5523d080 -->
 ## Planned release
 
-A planned release is a named collection of work that the team intends to ship together. Without a release collection and a milestone, this contract does not apply. Do not compose this fragment for trees that never collect a payload under a shared release id.
+A planned release is a named collection of work the team intends to ship together. Compose this fragment only when that work is collected under a shared release id and milestone.
 
-Projects share the agreements below. Each repository records a short binding that maps roles to forge objects and owners. A host workflow or local script is an adapter. Adapters must leave evidence on the shared forge surface; they are not a private substitute for the milestone.
+Projects share the agreements below. Each repository records a short binding that maps roles to forge objects and owners. A host workflow or local script is an adapter. Adapters must leave evidence on the shared forge surface that peers can query without the adapter's private machine.
 
-### Philosophical core (shared workbench)
+### Cadence and week numbering
 
-These are process agreements that keep the release on a shared bench peers can enter, continue, and repair. They support human workshop indicators (visibility, contribution, concurrency, communication, stewardship, collective handoff, careful use of machines). They are not machine instructions copied from a human manifesto.
-
-- Understanding: peers can talk about the current release in human language because the milestone, membership, candidate, and blockers are visible on the shared surface.
-- Contribution: anyone may add or move membership before cut; unfinished work, notes, failures, and partial candidates remain useful material when they stay queryable.
-- Visibility: problems, decisions, experiments, rebuilds, deferrals, and repairs stay visible on the forge. Machines may compress work; they must not hide effort, uncertainty, judgement, or recovery.
-- Concurrency: people may prepare work for the same milestone at the same time. Overlap and conflicts are expected; integrity comes from shared membership and one active candidate truth, not from serial ownership of the whole release.
-- Communication: every release artifact should suggest a next move (what is missing, who may cut, what superseded what, what was deferred).
-- Workshop: the form of the release must survive touch by others. Prefer shared milestone and candidate request state over one operator's terminal history.
-- Learning: each cut, incident, and repair increases available information; keep close reconciliation honest so the next sprint can learn.
-- Stewardship: ownership is care, not possession. Anyone who can change membership or the candidate should be able to participate in cut and recovery under the binding's role rules.
-- Collective juggling: nobody holds the whole release alone. Handoff and recovery stay possible because traces remain on the bench.
-- Critical adoption: use scripts and bots to widen comparison and reduce repetition; treat their output as material on the bench. Slow down where understanding begins.
-- Humane determinism: tools may be deterministic; people are not reduced to tools. Variation and judgement stay in membership moves, deferrals, and rebuild reasons.
-- Sustainable attention: prefer contact with the real milestone and candidate over infinite planning docs that replace them.
-
-### Cadence and week numbering (essential agreement)
-
-- Default team cadence is a two-week sprint.
+- Default team cadence is a two-week sprint. The ISO week is the atomic calendar unit.
 - Each planned release has one milestone whose title is the release id.
 - Release id uses ISO week numbering: `YYYYwNN` (four-digit ISO week-year, lowercase `w`, ISO week number). Example: `2026w38`.
 - For a two-week sprint, the milestone title is the last ISO week of that sprint. A sprint spanning `2026w37` and `2026w38` uses milestone `2026w38`.
-- Named pack ids (`2026-august-pack`) are allowed only as an explicit exception in the binding, with owner and review date. They do not replace the week agreement for ordinary sprints.
-- Open a milestone when the sprint's release collection starts. Close it when every member is shipped, deferred to another milestone, or removed with a recorded reason. A milestone with zero open members left open is dishonest shared state.
+- Named pack ids (`2026-august-pack`) need an explicit binding exception with owner and review date. Ordinary sprints keep the week agreement.
+- Open a milestone when the sprint's release collection starts. Close it when every member is shipped, deferred to another milestone, or removed with a recorded reason. Close a milestone that has zero open members.
 
-### Release collection and milestone (essential agreement)
+### Release collection and milestone
 
 - Release collection is the ongoing assignment of work changes into the current milestone. That collection is the payload.
-- The milestone is the shared container for the payload. Membership is the set of issues and change requests attached to that milestone (or the forge-equivalent the binding names as milestone).
-- A branch name is not membership. Tracker status alone is not membership unless the binding equates it to the same milestone predicate peers can query on the forge.
-- Collect into the milestone before cut. Cutting without a milestone and without a collected payload is out of contract.
+- The collection period runs from milestone open to cut, or to close when there is no cut.
+- The milestone is the shared container for the payload. Membership is the milestone attachment set the binding names (issues and change requests, or the forge-equivalent). A branch name or tracker status counts only when the binding equates it to that same forge-queryable predicate.
+- Collect into the milestone before cut. Cut requires a milestone and a collected payload.
 - Moving a member between milestones is a visible membership decision. Silent omission from the candidate while leaving the item on the milestone is payload drift.
 
 ### Vocabulary
@@ -330,19 +313,20 @@ These are process agreements that keep the release on a shared bench peers can e
 - receipt - evidence that a work change is on the active candidate;
 - cut - accept the candidate (or an agreed revision of the collected payload) as the release source;
 - publish - deliver that source to a destination; may equal cut only when the binding says so;
-- binding - project map from these roles to local objects, checks, and owners.
+- binding - project map from these roles to local objects, checks, and owners;
+- sample - one observation of a named process signal for one release id.
 
 ### Invariants
 
 - one release id and one milestone identify one intended payload;
-- membership is explicit and queryable on the milestone; without release collection and milestone, stop;
+- membership is explicit and queryable on the milestone; release collection and milestone are required;
 - at most one active candidate truth exists per release id;
 - replacing a candidate records which request it supersedes and why on the forge;
 - cut and publish stay distinct observations unless the binding makes them the same event;
 - a release closes only after milestone reconciliation has no unexplained members;
-- every transition leaves queryable evidence on the shared forge surface; private chat does not replace missing forge evidence;
-- recovery uses the ordinary defined path when possible; a hidden manual repair is process debt;
-- a local script or bot belongs on the shared bench only when a second operator can reconstruct milestone membership, active candidate, supersession, cut, and close disposition from forge state without that operator's machine.
+- every transition leaves queryable evidence on the shared forge surface;
+- recovery uses the ordinary defined path and records forge evidence;
+- a local script or bot is allowed only when a second operator can reconstruct milestone membership, active candidate, supersession, cut, and close disposition from forge state without that operator's machine.
 
 ### Lifecycle
 
@@ -354,7 +338,7 @@ These are process agreements that keep the release on a shared bench peers can e
 6. Published - destination reports the released revision or artifacts;
 7. Closed - milestone reconciliation has no unexplained members; milestone is closed or every leftover is deferred to another milestone with evidence.
 
-Cancelled and superseded are terminal outcomes with a replacement id or reason. A later artifact does not prove an earlier readiness check.
+Cancelled and superseded are terminal lifecycle outcomes with a replacement id or reason. Ready requires checks recorded for the named source revision.
 
 ### Binding requirements
 
@@ -369,25 +353,71 @@ Record in the consumer repository (defaults above stay unless an exception is ex
 - cut event and evidence;
 - publish event, destination, and evidence;
 - deferral, rebuild, cancellation, recovery, and rollback rules;
-- role owners for membership, cut, publish, and contract maintenance;
-- retained evidence and measurement source;
+- role owners for membership, cut, publish, contract maintenance, and baseline updates;
+- measurement tool or script, retained sample store, and forge query per named signal below;
+- project baseline file or locator and the ceiling rule per duration and gated counter;
 - deliberate exceptions with reason, owner, and review date.
 
-Coordinated product release across repositories: one parent release id still uses week numbering; each child repository keeps its own milestone and cut; the parent pins exact child revisions or immutable artifacts. Do not pretend one branch is the commit point for several repositories.
+Coordinated product release across repositories: one parent release id still uses week numbering; each child repository keeps its own milestone and cut; the parent pins exact child revisions or immutable artifacts.
 
 ### Naming collision
 
-Literature "trunk" often means the stable line. House `trunk/<release-id>` means the candidate for that milestone. Speak in roles in shared guidance; bind prefixes with `branch-naming`.
+Literature "trunk" means the stable line. House `trunk/<release-id>` means the candidate for that milestone. Speak in roles in shared guidance; bind prefixes with `branch-naming`.
 
-### Health signals
+### Process signals
 
-Keep series separate; compare a project to its own baseline.
+Measure forge state for one release id. Keep each named signal as its own series. Compare a project only to its own baseline.
 
-- process integrity: members on milestone but not on candidate (and the reverse) at readiness; unexplained members at close; open milestones with zero open members; candidate rebuild count with reason; failed cut attempts; manual steps and operator active time; cut-to-publish elapsed time when separate;
-- delivery outcomes when the product ships: change lead time, deployment frequency, failed deployment recovery time, change fail rate, deployment rework rate;
-- adoption: time to open and close a sprint milestone honestly; local exceptions and expired exceptions; validator usefulness; whether a second operator can continue from forge state alone.
+Signal kinds:
 
-Verify before shared enforcement: replay representative past releases including a normal cut, a rebuilt candidate, and deferred members; first validators report only; promote a check only after it is deterministic in at least two bindings.
+- predicate - true or false for this release id at a named moment;
+- counter - non-negative integer from membership or candidate history;
+- duration - elapsed time between two forge-recorded events;
+- drill - pass or fail when a second-operator reconstruction is exercised.
 
-Related: `branch-naming` owns branch prefixes; `finite-state-machines` owns lifecycle modeling; `changelog-update` and `writing-prose` own release notes voice; `delivery-budgets` owns ship-path size and timing gates; `publish-checks` owns review hygiene before publish; `collaboration-workflow` owns where durable process notes live.
+Every sample records: release id; repository or binding name; signal name; signal kind; observed value; observation time; forge query or evidence locator the binding names.
+
+Audit disposition for a named release id or check:
+
+- pass - predicate true; or duration or gated counter at or under the project baseline ceiling; or drill pass;
+- fail - predicate false; or duration or gated counter above the ceiling when no dated exception covers that deviation;
+- process debt - close or recovery used a path outside the binding's ordinary forge evidence;
+- dated exception - recorded exception with owner and review date covers the deviation through that date.
+
+Named predicates (absolute; fail when false):
+
+- sprint week identity - release id equals the last ISO week of the intended two-week sprint;
+- close clean - unexplained members at close equals zero;
+- milestone honesty - count of open milestones with zero open members equals zero;
+- exception hygiene - count of dated exceptions past their review date equals zero.
+
+Named durations (gate against the project baseline ceiling):
+
+- collection period - milestone open to cut, or open to close when there is no cut;
+- cut-to-publish - elapsed time when cut and publish are separate events.
+
+Named counters:
+
+- payload size at cut - observation for trend (informational series);
+- deferred or removed with reason at close - observation for trend (informational series);
+- payload drift at readiness - milestone-only member count and candidate-only member count; gate each against the project baseline ceiling;
+- candidate supersession count per release id - gate against the project baseline ceiling;
+- failed cut attempts with recorded reason - gate against the project baseline ceiling.
+
+Named drill:
+
+- second-operator reconstruction of membership, active candidate, supersession, cut, and close disposition from forge state alone; record pass or fail when exercised.
+
+Baseline and enforcement:
+
+1. Binding names the forge queries and the tool or script that emits samples.
+2. Collect report-only samples across at least two completed sprint releases on that binding.
+3. Write the project baseline from those samples: absolute predicates as above; durations and gated counters get a ceiling the binding records (median of the seed samples is the default starting ceiling unless the binding states another rule).
+4. Report-only validators emit audit disposition against that baseline.
+5. Promote a check to shared enforcement after the same check is deterministic on at least two bindings.
+6. Intentional process change updates the baseline in the same change that updates the binding.
+
+After implementation, an auditor can replay forge state for a release id, recompute each named signal, compare to the binding baseline, and record one audit disposition per check. Replay fixtures: a normal cut, a rebuilt candidate, and deferred members.
+
+Related: `branch-naming` owns branch prefixes; `finite-state-machines` owns lifecycle modeling; `changelog-update` and `writing-prose` own release notes voice; `delivery-budgets` owns ship-path size and timing gates; `publish-checks` owns review hygiene before publish; `collaboration-workflow` owns where durable process notes live; `engineering-audit` reviews process integrity when auditing a release path.
 <!-- pray:5523d080 -->

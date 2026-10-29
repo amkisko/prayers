@@ -18,4 +18,4 @@ Examples:
 - `plan/auth-redesign-notes`
 - `plan/2026-q2-roadmap`
 
-Related: `planned-release` owns release id, payload membership, candidate lifecycle, cut versus publish, and project bindings. The `trunk/<title>` prefix names a candidate branch; it is not the literature "trunk" (stable line).
+Related: `planned-release` owns release id, payload membership, candidate lifecycle, cut versus publish, and project bindings. The `trunk/<title>` prefix names a candidate branch. The stable line is a separate role.
