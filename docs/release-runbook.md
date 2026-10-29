@@ -2,7 +2,7 @@
 
 Checklist for cutting a prayers distribution release.
 
-This repository binding (see `planned-release`) is a dated exception to the default `YYYYwNN` sprint milestone grammar: release id is semver; payload is the Unreleased CHANGELOG set plus matching package versions; candidate is `trunk/<title>`; stable line is `main`; cut is merge of the candidate to `main`; publish is git tag `vX.Y.Z` plus GitHub release. Leave forge-visible evidence for membership (CHANGELOG and PR), active candidate, and the published tag. Product repositories that follow sprint trains keep `YYYYwNN` milestones and release collection as the default agreement.
+This repository binding (see the `planned-release` fragment and skill) is a dated exception to the default `YYYYwNN` sprint milestone grammar: release id is semver; payload is the Unreleased CHANGELOG set plus matching package versions; candidate is `trunk/<title>`; stable line is `main`; prepare (cut) is merge of the candidate to `main`; deliver (publish) is git tag `vX.Y.Z` plus GitHub release. Leave forge-visible evidence for membership (CHANGELOG and PR), active candidate, and the published tag. Product repositories that follow sprint trains keep `YYYYwNN` milestones and release collection as the default agreement. Open the skill when revising this binding or measuring prepare/deliver signals.
 
 ## Before the cut
 

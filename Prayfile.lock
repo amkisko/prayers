@@ -1,7 +1,8 @@
 prayfile_lock = "1"
 spec = "0.1"
-generated_by = "pray 1.22.0"
-manifest_hash = "sha256:ecb69b39fbafefddcd3555e2633978cd9d4babeac9ccd9d85ed9191222546987"
+generated_by = "pray 1.25.0"
+manifest_hash = "sha256:e4ef13f5871b3327d733fa653b332956555fc1b77e879e800570fdf4421014d6"
+source = []
 
 [[package]]
 name = "amkisko/agent-artifact"
@@ -47,8 +48,8 @@ dependencies = []
 name = "amkisko/branch-naming"
 version = "1.0.2"
 path = "./packages/branch-naming"
-tree_hash = "sha256:846e34417bf9abc66b140bac51f216c9166409480e58e862ed6c98e08b5ec432"
-artifact_hash = "sha256:846e34417bf9abc66b140bac51f216c9166409480e58e862ed6c98e08b5ec432"
+tree_hash = "sha256:f87e3389bf3f3590a6cdbee897ab3ab4131820327cbb42dce28567c1e172e827"
+artifact_hash = "sha256:f87e3389bf3f3590a6cdbee897ab3ab4131820327cbb42dce28567c1e172e827"
 artifact = "path:./packages/branch-naming"
 exports = ["branch-naming"]
 dependencies = []
@@ -301,12 +302,15 @@ dependencies = []
 
 [[package]]
 name = "amkisko/planned-release"
-version = "1.0.0"
+version = "1.2.0"
 path = "./packages/planned-release"
-tree_hash = "sha256:3c031321e9a156b382ea3316d93bbf4601a504f642ee339d5f1b91015b40cbf1"
-artifact_hash = "sha256:3c031321e9a156b382ea3316d93bbf4601a504f642ee339d5f1b91015b40cbf1"
+tree_hash = "sha256:c3834dc1fe14fba62390aa2473857f51a31c0e868b8ef6747a32aa27edc3afa5"
+artifact_hash = "sha256:c3834dc1fe14fba62390aa2473857f51a31c0e868b8ef6747a32aa27edc3afa5"
 artifact = "path:./packages/planned-release"
-exports = ["planned-release"]
+exports = [
+    "planned-release",
+    "skill",
+]
 dependencies = []
 
 [[package]]
@@ -530,10 +534,10 @@ id = "26f3566a"
 target = "AGENTS.md"
 open_line = 171
 close_line = 193
-ideal_checksum = "sha256:e0a6a9ecef815aa97ced9521771cc76ec33658b6add95f38ea67382a2382d78b"
+ideal_checksum = "sha256:5fbb0ad8dfbdb86c22875d1714240a7263bb540eb70beeaf77eb94d5ced7369a"
 package = "amkisko/branch-naming"
 export = "branch-naming"
-source_checksum = "sha256:846e34417bf9abc66b140bac51f216c9166409480e58e862ed6c98e08b5ec432"
+source_checksum = "sha256:f87e3389bf3f3590a6cdbee897ab3ab4131820327cbb42dce28567c1e172e827"
 silenced = false
 
 [[managed_span]]
@@ -606,11 +610,11 @@ silenced = false
 id = "5523d080"
 target = "AGENTS.md"
 open_line = 280
-close_line = 423
-ideal_checksum = "sha256:088d86fc113342e9e936c395130c2bb83719ab794f15c82b8f0e50829ad17ad6"
+close_line = 293
+ideal_checksum = "sha256:96f7dd78dc88961a8a80e5b1fdb05f7c0f634edb27696b7e2d98e42b5402ab6d"
 package = "amkisko/planned-release"
 export = "planned-release"
-source_checksum = "sha256:3c031321e9a156b382ea3316d93bbf4601a504f642ee339d5f1b91015b40cbf1"
+source_checksum = "sha256:c3834dc1fe14fba62390aa2473857f51a31c0e868b8ef6747a32aa27edc3afa5"
 silenced = false
 
 [[provisioned]]
@@ -887,6 +891,18 @@ export = "skill"
 path = ".agents/skills/operational-signal-intake/references/security-reliability.md"
 content_hash = "sha256:875b7ce3b32279d0f5a76719a95c607d08232efdc0bf670784a67252b9dd98ea"
 package = "amkisko/operational-signal-intake"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/planned-release/SKILL.md"
+content_hash = "sha256:cd2fe1d1c12b5953e82dba275c11d719c203e21573a5083539c6ecb1cd9bc2f1"
+package = "amkisko/planned-release"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/planned-release/references/process-signals.md"
+content_hash = "sha256:57c51299ab2f4ae4a1a422ea96be2bdc79b2c7d28cee8b62a3cfdff74c4bca00"
+package = "amkisko/planned-release"
 export = "skill"
 
 [[provisioned]]
