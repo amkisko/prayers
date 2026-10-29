@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Add `amkisko/planned-release` 1.0.0: compose fragment for two-week sprint cadence, `YYYYwNN` milestones, release collection into a milestone, shared-workbench agreements, optional candidate, cut versus publish, project bindings, and separated health signals. Trees without milestone collection are out of scope.
+- Publish `amkisko/branch-naming` 1.0.2: point Related at `planned-release` and name the candidate versus literature-trunk collision.
+
 ## 1.31.0 (2026-10-23)
 
 - Publish `amkisko/delivery-budgets` 1.0.0: compose fragment for named artifact size budgets, sibling build-timing reports, and required when/where sample identity on every sample; skip only when the tree never becomes shipped bytes.

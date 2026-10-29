@@ -17,6 +17,7 @@ compose "AGENTS.md" do
   pray "amkisko/minimal-implementation", path: "packages/minimal-implementation"
   pray "amkisko/finite-state-machines", path: "packages/finite-state-machines"
   pray "amkisko/branch-naming", path: "packages/branch-naming"
+  pray "amkisko/planned-release", path: "packages/planned-release"
   pray "amkisko/preferred-stack", path: "packages/preferred-stack"
   pray "amkisko/writing-prose", path: "packages/writing-prose"
   pray "amkisko/claims-audit", path: "packages/claims-audit"
