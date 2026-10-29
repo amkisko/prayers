@@ -2,8 +2,10 @@
 
 ## Unreleased
 
+- Add `amkisko/planned-release` 1.2.0: shrink the compose fragment to commitment, collection period, `YYYYwNN` period label, and prepare/deliver calendar events; move defaults, vocabulary, invariants, binding, and lifecycle into the skill.
+- Add `amkisko/planned-release` 1.1.0: keep cadence, vocabulary, and invariants in the compose fragment; move binding checklist, lifecycle procedure, and process-signal measurement into a skill with `references/process-signals.md`. Trees without milestone collection are out of scope.
 - Add `amkisko/planned-release` 1.0.0: compose fragment for two-week sprint cadence, ISO week release ids (`YYYYwNN`), release collection into a milestone, optional candidate, cut versus publish, project bindings, and forge-queryable process signals with sample identity, audit disposition, and project baseline ceilings. Trees without milestone collection are out of scope.
-- Publish `amkisko/branch-naming` 1.0.2: point Related at `planned-release` and separate candidate `trunk/<title>` from the stable-line role.
+- Publish `amkisko/branch-naming` 1.0.2: point Related at `planned-release` (fragment plus skill) and separate candidate `trunk/<title>` from the stable-line role.
 
 ## 1.31.0 (2026-10-23)
 

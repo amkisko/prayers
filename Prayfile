@@ -29,6 +29,7 @@ end
 tree ".agents/skills" do
   pray "amkisko/dependency-policy", path: "packages/dependency-policy"
   pray "amkisko/durable-cache", path: "packages/durable-cache"
+  pray "amkisko/planned-release", path: "packages/planned-release"
   pray "amkisko/engineering-audit", path: "packages/engineering-audit"
   pray "amkisko/operational-signal-intake", path: "packages/operational-signal-intake"
   pray "amkisko/changelog-update", path: "packages/changelog-update"

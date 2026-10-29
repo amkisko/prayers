@@ -1,13 +1,23 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/planned-release"
-  spec.version = "1.0.0"
-  spec.summary = "Sprint milestones, week-numbered release collection, candidate, cut, and auditable process signals"
-  spec.files = ["README.md", "exports/planned-release.md"]
+  spec.version = "1.2.0"
+  spec.summary = "Team release commitment, collection period, week label, prepare and deliver"
+  spec.files = [
+    "README.md",
+    "exports/planned-release.md",
+    "skills/planned-release/SKILL.md",
+    "skills/planned-release/references/process-signals.md"
+  ]
   spec.exports = {
     "planned-release" => {
       type: "fragment",
       path: "exports/planned-release.md",
-      summary: "Two-week sprint, YYYYwNN milestones, release collection, candidate, cut, publish, process signals"
+      summary: "Commitment, collection period, YYYYwNN label, prepare and deliver events"
+    },
+    "skill" => {
+      type: "folder",
+      path: "skills/planned-release",
+      summary: "Defaults, binding, lifecycle, and process signals for planned releases"
     }
   }
 end
