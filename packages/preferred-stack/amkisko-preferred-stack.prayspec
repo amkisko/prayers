@@ -1,13 +1,23 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/preferred-stack"
-  spec.version = "1.6.0"
-  spec.summary = "Preferred languages, UX principles, and visual-assessment communication"
-  spec.files = ["README.md", "exports/preferred-stack.md"]
+  spec.version = "1.7.0"
+  spec.summary = "Preferred languages by proximity, UX principles, and visual-assessment communication"
+  spec.files = [
+    "README.md",
+    "exports/preferred-stack.md",
+    "skills/preferred-stack/SKILL.md",
+    "skills/preferred-stack/references/proximity-bands.md"
+  ]
   spec.exports = {
     "preferred-stack" => {
       type: "fragment",
       path: "exports/preferred-stack.md",
-      summary: "Preferred stack guidance"
+      summary: "Native-first language stop-gates, house shortcuts, and UX assessment"
+    },
+    "skill" => {
+      type: "folder",
+      path: "skills/preferred-stack",
+      summary: "Select language by nearest authority and proximity band"
     }
   }
 end

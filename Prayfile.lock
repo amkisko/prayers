@@ -1,7 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
 generated_by = "pray 1.25.0"
-manifest_hash = "sha256:e4ef13f5871b3327d733fa653b332956555fc1b77e879e800570fdf4421014d6"
+manifest_hash = "sha256:fe4b4457f22d0fdd58214d2d172488e1da19b8601120d21d335215c2ab8d6900"
 source = []
 
 [[package]]
@@ -282,10 +282,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/minimal-implementation"
-version = "1.5.1"
+version = "1.5.2"
 path = "./packages/minimal-implementation"
-tree_hash = "sha256:516044f5204e6c55c3cd4323ae85bed8a1cb950e3a28f704930b152feec8ff8b"
-artifact_hash = "sha256:516044f5204e6c55c3cd4323ae85bed8a1cb950e3a28f704930b152feec8ff8b"
+tree_hash = "sha256:9ba63fc2876282e605fa6662390135ec91bec954834259be4785544e747f7767"
+artifact_hash = "sha256:9ba63fc2876282e605fa6662390135ec91bec954834259be4785544e747f7767"
 artifact = "path:./packages/minimal-implementation"
 exports = ["minimal-implementation"]
 dependencies = []
@@ -315,12 +315,15 @@ dependencies = []
 
 [[package]]
 name = "amkisko/preferred-stack"
-version = "1.6.0"
+version = "1.7.0"
 path = "./packages/preferred-stack"
-tree_hash = "sha256:3cb702d1278d04d48b852f5176fa4aa2d40f5cfa8557cb7aa64bd18af48c58e9"
-artifact_hash = "sha256:3cb702d1278d04d48b852f5176fa4aa2d40f5cfa8557cb7aa64bd18af48c58e9"
+tree_hash = "sha256:735c29130c102331c51f33d346b2f63b9d954c76bff629f819233b321a09f13d"
+artifact_hash = "sha256:735c29130c102331c51f33d346b2f63b9d954c76bff629f819233b321a09f13d"
 artifact = "path:./packages/preferred-stack"
-exports = ["preferred-stack"]
+exports = [
+    "preferred-stack",
+    "skill",
+]
 dependencies = []
 
 [[package]]
@@ -512,10 +515,10 @@ id = "bf7304a6"
 target = "AGENTS.md"
 open_line = 119
 close_line = 158
-ideal_checksum = "sha256:a6ff621045d6298a2ca3fcd62894e82a14299e1115a9dee52f612061a1f96db4"
+ideal_checksum = "sha256:9af74e54435c5585d7fbf183e15d8815804f7672b71c6c417c78db4d555416e3"
 package = "amkisko/minimal-implementation"
 export = "minimal-implementation"
-source_checksum = "sha256:516044f5204e6c55c3cd4323ae85bed8a1cb950e3a28f704930b152feec8ff8b"
+source_checksum = "sha256:9ba63fc2876282e605fa6662390135ec91bec954834259be4785544e747f7767"
 silenced = false
 
 [[managed_span]]
@@ -545,10 +548,10 @@ id = "f528eeca"
 target = "AGENTS.md"
 open_line = 195
 close_line = 213
-ideal_checksum = "sha256:1db972ce90f180d5a6c1dcc94d0373a5cbb7c2e57131e4e328c6d5f057fabd04"
+ideal_checksum = "sha256:7a3381723a71847f4de610c1aecf4d0392a9c1625980d63c21117053636ca52c"
 package = "amkisko/preferred-stack"
 export = "preferred-stack"
-source_checksum = "sha256:3cb702d1278d04d48b852f5176fa4aa2d40f5cfa8557cb7aa64bd18af48c58e9"
+source_checksum = "sha256:735c29130c102331c51f33d346b2f63b9d954c76bff629f819233b321a09f13d"
 silenced = false
 
 [[managed_span]]
@@ -903,6 +906,18 @@ export = "skill"
 path = ".agents/skills/planned-release/references/process-signals.md"
 content_hash = "sha256:57c51299ab2f4ae4a1a422ea96be2bdc79b2c7d28cee8b62a3cfdff74c4bca00"
 package = "amkisko/planned-release"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/preferred-stack/SKILL.md"
+content_hash = "sha256:6b80f11a5626a3b79e7e270c01215f15a40cbf36b132988e908b166e5f39aa36"
+package = "amkisko/preferred-stack"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/preferred-stack/references/proximity-bands.md"
+content_hash = "sha256:281451eb3097a57dc8822132a4bd00e89a40d86f8188c935b6b4bc7e7919e7c0"
+package = "amkisko/preferred-stack"
 export = "skill"
 
 [[provisioned]]
