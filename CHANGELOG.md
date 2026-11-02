@@ -1,6 +1,15 @@
 # CHANGELOG
 
-## Unreleased
+## 1.33.0 (2026-11-02)
+
+- Add `amkisko/api-contract-migration` 1.0.0: preserve per-surface observable behavior while changing a published API contract; separate contract, serving, request, and interface evidence; qualify HTTP cache, caller-selected query, client-cache, security, and benchmark claims; retire old paths after named consumers and rollback windows close.
+- Publish `amkisko/engineering-audit` 2.16.0: separate pre-inference selection from loaded instructions; connect resource comparisons to their owning packages; route published API replacements to `api-contract-migration`; keep migration performance claims in separate comparable planes.
+- Publish `amkisko/dependency-policy` 4.2.0: require comparable before-and-after resource samples when a dependency change alters a resolved graph or runtime pin; preserve the active worktree in isolated checkouts and require authorization before repository or forge writes.
+- Publish `amkisko/delivery-budgets` 1.0.1: connect continuous ship-path budgets to dependency upgrade comparisons, engineering audit, CI review, and publish checks.
+- Publish `amkisko/agent-artifact` 1.3.0: audit pre-inference selection separately from loaded instructions; trace authorization, bounded action, failure, completion, and evidence; benchmark routing separately from execution; keep review-only requests read-only.
+- Publish `amkisko/public-surface-recon` 1.4.0: put use cases and exclusions in the frontmatter selector so routing does not depend on an unloaded skill body.
+- Validate skill names against packaged directory names and required local read references against safe existing paths. Check package metadata with the prayer prose gate. Require Ruby 3.4.0 and Pray 1.26.0 before maintenance commands run.
+- Keep this repository's generated `AGENTS.md` within its 16 KiB pre-inference budget: retain repository-wide working, security, documentation, dependency, prose, review, publish, and collaboration rules; leave task-specific state-machine, branch, release, stack-selection, minimal-implementation, and claim procedures to on-demand skills. Add a failing size gate to tests and release checks.
 
 ## 1.32.0 (2026-10-29)
 

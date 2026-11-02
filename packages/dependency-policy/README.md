@@ -5,8 +5,8 @@ Language- and platform-neutral stop-gate for third-party packages, plus an audit
 Exports:
 
 - `dependency-policy` - AGENTS fragment: terminology, stop-before-add, and ordinary-work security triggers
-- `dependency-audit` skill - selection/alteration rules, target-scoped vulnerability assessments, recon/OSINT, and freshness lag (libyears or equivalent)
+- `dependency-audit` skill - selection/alteration rules, target-scoped vulnerability assessments, recon/OSINT, freshness lag (libyears or equivalent), and isolated base/head upgrade resource compare (CPU, memory, storage, bundle or image size)
 
-Compose and tree this package together. Selection heuristics live in the skill.
+Compose and tree this package together. Selection heuristics and the upgrade resource procedure live in the skill.
 
-Related: `amkisko/dependency-issues` records upstream defects under `docs/dependencies/`; `amkisko/minimal-implementation` covers YAGNI before adding deps.
+Related: `amkisko/dependency-issues` records upstream defects under `docs/dependencies/`; `amkisko/minimal-implementation` covers YAGNI before adding deps; `amkisko/delivery-budgets` owns continuous ship-path size gates.

@@ -134,6 +134,21 @@ class CheckPrayerProseTest < Minitest::Test
     end
   end
 
+  def test_rejects_unicode_punctuation_in_package_metadata
+    Dir.mktmpdir do |directory|
+      package = File.join(directory, "packages", "example")
+      FileUtils.mkdir_p(package)
+      File.write(
+        File.join(package, "example.prayspec"),
+        "spec.summary = \"Agent review — exact effects\"\n"
+      )
+
+      problems = find_prayer_prose_problems(directory)
+      assert_equal 1, problems.length
+      assert_equal "packages/example/example.prayspec", problems.first[:path]
+    end
+  end
+
   def test_ignores_table_and_arrow_inside_code_fence
     Dir.mktmpdir do |root|
       write_package_markdown(root, "packages/example/exports/example.md", <<~MARKDOWN)

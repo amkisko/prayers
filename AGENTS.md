@@ -81,136 +81,11 @@ Related: `engineering-audit` security mode asks whether a parameter establishes 
 - one home per fact; link, do not duplicate; goal and acceptance live apart from operating rules; when a decision changes shape, supersede it in place; name what the product does not do next to what it does;
 <!-- pray:bfe6ff38 -->
 
-<!-- pray:edcc5f67 -->
-## Dependency issues
 
-When work surfaces a clearly visible bug or defect in a dependency (wrong behavior, broken API contract, regression between versions, or a fix already merged upstream but not released), say so in the task output and suggest a concrete fix path: upgrade, pin, patch, vendor, workaround, or upstream report.
 
-Store evidence under `docs/dependencies/#{YYYYMMDDHHMMSS}_<kebab-case-title>.md`; no README index in that tree. Each file should make these findable (use `##` headings or equivalent; omit empty sections): Dependency (name, version constraint, lockfile entry if any), Symptom (what breaks and where), Evidence (repro steps, logs, stack traces, links to issues or commits), Suggested fix (upgrade, pin, patch, workaround, or upstream report), Next (todo, planned, open questions), Source (links upstream: issue, PR, release note, commit, and downstream materializations in this repo). Git history is the edit log.
 
-Do not open drive-by dependency hunts; record only issues encountered while doing the requested work and only when the defect is evident from behavior or published upstream facts, not speculation.
 
-For proactive selection, alteration, and audit rules, use `dependency-policy` and the dependency-audit skill.
-<!-- pray:edcc5f67 -->
 
-<!-- pray:3ac5d6ce -->
-## Dependency policy
-
-Rules for adding, changing, or removing third-party packages. Apply across languages. Names vary by ecosystem; concepts do not.
-
-Terminology:
-
-- package manifest - declares intent (`gemspec`, `package.json`, `Cargo.toml`, `mix.exs`, etc.)
-- lockfile - pins the resolved graph CI and developers install
-- registry - published versions consumers resolve (`RubyGems`, `npm`, `crates.io`, `Hex`, etc.)
-- hot path - code on the security, auth, crypto, IO, or request/response boundary users rely on
-
-Stop until one of these applies before adding a dependency:
-
-- stdlib or the framework for this tree already covers it;
-- an installed transitive dependency already covers it without a second library for the same job;
-- the feature needs a new package and tests will prove behavior.
-
-Run dependency-audit for direct dependency changes, graph audits, releases with hot-path package changes, and plausible dependency vulnerability or exploitation signals found during ordinary work. Keep the evidence and assessment in the live-work or dependency record.
-
-Related: `dependency-issues` records upstream defects found during real work; `minimal-implementation` covers YAGNI before adding deps; `engineering-audit` covers code and pipeline review.
-<!-- pray:3ac5d6ce -->
-
-<!-- pray:bf7304a6 -->
-## Minimal implementation
-
-Efficient means the smallest correct change.
-
-Before writing code, stop at each step until one applies:
-- does the feature need to exist at all (YAGNI)?
-- does the language stdlib or framework for this tree already cover it?
-- does an existing implementation or dependency already solve it?
-- can the change be one line; if so, make it one line?
-- only then write the minimum code that works.
-
-Before generating the main implementation of an unproven method, require a small runnable check that records a feasibility number or a failure verdict.
-
-Before adding a new library directory or first-party package, stop until one applies:
-- one product owns the contract and is the only caller: keep source in that tree;
-- a second in-repo caller, or no product runtime: unpublished in-repo package (own manifest, own tests, path-linked, 0.x, registry publish blocked);
-- a second repository or registry consumer: extract, publish, then follow dependency-policy.
-
-Rules:
-- match the language of the directory you are changing (see Preferred stack and tools above);
-- match the tree's structural height; a consistent absence of a layer is a convention; do not introduce a second pattern for the same job;
-- no abstractions unless three real variations need them; drop unused public methods;
-- no new dependency when stdlib, the framework for this tree, or an installed dependency suffices;
-- no boilerplate the task did not ask for;
-- deletion over addition; boring over clever; fewest files that stay readable;
-- when a request sounds overbuilt, ask whether a simpler existing path already covers it;
-- when two stdlib approaches are the same size, pick the edge-case-correct one; less code is not an excuse for a flimsier algorithm;
-- document deliberate shortcuts with an intent comment: name the known ceiling (global lock, O(n^2) scan, naive heuristic) and the upgrade path when that ceiling matters.
-
-Not optional even when minimizing scope:
-- input validation at trust boundaries;
-- error handling that prevents data loss;
-- security and accessibility;
-- calibration against real hardware and production drift when the platform ideal is not the spec;
-- anything explicitly requested in the task or ticket;
-- tests for non-trivial behavior per @spec/README.md; trivial one-liners need no new spec.
-
-Related: `preferred-stack` covers native-first language choice and proximity when no tree language owns the path yet; `keep-the-work` covers the failed place after a refusal; `dependency-policy` covers third-party registry packages; `infer-conventions` encodes how this tree writes as checks.
-<!-- pray:bf7304a6 -->
-
-<!-- pray:120c3507 -->
-## Finite state machines
-
-- model lifecycles with explicit finite state machines when status, allowed transitions, and side effects matter; prefer named states and guarded transitions over scattered conditionals and implicit enums alone; when who and when matter, model the event as a record, not a boolean flag;
-- finite state machines can compactly represent ordered sets or maps of strings supporting fast prefix, suffix, and fuzzy search; consider tries and automata when matching catalogs, codes, routes, or searchable vocabularies at scale;
-- when digital reported state and physical process state can diverge, name both machines and the observation that couples them; occupancy listing is not the lock; a reported identity is not the person or sample at the station;
-- a later artifact does not prove an earlier gate; a cache generation is not the durable commit; a lease is not ownership of the object; bound generated plans and refine after each completed step.
-
-Related: `engineering-audit` boundary mode asks when those states disagree without an alarm; `io-simulation` injects the faults that cause the split.
-<!-- pray:120c3507 -->
-
-<!-- pray:26f3566a -->
-## Branch naming
-
-Use kebab-case after the prefix.
-
-Prefixes:
-
-- `feature/<title>` - new capability
-- `patch/<title>` - bugfix or chore
-- `trunk/<title>` - release candidate or integration work before `main`
-- `plan/<title>` - exploration or ideation
-
-Examples:
-
-- `feature/user-access-control`
-- `patch/fix-translation`
-- `trunk/2026w15`
-- `trunk/2026-august-pack`
-- `plan/auth-redesign-notes`
-- `plan/2026-q2-roadmap`
-
-Related: `planned-release` names commitment, collection period, period label, and prepare/deliver events; its skill owns defaults, binding, and process signals. The `trunk/<title>` prefix names a candidate branch. The stable line is a separate role.
-<!-- pray:26f3566a -->
-
-<!-- pray:f528eeca -->
-## Preferred stack and tools
-
-- native-first means: name the nearest semantic authority for the job (CPU and OS ABI, browser host, language runtime, database engine, GPU pipeline, build or cluster orchestrator, game or media engine, and similar), then prefer a language whose ordinary execution form lives there
-- a portable sandbox, managed VM guest, or engine guest is not OS-native when the job is that host's contract
-- match the language of the directory you are changing; follow the matching language pack when the project composes one
-- when starting a new tree or an independent package with no owning language yet, choose by nearest authority and proximity band; ask only when two candidates sit in the same band and the choice changes the outcome; record language, authority, band, and why not a closer option
-- house shortcuts when proximity and team practice agree: ruby for web application and API work; elixir for concurrent and distributed systems on the BEAM; rust for system programming and performance-critical native code; javascript, html, css for the browser document and style surface
-- humane and accessible visual-surface principles for UI/UX, and for clear communication of intent and feedback; label icon-only controls; hide decorative duplicates from the accessibility tree
-- when the change presents a screen, document, or other person-facing surface, name that surface in the work product (reply, pull request, live-work note) and record a visual assessment: hierarchy, copy, interactive states, empty/loading/error, a narrow surface, and whether a person can finish the task; record what was assessed and what remains for a human; skip and say so when there is no such surface
-- pictures, previews, tickets, and chat threads are source locators for that signal; the assessment is the running product plus the written need
-- product-contract and architecture work stay distinct from this visual-surface assessment
-- person-facing dates and times follow the product locale form; native HTML date and datetime-local follow the browser locale and are not that form; machine APIs, data attributes, filenames, and CSV machine columns stay ISO unless the product already published another contract
-- a catalog picker for growing association lists is a combobox that queries the product's live list API as the person types; each request takes a bounded page; further rows load on type or on scroll; a datalist or a select of every row is not that control
-- catalog assignment starts empty when a default first row would apply a change
-- a command that writes a record must look like a command
-
-Related: the `preferred-stack` skill owns proximity bands and the selection procedure; `minimal-implementation` keeps scope small and repeats the tree-language match; language packs (`ruby-conventions`, `rust-conventions`, `elixir-conventions`, `kotlin-conventions`) own how to write after the choice; `keep-the-work` covers staying on the failed place after a refusal.
-<!-- pray:f528eeca -->
 
 <!-- pray:ca94e22d -->
 ## Writing and changelog prose checks
@@ -231,19 +106,6 @@ Review for marketing language, invented objections, empty contrasts, stray em da
 Related: `security` forbids secrets in issues and owns the session notice when confidential material hits inference.
 <!-- pray:ca94e22d -->
 
-<!-- pray:d893ab3d -->
-## Claims and testimony
-
-Treat checkable facts, quotations, dates, quantities, and causal statements as claims. Treat author memory and clearly framed interpretation as testimony.
-
-- Inventing scenes, sources, numbers, or quotations is out of scope.
-- A link or citation in the text is not verification. The cited passage must support the claim's scope, date, population, and causal strength.
-- If a material external claim cannot be checked in this run, mark it unverifiable rather than rounding it to certainty.
-- Keep statement, domain, and quantifiers on a formal claim. Freeze quantities from the producing artifact. A later file does not prove an earlier check.
-- Run the claims-audit skill when asked to verify, fact-check, or research checkable claims, or when prose under edit states material external facts, quotations, dates, or research summaries.
-
-Related: `writing-prose` covers voice and quality constructs; `engineering-audit` covers code and pipeline behavior; `derivation-audit` covers symbolic derivation when a consumer asks for that job.
-<!-- pray:d893ab3d -->
 
 <!-- pray:08c294fb -->
 ## Likely rejected changes
@@ -277,17 +139,28 @@ Related: `writing-prose` covers voice and quality constructs; `engineering-audit
 - follow docs-conventions for `docs/` and `usr/`; when encoding how this tree writes, use infer-conventions.
 <!-- pray:48e8a6b3 -->
 
-<!-- pray:5523d080 -->
-## Planned release
 
-A planned release is the team's agreement to ship a named collection of work together. Compose this fragment only when the project collects that work under a shared period label and a forge milestone.
+<!-- pray:3ac5d6ce -->
+## Dependency policy
 
-- Commitment: one release id names one intended payload; membership stays explicit and queryable on the milestone.
-- Collection period: work changes are assigned into that milestone from open until prepare (cut), or until close when there is no cut.
-- Period label: default release id is `YYYYwNN` (ISO week-year, lowercase `w`, ISO week). A two-week sprint uses the last ISO week of the sprint as the milestone title.
-- Calendar event: the binding names the agreed prepare (cut) and deliver (publish) moments; they stay distinct observations unless the binding makes them the same event.
+Rules for adding, changing, or removing third-party packages. Apply across languages. Names vary by ecosystem; concepts do not.
 
-The `planned-release` skill owns defaults, vocabulary, invariants, binding, lifecycle, and process signals.
+Terminology:
 
-Related: `branch-naming` owns branch prefixes; `finite-state-machines` owns lifecycle modeling; `changelog-update` and `writing-prose` own release notes voice; `delivery-budgets` owns ship-path size and timing gates; `publish-checks` owns review hygiene before publish; `collaboration-workflow` owns where durable process notes live; `engineering-audit` reviews process integrity when auditing a release path.
-<!-- pray:5523d080 -->
+- package manifest - declares intent (`gemspec`, `package.json`, `Cargo.toml`, `mix.exs`, etc.)
+- lockfile - pins the resolved graph CI and developers install
+- registry - published versions consumers resolve (`RubyGems`, `npm`, `crates.io`, `Hex`, etc.)
+- hot path - code on the security, auth, crypto, IO, or request/response boundary users rely on
+
+Stop until one of these applies before adding a dependency:
+
+- stdlib or the framework for this tree already covers it;
+- an installed transitive dependency already covers it without a second library for the same job;
+- the feature needs a new package and tests will prove behavior.
+
+Run dependency-audit for direct dependency changes, graph audits, releases with hot-path package changes, and plausible dependency vulnerability or exploitation signals found during ordinary work. Keep the evidence and assessment in the live-work or dependency record.
+
+On resolved lockfile graph or runtime-pin upgrades (automated or human), gather before/after resource samples for install or graph storage, resident memory, CPU or a stated proxy, and shipped bundle or image size when the product ships bytes. The reviewing agent uses isolated checkouts and the same small consumer-owned measurement commands for both revisions. It reports the comparison and writes to a change request only when authorized. Cheaper or smaller without comparable samples is inference. Continuous absolute ship-path ceilings stay in `delivery-budgets`.
+
+Related: `dependency-issues` records upstream defects found during real work; `minimal-implementation` covers YAGNI before adding deps; `engineering-audit` covers code and pipeline review; `delivery-budgets` owns continuous size and build-timing gates.
+<!-- pray:3ac5d6ce -->

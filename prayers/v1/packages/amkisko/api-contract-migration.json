@@ -1,0 +1,64 @@
+{
+  "name": "amkisko/api-contract-migration",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/api-contract-migration/1.0.0/amkisko-api-contract-migration-1.0.0.praypkg",
+      "artifact_hash": "sha256:8077d99dd6d735a532898350aa2ccc6640832ed12d2d1cd31234331a03700163",
+      "tree_hash": "sha256:d422cd6657bd88282d472435af1d83fd8c3a6b8eb534627e6b2e15a703382dfb",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1793613539,
+      "signature": "sha256:985c0e3880a130003c1bb273eba68b2ee414dc7beab13d763cd39d5986c407e6",
+      "derived_metadata": {
+        "summary": "Evidence-led API contract migration and separated performance planes - Migrate an API contract with equivalence, bounded rollout, and comparable measurements",
+        "topics": [
+          "evidence",
+          "contract",
+          "migration",
+          "separated",
+          "performance"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              40,
+              26,
+              32,
+              22,
+              35,
+              28,
+              29,
+              28,
+              33,
+              46,
+              33,
+              27,
+              43,
+              24,
+              38,
+              28
+            ]
+          }
+        ],
+        "file_count": 4,
+        "character_count": 13418,
+        "token_count": 512
+      }
+    }
+  ]
+}

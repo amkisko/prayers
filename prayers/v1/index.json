@@ -4,6 +4,7 @@
     "amkisko/agent-artifact",
     "amkisko/agent-discovery",
     "amkisko/agent-run-supervision",
+    "amkisko/api-contract-migration",
     "amkisko/background-jobs",
     "amkisko/branch-naming",
     "amkisko/change-review",

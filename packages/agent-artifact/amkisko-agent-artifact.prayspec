@@ -1,7 +1,7 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/agent-artifact"
-  spec.version = "1.2.2"
-  spec.summary = "Review skill files, prompt templates, MCP configs, and tool schemas"
+  spec.version = "1.3.0"
+  spec.summary = "Review selection and exact effects of skills, prompts, MCP configs, and tool schemas"
   spec.files = [
     "README.md",
     "skills/agent-artifact/SKILL.md"
@@ -13,4 +13,10 @@ Package::Specification.new do |spec|
       summary: "Agent-artifact review skill"
     }
   }
+  spec.related = [
+    "amkisko/agent-discovery",
+    "amkisko/agent-run-supervision",
+    "amkisko/engineering-audit",
+    "amkisko/security"
+  ]
 end

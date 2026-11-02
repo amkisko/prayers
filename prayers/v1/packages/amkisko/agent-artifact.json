@@ -295,6 +295,65 @@
         "character_count": 4174,
         "token_count": 450
       }
+    },
+    {
+      "version": "1.3.0",
+      "artifact": "v1/artifacts/amkisko/agent-artifact/1.3.0/amkisko-agent-artifact-1.3.0.praypkg",
+      "artifact_hash": "sha256:3285c743bb76cb5e7dd7730d0c0f3c09a7432a12bdfa2129372998160503c301",
+      "tree_hash": "sha256:c74ad7be0336306617d714871b44c05d7a56f892e43f9d789c52481fa969f1ac",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1793613539,
+      "signature": "sha256:db8aec41447274471e0ab0384d5931e4cf840f3dc222a1e17d2d7b0d6bc4fe4a",
+      "derived_metadata": {
+        "summary": "Review selection and exact effects of skills, prompts, MCP configs, and tool schemas - Agent-artifact review skill",
+        "topics": [
+          "review",
+          "selection",
+          "exact",
+          "effects",
+          "skills"
+        ],
+        "categories": [
+          "automation"
+        ],
+        "possible_effects": [
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              40,
+              26,
+              25,
+              29,
+              30,
+              41,
+              19,
+              34,
+              30,
+              33,
+              30,
+              27,
+              59,
+              23,
+              20,
+              46
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 6979,
+        "token_count": 512
+      }
     }
   ]
 }

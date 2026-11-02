@@ -1,9 +1,10 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Fail governed prose that uses non-mandatory styling or inaccessible Unicode
-# punctuation. Package README.md files are skipped. Code fences and YAML
-# frontmatter are ignored. See writing-prose and .agents/project.md.
+# Fail governed prose and package metadata that use non-mandatory styling or
+# inaccessible Unicode punctuation. Package README.md files are skipped. Code
+# fences and YAML frontmatter are ignored. See writing-prose and
+# .agents/project.md.
 
 require "pathname"
 
@@ -71,6 +72,7 @@ end
 
 def governed_prose_paths(repo_root)
   paths = package_markdown_paths(File.join(repo_root, "packages"))
+  paths.concat(Dir.glob(File.join(repo_root, "packages", "*", "*.prayspec")))
   paths.concat(
     TIMESTAMP_DOC_TREES.flat_map do |tree|
       Dir.glob(File.join(repo_root, "docs", tree, "**", "*.md"))

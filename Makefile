@@ -1,6 +1,9 @@
-.PHONY: help check-pray check-artifacts check-prayer-prose catalog-topics validate-skills test install plan apply verify drift update publish serve package clean release
+.PHONY: help check-ruby check-pray check-agent-context check-artifacts check-prayer-prose catalog-topics validate-skills test install plan apply verify drift update publish serve package clean release
 
 PRAY ?= pray
+PRAY_MIN_VERSION := 1.26.0
+RUBY ?= ruby
+RUBY_MIN_VERSION := 3.4.0
 DIST_ROOT := ./prayers
 SERVE_HOST ?= 127.0.0.1
 SERVE_PORT ?= 7429
@@ -16,6 +19,7 @@ help:
 	@echo "  make plan             preview AGENTS.md render"
 	@echo "  make apply            render managed files"
 	@echo "  make verify           checksum and marker checks"
+	@echo "  make check-agent-context  fail when AGENTS.md exceeds 16 KiB"
 	@echo "  make check-artifacts  catalog .praypkg files exist and are git-tracked"
 	@echo "  make catalog-topics   rewrite derived_metadata.topics from package summaries"
 	@echo "  make validate-skills  package SKILL.md frontmatter via Ruby YAML"
@@ -30,12 +34,23 @@ help:
 	@echo "  make clean            remove root *.praypkg scratch from package builds"
 	@echo ""
 	@echo "Variables:"
-	@echo "  PRAY=$(PRAY)  DIST_ROOT=$(DIST_ROOT)  SERVE_HOST=$(SERVE_HOST)  SERVE_PORT=$(SERVE_PORT)"
+	@echo "  PRAY=$(PRAY) (>= $(PRAY_MIN_VERSION))  RUBY=$(RUBY) (>= $(RUBY_MIN_VERSION))"
+	@echo "  DIST_ROOT=$(DIST_ROOT)  SERVE_HOST=$(SERVE_HOST)  SERVE_PORT=$(SERVE_PORT)"
 
-check-pray:
+check-ruby:
+	@$(RUBY) usr/scripts/check_tool_version.rb Ruby $(RUBY_MIN_VERSION) $(RUBY) --version || { \
+		echo "use Ruby $(RUBY_MIN_VERSION) or newer, or set RUBY=/path/to/ruby"; \
+		exit 1; \
+	}
+
+check-pray: check-ruby
 	@command -v $(PRAY) >/dev/null 2>&1 || { \
 		echo "pray not found; install with:"; \
 		echo "  cargo install --git https://github.com/kiskolabs/pray --locked pray"; \
+		exit 1; \
+	}
+	@$(RUBY) usr/scripts/check_tool_version.rb Pray $(PRAY_MIN_VERSION) $(PRAY) --version || { \
+		echo "install the current Rust CLI or set PRAY=/path/to/pray"; \
 		exit 1; \
 	}
 
@@ -51,25 +66,31 @@ apply: check-pray
 verify: check-pray
 	$(PRAY) verify
 
-check-artifacts:
-	ruby usr/scripts/check_artifacts.rb $(DIST_ROOT)
+check-artifacts: check-ruby
+	$(RUBY) usr/scripts/check_artifacts.rb $(DIST_ROOT)
 
-catalog-topics:
-	ruby usr/scripts/catalog_topics.rb $(DIST_ROOT)
+check-agent-context: check-ruby
+	$(RUBY) usr/scripts/check_agent_context.rb AGENTS.md
 
-validate-skills:
-	ruby usr/scripts/validate_skill.rb
+catalog-topics: check-ruby
+	$(RUBY) usr/scripts/catalog_topics.rb $(DIST_ROOT)
 
-check-prayer-prose:
-	ruby usr/scripts/check_prayer_prose.rb .
+validate-skills: check-ruby
+	$(RUBY) usr/scripts/validate_skill.rb
 
-test:
-	ruby usr/scripts/validate_skill_test.rb
-	ruby usr/scripts/check_artifacts_test.rb
-	ruby usr/scripts/catalog_topics_test.rb
-	ruby usr/scripts/check_prayer_prose_test.rb
-	ruby usr/scripts/check_prayer_prose.rb .
-	ruby usr/scripts/security_audit_run_test.rb
+check-prayer-prose: check-ruby
+	$(RUBY) usr/scripts/check_prayer_prose.rb .
+
+test: check-ruby
+	$(RUBY) usr/scripts/check_tool_version_test.rb
+	$(RUBY) usr/scripts/check_agent_context_test.rb
+	$(RUBY) usr/scripts/validate_skill_test.rb
+	$(RUBY) usr/scripts/check_artifacts_test.rb
+	$(RUBY) usr/scripts/catalog_topics_test.rb
+	$(RUBY) usr/scripts/check_prayer_prose_test.rb
+	$(RUBY) usr/scripts/check_prayer_prose.rb .
+	$(RUBY) usr/scripts/check_agent_context.rb AGENTS.md
+	$(RUBY) usr/scripts/security_audit_run_test.rb
 
 drift: check-pray
 	$(PRAY) drift
@@ -95,4 +116,4 @@ clean:
 	@find . -maxdepth 1 -name '*.praypkg' -delete 2>/dev/null || true
 	@echo "removed root *.praypkg scratch files"
 
-release: validate-skills check-prayer-prose publish plan apply verify check-artifacts
+release: validate-skills check-prayer-prose publish plan apply verify check-agent-context check-artifacts

@@ -8,6 +8,17 @@ NAME_PATTERN = /\A[a-z0-9]+(?:-[a-z0-9]+)*\z/
 MAXIMUM_NAME_LENGTH = 64
 MAXIMUM_DESCRIPTION_LENGTH = 1024
 
+def local_read_paths(content)
+  content.scan(/\bRead `([^`]+\.md)`/).flatten.select do |path|
+    !path.include?("/") || path.start_with?("references/")
+  end
+end
+
+def safe_local_read_path?(path)
+  !path.start_with?("/") && !path.include?("\\") &&
+    path.split("/").none? { |part| part.empty? || part == "." || part == ".." }
+end
+
 def package_skill_directories(repository_root)
   pattern = File.join(repository_root, "packages", "*", "skills", "*", "SKILL.md")
   Dir.glob(pattern).map { |path| File.dirname(path) }.sort
@@ -57,6 +68,9 @@ def validate_skill(skill_directory)
   unless NAME_PATTERN.match?(name)
     return [false, "Name #{name.inspect} must be lowercase letters, numbers, and hyphens"]
   end
+  if File.basename(File.dirname(skill_directory)) == "skills" && File.basename(skill_directory) != name
+    return [false, "Name #{name.inspect} must match skill directory #{File.basename(skill_directory).inspect}"]
+  end
 
   description = frontmatter["description"]
   unless description.is_a?(String)
@@ -71,6 +85,16 @@ def validate_skill(skill_directory)
       false,
       "Description is #{description.length} characters (max #{MAXIMUM_DESCRIPTION_LENGTH})"
     ]
+  end
+  read_paths = local_read_paths(content)
+  read_paths.each do |path|
+    return [false, "Read instruction path must be safe relative: #{path}"] unless safe_local_read_path?(path)
+  end
+  missing_reference = read_paths.find do |path|
+    !File.file?(File.join(skill_directory, path))
+  end
+  if missing_reference
+    return [false, "Read instruction references missing local file #{missing_reference}"]
   end
 
   [true, "#{File.basename(skill_directory)} is valid"]

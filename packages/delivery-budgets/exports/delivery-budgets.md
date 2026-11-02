@@ -14,4 +14,4 @@ Every product that ships a byte-bearing artifact keeps a named size budget and a
 
 Skip only for trees that never become shipped bytes (pure specification or prose), and state that reason.
 
-Related: `engineering-audit` resource and budget mode audits utilization during a review; this fragment requires continuous CI budgets on the ship path. `ci-review` studies run health after the fact. `publish-checks` covers review hygiene, not byte ceilings.
+Related: `engineering-audit` resource and budget mode audits utilization during a review; this fragment requires continuous CI budgets on the ship path. `dependency-policy` upgrade resource compare produces before/after deltas on dependency upgrades and may cite the same artifact series. `ci-review` studies run health after the fact. `publish-checks` covers review hygiene, not byte ceilings.

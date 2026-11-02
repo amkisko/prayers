@@ -1,6 +1,12 @@
 ---
 name: public-surface-recon
-description: Blackbox public web recon - HTTP, archives, public repos only. Never local filesystem evidence.
+description: >-
+  Investigate an authorized live site's public assets, origins, archives,
+  source repositories, agent discovery, operators, or local-replication
+  feasibility through blackbox HTTP and public remote indexes. Use when asked
+  what a public site exposes, whether it can be mirrored, or who built it. Do
+  not use local filesystem evidence, private access, credential attacks, or
+  block bypass. Do not use for source review of a local repository.
 ---
 
 # Public surface reconnaissance

@@ -1159,6 +1159,67 @@
       "signer": "local",
       "published_at": 1792651923,
       "signature": "sha256:ce3f5832db48d5dec776a794ef35175ec71a083e256413db6f3066e5488dd350"
+    },
+    {
+      "version": "2.16.0",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.16.0/amkisko-engineering-audit-2.16.0.praypkg",
+      "artifact_hash": "sha256:e5be24f6f7f99b7dc0ff13d24d674fc70aeb9bedb1854bd5b6f0428053c55e73",
+      "tree_hash": "sha256:e682e8e521258e5c30233932004813aa01958ac86237a45e75ade8ff45a6de1c",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1793613539,
+      "signature": "sha256:f3734aac20f000d7551e1837110b580c325d0bfc305e999c0611a163ed78d74f",
+      "derived_metadata": {
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "topics": [
+          "language",
+          "agnostic",
+          "pipeline",
+          "engineering",
+          "audit"
+        ],
+        "categories": [
+          "automation",
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior",
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              31,
+              20,
+              30,
+              40,
+              24,
+              33,
+              43,
+              34,
+              35,
+              31,
+              32,
+              31,
+              37,
+              36,
+              33,
+              22
+            ]
+          }
+        ],
+        "file_count": 22,
+        "character_count": 63609,
+        "token_count": 512
+      }
     }
   ]
 }

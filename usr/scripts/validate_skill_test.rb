@@ -173,6 +173,74 @@ class ValidateSkillTest < Minitest::Test
     end
   end
 
+  def test_rejects_name_that_differs_from_package_skill_directory
+    Dir.mktmpdir do |directory|
+      skill_directory = File.join(directory, "skills", "expected-name")
+      FileUtils.mkdir_p(skill_directory)
+      write_skill(skill_directory, <<~MARKDOWN)
+        ---
+        name: different-name
+        description: Use when testing a packaged skill name.
+        ---
+
+        # Example
+      MARKDOWN
+      assert_invalid(skill_directory, "directory")
+    end
+  end
+
+  def test_rejects_missing_local_file_named_by_read_instruction
+    Dir.mktmpdir do |directory|
+      write_skill(directory, <<~MARKDOWN)
+        ---
+        name: example-skill
+        description: Use when testing a local reference.
+        ---
+
+        # Example
+
+        Read `references/procedure.md` before work.
+      MARKDOWN
+      assert_invalid(directory, "procedure.md")
+    end
+  end
+
+  def test_accepts_existing_local_file_named_by_read_instruction
+    Dir.mktmpdir do |directory|
+      FileUtils.mkdir_p(File.join(directory, "references"))
+      File.write(File.join(directory, "references", "procedure.md"), "# Procedure\n")
+      write_skill(directory, <<~MARKDOWN)
+        ---
+        name: example-skill
+        description: Use when testing a local reference.
+        ---
+
+        # Example
+
+        Read `references/procedure.md` before work.
+      MARKDOWN
+      assert_valid(directory)
+    end
+  end
+
+  def test_rejects_local_read_instruction_that_escapes_skill_directory
+    Dir.mktmpdir do |directory|
+      FileUtils.mkdir_p(File.join(directory, "references"))
+      File.write(File.join(directory, "outside.md"), "# Outside\n")
+      write_skill(directory, <<~MARKDOWN)
+        ---
+        name: example-skill
+        description: Use when testing a local reference.
+        ---
+
+        # Example
+
+        Read `references/../outside.md` before work.
+      MARKDOWN
+      assert_invalid(directory, "safe relative")
+    end
+  end
+
   def test_package_skills_are_valid
     package_skill_directories(repository_root).each do |directory|
       assert_valid(directory)

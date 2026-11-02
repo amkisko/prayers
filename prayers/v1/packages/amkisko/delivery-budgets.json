@@ -56,6 +56,62 @@
         "character_count": 2395,
         "token_count": 280
       }
+    },
+    {
+      "version": "1.0.1",
+      "artifact": "v1/artifacts/amkisko/delivery-budgets/1.0.1/amkisko-delivery-budgets-1.0.1.praypkg",
+      "artifact_hash": "sha256:fce9e8566de3e2683edc08b968a40ebee271d6a28da6badd1024b5b1b3c2a844",
+      "tree_hash": "sha256:ea89e051e5b9f8ddc64d59b630d3f086affda0d187769eef1c315a881e57d4c5",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "delivery-budgets"
+      ],
+      "signer": "amkisko",
+      "published_at": 1793613539,
+      "signature": "sha256:8cba784b6c5460ae5999a74e50208d2fcaf5ad7462990e81e76ee6f34912429b",
+      "derived_metadata": {
+        "summary": "CI size and build-timing budgets for shipped artifacts - Named size and timing budgets with when/where samples",
+        "topics": [
+          "size",
+          "build",
+          "timing",
+          "budgets",
+          "shipped"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              19,
+              10,
+              22,
+              7,
+              19,
+              21,
+              21,
+              21,
+              17,
+              33,
+              12,
+              12,
+              31,
+              16,
+              28,
+              15
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 2611,
+        "token_count": 304
+      }
     }
   ]
 }

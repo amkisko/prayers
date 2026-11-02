@@ -12,6 +12,8 @@ The reference CLI lives in [kiskolabs/pray](https://github.com/kiskolabs/pray).
 cargo install --git https://github.com/kiskolabs/pray --locked pray
 ```
 
+Repository maintenance commands require Ruby 3.4.0 or newer and Pray 1.26.0 or newer. The Makefile checks both before running. When more than one installation is on `PATH`, pass explicit paths with `RUBY=/path/to/ruby` and `PRAY=/path/to/pray`.
+
 ## Use shared prayers in a project
 
 From your project root:
@@ -55,7 +57,7 @@ compose "AGENTS.md" do
   pray "amkisko/security", "~> 1.5"
   pray "amkisko/docs-conventions", "~> 3.1"
   pray "amkisko/dependency-issues", "~> 3.0"
-  pray "amkisko/dependency-policy", "~> 4.0"
+  pray "amkisko/dependency-policy", "~> 4.2"
   pray "amkisko/ruby-conventions", "~> 1.3"
   pray "amkisko/minimal-implementation", "~> 1.5"
   pray "amkisko/finite-state-machines", "~> 1.3"
@@ -80,17 +82,18 @@ tree ".agents/skills" do
   pray "amkisko/durable-cache", "~> 2.0"
   pray "amkisko/preferred-stack", "~> 1.7"
   pray "amkisko/planned-release", "~> 1.2"
-  pray "amkisko/engineering-audit", "~> 2.14"
+  pray "amkisko/engineering-audit", "~> 2.16"
+  pray "amkisko/api-contract-migration", "~> 1.0"
   pray "amkisko/operational-signal-intake", "~> 1.0"
   pray "amkisko/changelog-update", "~> 3.0"
   pray "amkisko/claims-audit", "~> 1.1"
   pray "amkisko/rfc-process", "~> 1.2"
-  pray "amkisko/public-surface-recon", "~> 1.3"
+  pray "amkisko/public-surface-recon", "~> 1.4"
   pray "amkisko/infer-conventions", "~> 1.0"
   pray "amkisko/session-review", "~> 1.2"
   pray "amkisko/ci-review", "~> 1.1"
   pray "amkisko/change-review", "~> 1.0"
-  pray "amkisko/agent-artifact", "~> 1.2"
+  pray "amkisko/agent-artifact", "~> 1.3"
   pray "amkisko/agent-discovery", "~> 1.0"
   pray "amkisko/derivation-audit", "~> 1.0"
   pray "amkisko/agent-run-supervision", "~> 1.2"
@@ -105,7 +108,7 @@ pray "amkisko/community-contributing", "~> 1.1", file: "CONTRIBUTING.md"
 
 Swap `ruby-conventions` for `rust-conventions`, `elixir-conventions`, or `kotlin-conventions` on those language trees. Compose one language pack, not all four. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Products with background workers compose `background-jobs`. Products that ship byte-bearing artifacts compose `delivery-budgets`. Products with a cache or rebuildable derived serving state compose and tree `durable-cache`. Trees without those product surfaces may omit the corresponding packages.
 
-Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` and `durable-cache` whenever you compose them: their decision procedures live in the skills. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md. Tree `session-review` when reviewing agent sessions; do not compose it into AGENTS.md. Tree `ci-review` when reviewing CI run health; do not compose it into AGENTS.md. Tree `change-review` when reviewing a git diff; do not compose it into AGENTS.md. Tree `agent-artifact` when reviewing skill files or MCP configs; do not compose it into AGENTS.md. Tree `agent-discovery` when deciding what a product should publish for agent HTTP discovery; do not compose it into AGENTS.md. Tree `derivation-audit` when reviewing a formal derivation; do not compose it into AGENTS.md. Tree `agent-run-supervision` when supervising a live tool-calling run; do not compose it into AGENTS.md. Tree `security-audit` beside `engineering-audit` for full repository security audits; do not compose it into AGENTS.md.
+Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `dependency-policy` and `durable-cache` whenever you compose them: their decision procedures live in the skills. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `api-contract-migration` when changing an existing published API request and response contract; do not compose it into AGENTS.md. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md. Tree `session-review` when reviewing agent sessions; do not compose it into AGENTS.md. Tree `ci-review` when reviewing CI run health; do not compose it into AGENTS.md. Tree `change-review` when reviewing a git diff; do not compose it into AGENTS.md. Tree `agent-artifact` when reviewing skill files or MCP configs; do not compose it into AGENTS.md. Tree `agent-discovery` when deciding what a product should publish for agent HTTP discovery; do not compose it into AGENTS.md. Tree `derivation-audit` when reviewing a formal derivation; do not compose it into AGENTS.md. Tree `agent-run-supervision` when supervising a live tool-calling run; do not compose it into AGENTS.md. Tree `security-audit` beside `engineering-audit` for full repository security audits; do not compose it into AGENTS.md.
 
 ## Compose budget
 
@@ -169,6 +172,7 @@ make check-artifacts
 | `amkisko/collaboration-workflow` | fragment | Durable context, discovered improvements, and agent traces |
 | `amkisko/getting-started` | fragment | How to install pray and wire a consumer |
 | `amkisko/engineering-audit` | skill | Language-agnostic pipeline audit with skippable product modes |
+| `amkisko/api-contract-migration` | skill | Evidence-led API contract migration with separated measurement planes |
 | `amkisko/operational-signal-intake` | skill | Provider-neutral intake for live service, reliability, security, and user-impact evidence |
 | `amkisko/changelog-update` | skill | Changelog layering and house style |
 | `amkisko/public-surface-recon` | skill | Blackbox public web recon: HTTP, archives, public repos only |

@@ -1,0 +1,25 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/api-contract-migration"
+  spec.version = "1.0.0"
+  spec.summary = "Evidence-led API contract migration and separated performance planes"
+  spec.files = [
+    "README.md",
+    "skills/api-contract-migration/SKILL.md",
+    "skills/api-contract-migration/references/client-query-cache.md",
+    "skills/api-contract-migration/references/flexible-query-endpoint.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/api-contract-migration",
+      summary: "Migrate an API contract with equivalence, bounded rollout, and comparable measurements"
+    }
+  }
+  spec.related = [
+    "amkisko/claims-audit",
+    "amkisko/dependency-policy",
+    "amkisko/durable-cache",
+    "amkisko/engineering-audit",
+    "amkisko/minimal-implementation"
+  ]
+end
