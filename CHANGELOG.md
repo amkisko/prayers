@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.34.0 (2026-11-03)
+
 - Publish `amkisko/ruby-conventions` 1.4.1: ban `example.com` / `.org` / `.net` in fixtures, docs hosts, and fake email; local app hosts use `*.rails.fi`; fictional remotes and non-local fake mail use `<title>.<hash>` (for example `demo.7c3e9a1b`).
 - Publish `amkisko/public-surface-recon` 1.4.1: replace illustration hosts with `*.demo.7c3e9a1b` (`<title>.<hash>`), not `example.com`.
 - README consumer example emails use `@rails.fi`; ruby-conventions constraint `~> 1.4`.

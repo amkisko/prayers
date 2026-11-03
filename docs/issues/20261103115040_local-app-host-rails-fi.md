@@ -20,7 +20,7 @@ Source packages: `amkisko/ruby-conventions` 1.4.1, `amkisko/public-surface-recon
 
 - Consumers bump `amkisko/ruby-conventions` to `~> 1.4` and `amkisko/public-surface-recon` to `~> 1.4`, then `pray install`.
 - Product apps: replace local fixture hosts that use `example.com` with `*.rails.fi`; drop `example.com` from local `config.hosts`; use `<title>.<hash>` for fictional remotes and external mocks.
-- Cut a product release that includes Unreleased when ready.
+- Commit and merge `trunk/1.34.0` (CHANGELOG cut), then deliver `v1.34.0` tag and GitHub release.
 
 ## Source
 
