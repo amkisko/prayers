@@ -16,11 +16,10 @@ Distinguish from `engineering-audit` resource and budget mode: that mode is an a
 
 Research from a Rails plus Flutter plus Docker product that already gates store uploads and container images, then split Ruby/Rails path sizes inside images, then added build timing and when/where fields for ingest. Duplicate CI workflows for docker-only versus flutter-only gate unit tests were merged into one artifact-size workflow.
 
-Package published into the local catalog as `amkisko/delivery-budgets` 1.0.0. README consumer example includes the compose pin. CHANGELOG.md 1.31.0 cut. Validation evidence in docs/changelogs/20261023211000_delivery-budgets.md.
+Package published into the local catalog as `amkisko/delivery-budgets` 1.0.0. README consumer example includes the compose pin. CHANGELOG.md 1.31.0 cut. Validation evidence in docs/changelogs/20261023211000_delivery-budgets.md. Tagged `v1.31.0` on `551c2e6`; GitHub release https://github.com/amkisko/prayers/releases/tag/v1.31.0.
 
 ## Next
 
-- Commit on `trunk/1.31.0-delivery-budgets`, open PR, merge to `main`, tag `v1.31.0`.
 - Consumers compose `amkisko/delivery-budgets ~> 1.0` and keep concrete budgets in-repo.
 - Optional later: short skill for wiring budget YAML and report kinds; keep the fragment under the compose size budget.
 

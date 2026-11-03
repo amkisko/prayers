@@ -4,7 +4,7 @@
 
 Prepare distribution release 1.33.0 from the complete former Unreleased set. The payload is `api-contract-migration` 1.0.0, `engineering-audit` 2.16.0, `dependency-policy` 4.2.0, `delivery-budgets` 1.0.1, `agent-artifact` 1.3.0, and `public-surface-recon` 1.4.0, plus repository validation and pre-inference context gates.
 
-Use `trunk/1.33.0` as the release candidate. Prepare means a reviewed merge of this candidate to `main`. Deliver remains the later `v1.33.0` tag and GitHub release; this preparation does not merge, tag, push, or create the external release.
+Use `trunk/1.33.0` as the release candidate. Prepare means a reviewed merge of this candidate to `main`. Deliver is the `v1.33.0` tag and GitHub release.
 
 ## Effects
 
@@ -22,12 +22,7 @@ Validation:
 - Package archive hashes match their catalog hashes. `git diff --cached --check` passed.
 - `pray drift --semantic` passed. Ordinary `pray drift` still reports the known Pray 1.26.0 renderer mismatch recorded in `docs/dependencies/20261102094751_pray-drift-renderer-mismatch.md`; plan, apply, verify, and source-to-provisioned comparisons are the documented release checks for this upstream defect.
 
-## Next
-
-- Review and commit the candidate on `trunk/1.33.0`.
-- Open the candidate request into `main` and record its checks.
-- Merge to prepare the release.
-- Tag `v1.33.0` and create the GitHub release from the matching CHANGELOG section to deliver it.
+Delivered: tagged `v1.33.0` on `48a26d0` and published https://github.com/amkisko/prayers/releases/tag/v1.33.0 (backfill; tag pushed to gitlab.com, github.com, and codeberg.org).
 
 ## Source
 

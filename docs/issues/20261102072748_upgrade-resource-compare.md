@@ -16,11 +16,10 @@ Distinguish siblings: `delivery-budgets` gates absolute ship-path size and build
 
 ## Effects
 
-Package edits are collected in the `trunk/1.33.0` release candidate: `amkisko/dependency-policy` 4.2.0 with `upgrade-resource-compare`, fragment and alteration wiring; `amkisko/delivery-budgets` 1.0.1; and the final `amkisko/engineering-audit` 2.16.0, which includes the earlier 2.15.0 resource work. Sibling associations use advisory `spec.related` (pray 1.26+) so `pray explain` lists them without installing or resolving targets.
+Package edits are collected in the `trunk/1.33.0` release candidate: `amkisko/dependency-policy` 4.2.0 with `upgrade-resource-compare`, fragment and alteration wiring; `amkisko/delivery-budgets` 1.0.1; and the final `amkisko/engineering-audit` 2.16.0, which includes the earlier 2.15.0 resource work. Sibling associations use advisory `spec.related` (pray 1.26+) so `pray explain` lists them without installing or resolving targets. Delivered: tagged `v1.33.0` on `48a26d0`; GitHub release https://github.com/amkisko/prayers/releases/tag/v1.33.0.
 
 ## Next
 
-- Review and merge the `trunk/1.33.0` candidate, then deliver tag `v1.33.0` and its GitHub release.
 - Consumers compose `amkisko/dependency-policy ~> 4.2`.
 - Optional later: short consumer binding note naming local measure commands; keep that out of the shared prayer.
 

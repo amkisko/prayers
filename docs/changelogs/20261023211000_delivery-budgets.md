@@ -20,11 +20,10 @@ Person-facing surface: CHANGELOG.md and README catalog row. Hierarchy is version
 - Claims pass before cut: dropped consumer schema identifiers (`max_bytes`, `max_growth_ratio`, timestamp field names); gate the recipient-facing size series; name local image size versus registry or manifest compressed size separately; keep absolute ceiling when baseline is missing.
 - Catalog: `prayers/v1/packages/amkisko/delivery-budgets.json` and `prayers/v1/artifacts/amkisko/delivery-budgets/1.0.0/`.
 - Prayfile path package and Prayfile.lock entry for 1.0.0. AGENTS.md unchanged.
+- Tagged `v1.31.0` on `551c2e6` and published https://github.com/amkisko/prayers/releases/tag/v1.31.0 (backfill; tag pushed to gitlab.com, github.com, and codeberg.org).
 
 ## Next
 
-- Commit on `trunk/1.31.0-delivery-budgets`, open PR, merge to `main`.
-- Tag `v1.31.0` and create the GitHub release from the CHANGELOG 1.31.0 section.
 - Consumers compose `amkisko/delivery-budgets ~> 1.0` and keep concrete budgets in-repo.
 - Optional later: short skill for wiring budget YAML and report kinds; keep the fragment under the compose size budget.
 
