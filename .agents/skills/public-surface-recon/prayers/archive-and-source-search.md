@@ -37,7 +37,7 @@ Use search strings from hostname, product name, entities, and artifact path root
 
 Code hosts (GitHub, GitLab, Bitbucket, Codeberg, etc.):
 
-- Hostname in code: `"app.example.com"` in repos (platform search or web `site:github.com`)
+- Hostname in code: `"app.demo.7c3e9a1b"` in repos (platform search or web `site:github.com`)
 - Org from entity correlation: `org:acme` repos mentioning product or hostname
 - Path or package slug: folder names from source maps, `package.json` `name` if seen in artifacts
 - Commit hash: short hash from bundle or error page -> platform search
@@ -113,7 +113,7 @@ For each check: detection, origin, next fact to verify, suggested check, status.
 ## Guardrails
 
 - Do not use local filesystem, workspace search, or disk git repos as evidence. Code-host hits must link to a public remote URL (e.g. `github.com/...`), not a path on the investigator's machine.
-- CDX for `cdn.example.com` is separate from `app.example.com`.
+- CDX for `cdn.demo.7c3e9a1b` is separate from `app.demo.7c3e9a1b`.
 - Archived asset path on CDN does not prove current app origin exposure.
 - Repo named like product but different hostname needs explicit link evidence.
 - Public repo with only docs or SDK != full application source; state what is missing for local run.

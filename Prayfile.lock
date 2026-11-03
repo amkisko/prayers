@@ -1,6 +1,6 @@
 prayfile_lock = "1"
 spec = "0.1"
-generated_by = "pray 1.26.0"
+generated_by = "pray 1.26.1"
 manifest_hash = "sha256:bbc6b693dfe94a6f9f69ffd66328f3676f8ddc8716951abe0f53ec4be05396ee"
 source = []
 
@@ -289,10 +289,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/public-surface-recon"
-version = "1.4.0"
+version = "1.4.1"
 path = "./packages/public-surface-recon"
-tree_hash = "sha256:03e1525f56e821160ddf42c307f6fdfc1624ebbf0bcc467292eef2ba8b18b7df"
-artifact_hash = "sha256:03e1525f56e821160ddf42c307f6fdfc1624ebbf0bcc467292eef2ba8b18b7df"
+tree_hash = "sha256:c133dd82add2a37483afbcfa712ca9ed95b4fb936756c7cbc7eaf813a2821a60"
+artifact_hash = "sha256:c133dd82add2a37483afbcfa712ca9ed95b4fb936756c7cbc7eaf813a2821a60"
 artifact = "path:./packages/public-surface-recon"
 exports = ["skill"]
 dependencies = []
@@ -329,10 +329,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/ruby-conventions"
-version = "1.3.2"
+version = "1.4.1"
 path = "./packages/ruby-conventions"
-tree_hash = "sha256:9e9757f6e058d351c672702a32d11f1ccce44f2ec7e061baa02184c1753c11a4"
-artifact_hash = "sha256:9e9757f6e058d351c672702a32d11f1ccce44f2ec7e061baa02184c1753c11a4"
+tree_hash = "sha256:087fb6c2fd130d4cbdf34a43f07120982cec671ec76065839dce41a19f609151"
+artifact_hash = "sha256:087fb6c2fd130d4cbdf34a43f07120982cec671ec76065839dce41a19f609151"
 artifact = "path:./packages/ruby-conventions"
 exports = ["ruby-conventions"]
 dependencies = []
@@ -842,7 +842,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/prayers/archive-and-source-search.md"
-content_hash = "sha256:2209d2f88d1177532417b946b5de794eeb34298681b9fa45a04e199620fec7f6"
+content_hash = "sha256:434848bbbeef5504be41a6cf3ddcfdf2bbfc853ff0429e4bb565f87e7974acc8"
 package = "amkisko/public-surface-recon"
 export = "skill"
 
@@ -890,7 +890,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/public-surface-recon/public-surface-recon.md"
-content_hash = "sha256:b3c5bc3e04466088e94f7e4e6fb5555ef031c696f76113ebf78000666e1f79de"
+content_hash = "sha256:e526ce9cb13f417a9e34beea670751d2e438e6ac3aecf01fb510f6ee9ab6e67d"
 package = "amkisko/public-surface-recon"
 export = "skill"
 

@@ -45,8 +45,8 @@ Example consumer `Prayfile`:
 prayfile "1"
 
 pray do
-  support_email "contact@example.com"
-  security_email "security@example.com"
+  support_email "contact@rails.fi"
+  security_email "security@rails.fi"
 end
 
 source "amkisko", git: "https://github.com/amkisko/prayers.git"
@@ -58,7 +58,7 @@ compose "AGENTS.md" do
   pray "amkisko/docs-conventions", "~> 3.1"
   pray "amkisko/dependency-issues", "~> 3.0"
   pray "amkisko/dependency-policy", "~> 4.2"
-  pray "amkisko/ruby-conventions", "~> 1.3"
+  pray "amkisko/ruby-conventions", "~> 1.4"
   pray "amkisko/minimal-implementation", "~> 1.5"
   pray "amkisko/finite-state-machines", "~> 1.3"
   pray "amkisko/durable-cache", "~> 2.0"

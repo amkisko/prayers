@@ -117,12 +117,12 @@ The user-given URL is only the entry origin. Authentication and assets often liv
 
 Maintain an origin registry across all prayers. Add a row when any detection references a distinct scheme + host (+ port if non-default). Roles:
 
-- entry: URL the user provided (example: `https://app.example.com`)
+- entry: URL the user provided (example: `https://app.demo.7c3e9a1b`)
 - app: application pages or API tied to the product (same or different subdomain)
-- auth: login UI, identity broker, OAuth/OIDC/SAML host (example: `login.example.com`, third-party IdP)
-- assets: static delivery: CDN, object storage, media host (example: `cdn.example.com`, `assets.example.net`)
-- api: backend API host if distinct from app HTML (example: `api.example.com`)
-- marketing: shop, docs, corporate site linked from app (example: `www.example.com`)
+- auth: login UI, identity broker, OAuth/OIDC/SAML host (example: `login.demo.7c3e9a1b`, third-party IdP)
+- assets: static delivery: CDN, object storage, media host (example: `cdn.demo.7c3e9a1b`, `assets.demo.7c3e9a1b`)
+- api: backend API host if distinct from app HTML (example: `api.demo.7c3e9a1b`)
+- marketing: shop, docs, corporate site linked from app (example: `www.demo.7c3e9a1b`)
 - unknown: host seen; role not closed (queue role check)
 
 Rules:
@@ -156,10 +156,10 @@ Rules:
 
 Examples (auth and assets on different hosts):
 
-- Form `action` is `https://auth.vendor.example/login` on entry page -> verify auth host serves login UI publicly; fetch auth URL; add `auth` origin
-- Script `src` is `https://static.cdn.example/app.js` on entry page -> verify bundle reachable and same product; fetch asset; add `assets` origin; artifact review on that host
-- 302 from `/` to `https://login.example.com` on entry -> whether login host is operator-owned or broker; fetch redirect target; entity-correlation
-- Session cookie `Domain=.example.com` on app -> whether auth host shares parent domain; compare Set-Cookie on auth vs app responses
+- Form `action` is `https://auth.idp.7c3e9a1b/login` on entry page -> verify auth host serves login UI publicly; fetch auth URL; add `auth` origin
+- Script `src` is `https://cdn.demo.7c3e9a1b/app.js` on entry page -> verify bundle reachable and same product; fetch asset; add `assets` origin; artifact review on that host
+- 302 from `/` to `https://login.demo.7c3e9a1b` on entry -> whether login host is operator-owned or broker; fetch redirect target; entity-correlation
+- Session cookie `Domain=.demo.7c3e9a1b` on app -> whether auth host shares parent domain; compare Set-Cookie on auth vs app responses
 - Favicon or og:image URL on assets origin -> whether image metadata names operator or tool; fetch image; read EXIF/XMP; queue entity-correlation
 - Readable `Copyright` or hostname in `.woff2` or `.wasm` on assets -> whether string ties to builder or CDN; entity-correlation; search same string on other origins
 - Email or name in source map path on assets -> whether string appears elsewhere on service; identity-trace-search on all origins
@@ -200,7 +200,7 @@ Goal: find whether application source, forks, or deploy artifacts exist publicly
 - Hostname in code host search (entry hostname, auth/assets origins, apex domain) -> related repo, mirror, integration sample
 - Product or repo slug search (title tokens, path segments such as `/packs/`, package name in manifest) -> named project on GitHub/GitLab/Bitbucket
 - Entity org repos (operator or integrator org from correlation) -> official or internal tooling repos
-- Web search (quoted): `"app.example.com"`, `"ExampleProduct"` + `github` / `gitlab` -> index pages, issues, gists linking to target
+- Web search (quoted): `"app.demo.7c3e9a1b"`, `"DemoProduct"` + `github` / `gitlab` -> index pages, issues, gists linking to target
 - Package registries (npm, PyPI, RubyGems, Packagist, crates.io - product slug, scope org) -> published SDK or app shell tied to service
 - Container / artifact hubs (Docker Hub, GHCR public tags naming hostname or product) -> deploy image or CI output
 - Source map path mining (`sourcesContent` or `sources[]` roots such as `/home/`, `/Users/`, monorepo dirs) -> repo layout, package name, CI path -> code search

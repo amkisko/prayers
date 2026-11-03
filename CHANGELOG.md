@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Unreleased
+
+- Publish `amkisko/ruby-conventions` 1.4.1: ban `example.com` / `.org` / `.net` in fixtures, docs hosts, and fake email; local app hosts use `*.rails.fi`; fictional remotes and non-local fake mail use `<title>.<hash>` (for example `demo.7c3e9a1b`).
+- Publish `amkisko/public-surface-recon` 1.4.1: replace illustration hosts with `*.demo.7c3e9a1b` (`<title>.<hash>`), not `example.com`.
+- README consumer example emails use `@rails.fi`; ruby-conventions constraint `~> 1.4`.
+
 ## 1.33.0 (2026-11-02)
 
 - Add `amkisko/api-contract-migration` 1.0.0: preserve per-surface observable behavior while changing a published API contract; separate contract, serving, request, and interface evidence; qualify HTTP cache, caller-selected query, client-cache, security, and benchmark claims; retire old paths after named consumers and rollback windows close.

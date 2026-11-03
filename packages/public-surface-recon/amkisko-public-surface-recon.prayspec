@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/public-surface-recon"
-  spec.version = "1.4.0"
+  spec.version = "1.4.1"
   spec.summary = "Authorized blackbox HTTP and public-index recon without local filesystem evidence"
   spec.files = [
     "README.md",

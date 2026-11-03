@@ -406,6 +406,67 @@
         "character_count": 75109,
         "token_count": 512
       }
+    },
+    {
+      "version": "1.4.1",
+      "artifact": "v1/artifacts/amkisko/public-surface-recon/1.4.1/amkisko-public-surface-recon-1.4.1.praypkg",
+      "artifact_hash": "sha256:3341eb0af0e26852c82211b1fdb765ffe6e37eb86c3f82267597b579e8992e95",
+      "tree_hash": "sha256:c133dd82add2a37483afbcfa712ca9ed95b4fb936756c7cbc7eaf813a2821a60",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "signer": "amkisko",
+      "published_at": 1793699985,
+      "signature": "sha256:3d5a9c79740909e75e88d9b9da4a0895598f2393af30b9bbb5026193c1e0b5dd",
+      "derived_metadata": {
+        "summary": "Authorized blackbox HTTP and public-index recon without local filesystem evidence - Public web surface reconnaissance for external services",
+        "topics": [
+          "authorized",
+          "blackbox",
+          "http",
+          "public",
+          "index"
+        ],
+        "categories": [
+          "documentation",
+          "security"
+        ],
+        "possible_effects": [
+          "clarifies usage",
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              28,
+              36,
+              34,
+              22,
+              53,
+              33,
+              34,
+              33,
+              18,
+              42,
+              16,
+              40,
+              33,
+              24,
+              26,
+              40
+            ]
+          }
+        ],
+        "file_count": 13,
+        "character_count": 75127,
+        "token_count": 512
+      }
     }
   ]
 }

@@ -12,5 +12,9 @@
 - person-facing date and datetime fields are text (or a widget bound to the product form), not native `date` or `datetime-local`, when the product locale is not the browser locale;
 - ActiveRecord `TimeZoneConverter` converts strings through `in_time_zone` before DateTime cast; a parse prepend on Date or DateTime does not see those strings unless the converter is also prepended; ISO JSON and params stay on the default caster;
 - association pickers reuse the existing admin list API with a bounded page; they do not pluck the full table into the form;
+- local app host for development, system and request specs, `default_url_options`, OAuth callbacks, Capybara app host, and curl against the running app: `https://<app>.rails.fi` or `http://rails.fi` (`rails.fi` and wildcard `*.rails.fi` resolve to `127.0.0.1`); prefer project `HOST` / `RAILS_HOST`;
+- do not use `example.com`, `example.org`, or `example.net` in fixtures, stubs, mocks, allowlists, documentation hosts, or fake email; those names resolve on the public Internet;
+- fictional remote host, external-service mock, or fake email that must not hit the local app: `<title>.<hash>` (product label plus short hex, for example `demo.7c3e9a1b` / `user@demo.7c3e9a1b`); keep house fake mail on `@rails.fi` when the address is local-app shaped;
+- keep `config.hosts`, Capybara, and mailer host on `*.rails.fi`; remove leftover `example.com` names from local allowlists;
 
 Related: `docs-conventions` names `usr/scripts` for maintainer scripts run from a checkout or CI, `usr/reports` for read-only investigation scripts, `usr/support` for support console scripts that mutate, and `usr/migrate` for schema and data migration scripts for manual running.
