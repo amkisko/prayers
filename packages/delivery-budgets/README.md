@@ -6,4 +6,4 @@ Compose into `AGENTS.md` for every product that ships a byte-bearing artifact. O
 
 Generic guidance only. Budget numbers, registry hosts, and workflow paths stay in the consumer repository.
 
-Related: `amkisko/engineering-audit` (resource and budget audit mode), `amkisko/dependency-policy` (upgrade resource compare for before/after deltas), `amkisko/ci-review`, `amkisko/publish-checks`.
+Related: `amkisko/engineering-audit` (resource and budget audit mode), `amkisko/dependency-policy` (upgrade resource compare for before/after deltas), `amkisko/pressure-benchmarking` (load ladder and ceiling ratchet), `amkisko/ci-review`, `amkisko/publish-checks`.

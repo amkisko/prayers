@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/delivery-budgets"
-  spec.version = "1.0.1"
+  spec.version = "1.0.2"
   spec.summary = "CI size and build-timing budgets for shipped artifacts"
   spec.files = ["README.md", "exports/delivery-budgets.md"]
   spec.exports = {
@@ -14,6 +14,7 @@ Package::Specification.new do |spec|
     "amkisko/ci-review",
     "amkisko/dependency-policy",
     "amkisko/engineering-audit",
+    "amkisko/pressure-benchmarking",
     "amkisko/publish-checks"
   ]
 end

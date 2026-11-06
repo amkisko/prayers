@@ -9,4 +9,4 @@ Exports:
 
 Compose and tree this package together. Selection heuristics and the upgrade resource procedure live in the skill.
 
-Related: `amkisko/dependency-issues` records upstream defects under `docs/dependencies/`; `amkisko/minimal-implementation` covers YAGNI before adding deps; `amkisko/delivery-budgets` owns continuous ship-path size gates.
+Related: `amkisko/dependency-issues` records upstream defects under `docs/dependencies/`; `amkisko/minimal-implementation` covers YAGNI before adding deps; `amkisko/delivery-budgets` owns continuous ship-path size gates; `amkisko/pressure-benchmarking` owns load ladders and ceiling ratchet episodes.

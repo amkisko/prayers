@@ -1,0 +1,23 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/pressure-benchmarking"
+  spec.version = "1.0.0"
+  spec.summary = "Calibrate meters, raise load, ratchet resource ceilings, and pressure-cook optimize/prove cycles"
+  spec.files = [
+    "README.md",
+    "skills/pressure-benchmarking/SKILL.md",
+    "skills/pressure-benchmarking/references/pressure-loop.md",
+    "skills/pressure-benchmarking/references/known-practices.md"
+  ]
+  spec.exports = {
+    "skill" => {
+      type: "folder",
+      path: "skills/pressure-benchmarking",
+      summary: "Pressure benchmarking procedure with calibrate and cooker loop"
+    }
+  }
+  spec.related = [
+    "amkisko/delivery-budgets",
+    "amkisko/dependency-policy",
+    "amkisko/engineering-audit"
+  ]
+end

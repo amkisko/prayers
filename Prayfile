@@ -40,6 +40,7 @@ tree ".agents/skills" do
   pray "amkisko/derivation-audit", path: "packages/derivation-audit"
   pray "amkisko/agent-run-supervision", path: "packages/agent-run-supervision"
   pray "amkisko/security-audit", path: "packages/security-audit"
+  pray "amkisko/pressure-benchmarking", path: "packages/pressure-benchmarking"
 end
 
 pray "amkisko/community-security", path: "packages/community-security", file: "SECURITY.md"

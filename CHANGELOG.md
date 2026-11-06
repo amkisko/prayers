@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 1.35.0 (2026-11-06)
+
+- Add `amkisko/pressure-benchmarking` 1.0.0: calibrate meters before baseline, raise load, ratchet ceilings with named propose-basis per series, require samples-per-load >= 3 for gate/propose/write, run at least ten optimize/prove pressure-cooker cycles on a named primary series, and stop when gate, audit candidates, and noise floor allow. Tree the skill under `.agents/skills`.
+- Publish `amkisko/delivery-budgets` 1.0.2, `amkisko/dependency-policy` 4.2.1, and `amkisko/engineering-audit` 2.16.1: point Related at `pressure-benchmarking` for load ladders and ceiling ratchet episodes.
+
 ## 1.34.0 (2026-11-03)
 
 - Publish `amkisko/ruby-conventions` 1.4.1: ban `example.com` / `.org` / `.net` in fixtures, docs hosts, and fake email; local app hosts use `*.rails.fi`; fictional remotes and non-local fake mail use `<title>.<hash>` (for example `demo.7c3e9a1b`).

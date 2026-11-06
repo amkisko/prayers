@@ -162,5 +162,5 @@ Run dependency-audit for direct dependency changes, graph audits, releases with 
 
 On resolved lockfile graph or runtime-pin upgrades (automated or human), gather before/after resource samples for install or graph storage, resident memory, CPU or a stated proxy, and shipped bundle or image size when the product ships bytes. The reviewing agent uses isolated checkouts and the same small consumer-owned measurement commands for both revisions. It reports the comparison and writes to a change request only when authorized. Cheaper or smaller without comparable samples is inference. Continuous absolute ship-path ceilings stay in `delivery-budgets`.
 
-Related: `dependency-issues` records upstream defects found during real work; `minimal-implementation` covers YAGNI before adding deps; `engineering-audit` covers code and pipeline review; `delivery-budgets` owns continuous size and build-timing gates.
+Related: `dependency-issues` records upstream defects found during real work; `minimal-implementation` covers YAGNI before adding deps; `engineering-audit` covers code and pipeline review; `delivery-budgets` owns continuous size and build-timing gates; `pressure-benchmarking` owns load ladders and ceiling ratchet episodes, not one-change upgrade deltas.
 <!-- pray:3ac5d6ce -->
