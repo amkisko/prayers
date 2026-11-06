@@ -4,13 +4,13 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/delivery-budgets/1.0.0/amkisko-delivery-budgets-1.0.0.praypkg",
-      "artifact_hash": "sha256:79874a1c6391cb5e311e3e6dbac19ef80a942ab733d98c2d506e86d6d87d511a",
-      "tree_hash": "sha256:5e10cc00dab4ee3a21a0694a83b7c8e4352be6058aa64ad2b4d8c8422a62bc0f",
       "yanked": false,
       "targets": [],
       "exports": [
         "delivery-budgets"
       ],
+      "artifact_hash": "sha256:79874a1c6391cb5e311e3e6dbac19ef80a942ab733d98c2d506e86d6d87d511a",
+      "tree_hash": "sha256:5e10cc00dab4ee3a21a0694a83b7c8e4352be6058aa64ad2b4d8c8422a62bc0f",
       "signer": "amkisko",
       "published_at": 1792783352,
       "signature": "sha256:07c4aff82e826954848ba59abf7378ad9a7236cc0ab0e642f005c3a5cd711d10",
@@ -60,13 +60,13 @@
     {
       "version": "1.0.1",
       "artifact": "v1/artifacts/amkisko/delivery-budgets/1.0.1/amkisko-delivery-budgets-1.0.1.praypkg",
-      "artifact_hash": "sha256:fce9e8566de3e2683edc08b968a40ebee271d6a28da6badd1024b5b1b3c2a844",
-      "tree_hash": "sha256:ea89e051e5b9f8ddc64d59b630d3f086affda0d187769eef1c315a881e57d4c5",
       "yanked": false,
       "targets": [],
       "exports": [
         "delivery-budgets"
       ],
+      "artifact_hash": "sha256:fce9e8566de3e2683edc08b968a40ebee271d6a28da6badd1024b5b1b3c2a844",
+      "tree_hash": "sha256:ea89e051e5b9f8ddc64d59b630d3f086affda0d187769eef1c315a881e57d4c5",
       "signer": "amkisko",
       "published_at": 1793613539,
       "signature": "sha256:8cba784b6c5460ae5999a74e50208d2fcaf5ad7462990e81e76ee6f34912429b",
@@ -111,6 +111,63 @@
         "file_count": 2,
         "character_count": 2611,
         "token_count": 304
+      }
+    },
+    {
+      "version": "1.0.2",
+      "artifact": "v1/artifacts/amkisko/delivery-budgets/1.0.2/amkisko-delivery-budgets-1.0.2.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "delivery-budgets"
+      ],
+      "artifact_hash": "sha256:4a003c3f9ca378b0ce0c062511c2e54fcc05186dde9fb4e035c7f9244b78bba6",
+      "tree_hash": "sha256:865f09ea896dcbd7ad97e802e2eedb749ec8337a85f10b7fc4c39505fde4f274",
+      "signer": "local",
+      "published_at": 1793979850,
+      "signature": "sha256:c076a1ffbe4c127199a5eb08a65c3309d689d6ed58632663641bf93d631a0f3f",
+      "derived_metadata": {
+        "summary": "CI size and build-timing budgets for shipped artifacts - Named size and timing budgets with when/where samples",
+        "topics": [
+          "size",
+          "build",
+          "timing",
+          "budgets",
+          "shipped"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              19,
+              10,
+              23,
+              7,
+              20,
+              21,
+              27,
+              21,
+              18,
+              35,
+              13,
+              12,
+              33,
+              18,
+              31,
+              15
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 2783,
+        "token_count": 323
       }
     }
   ]

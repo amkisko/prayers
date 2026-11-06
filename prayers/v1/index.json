@@ -34,6 +34,7 @@
     "amkisko/operational-signal-intake",
     "amkisko/planned-release",
     "amkisko/preferred-stack",
+    "amkisko/pressure-benchmarking",
     "amkisko/public-surface-recon",
     "amkisko/publish-checks",
     "amkisko/rejected-changes",

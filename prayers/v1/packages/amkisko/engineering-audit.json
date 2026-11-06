@@ -4,13 +4,13 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/1.0.0/amkisko-engineering-audit-1.0.0.praypkg",
-      "artifact_hash": "sha256:3d5f9184bd1f37443690eba5cff8f6d143ae8fa925f6b755fb756813115b4e6e",
-      "tree_hash": "sha256:5e221fe8161748661cf171adc31968e6f4a9ac5ae010e74ec188c5e81885d456",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:3d5f9184bd1f37443690eba5cff8f6d143ae8fa925f6b755fb756813115b4e6e",
+      "tree_hash": "sha256:5e221fe8161748661cf171adc31968e6f4a9ac5ae010e74ec188c5e81885d456",
       "signer": "amkisko",
       "published_at": 1783404609,
       "signature": "sha256:afa48e1b3596d5c432abf1167225814c441447b745c772d13fe231cf5a713dcb",
@@ -63,13 +63,13 @@
     {
       "version": "2.0.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.0.0/amkisko-engineering-audit-2.0.0.praypkg",
-      "artifact_hash": "sha256:8a48006aaea752006c8b98da65bfde6c876571157a3a45a75fde33e4a0a1feaa",
-      "tree_hash": "sha256:ce60d9ba8c6c31c7c704278b0cfdd88e2e34af900c13daadb460be57685eb79d",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:8a48006aaea752006c8b98da65bfde6c876571157a3a45a75fde33e4a0a1feaa",
+      "tree_hash": "sha256:ce60d9ba8c6c31c7c704278b0cfdd88e2e34af900c13daadb460be57685eb79d",
       "signer": "amkisko",
       "published_at": 1787048755,
       "signature": "sha256:d06e49cab1ff46ffe0af417f19a75544f06a0b1d777f48afda77d10e2ec03f71",
@@ -122,13 +122,13 @@
     {
       "version": "2.1.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.1.0/amkisko-engineering-audit-2.1.0.praypkg",
-      "artifact_hash": "sha256:a84cb964d52fb0adc6fec66112224e07c655be5e7d123e2df85ec62e520830bc",
-      "tree_hash": "sha256:a2e4ecd3828fc680b7e1d7db2b83f752f63dace00fb470eef79116c69aff8c92",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:a84cb964d52fb0adc6fec66112224e07c655be5e7d123e2df85ec62e520830bc",
+      "tree_hash": "sha256:a2e4ecd3828fc680b7e1d7db2b83f752f63dace00fb470eef79116c69aff8c92",
       "signer": "amkisko",
       "published_at": 1787073834,
       "signature": "sha256:67dc2adec9c22bcb452ffce1a60af5e59cf0de18fa7dcb64352536092411c143",
@@ -181,13 +181,13 @@
     {
       "version": "2.2.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.2.0/amkisko-engineering-audit-2.2.0.praypkg",
-      "artifact_hash": "sha256:d1ee3c0687b6f45ee816a71c8394fbcae6958e6259c6b8bf096ac11c23755b10",
-      "tree_hash": "sha256:ab46cdcb9df7503c99787d681731937549efb271eaeb51433b2b51d1a25a963c",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:d1ee3c0687b6f45ee816a71c8394fbcae6958e6259c6b8bf096ac11c23755b10",
+      "tree_hash": "sha256:ab46cdcb9df7503c99787d681731937549efb271eaeb51433b2b51d1a25a963c",
       "signer": "amkisko",
       "published_at": 1787916888,
       "signature": "sha256:8bd3187bb035feb733172ed3b89e1a8f656cdd3af860a391829d701b2f9bc22b",
@@ -240,13 +240,13 @@
     {
       "version": "2.3.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.3.0/amkisko-engineering-audit-2.3.0.praypkg",
-      "artifact_hash": "sha256:4c0859d472b09903a9b5cef7e0c9e2fee36f8672eb5cb45a721108f9f7936c09",
-      "tree_hash": "sha256:9e415deec07e005d40cc5728e832ff63d53bfe2cb4e42768049872b8403e59e5",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:4c0859d472b09903a9b5cef7e0c9e2fee36f8672eb5cb45a721108f9f7936c09",
+      "tree_hash": "sha256:9e415deec07e005d40cc5728e832ff63d53bfe2cb4e42768049872b8403e59e5",
       "signer": "amkisko",
       "published_at": 1787926185,
       "signature": "sha256:7b8bbead80de493056cc67779920e31f2edeb782881fd295513f8aba82bb73ee",
@@ -299,13 +299,13 @@
     {
       "version": "2.4.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.4.0/amkisko-engineering-audit-2.4.0.praypkg",
-      "artifact_hash": "sha256:084341bef7c975335fc3c15d80b70875088eea4fa4879f56a85c7e71f4b0ba96",
-      "tree_hash": "sha256:f1ec1c47bf008361940c76e6ebb15840fa1e21f8fef690726a9f77dc5c40794d",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:084341bef7c975335fc3c15d80b70875088eea4fa4879f56a85c7e71f4b0ba96",
+      "tree_hash": "sha256:f1ec1c47bf008361940c76e6ebb15840fa1e21f8fef690726a9f77dc5c40794d",
       "signer": "amkisko",
       "published_at": 1787991251,
       "signature": "sha256:ec4a8bd170e3304c12e0099ecec8cd555b3be4053fdda5e704d9145e6f8a27c6",
@@ -358,13 +358,13 @@
     {
       "version": "2.5.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.5.0/amkisko-engineering-audit-2.5.0.praypkg",
-      "artifact_hash": "sha256:e07f8847af16a91e83854470275b3cd5f6ed50eb1b5a00de7362e45368efcd96",
-      "tree_hash": "sha256:3915f8f1fbd734a040967d6eb84ada0c3fc1a3cf64e2252ec44b2a4a3b835a58",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:e07f8847af16a91e83854470275b3cd5f6ed50eb1b5a00de7362e45368efcd96",
+      "tree_hash": "sha256:3915f8f1fbd734a040967d6eb84ada0c3fc1a3cf64e2252ec44b2a4a3b835a58",
       "signer": "amkisko",
       "published_at": 1787993885,
       "signature": "sha256:3b169142657ad20942dad3225600a933b6aea58bad84c5c07d37978f08be537c",
@@ -417,13 +417,13 @@
     {
       "version": "2.6.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.6.0/amkisko-engineering-audit-2.6.0.praypkg",
-      "artifact_hash": "sha256:7cd48912cc7b5f5f471bdeb917727ff0052220f58db81f6e7163722b39769665",
-      "tree_hash": "sha256:8b79295f0ae7c7cae33398a95ba3928d959269a9eb7afc7cd6ab37fddf9eef4f",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:7cd48912cc7b5f5f471bdeb917727ff0052220f58db81f6e7163722b39769665",
+      "tree_hash": "sha256:8b79295f0ae7c7cae33398a95ba3928d959269a9eb7afc7cd6ab37fddf9eef4f",
       "signer": "amkisko",
       "published_at": 1788032537,
       "signature": "sha256:4d5ab791887c301cb8891c4bb0886c46ea4ae729fa437760917e88e15733cfcb",
@@ -478,13 +478,13 @@
     {
       "version": "2.7.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.7.0/amkisko-engineering-audit-2.7.0.praypkg",
-      "artifact_hash": "sha256:3c8655927756a369e4607e637873f17180db4654d3dc879e962c4004e4d16c23",
-      "tree_hash": "sha256:c9b823521bb9bf4fadcc1f35cbef5bdca26c2f685ef7783df56a91c51c40e636",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:3c8655927756a369e4607e637873f17180db4654d3dc879e962c4004e4d16c23",
+      "tree_hash": "sha256:c9b823521bb9bf4fadcc1f35cbef5bdca26c2f685ef7783df56a91c51c40e636",
       "signer": "amkisko",
       "published_at": 1788080176,
       "signature": "sha256:d50a16072a02c33d513633826af7ea7ecb1ce7f4f8c28e3d805a1787977c261b",
@@ -539,13 +539,13 @@
     {
       "version": "2.7.1",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.7.1/amkisko-engineering-audit-2.7.1.praypkg",
-      "artifact_hash": "sha256:b4122b0d129622e16cfcd9736a2591861344b5293843e07fec7e600b048453b9",
-      "tree_hash": "sha256:ddd8a315c3eede60c7c37fea5c0d444ef141387053c050cab9c01000a727eb5f",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:b4122b0d129622e16cfcd9736a2591861344b5293843e07fec7e600b048453b9",
+      "tree_hash": "sha256:ddd8a315c3eede60c7c37fea5c0d444ef141387053c050cab9c01000a727eb5f",
       "signer": "amkisko",
       "published_at": 1788780203,
       "signature": "sha256:ad8d56177b6310a6ebc8258b8b54bdfef4574650b18ca8ca48f52b5b4e37d559",
@@ -600,13 +600,13 @@
     {
       "version": "2.7.2",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.7.2/amkisko-engineering-audit-2.7.2.praypkg",
-      "artifact_hash": "sha256:43c6c316bd852e2a96b06df3325be8f4c45c2700caefaab2c7ad2c2a9c5c73d8",
-      "tree_hash": "sha256:271f3e7bf41cb14e6caa513b52835750c2027dce2a4fcf8200171c67ecb0bb43",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:43c6c316bd852e2a96b06df3325be8f4c45c2700caefaab2c7ad2c2a9c5c73d8",
+      "tree_hash": "sha256:271f3e7bf41cb14e6caa513b52835750c2027dce2a4fcf8200171c67ecb0bb43",
       "signer": "amkisko",
       "published_at": 1788856855,
       "signature": "sha256:427d1181c5e3074cdaddfe7cb6a002b763468953b23cafe89e0a90d151b05616",
@@ -661,13 +661,13 @@
     {
       "version": "2.8.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.8.0/amkisko-engineering-audit-2.8.0.praypkg",
-      "artifact_hash": "sha256:b4555da3344558724c107b438cde640c5db6e99e1d7ff515e016e9845fdf7f36",
-      "tree_hash": "sha256:35190d0de70274ce8579e17e12cf723ab3afb0ad7d3cab0e864bddf45f9810b2",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:b4555da3344558724c107b438cde640c5db6e99e1d7ff515e016e9845fdf7f36",
+      "tree_hash": "sha256:35190d0de70274ce8579e17e12cf723ab3afb0ad7d3cab0e864bddf45f9810b2",
       "signer": "amkisko",
       "published_at": 1789391749,
       "signature": "sha256:a160e80d5fc0fc981e3c878206f7cff9bb7cc4d1a0de00ba941c3fce1eb398e2",
@@ -722,13 +722,13 @@
     {
       "version": "2.9.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.9.0/amkisko-engineering-audit-2.9.0.praypkg",
-      "artifact_hash": "sha256:1181ddd9aa398ef8fd62fd0ce970196b0f5f64c568a0aec56868333ae700b6e7",
-      "tree_hash": "sha256:56fa79b2b26c705481062fcfcab9194bb1f585ee4957404ea2ab70834412f6f8",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:1181ddd9aa398ef8fd62fd0ce970196b0f5f64c568a0aec56868333ae700b6e7",
+      "tree_hash": "sha256:56fa79b2b26c705481062fcfcab9194bb1f585ee4957404ea2ab70834412f6f8",
       "signer": "amkisko",
       "published_at": 1789395816,
       "signature": "sha256:7604916e558a08531eb56f01077684426b29e57eb6f7ec5e167912893b670f63",
@@ -783,13 +783,13 @@
     {
       "version": "2.10.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.10.0/amkisko-engineering-audit-2.10.0.praypkg",
-      "artifact_hash": "sha256:a8efef8d3c3eb8b046dc239c9c7b1f8ad6cdc5ba5c873226407b71fbc9b90c26",
-      "tree_hash": "sha256:db7527b7577377336cda33df24f200f8d04d862e320d5aa4cf6a85ef82ac0441",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:a8efef8d3c3eb8b046dc239c9c7b1f8ad6cdc5ba5c873226407b71fbc9b90c26",
+      "tree_hash": "sha256:db7527b7577377336cda33df24f200f8d04d862e320d5aa4cf6a85ef82ac0441",
       "signer": "amkisko",
       "published_at": 1789972177,
       "signature": "sha256:0eaf5abf868d745a24e7209deaf4c3e5fe5467e15064714021fd23be31e1ec4c",
@@ -844,13 +844,13 @@
     {
       "version": "2.11.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.11.0/amkisko-engineering-audit-2.11.0.praypkg",
-      "artifact_hash": "sha256:8f22804d4295325dc47a90479248fec1239e5679e437e4483f435cc0e66c84cc",
-      "tree_hash": "sha256:08fcd0e3ccafdda0a0ee2de07fb3f0b7912a24acd6b07f84fea0471f713ee34b",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:8f22804d4295325dc47a90479248fec1239e5679e437e4483f435cc0e66c84cc",
+      "tree_hash": "sha256:08fcd0e3ccafdda0a0ee2de07fb3f0b7912a24acd6b07f84fea0471f713ee34b",
       "signer": "amkisko",
       "published_at": 1790079659,
       "signature": "sha256:fdf5ad31a431211668b740f16ef5c21a3556880d369df3fff6489223012dc08a",
@@ -905,13 +905,13 @@
     {
       "version": "2.12.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.12.0/amkisko-engineering-audit-2.12.0.praypkg",
-      "artifact_hash": "sha256:423a120a6d2f3260a4a7083eb4f2b9ea457acd66e144d828690409b8a91d13d0",
-      "tree_hash": "sha256:41a469783748a0765a65c15526364333fe00edfb5611cf8724b151402769d09c",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:423a120a6d2f3260a4a7083eb4f2b9ea457acd66e144d828690409b8a91d13d0",
+      "tree_hash": "sha256:41a469783748a0765a65c15526364333fe00edfb5611cf8724b151402769d09c",
       "signer": "amkisko",
       "published_at": 1791378711,
       "signature": "sha256:dfbf6966b427b1473525fe379003093a148446deab0363bb069b02aa4eb71d89",
@@ -966,13 +966,13 @@
     {
       "version": "2.13.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.13.0/amkisko-engineering-audit-2.13.0.praypkg",
-      "artifact_hash": "sha256:349ead6a3db1b561962ecb0a6500a91742a1e86b86528089054bcb19e6bb0472",
-      "tree_hash": "sha256:b2d298a0e87a23134b4f906c330fb79328e58483aec89d2df62d7cff53857bd8",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:349ead6a3db1b561962ecb0a6500a91742a1e86b86528089054bcb19e6bb0472",
+      "tree_hash": "sha256:b2d298a0e87a23134b4f906c330fb79328e58483aec89d2df62d7cff53857bd8",
       "signer": "amkisko",
       "published_at": 1791443405,
       "signature": "sha256:209c65fc3e48c703aa64fbb2291942f8b99f977623640dfb3aa5473f08753d06",
@@ -1027,13 +1027,13 @@
     {
       "version": "2.14.1",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.14.1/amkisko-engineering-audit-2.14.1.praypkg",
-      "artifact_hash": "sha256:0217bda94113781adb048a3255a7322813c9eb88b2eb2def86c928ac4a592d88",
-      "tree_hash": "sha256:7ec142585cd04333f944dae647e42b8ed872a6dfda22438095ae9a79218db4c2",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:0217bda94113781adb048a3255a7322813c9eb88b2eb2def86c928ac4a592d88",
+      "tree_hash": "sha256:7ec142585cd04333f944dae647e42b8ed872a6dfda22438095ae9a79218db4c2",
       "signer": "amkisko",
       "published_at": 1791443890,
       "signature": "sha256:a68d8d1e77f323e0bfa58fa31eef102137de4819b726208db42c5e9107c4bc76",
@@ -1088,13 +1088,13 @@
     {
       "version": "2.14.2",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.14.2/amkisko-engineering-audit-2.14.2.praypkg",
-      "artifact_hash": "sha256:c6e6ac365b28e0bf883445bf16be3aea594f493a3cb4cc78946fb1f81b2a8365",
-      "tree_hash": "sha256:245fbe7241bdf783e3e7b6e3eeae915b0ce35d3491fca92cfad406eda5012e9c",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:c6e6ac365b28e0bf883445bf16be3aea594f493a3cb4cc78946fb1f81b2a8365",
+      "tree_hash": "sha256:245fbe7241bdf783e3e7b6e3eeae915b0ce35d3491fca92cfad406eda5012e9c",
       "signer": "amkisko",
       "published_at": 1791444170,
       "signature": "sha256:42745195f801747200acfc215ac1b2097d8f90584800e0fbec733503309b50d1",
@@ -1163,13 +1163,13 @@
     {
       "version": "2.16.0",
       "artifact": "v1/artifacts/amkisko/engineering-audit/2.16.0/amkisko-engineering-audit-2.16.0.praypkg",
-      "artifact_hash": "sha256:e5be24f6f7f99b7dc0ff13d24d674fc70aeb9bedb1854bd5b6f0428053c55e73",
-      "tree_hash": "sha256:e682e8e521258e5c30233932004813aa01958ac86237a45e75ade8ff45a6de1c",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:e5be24f6f7f99b7dc0ff13d24d674fc70aeb9bedb1854bd5b6f0428053c55e73",
+      "tree_hash": "sha256:e682e8e521258e5c30233932004813aa01958ac86237a45e75ade8ff45a6de1c",
       "signer": "amkisko",
       "published_at": 1793613539,
       "signature": "sha256:f3734aac20f000d7551e1837110b580c325d0bfc305e999c0611a163ed78d74f",
@@ -1218,6 +1218,67 @@
         ],
         "file_count": 22,
         "character_count": 63609,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "2.16.1",
+      "artifact": "v1/artifacts/amkisko/engineering-audit/2.16.1/amkisko-engineering-audit-2.16.1.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "artifact_hash": "sha256:425a254dc400518d7c4f0e6a38d991645a9a3a036e4566926c1b03c50e71781e",
+      "tree_hash": "sha256:a1b0978b8896b27b834f284c634f63b9d44ff56b6aaa878aeb07bdffaff4d792",
+      "signer": "local",
+      "published_at": 1793979849,
+      "signature": "sha256:dec667367124f5e1b43a8d9bf65a607bb26cc16f418f36096f2f15f78e801ee7",
+      "derived_metadata": {
+        "summary": "Language-agnostic pipeline engineering audit with optional product-surface, privacy, performance, observability, securit - Engineering audit skill: pipeline core plus skippable product modes; no named framework required",
+        "topics": [
+          "language",
+          "agnostic",
+          "pipeline",
+          "engineering",
+          "audit"
+        ],
+        "categories": [
+          "automation",
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior",
+          "reduces manual steps"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              31,
+              20,
+              30,
+              40,
+              24,
+              33,
+              43,
+              34,
+              35,
+              31,
+              32,
+              31,
+              37,
+              36,
+              33,
+              22
+            ]
+          }
+        ],
+        "file_count": 22,
+        "character_count": 63773,
         "token_count": 512
       }
     }

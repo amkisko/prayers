@@ -145,7 +145,7 @@ dependencies = []
 
 [[package]]
 name = "amkisko/delivery-budgets"
-version = "1.0.1"
+version = "1.0.2"
 path = "./packages/delivery-budgets"
 tree_hash = "sha256:865f09ea896dcbd7ad97e802e2eedb749ec8337a85f10b7fc4c39505fde4f274"
 artifact_hash = "sha256:865f09ea896dcbd7ad97e802e2eedb749ec8337a85f10b7fc4c39505fde4f274"
@@ -155,7 +155,7 @@ dependencies = []
 
 [[package]]
 name = "amkisko/dependency-policy"
-version = "4.2.0"
+version = "4.2.1"
 path = "./packages/dependency-policy"
 tree_hash = "sha256:ebb106514508cd691b76536f56eb3f316bb73ffd6a9010798d2a41e4f07ba633"
 artifact_hash = "sha256:ebb106514508cd691b76536f56eb3f316bb73ffd6a9010798d2a41e4f07ba633"
@@ -198,7 +198,7 @@ dependencies = []
 
 [[package]]
 name = "amkisko/engineering-audit"
-version = "2.16.0"
+version = "2.16.1"
 path = "./packages/engineering-audit"
 tree_hash = "sha256:a1b0978b8896b27b834f284c634f63b9d44ff56b6aaa878aeb07bdffaff4d792"
 artifact_hash = "sha256:a1b0978b8896b27b834f284c634f63b9d44ff56b6aaa878aeb07bdffaff4d792"

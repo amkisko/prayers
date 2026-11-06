@@ -4,14 +4,14 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/dependency-policy/1.0.0/amkisko-dependency-policy-1.0.0.praypkg",
-      "artifact_hash": "sha256:2fd9df35a313b258e9acaab5cfa5168ee193c688ba6818d01b80ecaee1074ac1",
-      "tree_hash": "sha256:df94df87736fc996d0509b55b951dbdcbbda9d5b4032f6f413e8412cffc97f53",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-policy",
         "skill"
       ],
+      "artifact_hash": "sha256:2fd9df35a313b258e9acaab5cfa5168ee193c688ba6818d01b80ecaee1074ac1",
+      "tree_hash": "sha256:df94df87736fc996d0509b55b951dbdcbbda9d5b4032f6f413e8412cffc97f53",
       "signer": "amkisko",
       "published_at": 1783404609,
       "signature": "sha256:5ed4191d68a765158a0ab25f22c802af7ba5b8402cf65c9b0a440ac83339e905",
@@ -64,14 +64,14 @@
     {
       "version": "2.0.0",
       "artifact": "v1/artifacts/amkisko/dependency-policy/2.0.0/amkisko-dependency-policy-2.0.0.praypkg",
-      "artifact_hash": "sha256:ec3f443ef8944f6700ec7468b0df99b6187650fdfe45f6225cf5d3203103a7fa",
-      "tree_hash": "sha256:628a55a360e0fa17ec04f5f4185f3d5c494ce3600373171bc81092bbe47f044b",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-policy",
         "skill"
       ],
+      "artifact_hash": "sha256:ec3f443ef8944f6700ec7468b0df99b6187650fdfe45f6225cf5d3203103a7fa",
+      "tree_hash": "sha256:628a55a360e0fa17ec04f5f4185f3d5c494ce3600373171bc81092bbe47f044b",
       "signer": "amkisko",
       "published_at": 1785128733,
       "signature": "sha256:a9a70f2b492e4f9f687d3ba52728a298b71388cbe556ed7c49095e6b74699461",
@@ -124,14 +124,14 @@
     {
       "version": "3.0.0",
       "artifact": "v1/artifacts/amkisko/dependency-policy/3.0.0/amkisko-dependency-policy-3.0.0.praypkg",
-      "artifact_hash": "sha256:f37c8ac1cb8f9d513eee66b1bfa621979b6ceb06831e23edfacd990fb005b90c",
-      "tree_hash": "sha256:6020312e25d7ebc558f406912a18c277c73ef02b0da617c76b12510576247dd3",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-policy",
         "skill"
       ],
+      "artifact_hash": "sha256:f37c8ac1cb8f9d513eee66b1bfa621979b6ceb06831e23edfacd990fb005b90c",
+      "tree_hash": "sha256:6020312e25d7ebc558f406912a18c277c73ef02b0da617c76b12510576247dd3",
       "signer": "amkisko",
       "published_at": 1787991251,
       "signature": "sha256:6f6e50eaf42cee74679152b08dca784ea9df8f61caf435eb02f06e929af21948",
@@ -184,14 +184,14 @@
     {
       "version": "3.1.0",
       "artifact": "v1/artifacts/amkisko/dependency-policy/3.1.0/amkisko-dependency-policy-3.1.0.praypkg",
-      "artifact_hash": "sha256:8854875d524a74a79e44b0fe0636d4776a10a19449ab36f756561b80fa3ed8d1",
-      "tree_hash": "sha256:ab4171210bb877d550a9f547f4cde3f343709ddae6583adaee30c0ec0951225b",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-policy",
         "skill"
       ],
+      "artifact_hash": "sha256:8854875d524a74a79e44b0fe0636d4776a10a19449ab36f756561b80fa3ed8d1",
+      "tree_hash": "sha256:ab4171210bb877d550a9f547f4cde3f343709ddae6583adaee30c0ec0951225b",
       "signer": "amkisko",
       "published_at": 1787994857,
       "signature": "sha256:281867ca640c595b3c4e1a26a2b60d6d5747ecf8032ead655d78b8e78f0a73d0",
@@ -244,14 +244,14 @@
     {
       "version": "3.2.0",
       "artifact": "v1/artifacts/amkisko/dependency-policy/3.2.0/amkisko-dependency-policy-3.2.0.praypkg",
-      "artifact_hash": "sha256:4c5cc735f24c9bc7d1e313b589ff102eb9e004f43518a1beb2cbc61b4a0ab34d",
-      "tree_hash": "sha256:011c599c0fade22671bf410496bc80a26804e495128f5a56c4e1d82a1189bed9",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-policy",
         "skill"
       ],
+      "artifact_hash": "sha256:4c5cc735f24c9bc7d1e313b589ff102eb9e004f43518a1beb2cbc61b4a0ab34d",
+      "tree_hash": "sha256:011c599c0fade22671bf410496bc80a26804e495128f5a56c4e1d82a1189bed9",
       "signer": "amkisko",
       "published_at": 1788032537,
       "signature": "sha256:87cf946a58ef3ee0d54f447697db712641811662ab4799102f8cc55f9b2decb7",
@@ -304,14 +304,14 @@
     {
       "version": "4.0.0",
       "artifact": "v1/artifacts/amkisko/dependency-policy/4.0.0/amkisko-dependency-policy-4.0.0.praypkg",
-      "artifact_hash": "sha256:e62d69c284fc79db3428d267c4ce90cf816c49a3a0f9df15a70be0fa73431f4d",
-      "tree_hash": "sha256:63f3d382797e522a0c9fe0ee1235a63f0d0cca7721600ba8436ed1c4dddcb100",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-policy",
         "skill"
       ],
+      "artifact_hash": "sha256:e62d69c284fc79db3428d267c4ce90cf816c49a3a0f9df15a70be0fa73431f4d",
+      "tree_hash": "sha256:63f3d382797e522a0c9fe0ee1235a63f0d0cca7721600ba8436ed1c4dddcb100",
       "signer": "amkisko",
       "published_at": 1788761992,
       "signature": "sha256:48511777f6fa10d8fc4b0014eac9a4e036d7939b0ae1c97cabc79f07f2f86895",
@@ -364,14 +364,14 @@
     {
       "version": "4.1.0",
       "artifact": "v1/artifacts/amkisko/dependency-policy/4.1.0/amkisko-dependency-policy-4.1.0.praypkg",
-      "artifact_hash": "sha256:9d04d93c07f7a5df77499e29fb9f3355ede6c54b9dad5f291f444d461c28eac0",
-      "tree_hash": "sha256:b0cf17171903324846687fd9a675d61a631ab77de6a78d8a17b87e725280812e",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-policy",
         "skill"
       ],
+      "artifact_hash": "sha256:9d04d93c07f7a5df77499e29fb9f3355ede6c54b9dad5f291f444d461c28eac0",
+      "tree_hash": "sha256:b0cf17171903324846687fd9a675d61a631ab77de6a78d8a17b87e725280812e",
       "signer": "amkisko",
       "published_at": 1790079659,
       "signature": "sha256:0dbd5422cc33d5c64b2fd931622105410f2961f23a5d76f66055bee460d5e1f7",
@@ -424,14 +424,14 @@
     {
       "version": "4.1.1",
       "artifact": "v1/artifacts/amkisko/dependency-policy/4.1.1/amkisko-dependency-policy-4.1.1.praypkg",
-      "artifact_hash": "sha256:83df4c8a77b52627a66a4891406d252e2c23dbaa3908825480d29696310bbe0c",
-      "tree_hash": "sha256:03e0970b9da7af22609464587fb20cd0ff48b8bd58fc8ea26f09942eaa73c7af",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-policy",
         "skill"
       ],
+      "artifact_hash": "sha256:83df4c8a77b52627a66a4891406d252e2c23dbaa3908825480d29696310bbe0c",
+      "tree_hash": "sha256:03e0970b9da7af22609464587fb20cd0ff48b8bd58fc8ea26f09942eaa73c7af",
       "signer": "amkisko",
       "published_at": 1791443890,
       "signature": "sha256:267edc6324407e87038871104b9aa2bda4f2642bca578a16a20b4ea2cfb4b5b6",
@@ -484,14 +484,14 @@
     {
       "version": "4.1.2",
       "artifact": "v1/artifacts/amkisko/dependency-policy/4.1.2/amkisko-dependency-policy-4.1.2.praypkg",
-      "artifact_hash": "sha256:56fb459e615f230b227664ddce663211488e489c0aa3650259ed7b1ff583ec82",
-      "tree_hash": "sha256:2c65b1f2ad8e02cd2d256d09fc7d8bbeae9c99a579061cf32ca54fd817081599",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-policy",
         "skill"
       ],
+      "artifact_hash": "sha256:56fb459e615f230b227664ddce663211488e489c0aa3650259ed7b1ff583ec82",
+      "tree_hash": "sha256:2c65b1f2ad8e02cd2d256d09fc7d8bbeae9c99a579061cf32ca54fd817081599",
       "signer": "amkisko",
       "published_at": 1791444170,
       "signature": "sha256:bdbfad25315a4fceda6e4fdc159e6f7c2325dca6f2f52c1cb38091de5ab3d397",
@@ -544,14 +544,14 @@
     {
       "version": "4.2.0",
       "artifact": "v1/artifacts/amkisko/dependency-policy/4.2.0/amkisko-dependency-policy-4.2.0.praypkg",
-      "artifact_hash": "sha256:0e2b0989d54d2fc9554fa12eec6d6200709363c713853ff39a3db263c0a43608",
-      "tree_hash": "sha256:16ad121a52207d7380bddc9d3943524cd6025cfd6adae2fd9ceaefb86f1db8f5",
       "yanked": false,
       "targets": [],
       "exports": [
         "dependency-policy",
         "skill"
       ],
+      "artifact_hash": "sha256:0e2b0989d54d2fc9554fa12eec6d6200709363c713853ff39a3db263c0a43608",
+      "tree_hash": "sha256:16ad121a52207d7380bddc9d3943524cd6025cfd6adae2fd9ceaefb86f1db8f5",
       "signer": "amkisko",
       "published_at": 1793613539,
       "signature": "sha256:0803e0e6483bccfc2fb447f47e119eaf54b653a852cae83029503daf242e9e42",
@@ -598,6 +598,66 @@
         ],
         "file_count": 8,
         "character_count": 33740,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "4.2.1",
+      "artifact": "v1/artifacts/amkisko/dependency-policy/4.2.1/amkisko-dependency-policy-4.2.1.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "dependency-policy",
+        "skill"
+      ],
+      "artifact_hash": "sha256:37162739329d840aef7ef664c0f3879cfa0ff444105cc140f9d9ccd055cea8c7",
+      "tree_hash": "sha256:ebb106514508cd691b76536f56eb3f316bb73ffd6a9010798d2a41e4f07ba633",
+      "signer": "local",
+      "published_at": 1793979849,
+      "signature": "sha256:41c41e4845f6a39cdf2803f552bf5e98d962ca0cb9f83fae999cb13015712a20",
+      "derived_metadata": {
+        "summary": "Dependency stop-gate and target-scoped audit skill - Stop-before-add gate and when to audit",
+        "topics": [
+          "dependency",
+          "stop",
+          "gate",
+          "target",
+          "scoped"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              40,
+              24,
+              57,
+              25,
+              32,
+              29,
+              28,
+              29,
+              29,
+              41,
+              27,
+              15,
+              55,
+              30,
+              29,
+              22
+            ]
+          }
+        ],
+        "file_count": 8,
+        "character_count": 34036,
         "token_count": 512
       }
     }
