@@ -29,8 +29,8 @@ consumer tree example.
 
 ## Next
 
-- Finish candidate checks on `trunk/1.35.0`, merge to `main`, then deliver
-  `v1.35.0`
+- Open or update the candidate request for `trunk/1.35.0` into `main`, merge
+  when checks pass, then deliver tag `v1.35.0` and the GitHub release
 - Consumers can pin `amkisko/pressure-benchmarking ~> 1.0` and strengthen
   local self-tests for stage-distinct p95 parsing
 
