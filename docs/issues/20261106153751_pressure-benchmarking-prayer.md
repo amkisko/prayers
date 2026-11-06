@@ -17,7 +17,7 @@ candidate lists; this skill for calibrate, load ladder, ceiling ratchet, and
 cooker episodes.
 
 Collect the package into distribution release 1.35.0 on candidate
-`trunk/1.35.0`.
+`trunk/1.35.0`. Delivered as tag `v1.35.0`.
 
 ## Effects
 
@@ -25,12 +25,11 @@ Added `packages/pressure-benchmarking` with skill, `pressure-loop.md`, and
 `known-practices.md`. Wired the skill under `.agents/skills` in Prayfile.
 Pointed Related from delivery-budgets 1.0.2, dependency-policy 4.2.1, and
 engineering-audit 2.16.1 at the new package. Cut CHANGELOG 1.35.0 and README
-consumer tree example.
+consumer tree example. Tagged `v1.35.0` on `6d8b029` and published the
+GitHub release.
 
 ## Next
 
-- Open or update the candidate request for `trunk/1.35.0` into `main`, merge
-  when checks pass, then deliver tag `v1.35.0` and the GitHub release
 - Consumers can pin `amkisko/pressure-benchmarking ~> 1.0` and strengthen
   local self-tests for stage-distinct p95 parsing
 
@@ -43,3 +42,5 @@ consumer tree example.
 - `packages/delivery-budgets/exports/delivery-budgets.md`
 - `packages/engineering-audit/skills/engineering-audit/resource-and-budget.md`
 - `docs/changelogs/20261106174238_prayers-1-35-0.md`
+- Tag `v1.35.0`; GitHub release https://github.com/amkisko/prayers/releases/tag/v1.35.0
+
