@@ -4,13 +4,13 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/minimal-implementation/1.0.0/amkisko-minimal-implementation-1.0.0.praypkg",
-      "artifact_hash": "sha256:4bf353ca7db49ae6fc0688195c37bb387e30d194b69e34d3f10563cf52abf12f",
-      "tree_hash": "sha256:e3e38bafa9bb022d5c3b1b0e3f904bab958b660fbcc22ff41140e6dc5e3537f7",
       "yanked": false,
       "targets": [],
       "exports": [
         "minimal-implementation"
       ],
+      "artifact_hash": "sha256:4bf353ca7db49ae6fc0688195c37bb387e30d194b69e34d3f10563cf52abf12f",
+      "tree_hash": "sha256:e3e38bafa9bb022d5c3b1b0e3f904bab958b660fbcc22ff41140e6dc5e3537f7",
       "signer": "amkisko",
       "published_at": 1787048755,
       "signature": "sha256:76988c76e7eeb8645d52be7eef0988d80817beb26c0cd376d9758c174d067e7b",
@@ -63,13 +63,13 @@
     {
       "version": "1.1.0",
       "artifact": "v1/artifacts/amkisko/minimal-implementation/1.1.0/amkisko-minimal-implementation-1.1.0.praypkg",
-      "artifact_hash": "sha256:1611534cda1c4e278626cd6e19edfc4464ec5265ff5ad8f98d0daa20d86b8dcc",
-      "tree_hash": "sha256:74c3e981c8c6791a6b92f844ef9c3ccbfdf8f4b815239531a36a8e0252319ead",
       "yanked": false,
       "targets": [],
       "exports": [
         "minimal-implementation"
       ],
+      "artifact_hash": "sha256:1611534cda1c4e278626cd6e19edfc4464ec5265ff5ad8f98d0daa20d86b8dcc",
+      "tree_hash": "sha256:74c3e981c8c6791a6b92f844ef9c3ccbfdf8f4b815239531a36a8e0252319ead",
       "signer": "amkisko",
       "published_at": 1787992969,
       "signature": "sha256:f65fe52daaa08a52b24a144b0b180accbb656e1877c2b17b07c236eca5655d47",
@@ -122,13 +122,13 @@
     {
       "version": "1.1.1",
       "artifact": "v1/artifacts/amkisko/minimal-implementation/1.1.1/amkisko-minimal-implementation-1.1.1.praypkg",
-      "artifact_hash": "sha256:4cb3d5eede8b44805f98c676c549a7f48ffb5d0fde15f0d28fb297c04bb89ffb",
-      "tree_hash": "sha256:49c49b69213058255d00b7c5ea85fb64c77fc199b92f7a8a16ad480887b0c6de",
       "yanked": false,
       "targets": [],
       "exports": [
         "minimal-implementation"
       ],
+      "artifact_hash": "sha256:4cb3d5eede8b44805f98c676c549a7f48ffb5d0fde15f0d28fb297c04bb89ffb",
+      "tree_hash": "sha256:49c49b69213058255d00b7c5ea85fb64c77fc199b92f7a8a16ad480887b0c6de",
       "signer": "amkisko",
       "published_at": 1788033519,
       "signature": "sha256:3c1ac45366ced8e2f2841677c7a315e72bb6106a081564a499c673ba23a45cf6",
@@ -181,13 +181,13 @@
     {
       "version": "1.2.0",
       "artifact": "v1/artifacts/amkisko/minimal-implementation/1.2.0/amkisko-minimal-implementation-1.2.0.praypkg",
-      "artifact_hash": "sha256:2637a5e64581e1ad77cbe6cb3becd2ce729b3f6c25350c1c25fc00880cdb7858",
-      "tree_hash": "sha256:49082c3bba1d7035ae765745a9f4206095b9ba2f63f5115dddedaa30455ae0a0",
       "yanked": false,
       "targets": [],
       "exports": [
         "minimal-implementation"
       ],
+      "artifact_hash": "sha256:2637a5e64581e1ad77cbe6cb3becd2ce729b3f6c25350c1c25fc00880cdb7858",
+      "tree_hash": "sha256:49082c3bba1d7035ae765745a9f4206095b9ba2f63f5115dddedaa30455ae0a0",
       "signer": "amkisko",
       "published_at": 1788080176,
       "signature": "sha256:9df5b154bc40b1f318a82883a746fcf67d186c6a67aca9a5d62801b18e6891f4",
@@ -240,13 +240,13 @@
     {
       "version": "1.3.0",
       "artifact": "v1/artifacts/amkisko/minimal-implementation/1.3.0/amkisko-minimal-implementation-1.3.0.praypkg",
-      "artifact_hash": "sha256:5d8e1d54bc899c3f4025f78e0eb3cbb9fbe57c5f276a766191623586afecb816",
-      "tree_hash": "sha256:e68a5459effa93349471993df63a68f14d5db763bb0980d260dc210132e73fc8",
       "yanked": false,
       "targets": [],
       "exports": [
         "minimal-implementation"
       ],
+      "artifact_hash": "sha256:5d8e1d54bc899c3f4025f78e0eb3cbb9fbe57c5f276a766191623586afecb816",
+      "tree_hash": "sha256:e68a5459effa93349471993df63a68f14d5db763bb0980d260dc210132e73fc8",
       "signer": "amkisko",
       "published_at": 1788276206,
       "signature": "sha256:ee75f4501f187d4be6b08480f4b760deb4106dbf1fcf0dd7f0b6f7bca099e9aa",
@@ -299,13 +299,13 @@
     {
       "version": "1.4.0",
       "artifact": "v1/artifacts/amkisko/minimal-implementation/1.4.0/amkisko-minimal-implementation-1.4.0.praypkg",
-      "artifact_hash": "sha256:b8f51dfca51e3f81bf78ec3780335e9e45b39f16c0d207cbcabb15124e3c1e49",
-      "tree_hash": "sha256:fece2f481582a29a512f94ea4bc3eaa057b0518e0781f4ae6abc979240bd648f",
       "yanked": false,
       "targets": [],
       "exports": [
         "minimal-implementation"
       ],
+      "artifact_hash": "sha256:b8f51dfca51e3f81bf78ec3780335e9e45b39f16c0d207cbcabb15124e3c1e49",
+      "tree_hash": "sha256:fece2f481582a29a512f94ea4bc3eaa057b0518e0781f4ae6abc979240bd648f",
       "signer": "amkisko",
       "published_at": 1789394555,
       "signature": "sha256:fc33b750cba9ea6230f0703b7d4126c58d78275d68dc0fb27648cded6615550a",
@@ -358,13 +358,13 @@
     {
       "version": "1.5.0",
       "artifact": "v1/artifacts/amkisko/minimal-implementation/1.5.0/amkisko-minimal-implementation-1.5.0.praypkg",
-      "artifact_hash": "sha256:c287576b0622baa9e48d5a0e9bc98ebbeda0f15d0589569f025597c675ef9e92",
-      "tree_hash": "sha256:a5a32c14dedd26a87498ba0ca931aa3850111982d8f92870177a9aef9af4f6f0",
       "yanked": false,
       "targets": [],
       "exports": [
         "minimal-implementation"
       ],
+      "artifact_hash": "sha256:c287576b0622baa9e48d5a0e9bc98ebbeda0f15d0589569f025597c675ef9e92",
+      "tree_hash": "sha256:a5a32c14dedd26a87498ba0ca931aa3850111982d8f92870177a9aef9af4f6f0",
       "signer": "amkisko",
       "published_at": 1789967123,
       "signature": "sha256:fbb8cb65ab6820522fc9fef678dfd79a5232557b829f1a80311f600d4c67228a",
@@ -417,13 +417,13 @@
     {
       "version": "1.5.1",
       "artifact": "v1/artifacts/amkisko/minimal-implementation/1.5.1/amkisko-minimal-implementation-1.5.1.praypkg",
-      "artifact_hash": "sha256:2434e90cf9ed91b64dcb7535d77e080c3a91fb4f84857b8d2161892d482fdc27",
-      "tree_hash": "sha256:516044f5204e6c55c3cd4323ae85bed8a1cb950e3a28f704930b152feec8ff8b",
       "yanked": false,
       "targets": [],
       "exports": [
         "minimal-implementation"
       ],
+      "artifact_hash": "sha256:2434e90cf9ed91b64dcb7535d77e080c3a91fb4f84857b8d2161892d482fdc27",
+      "tree_hash": "sha256:516044f5204e6c55c3cd4323ae85bed8a1cb950e3a28f704930b152feec8ff8b",
       "signer": "amkisko",
       "published_at": 1791444170,
       "signature": "sha256:06f64ec7ac0ce9278ed5f46b6cbdc8cd58d168411df197f9a5b580e2c6a5f838",
@@ -476,13 +476,13 @@
     {
       "version": "1.5.2",
       "artifact": "v1/artifacts/amkisko/minimal-implementation/1.5.2/amkisko-minimal-implementation-1.5.2.praypkg",
-      "artifact_hash": "sha256:a91a9aae86edc928dd604da934ed07a6ac6e38c0c93eeb7709fe85865c6b94c2",
-      "tree_hash": "sha256:9ba63fc2876282e605fa6662390135ec91bec954834259be4785544e747f7767",
       "yanked": false,
       "targets": [],
       "exports": [
         "minimal-implementation"
       ],
+      "artifact_hash": "sha256:a91a9aae86edc928dd604da934ed07a6ac6e38c0c93eeb7709fe85865c6b94c2",
+      "tree_hash": "sha256:9ba63fc2876282e605fa6662390135ec91bec954834259be4785544e747f7767",
       "signer": "amkisko",
       "published_at": 1793287540,
       "signature": "sha256:82c6143d352aa1393fecff1a4e30cae74ce5d9b3cbb6b9f8b585a130819533eb",
@@ -530,6 +530,65 @@
         "file_count": 2,
         "character_count": 2723,
         "token_count": 284
+      }
+    },
+    {
+      "version": "1.6.0",
+      "artifact": "v1/artifacts/amkisko/minimal-implementation/1.6.0/amkisko-minimal-implementation-1.6.0.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "minimal-implementation"
+      ],
+      "artifact_hash": "sha256:45d2d16ccfe4734c172333c66b93f5fb9047590ae7d76d2d41e7a6bf2656c285",
+      "tree_hash": "sha256:f1beece1faa956dd513a5edbdb48cca555aa8af98f8c79a5fef8c4d076b3a53f",
+      "signer": "local",
+      "published_at": 1794230100,
+      "signature": "sha256:1a1b29194875e25813e5fda548a7d72f79a1368a4431605a758a1578b5a2e855",
+      "derived_metadata": {
+        "summary": "Smallest correct change discipline - Minimal implementation rules",
+        "topics": [
+          "smallest",
+          "correct",
+          "change",
+          "discipline",
+          "minimal"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              15,
+              21,
+              23,
+              10,
+              15,
+              23,
+              18,
+              25,
+              16,
+              26,
+              19,
+              8,
+              31,
+              17,
+              32,
+              21
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 3027,
+        "token_count": 320
       }
     }
   ]

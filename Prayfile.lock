@@ -1,7 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
 generated_by = "pray 1.26.1"
-manifest_hash = "sha256:2f67adc1c948c364e5df25f6a3d1270a18c68609037727ae842ce941a4733538"
+manifest_hash = "sha256:8c27537ad1227a058c10e864f39582682bd543370757de9e8a80d57bd8be3783"
 
 [[package]]
 name = "amkisko/agent-artifact"
@@ -254,6 +254,16 @@ tree_hash = "sha256:ee01659060b8300ac6434e78c3f0b0e3e81bc07392f37db4d6db3e7595a5
 artifact_hash = "sha256:ee01659060b8300ac6434e78c3f0b0e3e81bc07392f37db4d6db3e7595a51a59"
 artifact = "path:./packages/kotlin-conventions"
 exports = ["kotlin-conventions"]
+dependencies = []
+
+[[package]]
+name = "amkisko/minimal-implementation"
+version = "1.6.0"
+path = "./packages/minimal-implementation"
+tree_hash = "sha256:f1beece1faa956dd513a5edbdb48cca555aa8af98f8c79a5fef8c4d076b3a53f"
+artifact_hash = "sha256:f1beece1faa956dd513a5edbdb48cca555aa8af98f8c79a5fef8c4d076b3a53f"
+artifact = "path:./packages/minimal-implementation"
+exports = ["minimal-implementation"]
 dependencies = []
 
 [[package]]

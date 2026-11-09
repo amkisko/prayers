@@ -23,12 +23,13 @@ Added `packages/dependency-policy/skills/dependency-audit/references/upgrade-imp
 Wired impact into skill routing, selection and alteration, full-audit
 alteration checks, and the compose fragment. Added pressure-loop dependency
 fitness escalate and Related pointers. Extended minimal-implementation rules
-for existing-dependency miss.
+for existing-dependency miss. Published local catalog packages 4.3.0, 1.1.0,
+and 1.6.0; restored `minimal-implementation` as a Prayfile path publish entry.
 
 ## Next
 
-- Run `make release` on `trunk/1.36.0`, open the candidate request, merge to
-  `main`, tag `v1.36.0`, and publish the GitHub release
+- Tag `v1.36.0` and publish the GitHub release after catalog artifacts land on
+  the release commit
 
 ## Source
 
@@ -37,3 +38,4 @@ for existing-dependency miss.
 - `packages/dependency-policy/`
 - `packages/pressure-benchmarking/`
 - `packages/minimal-implementation/`
+- `docs/changelogs/20261109125517_prayers-1-36-0.md`

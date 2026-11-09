@@ -59,6 +59,65 @@
         "character_count": 13799,
         "token_count": 512
       }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/pressure-benchmarking/1.1.0/amkisko-pressure-benchmarking-1.1.0.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "artifact_hash": "sha256:2390c34a20de22bd206867310d24e6c5e89b3923cc45c81cba9e9857feb81c1f",
+      "tree_hash": "sha256:d165b2cf65b9faa8d1310ab424349eeded20a80320f8c649aaa99f953bd2e134",
+      "signer": "local",
+      "published_at": 1794230047,
+      "signature": "sha256:6d95b22730392148ded9a7c4139297c86cccd0fe0cb61faf5b778ef8d19d07f3",
+      "derived_metadata": {
+        "summary": "Calibrate meters, raise load, ratchet resource ceilings, and pressure-cook optimize/prove cycles - Pressure benchmarking procedure with calibrate and cooker loop",
+        "topics": [
+          "calibrate",
+          "meters",
+          "raise",
+          "load",
+          "ratchet"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              33,
+              15,
+              40,
+              17,
+              41,
+              29,
+              49,
+              23,
+              27,
+              26,
+              42,
+              28,
+              49,
+              31,
+              34,
+              28
+            ]
+          }
+        ],
+        "file_count": 4,
+        "character_count": 15044,
+        "token_count": 512
+      }
     }
   ]
 }
