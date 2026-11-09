@@ -155,10 +155,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/dependency-policy"
-version = "4.2.1"
+version = "4.3.0"
 path = "./packages/dependency-policy"
-tree_hash = "sha256:ebb106514508cd691b76536f56eb3f316bb73ffd6a9010798d2a41e4f07ba633"
-artifact_hash = "sha256:ebb106514508cd691b76536f56eb3f316bb73ffd6a9010798d2a41e4f07ba633"
+tree_hash = "sha256:0484f6349f157e38cd9a347aa1f9a633b0cb14229b0b5cf97a0b427b192d91d4"
+artifact_hash = "sha256:0484f6349f157e38cd9a347aa1f9a633b0cb14229b0b5cf97a0b427b192d91d4"
 artifact = "path:./packages/dependency-policy"
 exports = [
     "dependency-policy",
@@ -288,10 +288,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/pressure-benchmarking"
-version = "1.0.0"
+version = "1.1.0"
 path = "./packages/pressure-benchmarking"
-tree_hash = "sha256:b885db161d185a3e7f157c6f76757b5871c586aab4c83a272dc5e84e49d593b0"
-artifact_hash = "sha256:b885db161d185a3e7f157c6f76757b5871c586aab4c83a272dc5e84e49d593b0"
+tree_hash = "sha256:d165b2cf65b9faa8d1310ab424349eeded20a80320f8c649aaa99f953bd2e134"
+artifact_hash = "sha256:d165b2cf65b9faa8d1310ab424349eeded20a80320f8c649aaa99f953bd2e134"
 artifact = "path:./packages/pressure-benchmarking"
 exports = ["skill"]
 dependencies = []
@@ -507,10 +507,10 @@ id = "3ac5d6ce"
 target = "AGENTS.md"
 open_line = 143
 close_line = 166
-ideal_checksum = "sha256:b1e42580c04a82c0598b40c34216c1afcbdafc57099b0b9c8b6764cef337a4b7"
+ideal_checksum = "sha256:46ccc239d16e5014560af365052a4ab96ce1ed3ca2cc93b3324f95623025519c"
 package = "amkisko/dependency-policy"
 export = "dependency-policy"
-source_checksum = "sha256:ebb106514508cd691b76536f56eb3f316bb73ffd6a9010798d2a41e4f07ba633"
+source_checksum = "sha256:0484f6349f157e38cd9a347aa1f9a633b0cb14229b0b5cf97a0b427b192d91d4"
 silenced = false
 
 [[provisioned]]
@@ -599,13 +599,13 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/dependency-audit/SKILL.md"
-content_hash = "sha256:1624b5ca6e43288f3d33c69b3e91c05df9216c73238c66bd68490db34261a41f"
+content_hash = "sha256:6cb0d92669548ba538fe393ef6abb20d38337a990d259726b6faa04fbc743d7e"
 package = "amkisko/dependency-policy"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/dependency-audit/references/dependency-audit.md"
-content_hash = "sha256:10e3dda87a994bd0e242785eaee1eb0c75c144f61f67340400bc10b88e9bad9c"
+content_hash = "sha256:7412da42a69212d1a5e956bcb478d4caa4fb34be672a5bc5319f3892284258ac"
 package = "amkisko/dependency-policy"
 export = "skill"
 
@@ -617,13 +617,19 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/dependency-audit/references/selection-and-alteration.md"
-content_hash = "sha256:e1b486f4635b11642c15ae3a73a0cedf268dc3f19ffa8e94eda907e775e482e9"
+content_hash = "sha256:1d9f50b55e5b17779a156e63eb2297237d03c05cbd48102155d397f19ebb04bc"
+package = "amkisko/dependency-policy"
+export = "skill"
+
+[[provisioned]]
+path = ".agents/skills/dependency-audit/references/upgrade-impact.md"
+content_hash = "sha256:5c893aa9012850591a2e7f6839dd258576dfd535e376ac0020659150e121748d"
 package = "amkisko/dependency-policy"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/dependency-audit/references/upgrade-resource-compare.md"
-content_hash = "sha256:a11ec796029b5bf86e12d3bf0b61d6f48f5467eac26764917f6b0284047272c3"
+content_hash = "sha256:660dcb3a651af39d69706ca03362fa4a63011dbf5abc07efc58505d9c3df8e03"
 package = "amkisko/dependency-policy"
 export = "skill"
 
@@ -839,19 +845,19 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/pressure-benchmarking/SKILL.md"
-content_hash = "sha256:0c52666efa9bdbf05625213134f1092447c6be796e5f79df352e7241e0026f4e"
+content_hash = "sha256:e43345ded21bfab9eeca6f7a5ac3d79fa276fda627991b99d251e6e21861b377"
 package = "amkisko/pressure-benchmarking"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/pressure-benchmarking/references/known-practices.md"
-content_hash = "sha256:b3a30eef975b11293c186a639c9914c4f3cd4e6513ee1ec55f00c0bf562e0173"
+content_hash = "sha256:42cad8ec76e41ef96de7950c48275c9cc34de5cc55c33b2dbb8a018fd4c21465"
 package = "amkisko/pressure-benchmarking"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/pressure-benchmarking/references/pressure-loop.md"
-content_hash = "sha256:7f032e063c16e6c35ed4b6013e0585b2e3cc5c94ba481010876cddebb10fc76e"
+content_hash = "sha256:ebd9d4405976ac001b5ea90bcb6f739c776cae84a6d8bb192f4a5f776ce3b127"
 package = "amkisko/pressure-benchmarking"
 export = "skill"
 

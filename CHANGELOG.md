@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 1.36.0 (2026-11-09)
+
+- Publish `amkisko/dependency-policy` 4.3.0: on upgrades, map changelog or release notes to this tree's usage; classify patch-safe, adapt-needed, or blocked; split must-adapt, may-adopt, and do-not-adopt work; when measured load shows a dependency no longer meets named requirements, reassess replace, remove, or narrow first-party work before custom code.
+- Publish `amkisko/pressure-benchmarking` 1.1.0: when the pressure cooker stalls inside a third-party package with no high-confidence first-party candidate, record dependency fitness failure and route to dependency-audit upgrade impact.
+- Publish `amkisko/minimal-implementation` 1.6.0: reassess an existing dependency through dependency-audit before writing custom replacement code.
+
 ## 1.35.0 (2026-11-06)
 
 - Add `amkisko/pressure-benchmarking` 1.0.0: calibrate meters before baseline, raise load, ratchet ceilings with named propose-basis per series, require samples-per-load >= 3 for gate/propose/write, run at least ten optimize/prove pressure-cooker cycles on a named primary series, and stop when gate, audit candidates, and noise floor allow. Tree the skill under `.agents/skills`.

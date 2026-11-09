@@ -21,6 +21,7 @@ Rules:
 - match the tree's structural height; a consistent absence of a layer is a convention; do not introduce a second pattern for the same job;
 - no abstractions unless three real variations need them; drop unused public methods;
 - no new dependency when stdlib, the framework for this tree, or an installed dependency suffices;
+- when measured load or a named requirement shows an existing dependency no longer fits, reassess through dependency-audit before writing custom replacement code; custom stays last after replace, remove, and narrow first-party options;
 - no boilerplate the task did not ask for;
 - deletion over addition; boring over clever; fewest files that stay readable;
 - when a request sounds overbuilt, ask whether a simpler existing path already covers it;
@@ -35,4 +36,4 @@ Not optional even when minimizing scope:
 - anything explicitly requested in the task or ticket;
 - tests for non-trivial behavior per @spec/README.md; trivial one-liners need no new spec.
 
-Related: `preferred-stack` covers native-first language choice and proximity when no tree language owns the path yet; `keep-the-work` covers the failed place after a refusal; `dependency-policy` covers third-party registry packages; `infer-conventions` encodes how this tree writes as checks.
+Related: `preferred-stack` covers native-first language choice and proximity when no tree language owns the path yet; `keep-the-work` covers the failed place after a refusal; `dependency-policy` covers third-party registry packages, upgrade impact, and fitness reassessment before custom replacement; `infer-conventions` encodes how this tree writes as checks.

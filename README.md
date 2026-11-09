@@ -57,9 +57,9 @@ compose "AGENTS.md" do
   pray "amkisko/security", "~> 1.5"
   pray "amkisko/docs-conventions", "~> 3.1"
   pray "amkisko/dependency-issues", "~> 3.0"
-  pray "amkisko/dependency-policy", "~> 4.2"
+  pray "amkisko/dependency-policy", "~> 4.3"
   pray "amkisko/ruby-conventions", "~> 1.4"
-  pray "amkisko/minimal-implementation", "~> 1.5"
+  pray "amkisko/minimal-implementation", "~> 1.6"
   pray "amkisko/finite-state-machines", "~> 1.3"
   pray "amkisko/durable-cache", "~> 2.0"
   pray "amkisko/branch-naming", "~> 1.0"
@@ -78,7 +78,7 @@ compose "AGENTS.md" do
 end
 
 tree ".agents/skills" do
-  pray "amkisko/dependency-policy", "~> 4.0"
+  pray "amkisko/dependency-policy", "~> 4.3"
   pray "amkisko/durable-cache", "~> 2.0"
   pray "amkisko/preferred-stack", "~> 1.7"
   pray "amkisko/planned-release", "~> 1.2"
@@ -150,7 +150,7 @@ make check-artifacts
 | `amkisko/security` | fragment | Credential, secret, tracking, and ownership hygiene for agents |
 | `amkisko/docs-conventions` | fragment | docs timestamp trees, usr scripts reports support migrate, purpose, and heading templates |
 | `amkisko/dependency-issues` | fragment | Dependency bug evidence and fix suggestions |
-| `amkisko/dependency-policy` | fragment + skill | Stop-before-add gate, target-scoped vulnerability assessment, and lag metrics |
+| `amkisko/dependency-policy` | fragment + skill | Stop-before-add gate, upgrade impact, fitness reassessment, vulnerability assessment, and lag metrics |
 | `amkisko/ruby-conventions` | fragment | Ruby and Rails stack conventions |
 | `amkisko/rust-conventions` | fragment | Rust stack conventions |
 | `amkisko/elixir-conventions` | fragment | Elixir and OTP stack conventions |

@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/dependency-policy"
-  spec.version = "4.2.1"
+  spec.version = "4.3.0"
   spec.summary = "Dependency stop-gate and target-scoped audit skill"
   spec.files = [
     "README.md",
@@ -10,7 +10,8 @@ Package::Specification.new do |spec|
     "skills/dependency-audit/references/vulnerability-assessment.md",
     "skills/dependency-audit/references/selection-and-alteration.md",
     "skills/dependency-audit/references/libyears.md",
-    "skills/dependency-audit/references/upgrade-resource-compare.md"
+    "skills/dependency-audit/references/upgrade-resource-compare.md",
+    "skills/dependency-audit/references/upgrade-impact.md"
   ]
   spec.exports = {
     "dependency-policy" => {
