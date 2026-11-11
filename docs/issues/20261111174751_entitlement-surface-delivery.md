@@ -46,12 +46,10 @@ No executable product logic changed, so no new specs. Instruction effect on mode
 
 ## Next
 
-- Open or merge release candidate `trunk/1.37.0` onto main
-- Tag `v1.37.0` and publish the GitHub release after catalog artifacts are on the release commit
-- Consumers bump amkisko/engineering-audit ~> 2.17, then pray install
+Consumers bump amkisko/engineering-audit ~> 2.17, then pray install. Delivered as tag `v1.37.0`.
 
 ## Source
 
 Upstream: session research on layout and asset feature leak; packages/engineering-audit security.md and companions; docs/issues/20260914160500_authorization-assessment-guidance.md; CWE-200; OWASP ASVS 5.0 V8; OWASP WSTG excessive data exposure and feature flag bypass.
 
-Downstream: docs/changelogs/20261111174751_engineering-audit-entitlement-surface.md, docs/changelogs/20261111174751_prayers-1-37-0.md, CHANGELOG.md 1.37.0
+Downstream: docs/changelogs/20261111174751_engineering-audit-entitlement-surface.md, docs/changelogs/20261111174751_prayers-1-37-0.md, CHANGELOG.md 1.37.0, tag `v1.37.0` on `0b940ec`, https://github.com/amkisko/prayers/releases/tag/v1.37.0

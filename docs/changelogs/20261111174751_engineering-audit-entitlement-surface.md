@@ -14,9 +14,9 @@ engineering-audit 2.17.0 adds entitlement-surface delivery and assessment, renam
 
 ## Next
 
-Release candidate trunk/1.37.0. Consumers bump amkisko/engineering-audit ~> 2.17, then pray install. Tag v1.37.0 after merge to main.
+Consumers bump amkisko/engineering-audit ~> 2.17, then pray install. Delivered as prayers `v1.37.0`.
 
 ## Source
 
 Upstream: docs/issues/20261111174751_entitlement-surface-delivery.md
-Downstream: CHANGELOG.md 1.37.0, packages/engineering-audit 2.17.0
+Downstream: CHANGELOG.md 1.37.0, packages/engineering-audit 2.17.0, https://github.com/amkisko/prayers/releases/tag/v1.37.0
