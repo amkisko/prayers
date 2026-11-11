@@ -82,7 +82,7 @@ tree ".agents/skills" do
   pray "amkisko/durable-cache", "~> 2.0"
   pray "amkisko/preferred-stack", "~> 1.7"
   pray "amkisko/planned-release", "~> 1.2"
-  pray "amkisko/engineering-audit", "~> 2.16"
+  pray "amkisko/engineering-audit", "~> 2.17"
   pray "amkisko/api-contract-migration", "~> 1.0"
   pray "amkisko/operational-signal-intake", "~> 1.0"
   pray "amkisko/changelog-update", "~> 3.0"

@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 1.37.0 (2026-11-11)
+
+- Publish `amkisko/engineering-audit` 2.17.0: name entitlement-surface over-delivery and capability disclosure; require exact-asset views so layouts and assets omit capabilities the principal cannot use; prove with two-principal asset and bootstrap diffs; wire client, HTTP cache, contract, and product-surface companions.
+
 ## 1.36.0 (2026-11-09)
 
 - Publish `amkisko/dependency-policy` 4.3.0: on upgrades, map changelog or release notes to this tree's usage; classify patch-safe, adapt-needed, or blocked; split must-adapt, may-adopt, and do-not-adopt work; when measured load shows a dependency no longer meets named requirements, reassess replace, remove, or narrow first-party work before custom code.

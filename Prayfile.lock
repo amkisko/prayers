@@ -198,10 +198,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/engineering-audit"
-version = "2.16.1"
+version = "2.17.0"
 path = "./packages/engineering-audit"
-tree_hash = "sha256:a1b0978b8896b27b834f284c634f63b9d44ff56b6aaa878aeb07bdffaff4d792"
-artifact_hash = "sha256:a1b0978b8896b27b834f284c634f63b9d44ff56b6aaa878aeb07bdffaff4d792"
+tree_hash = "sha256:9ab0d3f3c9d25994fa0f43e27d364621c4b2d3d342fccdcee3273ec579a61347"
+artifact_hash = "sha256:9ab0d3f3c9d25994fa0f43e27d364621c4b2d3d342fccdcee3273ec579a61347"
 artifact = "path:./packages/engineering-audit"
 exports = ["skill"]
 dependencies = []
@@ -687,7 +687,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/client-surface.md"
-content_hash = "sha256:aaf44b666aabdd031687ae499af0bb55f0bf8897ecc4d605d552dba77273f095"
+content_hash = "sha256:cfce766570a7ca42115ffb4263a660c986b5bbd6ad91a66b10a6aaff9930d8a6"
 package = "amkisko/engineering-audit"
 export = "skill"
 
@@ -699,7 +699,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/contracts.md"
-content_hash = "sha256:05dcaa5d9c0eee774bd6f59ca1bd6d4a42fc09894b1ef1e3d33f8980d4e97a32"
+content_hash = "sha256:4470f5b09962f0e84af4ea7ae59e5ad1e653c7b01982d7520bfd31d29f0e1aa1"
 package = "amkisko/engineering-audit"
 export = "skill"
 
@@ -711,13 +711,13 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/engineering-audit.md"
-content_hash = "sha256:98b46292f23f6fded267677e85503f1e5eeb13155a0f3e8fa15c5c358b9b10e3"
+content_hash = "sha256:3ff770be0f23322d4f4df1374689447b253d2a83af94c2ab732b9b1107a27019"
 package = "amkisko/engineering-audit"
 export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/http-identity.md"
-content_hash = "sha256:6e47544ddd99c7bf13b902eb695fc6d7030c14819939e0116379b8ae1747ac9e"
+content_hash = "sha256:d0d92529e2ccaae274af7051ca4339582def5e91f1562e125129f69cd1cce7db"
 package = "amkisko/engineering-audit"
 export = "skill"
 
@@ -765,7 +765,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/product-surface.md"
-content_hash = "sha256:836043822c7ede83c3d9dfee63f34a3ac6b8f9d4eac73db4fa69ab900e3a5d51"
+content_hash = "sha256:ece223bce7a8243a6edd7073a9b2fa1bef87afe48ca659e29440b2ea3ced358b"
 package = "amkisko/engineering-audit"
 export = "skill"
 
@@ -783,7 +783,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/security.md"
-content_hash = "sha256:6a45d8ce4d06f21665a89f95ba70f4e16c0429c538ef6289b611d7f74f0e7e81"
+content_hash = "sha256:764ee90fb6088fb58b3cc320efcf9fa3f33d674f84ae65ee85757a81c812a552"
 package = "amkisko/engineering-audit"
 export = "skill"
 
