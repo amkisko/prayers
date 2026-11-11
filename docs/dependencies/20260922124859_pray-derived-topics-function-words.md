@@ -1,5 +1,9 @@
 # Pray derived topics keep function words
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Dependency
 
 pray 1.20.0. Catalog writer uses pray-core derived_metadata. STOPWORDS in pray-core 1.20.0 src/derived_metadata.rs: a, an, and, are, as, at, be, by, for, from, has, have, in, is, it, its, of, on, or, package, the, this, to, was, we, with, you, your. Tokens shorter than 4 characters are dropped. Remaining tokens are ranked by frequency. The first five become topics.

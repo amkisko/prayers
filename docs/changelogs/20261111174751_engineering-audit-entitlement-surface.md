@@ -1,5 +1,9 @@
 # Engineering-audit entitlement-surface delivery
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Name entitlement-surface over-delivery and capability disclosure in engineering-audit security review mode. Exact-asset rule: delivered layouts and assets omit capabilities the principal cannot use. Two-principal asset and bootstrap diffs prove the gap. Scanner product names stay out of the prayer.

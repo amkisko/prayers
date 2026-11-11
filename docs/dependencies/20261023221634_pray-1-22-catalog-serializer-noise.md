@@ -1,5 +1,9 @@
 # Pray 1.22 catalog serializer noise
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Dependency
 
 `pray` 1.22.0 (cargo binary invoked as `PRAY` by the repository `Makefile`). Distinct from the Ruby `pray-cli` gem shims under rbenv.

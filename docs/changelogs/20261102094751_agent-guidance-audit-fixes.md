@@ -1,5 +1,9 @@
 # Agent guidance audit fixes
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Make pre-inference selection, authorized action, failure, completion, and evidence explicit in agent-artifact review. Keep selector-critical use cases and exclusions in frontmatter. Validate packaged skill identity and required local read paths. Keep dependency comparison checkouts isolated and external writes permission-bound.

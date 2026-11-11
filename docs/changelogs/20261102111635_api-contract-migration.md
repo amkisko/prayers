@@ -1,5 +1,9 @@
 # API contract migration skill
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Add a protocol-neutral migration skill instead of embedding one REST-to-GraphQL result as a universal engineering rule. Keep client query-cache behavior and flexible query controls conditional. Route detailed API replacement work from engineering-audit.

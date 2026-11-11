@@ -1,5 +1,9 @@
 # Upgrade impact and dependency fitness
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Add upgrade impact and fitness reassessment to `amkisko/dependency-policy`

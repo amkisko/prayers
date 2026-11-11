@@ -1,5 +1,9 @@
 # Agent guidance engineering and prose audit
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Audit the repository working tree based on `e9a021f`, with emphasis on the 19 published skill selectors and the instructions loaded before agent action. Treat selection, authority, action, failure, completion, and evidence as separate effects. Review the in-progress dependency resource comparison as agent guidance because it directs checkout and forge actions.

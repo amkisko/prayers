@@ -1,5 +1,9 @@
 # Pray related versus optional dependency
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Dependency
 
 `pray` / `pray-cli` / `pray-core` 1.26.0 (cargo binary `~/.cargo/bin/pray`, `Prayfile.lock` `generated_by = "pray 1.26.0"`). Fields under test: `spec.related` (1.26.0) and `spec.add_optional_dependency` (older graph API, still present). Distinct from Ruby `pray-cli` gem shims that may lag the cargo CLI.

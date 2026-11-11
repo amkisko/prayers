@@ -1,5 +1,9 @@
 # Pray drift reports a renderer mismatch after a clean plan
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Dependency
 
 Pray 1.26.0, generated lockfile entry `generated_by = "pray 1.26.0"`.

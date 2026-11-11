@@ -1,5 +1,9 @@
 # API contract migration claims review
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Treat the supplied REST-to-GraphQL account as one migration case, not as evidence that one protocol is generally faster or more efficient. Add a protocol-neutral `api-contract-migration` skill. Put client query-cache behavior and caller-selected query controls in conditional references so agents do not load or apply them to unrelated migrations.

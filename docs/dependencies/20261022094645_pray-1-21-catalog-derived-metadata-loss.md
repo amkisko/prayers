@@ -1,5 +1,9 @@
 # Pray 1.21 catalog metadata loss
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Dependency
 
 `pray-cli` 1.21.0, invoked as `pray` by the repository `Makefile`.

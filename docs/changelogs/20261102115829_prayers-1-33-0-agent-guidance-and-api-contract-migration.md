@@ -1,5 +1,9 @@
 # prayers 1.33.0 agent guidance and API contract migration
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Prepare distribution release 1.33.0 from the complete former Unreleased set. The payload is `api-contract-migration` 1.0.0, `engineering-audit` 2.16.0, `dependency-policy` 4.2.0, `delivery-budgets` 1.0.1, `agent-artifact` 1.3.0, and `public-surface-recon` 1.4.0, plus repository validation and pre-inference context gates.

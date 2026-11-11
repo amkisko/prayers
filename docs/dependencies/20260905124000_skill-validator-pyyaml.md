@@ -1,5 +1,9 @@
 # Skill validator PyYAML dependency
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Dependency
 
 The system-provided skill-creator quick validator and its undeclared or unavailable PyYAML runtime dependency.

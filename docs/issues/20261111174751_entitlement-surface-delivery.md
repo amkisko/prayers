@@ -2,6 +2,10 @@
 
 Live work. Skill text is inference input: resource, trace, and boundary modes skipped because these files never become executed bytes and there is no plant.
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Expand engineering-audit security review mode so entitlement-surface delivery is a named assessment beside object-level authorization. Keep the mode in security.md. No new skill. No named scanner. No language-specific rule files.

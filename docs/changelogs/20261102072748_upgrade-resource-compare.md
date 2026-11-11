@@ -1,5 +1,9 @@
 # Upgrade resource compare in dependency-policy
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Require before/after resource samples when a change alters a resolved lockfile graph or runtime pin. Keep the procedure inside `amkisko/dependency-policy` 4.2.0 as `upgrade-resource-compare` rather than a new package. The reviewing agent uses isolated checkouts, preserves the active worktree, and needs authorization before repository or forge writes. Consumer measurement commands stay small. Absolute ship-path ceilings remain in `delivery-budgets` 1.0.1. Utilization audit stays in `engineering-audit` 2.15.0 resource and budget mode. Sibling packages declare each other with advisory `spec.related` (pray 1.26+).

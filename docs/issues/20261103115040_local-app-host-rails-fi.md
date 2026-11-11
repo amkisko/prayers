@@ -1,5 +1,9 @@
 # Local app host: rails.fi and title.hash instead of example.com
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Encode the host rule in `amkisko/ruby-conventions`. Development, system and request specs, `default_url_options`, OAuth callbacks, Capybara app host, and curl against the running app use `https://<app>.rails.fi` or `http://rails.fi`. Prefer project `HOST` / `RAILS_HOST`.

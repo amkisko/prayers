@@ -1,5 +1,9 @@
 # Ban example.com hosts; prefer rails.fi and title.hash
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Intent
 
 Remove `example.com` / `.org` / `.net` from local fixtures, documentation illustration hosts, and fake email. Point local app hosts at `*.rails.fi`. Point fictional remotes at `<title>.<hash>`.

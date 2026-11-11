@@ -1,5 +1,9 @@
 # Pressure benchmarking prayer
 
+## Participants
+
+Andrei Makarov (@amkisko)
+
 ## Decisions
 
 Adapt a consumer-local pressure benchmarking skill into shared package
