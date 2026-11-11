@@ -1,13 +1,27 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/docs-conventions"
-  spec.version = "3.5.0"
-  spec.summary = "Repository documentation layout and headings"
-  spec.files = ["README.md", "exports/docs-conventions.md"]
+  spec.version = "3.7.0"
+  spec.summary = "Repository documentation layout, headings, and note templates"
+  spec.files = [
+    "README.md",
+    "exports/docs-conventions.md",
+    "templates/note/issue.md",
+    "templates/note/plan.md",
+    "templates/note/review.md",
+    "templates/note/changelog.md",
+    "templates/note/meeting.md",
+    "templates/note/dependency.md"
+  ]
   spec.exports = {
     "docs-conventions" => {
       type: "fragment",
       path: "exports/docs-conventions.md",
       summary: "docs timestamp trees, usr scripts reports support migrate, purpose, and heading templates"
+    },
+    "note" => {
+      type: "folder",
+      path: "templates/note",
+      summary: "Blank docs note skeletons for plans, issues, reviews, changelogs, meetings, and dependencies"
     }
   }
 end

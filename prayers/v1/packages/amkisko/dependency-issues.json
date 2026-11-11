@@ -280,6 +280,118 @@
         "character_count": 1554,
         "token_count": 164
       }
+    },
+    {
+      "version": "3.1.0",
+      "artifact": "v1/artifacts/amkisko/dependency-issues/3.1.0/amkisko-dependency-issues-3.1.0.praypkg",
+      "artifact_hash": "sha256:d8e6d1510ecfb88021345427fc8e74c8a71ff87939a44994083107f0572bb082",
+      "tree_hash": "sha256:b961f987df6ed4a24e2820b9eeb27e0191a8a342ae627232f66d1e79f3fcbce9",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "dependency-issues"
+      ],
+      "signer": "amkisko",
+      "published_at": 1794420888,
+      "signature": "sha256:6b2dbf50d4d6d46214dd2afb0a15d03e556d92c2387e841eaab30404dea582bf",
+      "derived_metadata": {
+        "summary": "Record and suggest fixes for clear dependency bugs - Dependency bug evidence and fix suggestions",
+        "topics": [
+          "record",
+          "suggest",
+          "fixes",
+          "clear",
+          "dependency"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              19,
+              7,
+              30,
+              3,
+              15,
+              20,
+              15,
+              8,
+              10,
+              3,
+              10,
+              9,
+              14,
+              9,
+              14,
+              9
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1837,
+        "token_count": 195
+      }
+    },
+    {
+      "version": "3.2.0",
+      "artifact": "v1/artifacts/amkisko/dependency-issues/3.2.0/amkisko-dependency-issues-3.2.0.praypkg",
+      "artifact_hash": "sha256:e63837a71433c1b93344fe7cff08a044cab81378742e5be0d1ddc021bda02a87",
+      "tree_hash": "sha256:660eeb36e9f02321a1d4b102d34ca5426c69608a83d3bc1ba6c4624fa5ab5730",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "dependency-issues"
+      ],
+      "signer": "amkisko",
+      "published_at": 1794423320,
+      "signature": "sha256:33e1d710c027f705e8bc926b806ab1fba7bd7d8368c6336da123397aa5ac026a",
+      "derived_metadata": {
+        "summary": "Record and suggest fixes for clear dependency bugs - Dependency bug evidence and fix suggestions",
+        "topics": [
+          "record",
+          "suggest",
+          "fixes",
+          "clear",
+          "dependency"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              19,
+              8,
+              26,
+              4,
+              16,
+              19,
+              17,
+              10,
+              11,
+              7,
+              10,
+              9,
+              16,
+              9,
+              14,
+              9
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1909,
+        "token_count": 204
+      }
     }
   ]
 }

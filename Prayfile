@@ -19,6 +19,10 @@ compose "AGENTS.md" do
   pray "amkisko/collaboration-workflow", path: "packages/collaboration-workflow"
 end
 
+tree "usr/templates" do
+  pray "amkisko/docs-conventions", path: "packages/docs-conventions"
+end
+
 tree ".agents/skills" do
   pray "amkisko/dependency-policy", path: "packages/dependency-policy"
   pray "amkisko/durable-cache", path: "packages/durable-cache"
@@ -48,6 +52,7 @@ pray "amkisko/community-code-of-conduct", path: "packages/community-code-of-cond
 pray "amkisko/community-governance", path: "packages/community-governance", file: "GOVERNANCE.md"
 pray "amkisko/community-contributing", path: "packages/community-contributing", file: "CONTRIBUTING.md"
 pray "amkisko/getting-started", path: "packages/getting-started"
+pray "amkisko/dependency-issues", path: "packages/dependency-issues"
 pray "amkisko/minimal-implementation", path: "packages/minimal-implementation"
 pray "amkisko/keep-the-work", path: "packages/keep-the-work"
 pray "amkisko/background-jobs", path: "packages/background-jobs"

@@ -10,13 +10,15 @@ Andrei Makarov (@amkisko)
 
 The 3.4.1 guidance names the current operator when the current session provides their display name or that person confirms it. Solo sessions still get one Participants line.
 
-The guidance omits Participants when identifying the operator would require inference. Git configuration, commit history, filesystem paths, OS accounts, and login names do not prove who operated the current session.
+The 3.4.1 guidance omitted Participants when identifying the operator would require inference. Git configuration, commit history, filesystem paths, OS accounts, and login names still do not prove who operated the current session, and must not invent a name.
+
+Later pass: docs-conventions 3.7.0 reverses the omit-when-unknown rule. The current human operator is present for every note and must always appear under Participants. Take the name from the session display name or that person's confirmation. Do not omit Participants.
 
 Other humans who decided or reported in the episode are included when known. Agents, tools, binaries, and people whose only connection is an earlier code change stay out.
 
 Problem / Fix and similar ticket outlines do not replace Participants, Decisions, Effects, Next, and Source. Their content maps into Decisions and Effects.
 
-A consumer workflow that always supplies a confirmed operator identity may add an `infer-conventions` check for a missing or blank Participants section. This package documents the option and does not ship the check.
+A consumer workflow may add an `infer-conventions` check for a missing or blank Participants section. This package documents the option and does not ship the check.
 
 ## Effects
 
@@ -32,9 +34,8 @@ Tagged prayers `v1.28.0` on commit `e00e452` and published https://github.com/am
 
 ## Next
 
-1. Consumers run `pray update`, `pray plan`, and `pray apply` for docs-conventions 3.4.1.
-2. Consumers may backfill open notes when the operator is known.
-3. A later session review may check whether omissions recur after consumers install 3.4.1.
+1. Consumers run `pray update`, `pray plan`, and `pray apply` for docs-conventions 3.7.0 (and dependency-issues 3.2.0 when composed).
+2. Open notes that omitted Participants because of the 3.4.1 omit rule should name the operator.
 
 ## Source
 
@@ -44,3 +45,4 @@ Tagged prayers `v1.28.0` on commit `e00e452` and published https://github.com/am
 - `prayers/v1/artifacts/amkisko/docs-conventions/3.3.0/amkisko-docs-conventions-3.3.0.praypkg`
 - `prayers/v1/artifacts/amkisko/docs-conventions/3.4.0/amkisko-docs-conventions-3.4.0.praypkg`
 - `docs/changelogs/20260726221452_docs-conventions-human-participants.md`
+- `docs/issues/20261111181328_docs-note-templates.md`

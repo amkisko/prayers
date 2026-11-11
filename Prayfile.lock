@@ -1,7 +1,8 @@
 prayfile_lock = "1"
 spec = "0.1"
 generated_by = "pray 1.26.1"
-manifest_hash = "sha256:8c27537ad1227a058c10e864f39582682bd543370757de9e8a80d57bd8be3783"
+manifest_hash = "sha256:848d58d6072e5cce5aa9cbc416371e8c33b357a33b7c69986272ddcca1c97347"
+source = []
 
 [[package]]
 name = "amkisko/agent-artifact"
@@ -154,6 +155,16 @@ exports = ["delivery-budgets"]
 dependencies = []
 
 [[package]]
+name = "amkisko/dependency-issues"
+version = "3.2.0"
+path = "./packages/dependency-issues"
+tree_hash = "sha256:660eeb36e9f02321a1d4b102d34ca5426c69608a83d3bc1ba6c4624fa5ab5730"
+artifact_hash = "sha256:660eeb36e9f02321a1d4b102d34ca5426c69608a83d3bc1ba6c4624fa5ab5730"
+artifact = "path:./packages/dependency-issues"
+exports = ["dependency-issues"]
+dependencies = []
+
+[[package]]
 name = "amkisko/dependency-policy"
 version = "4.3.0"
 path = "./packages/dependency-policy"
@@ -178,12 +189,15 @@ dependencies = []
 
 [[package]]
 name = "amkisko/docs-conventions"
-version = "3.5.0"
+version = "3.7.0"
 path = "./packages/docs-conventions"
-tree_hash = "sha256:e13a08a25747640c475b923d18da86da93d05eaa5dca723de8ed68f658e3f10c"
-artifact_hash = "sha256:e13a08a25747640c475b923d18da86da93d05eaa5dca723de8ed68f658e3f10c"
+tree_hash = "sha256:57b59afb1b92df37bd8de02d19fedda468a7a22ee4ce43e76f41a11abe136330"
+artifact_hash = "sha256:57b59afb1b92df37bd8de02d19fedda468a7a22ee4ce43e76f41a11abe136330"
 artifact = "path:./packages/docs-conventions"
-exports = ["docs-conventions"]
+exports = [
+    "docs-conventions",
+    "note",
+]
 dependencies = []
 
 [[package]]
@@ -424,6 +438,10 @@ outputs = ["AGENTS.md"]
 name = "tree:.agents/skills"
 outputs = []
 
+[[target]]
+name = "tree:usr/templates"
+outputs = []
+
 [[managed_span]]
 id = "ae5d334a"
 target = "AGENTS.md"
@@ -462,10 +480,10 @@ id = "bfe6ff38"
 target = "AGENTS.md"
 open_line = 64
 close_line = 82
-ideal_checksum = "sha256:becabac7bf2b941fd93d6162a5ea6187c17a3cf40435f77dc2b789938cd93688"
+ideal_checksum = "sha256:84d9587f4ab689dc0afce183224adeb67fe9479632a3b113c8324f4bf1a64567"
 package = "amkisko/docs-conventions"
 export = "docs-conventions"
-source_checksum = "sha256:e13a08a25747640c475b923d18da86da93d05eaa5dca723de8ed68f658e3f10c"
+source_checksum = "sha256:57b59afb1b92df37bd8de02d19fedda468a7a22ee4ce43e76f41a11abe136330"
 silenced = false
 
 [[managed_span]]
@@ -1068,3 +1086,39 @@ path = "SECURITY.md"
 content_hash = "sha256:d29b005e7465ef05c99cebd424b97ea868acf855609f95f1247441c46a761659"
 package = "amkisko/community-security"
 export = "security"
+
+[[provisioned]]
+path = "usr/templates/note/changelog.md"
+content_hash = "sha256:9b4d6649914784d31dfc20aa410d1f595ce8957a972e16748ab4c58f94b85e03"
+package = "amkisko/docs-conventions"
+export = "note"
+
+[[provisioned]]
+path = "usr/templates/note/dependency.md"
+content_hash = "sha256:5b85f1825e46af88ffc32ed67697934beeafd072832dc7163aeed5d8cae0a49c"
+package = "amkisko/docs-conventions"
+export = "note"
+
+[[provisioned]]
+path = "usr/templates/note/issue.md"
+content_hash = "sha256:302c5b689357ffa309fdca6bef01a4b06a450ede7fc93b72c71876251476b7fb"
+package = "amkisko/docs-conventions"
+export = "note"
+
+[[provisioned]]
+path = "usr/templates/note/meeting.md"
+content_hash = "sha256:6de731ed118a1d035391616a03d0c5052ca8e1c13688e6ac9d328c1ef81a9043"
+package = "amkisko/docs-conventions"
+export = "note"
+
+[[provisioned]]
+path = "usr/templates/note/plan.md"
+content_hash = "sha256:a697023ff3e60dc3bc113f5a9f7dbdaf4f10e6563c90d23b94b4a7f9a4fef2d6"
+package = "amkisko/docs-conventions"
+export = "note"
+
+[[provisioned]]
+path = "usr/templates/note/review.md"
+content_hash = "sha256:f9d14547b3832c45a27e97802c8a37551abfc8e8765ce0893bf0b04448762bb3"
+package = "amkisko/docs-conventions"
+export = "note"

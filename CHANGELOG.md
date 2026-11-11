@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+## 1.38.0 (2026-11-11)
+
+- Publish `amkisko/docs-conventions` 3.6.0: ship blank note skeletons under `templates/note/` and provision them to consumers via a `note` folder export at `usr/templates/note/`; include `plans` in the five-heading template; document optional `Scope:`, `Intent:`, and `Date:` lines near the title; align dependency skeletons with Participants.
+- Publish `amkisko/docs-conventions` 3.7.0: always name the current human operator under Participants; do not omit that section; take the name from the session display name or confirmation, not from git or OS identity marks.
+- Publish `amkisko/dependency-issues` 3.1.0: list Participants on dependency notes and point at `usr/templates/note/dependency.md` when provisioned.
+- Publish `amkisko/dependency-issues` 3.2.0: require Participants with the current human operator on dependency notes (no omit-when-unknown).
+- README consumer example: `docs-conventions ~> 3.7`, `dependency-issues ~> 3.2`, and tree `usr/templates` for note skeletons.
+
 ## 1.37.0 (2026-11-11)
 
 - Publish `amkisko/engineering-audit` 2.17.0: name entitlement-surface over-delivery and capability disclosure; require exact-asset views so layouts and assets omit capabilities the principal cannot use; prove with two-principal asset and bootstrap diffs; wire client, HTTP cache, contract, and product-surface companions.
