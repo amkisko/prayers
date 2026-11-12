@@ -38,7 +38,8 @@ The supplied draft is both the authoring brief and the material under review. Th
 ## Next
 
 - Implementation and local acceptance are complete; see the [engineering changelog](../changelogs/20261112103122_swift-conventions.md) for validation evidence.
-- Remote publication and consumer repository changes remain outside this change.
+- Release candidate `trunk/1.39.0` is in prepare; deliver is tag `v1.39.0` plus the GitHub release (`docs/changelogs/20261112132928_prayers-1-39-0.md`).
+- Consumer repository pin bumps remain outside this change until after deliver.
 
 ## Source
 

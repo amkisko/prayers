@@ -2,8 +2,12 @@
 
 ## Unreleased
 
-- Add `amkisko/swift-conventions` for apps, libraries, command-line tools, servers, and scripts, with conditional UI, permission, and input rules.
-- Require a named unmet requirement before adding execution layers in all five language packs; preserve each tree's declared runtime.
+## 1.39.0 (2026-11-12)
+
+- Add `amkisko/swift-conventions` 1.0.0: host-independent Swift conventions for apps, libraries, command-line tools, servers, and scripts, with conditional UI, permission, and input rules.
+- Publish `amkisko/ruby-conventions` 1.5.0, `amkisko/rust-conventions` 1.2.0, `amkisko/elixir-conventions` 1.1.0, and `amkisko/kotlin-conventions` 1.1.0: require a named unmet requirement before adding execution layers; preserve each tree's declared runtime.
+- Publish `amkisko/preferred-stack` 1.7.1: cross-reference the Swift language pack.
+- README consumer example names `swift-conventions` beside the other language packs.
 
 ## 1.38.0 (2026-11-11)
 
