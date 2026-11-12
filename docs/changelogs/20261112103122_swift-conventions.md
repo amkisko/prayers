@@ -32,8 +32,7 @@ This change adds guidance and package metadata, with no executable application l
 
 ## Next
 
-- Prepare candidate is `trunk/1.39.0`; see `docs/changelogs/20261112132928_prayers-1-39-0.md`.
-- After deliver (`v1.39.0`), consumers may compose `pray "amkisko/swift-conventions", "~> 1.0"` and retain their application-specific contracts in the project overlay.
+None. Delivered with prayers `v1.39.0`. Consumers may compose `pray "amkisko/swift-conventions", "~> 1.0"` and retain their application-specific contracts in the project overlay.
 
 ## Source
 
