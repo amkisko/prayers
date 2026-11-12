@@ -1,0 +1,12 @@
+- use the declared Swift toolchain, language mode, concurrency settings, build layout, and deployment targets;
+- prefer host APIs, toolchains, and the tree's ordinary process model; keep its declared runtime; add virtualization, containerization, or emulation only for a named requirement the ordinary host execution cannot meet;
+- follow Swift API Design Guidelines and enabled linters; distinguish absence (`Optional`) from failure (`throws` or a stored `Result`);
+- keep module boundaries explicit, entry points thin, and policy testable without UI, permission prompts, or live network;
+- declare mutable-state isolation and safe transfers across isolation boundaries; recheck state-dependent assumptions after `await`; a `Task` may inherit actor isolation;
+- keep blocking IO off cooperative executors and heavy computation off latency-sensitive actors; use asynchronous IO or a bounded blocking worker pool as appropriate; `async` alone does not offload work;
+- prefer structured task lifetimes; propagate cancellation; keep control IO responsive during bulk transfers;
+- follow subtree coverage and verification rules; test returned or persisted behavior; source-text checks and unit tests do not prove unexercised host interactions;
+- prefer files around <=150 LOC when cohesion allows; split by ownership;
+- when the tree ships interactive UI: isolate UI state and updates to `@MainActor` where required by the host; distinguish selection from keyboard focus; keep internal symbols and paths out of person-facing copy;
+- when the tree requests protected resources: request access when the person invokes the relevant feature; handle denial and revocation; follow the host's permission activation and application identity requirements;
+- when the tree owns multi-surface input: define focus, input pass-through, display ownership, and gesture cancellation; verify them through real surfaces; retain presenters until completion.

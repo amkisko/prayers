@@ -9,4 +9,4 @@ Exports:
 
 Compose the fragment in products that share these defaults. Tree the skill beside it so agents can open the procedure without loading the full band reference into always-on context.
 
-Related: `amkisko/minimal-implementation`, `amkisko/ruby-conventions`, `amkisko/rust-conventions`, `amkisko/elixir-conventions`, `amkisko/kotlin-conventions`, `amkisko/keep-the-work`.
+Related: `amkisko/minimal-implementation`, `amkisko/ruby-conventions`, `amkisko/rust-conventions`, `amkisko/elixir-conventions`, `amkisko/kotlin-conventions`, `amkisko/swift-conventions`, `amkisko/keep-the-work`.

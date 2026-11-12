@@ -1,5 +1,6 @@
 - test coverage must follow @spec/README.md guidelines;
 - use ruby and Rails features according to the codebase versions;
+- prefer host APIs, toolchains, and the tree's ordinary process model; keep its declared runtime; add virtualization, containerization, or emulation only for a named requirement the ordinary host execution cannot meet;
 - follow ruby and Rails coding conventions, principles, and best practices;
 - schema DDL in `db/migrate`; row backfills in `db/data_migrations`; keep `up` and `change` as schema DDL;
 - page large backfills with an id cursor or `offset`/`limit`; pass `total_records` and `processed_count`; `enqueue` the next page; when `enqueue` is absent (console `new.perform`), drain remaining pages in the same `perform`;

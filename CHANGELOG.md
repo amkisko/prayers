@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Add `amkisko/swift-conventions` for apps, libraries, command-line tools, servers, and scripts, with conditional UI, permission, and input rules.
+- Require a named unmet requirement before adding execution layers in all five language packs; preserve each tree's declared runtime.
+
 ## 1.38.0 (2026-11-11)
 
 - Publish `amkisko/docs-conventions` 3.6.0: ship blank note skeletons under `templates/note/` and provision them to consumers via a `note` folder export at `usr/templates/note/`; include `plans` in the five-heading template; document optional `Scope:`, `Intent:`, and `Date:` lines near the title; align dependency skeletons with Participants.

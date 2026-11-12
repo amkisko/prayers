@@ -4,13 +4,13 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/ruby-conventions/1.0.0/amkisko-ruby-conventions-1.0.0.praypkg",
-      "artifact_hash": "sha256:2b82ee8877b61595df1e1af45e1366471b9a60860239e3d28111b87f430f9516",
-      "tree_hash": "sha256:6885f2943f7fef23f8c70ccfd850875b39243a0344f71873dfdfd724928b2fce",
       "yanked": false,
       "targets": [],
       "exports": [
         "ruby-conventions"
       ],
+      "artifact_hash": "sha256:2b82ee8877b61595df1e1af45e1366471b9a60860239e3d28111b87f430f9516",
+      "tree_hash": "sha256:6885f2943f7fef23f8c70ccfd850875b39243a0344f71873dfdfd724928b2fce",
       "signer": "amkisko",
       "published_at": 1785128733,
       "signature": "sha256:42eb166a3b2445db70dda26618b48dcb0d57caf44a96549948c189da6ca12a70",
@@ -62,13 +62,13 @@
     {
       "version": "1.1.0",
       "artifact": "v1/artifacts/amkisko/ruby-conventions/1.1.0/amkisko-ruby-conventions-1.1.0.praypkg",
-      "artifact_hash": "sha256:3c2fee7cc57691ad4c3eaf916be7d3a0e9bcc9be8f007073e56be1efcca2ef08",
-      "tree_hash": "sha256:7aa4336433a5d6fbee1b780280e968ea433948d37a7e7c33d1a514ee70a861ef",
       "yanked": false,
       "targets": [],
       "exports": [
         "ruby-conventions"
       ],
+      "artifact_hash": "sha256:3c2fee7cc57691ad4c3eaf916be7d3a0e9bcc9be8f007073e56be1efcca2ef08",
+      "tree_hash": "sha256:7aa4336433a5d6fbee1b780280e968ea433948d37a7e7c33d1a514ee70a861ef",
       "signer": "amkisko",
       "published_at": 1788079162,
       "signature": "sha256:d4bcdbfe425dbc67165c6945c68bf9cd16b1375ba93b49b49d5626a345666850",
@@ -120,13 +120,13 @@
     {
       "version": "1.2.0",
       "artifact": "v1/artifacts/amkisko/ruby-conventions/1.2.0/amkisko-ruby-conventions-1.2.0.praypkg",
-      "artifact_hash": "sha256:0318b4dc6be94572de0542354227508dea246b65196fc160e57ba7ea8458ff60",
-      "tree_hash": "sha256:5d145604680e608d1b115257b5e5ddc33b4a16ad5dc3d026ef199ea46902840f",
       "yanked": false,
       "targets": [],
       "exports": [
         "ruby-conventions"
       ],
+      "artifact_hash": "sha256:0318b4dc6be94572de0542354227508dea246b65196fc160e57ba7ea8458ff60",
+      "tree_hash": "sha256:5d145604680e608d1b115257b5e5ddc33b4a16ad5dc3d026ef199ea46902840f",
       "signer": "amkisko",
       "published_at": 1788276206,
       "signature": "sha256:1b03288f2b93d58f11d4e18fd5d0cd654675b35ed9ac1985aaa04bde27569a5c",
@@ -178,13 +178,13 @@
     {
       "version": "1.3.0",
       "artifact": "v1/artifacts/amkisko/ruby-conventions/1.3.0/amkisko-ruby-conventions-1.3.0.praypkg",
-      "artifact_hash": "sha256:b621f5fc6ff9d1ef2a5be40baff0907c31f4e3928dba1b7e3116269b7eaf8c9a",
-      "tree_hash": "sha256:9bba83207dabf288f93978b7951005977afff5fd93283c6680454ae0c021ecd6",
       "yanked": false,
       "targets": [],
       "exports": [
         "ruby-conventions"
       ],
+      "artifact_hash": "sha256:b621f5fc6ff9d1ef2a5be40baff0907c31f4e3928dba1b7e3116269b7eaf8c9a",
+      "tree_hash": "sha256:9bba83207dabf288f93978b7951005977afff5fd93283c6680454ae0c021ecd6",
       "signer": "amkisko",
       "published_at": 1791378711,
       "signature": "sha256:d42c0142af535843e7d9126e68bc783d09ce911e3b6125c445495ef49188c27d",
@@ -236,13 +236,13 @@
     {
       "version": "1.3.1",
       "artifact": "v1/artifacts/amkisko/ruby-conventions/1.3.1/amkisko-ruby-conventions-1.3.1.praypkg",
-      "artifact_hash": "sha256:4ba0766a5946582ecbf74f6ae10dddd4b576a708e699f478b6a09a1ba21b8f44",
-      "tree_hash": "sha256:eb004c150d1e2fa4bd1c54b18af97278d66dbc8281c38b1ab6aa78eb552d10f7",
       "yanked": false,
       "targets": [],
       "exports": [
         "ruby-conventions"
       ],
+      "artifact_hash": "sha256:4ba0766a5946582ecbf74f6ae10dddd4b576a708e699f478b6a09a1ba21b8f44",
+      "tree_hash": "sha256:eb004c150d1e2fa4bd1c54b18af97278d66dbc8281c38b1ab6aa78eb552d10f7",
       "signer": "amkisko",
       "published_at": 1792509320,
       "signature": "sha256:c545388af130ec6eef48af467ca198846f3776ffc783f7324d074947daae6ed2",
@@ -294,13 +294,13 @@
     {
       "version": "1.3.2",
       "artifact": "v1/artifacts/amkisko/ruby-conventions/1.3.2/amkisko-ruby-conventions-1.3.2.praypkg",
-      "artifact_hash": "sha256:0a7f1f59f29ac80cee68d20c3068b4dbd75abd145085704a142bdcc8f25e9084",
-      "tree_hash": "sha256:9e9757f6e058d351c672702a32d11f1ccce44f2ec7e061baa02184c1753c11a4",
       "yanked": false,
       "targets": [],
       "exports": [
         "ruby-conventions"
       ],
+      "artifact_hash": "sha256:0a7f1f59f29ac80cee68d20c3068b4dbd75abd145085704a142bdcc8f25e9084",
+      "tree_hash": "sha256:9e9757f6e058d351c672702a32d11f1ccce44f2ec7e061baa02184c1753c11a4",
       "signer": "amkisko",
       "published_at": 1792509699,
       "signature": "sha256:839e490740f8cc63079e0bbc66d8a1e226f267c572be63b3d96952977832ab84",
@@ -352,13 +352,13 @@
     {
       "version": "1.4.0",
       "artifact": "v1/artifacts/amkisko/ruby-conventions/1.4.0/amkisko-ruby-conventions-1.4.0.praypkg",
-      "artifact_hash": "sha256:8a65dd85a3dd7ffec717360b6ef286f1141c7a0a68a4fd0d0473b6488c56eb13",
-      "tree_hash": "sha256:cf403581fbde5fff202ba832aec4983c694a0133b5e7cf1a167677a11c0f4474",
       "yanked": false,
       "targets": [],
       "exports": [
         "ruby-conventions"
       ],
+      "artifact_hash": "sha256:8a65dd85a3dd7ffec717360b6ef286f1141c7a0a68a4fd0d0473b6488c56eb13",
+      "tree_hash": "sha256:cf403581fbde5fff202ba832aec4983c694a0133b5e7cf1a167677a11c0f4474",
       "signer": "amkisko",
       "published_at": 1793699544,
       "signature": "sha256:c9c353efe23c853db843cd932e1a2f6e46dadcebfd83593ad8e3c22cd186950e",
@@ -410,13 +410,13 @@
     {
       "version": "1.4.1",
       "artifact": "v1/artifacts/amkisko/ruby-conventions/1.4.1/amkisko-ruby-conventions-1.4.1.praypkg",
-      "artifact_hash": "sha256:94acea190b45db299311e902655a8eceb22a079faa87dd1fc83be1a3ebd0b8ed",
-      "tree_hash": "sha256:087fb6c2fd130d4cbdf34a43f07120982cec671ec76065839dce41a19f609151",
       "yanked": false,
       "targets": [],
       "exports": [
         "ruby-conventions"
       ],
+      "artifact_hash": "sha256:94acea190b45db299311e902655a8eceb22a079faa87dd1fc83be1a3ebd0b8ed",
+      "tree_hash": "sha256:087fb6c2fd130d4cbdf34a43f07120982cec671ec76065839dce41a19f609151",
       "signer": "amkisko",
       "published_at": 1793699985,
       "signature": "sha256:5de48b4d6226671eeffc1559cbe5c97fdc7346e996062e82f291d62d0bc669db",
@@ -463,6 +463,65 @@
         "file_count": 2,
         "character_count": 3107,
         "token_count": 318
+      }
+    },
+    {
+      "version": "1.5.0",
+      "artifact": "v1/artifacts/amkisko/ruby-conventions/1.5.0/amkisko-ruby-conventions-1.5.0.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "ruby-conventions"
+      ],
+      "artifact_hash": "sha256:ec8773018ea6b9e583702a47e84e27c9129c2326098031042ed2cbf75b9ddcfe",
+      "tree_hash": "sha256:d8ff2d8e4e1691105d71d593fe96554fa6bdc5ad7235ddbe08e0fd39a27d8805",
+      "signer": "local",
+      "published_at": 1794472445,
+      "signature": "sha256:65b91ad7847d6a3c9aadff1ef9263201033c54f5602917617e0776450544e164",
+      "derived_metadata": {
+        "summary": "Ruby and Rails conventions for amkisko repositories - Ruby and Rails stack conventions",
+        "topics": [
+          "ruby",
+          "rails",
+          "conventions",
+          "repositories",
+          "stack"
+        ],
+        "categories": [
+          "documentation",
+          "testing"
+        ],
+        "possible_effects": [
+          "clarifies usage",
+          "improves validation"
+        ],
+        "possible_side_effects": [],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              24,
+              26,
+              9,
+              16,
+              19,
+              22,
+              17,
+              38,
+              25,
+              23,
+              15,
+              15,
+              25,
+              14,
+              33,
+              19
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 3326,
+        "token_count": 340
       }
     }
   ]

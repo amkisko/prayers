@@ -1,4 +1,5 @@
 - use Kotlin and the build tool according to the versions declared in the repository;
+- prefer host APIs, toolchains, and the tree's ordinary process model; keep its declared runtime; add virtualization, containerization, or emulation only for a named requirement the ordinary host execution cannot meet;
 - follow idiomatic null handling, explicit visibility, and the compiler and linter conventions the project enables;
 - prefer explicit module boundaries; keep entry points thin and library code testable;
 - test coverage must follow the conventions declared in the relevant subtree; when a project defines coverage rules in `spec/README.md` or equivalent, follow those;

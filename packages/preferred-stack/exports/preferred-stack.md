@@ -14,4 +14,4 @@
 - catalog assignment starts empty when a default first row would apply a change
 - a command that writes a record must look like a command
 
-Related: the `preferred-stack` skill owns proximity bands and the selection procedure; `minimal-implementation` keeps scope small and repeats the tree-language match; language packs (`ruby-conventions`, `rust-conventions`, `elixir-conventions`, `kotlin-conventions`) own how to write after the choice; `keep-the-work` covers staying on the failed place after a refusal.
+Related: the `preferred-stack` skill owns proximity bands and the selection procedure; `minimal-implementation` keeps scope small and repeats the tree-language match; language packs (`ruby-conventions`, `rust-conventions`, `elixir-conventions`, `kotlin-conventions`, `swift-conventions`) own how to write after the choice; `keep-the-work` covers staying on the failed place after a refusal.

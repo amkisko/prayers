@@ -44,6 +44,7 @@
     "amkisko/security",
     "amkisko/security-audit",
     "amkisko/session-review",
+    "amkisko/swift-conventions",
     "amkisko/working-rules",
     "amkisko/writing-prose"
   ]
