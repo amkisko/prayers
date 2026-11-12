@@ -1,8 +1,7 @@
 prayfile_lock = "1"
 spec = "0.1"
 generated_by = "pray 1.26.1"
-manifest_hash = "sha256:848d58d6072e5cce5aa9cbc416371e8c33b357a33b7c69986272ddcca1c97347"
-source = []
+manifest_hash = "sha256:5c1faf8cedc62a61a3fc6897db605da8fdc497b752cf9e6ceb53a92daaa26a1b"
 
 [[package]]
 name = "amkisko/agent-artifact"
@@ -211,6 +210,16 @@ exports = ["skill"]
 dependencies = []
 
 [[package]]
+name = "amkisko/elixir-conventions"
+version = "1.1.0"
+path = "./packages/elixir-conventions"
+tree_hash = "sha256:0e33c6851e258b036dd612465acff0bde48360be0bb28bfe13883784b147809d"
+artifact_hash = "sha256:0e33c6851e258b036dd612465acff0bde48360be0bb28bfe13883784b147809d"
+artifact = "path:./packages/elixir-conventions"
+exports = ["elixir-conventions"]
+dependencies = []
+
+[[package]]
 name = "amkisko/engineering-audit"
 version = "2.17.0"
 path = "./packages/engineering-audit"
@@ -262,10 +271,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/kotlin-conventions"
-version = "1.0.0"
+version = "1.1.0"
 path = "./packages/kotlin-conventions"
-tree_hash = "sha256:ee01659060b8300ac6434e78c3f0b0e3e81bc07392f37db4d6db3e7595a51a59"
-artifact_hash = "sha256:ee01659060b8300ac6434e78c3f0b0e3e81bc07392f37db4d6db3e7595a51a59"
+tree_hash = "sha256:68a06722600202421b532dfb05ba3996f52e98f59c3cd80032ab151aadd8908e"
+artifact_hash = "sha256:68a06722600202421b532dfb05ba3996f52e98f59c3cd80032ab151aadd8908e"
 artifact = "path:./packages/kotlin-conventions"
 exports = ["kotlin-conventions"]
 dependencies = []
@@ -302,10 +311,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/preferred-stack"
-version = "1.7.0"
+version = "1.7.1"
 path = "./packages/preferred-stack"
-tree_hash = "sha256:735c29130c102331c51f33d346b2f63b9d954c76bff629f819233b321a09f13d"
-artifact_hash = "sha256:735c29130c102331c51f33d346b2f63b9d954c76bff629f819233b321a09f13d"
+tree_hash = "sha256:62b7283c17afb74faf6970cbbaa30f5385b4138da5c984a3bf83104baaebdacf"
+artifact_hash = "sha256:62b7283c17afb74faf6970cbbaa30f5385b4138da5c984a3bf83104baaebdacf"
 artifact = "path:./packages/preferred-stack"
 exports = ["skill"]
 dependencies = []
@@ -362,20 +371,20 @@ dependencies = []
 
 [[package]]
 name = "amkisko/ruby-conventions"
-version = "1.4.1"
+version = "1.5.0"
 path = "./packages/ruby-conventions"
-tree_hash = "sha256:087fb6c2fd130d4cbdf34a43f07120982cec671ec76065839dce41a19f609151"
-artifact_hash = "sha256:087fb6c2fd130d4cbdf34a43f07120982cec671ec76065839dce41a19f609151"
+tree_hash = "sha256:d8ff2d8e4e1691105d71d593fe96554fa6bdc5ad7235ddbe08e0fd39a27d8805"
+artifact_hash = "sha256:d8ff2d8e4e1691105d71d593fe96554fa6bdc5ad7235ddbe08e0fd39a27d8805"
 artifact = "path:./packages/ruby-conventions"
 exports = ["ruby-conventions"]
 dependencies = []
 
 [[package]]
 name = "amkisko/rust-conventions"
-version = "1.1.0"
+version = "1.2.0"
 path = "./packages/rust-conventions"
-tree_hash = "sha256:e1e19df32c0da5132fedcfdddb0b6d7c22b525350fffd830c1db2a6efe68c2b0"
-artifact_hash = "sha256:e1e19df32c0da5132fedcfdddb0b6d7c22b525350fffd830c1db2a6efe68c2b0"
+tree_hash = "sha256:860dbf6a7abdc98251ffede785f2e521204fda1e06f8c13b3b4891e8643d24ea"
+artifact_hash = "sha256:860dbf6a7abdc98251ffede785f2e521204fda1e06f8c13b3b4891e8643d24ea"
 artifact = "path:./packages/rust-conventions"
 exports = ["rust-conventions"]
 dependencies = []
@@ -408,6 +417,16 @@ tree_hash = "sha256:cd486a4dcd6a7a1780f7b9d49ed99bfa444a1f6f1413b26abc3944c048e8
 artifact_hash = "sha256:cd486a4dcd6a7a1780f7b9d49ed99bfa444a1f6f1413b26abc3944c048e86e0d"
 artifact = "path:./packages/session-review"
 exports = ["skill"]
+dependencies = []
+
+[[package]]
+name = "amkisko/swift-conventions"
+version = "1.0.0"
+path = "./packages/swift-conventions"
+tree_hash = "sha256:c0220587ec75ec1113f564b32e080d8f95ec6c9ef0da85314da634b1dd869625"
+artifact_hash = "sha256:c0220587ec75ec1113f564b32e080d8f95ec6c9ef0da85314da634b1dd869625"
+artifact = "path:./packages/swift-conventions"
+exports = ["swift-conventions"]
 dependencies = []
 
 [[package]]

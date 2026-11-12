@@ -1,0 +1,62 @@
+{
+  "name": "amkisko/swift-conventions",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "artifact": "v1/artifacts/amkisko/swift-conventions/1.0.0/amkisko-swift-conventions-1.0.0.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "swift-conventions"
+      ],
+      "artifact_hash": "sha256:35a200548b25aad2f343b1980d7bff6a887291200a36ae0c383870319577cf6f",
+      "tree_hash": "sha256:c0220587ec75ec1113f564b32e080d8f95ec6c9ef0da85314da634b1dd869625",
+      "signer": "local",
+      "published_at": 1794472445,
+      "signature": "sha256:8421211e7d917629d821b11cc59f4d4b1ef4e07207c54adaa75471d89b3433b2",
+      "derived_metadata": {
+        "summary": "Swift conventions for apps, libraries, command-line tools, servers, and scripts - Host-independent Swift implementation conventions",
+        "topics": [
+          "swift",
+          "conventions",
+          "apps",
+          "libraries",
+          "command"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              24,
+              23,
+              14,
+              33,
+              36,
+              23,
+              29,
+              31,
+              25,
+              24,
+              28,
+              31,
+              32,
+              30,
+              23,
+              16
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 4073,
+        "token_count": 422
+      }
+    }
+  ]
+}

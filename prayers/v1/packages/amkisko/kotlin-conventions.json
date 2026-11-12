@@ -4,13 +4,13 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/kotlin-conventions/1.0.0/amkisko-kotlin-conventions-1.0.0.praypkg",
-      "artifact_hash": "sha256:880f98c91b987029e14f1397fb82fdba653ff6832daa3525b09866861f26c3e2",
-      "tree_hash": "sha256:ee01659060b8300ac6434e78c3f0b0e3e81bc07392f37db4d6db3e7595a51a59",
       "yanked": false,
       "targets": [],
       "exports": [
         "kotlin-conventions"
       ],
+      "artifact_hash": "sha256:880f98c91b987029e14f1397fb82fdba653ff6832daa3525b09866861f26c3e2",
+      "tree_hash": "sha256:ee01659060b8300ac6434e78c3f0b0e3e81bc07392f37db4d6db3e7595a51a59",
       "signer": "amkisko",
       "published_at": 1789972177,
       "signature": "sha256:b3d052d4eaadc1ab6bd47770c5c26c29df92c8f7e7bb8479631733e2942ae2e9",
@@ -54,6 +54,62 @@
         "file_count": 2,
         "character_count": 991,
         "token_count": 102
+      }
+    },
+    {
+      "version": "1.1.0",
+      "artifact": "v1/artifacts/amkisko/kotlin-conventions/1.1.0/amkisko-kotlin-conventions-1.1.0.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "kotlin-conventions"
+      ],
+      "artifact_hash": "sha256:a8cde341e7b4fcf1d43b08dd61170c6e32e26ae0b9ee154c2441a27628a6c9f9",
+      "tree_hash": "sha256:68a06722600202421b532dfb05ba3996f52e98f59c3cd80032ab151aadd8908e",
+      "signer": "local",
+      "published_at": 1794472445,
+      "signature": "sha256:9545a90321a032dee731804a305b11447a5033d2c215ff1c9d5e8e7b54d074b3",
+      "derived_metadata": {
+        "summary": "Kotlin conventions for amkisko repositories - Kotlin stack conventions",
+        "topics": [
+          "kotlin",
+          "conventions",
+          "repositories",
+          "stack"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              9,
+              5,
+              5,
+              10,
+              19,
+              2,
+              4,
+              11,
+              6,
+              21,
+              6,
+              7,
+              9,
+              2,
+              2,
+              6
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1210,
+        "token_count": 124
       }
     }
   ]

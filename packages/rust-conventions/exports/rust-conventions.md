@@ -1,4 +1,5 @@
 - use Rust and Cargo features according to the versions declared in the repository;
+- prefer host APIs, toolchains, and the tree's ordinary process model; keep its declared runtime; add virtualization, containerization, or emulation only for a named requirement the ordinary host execution cannot meet;
 - follow Rust API guidelines, idiomatic error handling (`Result`/`Option`), and clippy-backed conventions where the project enables them;
 - prefer explicit crate boundaries; keep binaries thin and library code testable;
 - test coverage must follow the conventions declared in the relevant subtree; when a project defines coverage rules in `spec/README.md` or equivalent, follow those;

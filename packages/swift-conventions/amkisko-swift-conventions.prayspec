@@ -1,0 +1,13 @@
+Package::Specification.new do |spec|
+  spec.name = "amkisko/swift-conventions"
+  spec.version = "1.0.0"
+  spec.summary = "Swift conventions for apps, libraries, command-line tools, servers, and scripts"
+  spec.files = ["README.md", "exports/swift-conventions.md"]
+  spec.exports = {
+    "swift-conventions" => {
+      type: "fragment",
+      path: "exports/swift-conventions.md",
+      summary: "Host-independent Swift implementation conventions"
+    }
+  }
+end

@@ -4,13 +4,13 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/rust-conventions/1.0.0/amkisko-rust-conventions-1.0.0.praypkg",
-      "artifact_hash": "sha256:32c4ae24bf2d86cd5fd27885f1618f8296773bdaa901fbf0b3b9227444afd8fb",
-      "tree_hash": "sha256:4e5794d5982d86e0ea30a8c689350484ddbfc4af96dbd3651ae2c3eb96c8ed6d",
       "yanked": false,
       "targets": [],
       "exports": [
         "rust-conventions"
       ],
+      "artifact_hash": "sha256:32c4ae24bf2d86cd5fd27885f1618f8296773bdaa901fbf0b3b9227444afd8fb",
+      "tree_hash": "sha256:4e5794d5982d86e0ea30a8c689350484ddbfc4af96dbd3651ae2c3eb96c8ed6d",
       "signer": "amkisko",
       "published_at": 1785128733,
       "signature": "sha256:484a34e6506311e485dd127c45beaf98fe7b79b34f54636adf78340dcf296b89",
@@ -59,13 +59,13 @@
     {
       "version": "1.1.0",
       "artifact": "v1/artifacts/amkisko/rust-conventions/1.1.0/amkisko-rust-conventions-1.1.0.praypkg",
-      "artifact_hash": "sha256:af113befdc9511952f47f213221458cab8cb02adf4ce6b43d301219848fabf8c",
-      "tree_hash": "sha256:e1e19df32c0da5132fedcfdddb0b6d7c22b525350fffd830c1db2a6efe68c2b0",
       "yanked": false,
       "targets": [],
       "exports": [
         "rust-conventions"
       ],
+      "artifact_hash": "sha256:af113befdc9511952f47f213221458cab8cb02adf4ce6b43d301219848fabf8c",
+      "tree_hash": "sha256:e1e19df32c0da5132fedcfdddb0b6d7c22b525350fffd830c1db2a6efe68c2b0",
       "signer": "amkisko",
       "published_at": 1789972177,
       "signature": "sha256:790125b8808c7e8cf5e87830c22bbdfb85a5ffd7b1e3bfc248c08d4ef7677bfb",
@@ -109,6 +109,62 @@
         "file_count": 2,
         "character_count": 781,
         "token_count": 82
+      }
+    },
+    {
+      "version": "1.2.0",
+      "artifact": "v1/artifacts/amkisko/rust-conventions/1.2.0/amkisko-rust-conventions-1.2.0.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "rust-conventions"
+      ],
+      "artifact_hash": "sha256:a7214e0e731803d48c2f9ddd68da1063dad42377b734f19d15246d03cadc3861",
+      "tree_hash": "sha256:860dbf6a7abdc98251ffede785f2e521204fda1e06f8c13b3b4891e8643d24ea",
+      "signer": "local",
+      "published_at": 1794472445,
+      "signature": "sha256:4e3a2be81f8946058c9d97ae653c97d75486910aaa44ed1194c294b61ec493b7",
+      "derived_metadata": {
+        "summary": "Rust conventions for amkisko repositories - Rust stack conventions",
+        "topics": [
+          "rust",
+          "conventions",
+          "repositories",
+          "stack"
+        ],
+        "categories": [
+          "general"
+        ],
+        "possible_effects": [
+          "improves package discovery"
+        ],
+        "possible_side_effects": [],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              7,
+              6,
+              7,
+              11,
+              13,
+              3,
+              4,
+              10,
+              4,
+              8,
+              8,
+              5,
+              10,
+              2,
+              2,
+              4
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 1000,
+        "token_count": 104
       }
     }
   ]

@@ -58,7 +58,7 @@ compose "AGENTS.md" do
   pray "amkisko/docs-conventions", "~> 3.7"
   pray "amkisko/dependency-issues", "~> 3.2"
   pray "amkisko/dependency-policy", "~> 4.3"
-  pray "amkisko/ruby-conventions", "~> 1.4"
+  pray "amkisko/ruby-conventions", "~> 1.5"
   pray "amkisko/minimal-implementation", "~> 1.6"
   pray "amkisko/finite-state-machines", "~> 1.3"
   pray "amkisko/durable-cache", "~> 2.0"
@@ -111,7 +111,7 @@ pray "amkisko/community-governance", "~> 1.1", file: "GOVERNANCE.md"
 pray "amkisko/community-contributing", "~> 1.1", file: "CONTRIBUTING.md"
 ```
 
-Swap `ruby-conventions` for `rust-conventions`, `elixir-conventions`, or `kotlin-conventions` on those language trees. Compose one language pack, not all four. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Products with background workers compose `background-jobs`. Products that ship byte-bearing artifacts compose `delivery-budgets`. Products with a cache or rebuildable derived serving state compose and tree `durable-cache`. Trees without those product surfaces may omit the corresponding packages.
+Swap `ruby-conventions` for `rust-conventions`, `elixir-conventions`, `kotlin-conventions`, or `swift-conventions` on those language trees. Compose one of the five language packs for the owning tree. The Swift pack covers apps, libraries, CLIs, servers, and scripts. Products with a person-facing place compose `keep-the-work` next to `preferred-stack`. Products with background workers compose `background-jobs`. Products that ship byte-bearing artifacts compose `delivery-budgets`. Products with a cache or rebuildable derived serving state compose and tree `durable-cache`. Trees without those product surfaces may omit the corresponding packages.
 
 Export selection follows the destination: fragments in `compose`, skills in `tree`, whole files with `file:`. Omit `export:` / `exports:` when only one compatible export exists. Tree `docs-conventions` under `usr/templates` whenever you compose it: the `note` folder export keeps blank docs skeletons at `usr/templates/note/`. Tree `dependency-policy` and `durable-cache` whenever you compose them: their decision procedures live in the skills. Tree `rfc-process` whenever you compose it: numbering and template live in the skill. Tree `api-contract-migration` when changing an existing published API request and response contract; do not compose it into AGENTS.md. Tree `public-surface-recon` when doing external blackbox recon; do not compose it into AGENTS.md. Tree `infer-conventions` when encoding how a tree actually writes as executable checks; do not compose it into AGENTS.md. Tree `session-review` when reviewing agent sessions; do not compose it into AGENTS.md. Tree `ci-review` when reviewing CI run health; do not compose it into AGENTS.md. Tree `change-review` when reviewing a git diff; do not compose it into AGENTS.md. Tree `agent-artifact` when reviewing skill files or MCP configs; do not compose it into AGENTS.md. Tree `agent-discovery` when deciding what a product should publish for agent HTTP discovery; do not compose it into AGENTS.md. Tree `derivation-audit` when reviewing a formal derivation; do not compose it into AGENTS.md. Tree `agent-run-supervision` when supervising a live tool-calling run; do not compose it into AGENTS.md. Tree `security-audit` beside `engineering-audit` for full repository security audits; do not compose it into AGENTS.md. Tree `pressure-benchmarking` when running calibrate, load-ladder, ceiling-ratchet, or pressure-cooker optimize/prove episodes; do not compose it into AGENTS.md.
 
@@ -159,6 +159,7 @@ make check-artifacts
 | `amkisko/rust-conventions` | fragment | Rust stack conventions |
 | `amkisko/elixir-conventions` | fragment | Elixir and OTP stack conventions |
 | `amkisko/kotlin-conventions` | fragment | Kotlin stack conventions |
+| `amkisko/swift-conventions` | fragment | Swift conventions for apps, libraries, CLIs, servers, and scripts |
 | `amkisko/durable-cache` | fragment + skill | Cache and rebuildable derived state versus durable truth |
 | `amkisko/minimal-implementation` | fragment | Smallest correct change discipline |
 | `amkisko/finite-state-machines` | fragment | Explicit lifecycle modeling, including digital and physical state |

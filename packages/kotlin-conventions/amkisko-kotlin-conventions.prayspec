@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/kotlin-conventions"
-  spec.version = "1.0.0"
+  spec.version = "1.1.0"
   spec.summary = "Kotlin conventions for amkisko repositories"
   spec.files = ["README.md", "exports/kotlin-conventions.md"]
   spec.exports = {

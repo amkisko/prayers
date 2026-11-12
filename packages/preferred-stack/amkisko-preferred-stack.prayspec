@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/preferred-stack"
-  spec.version = "1.7.0"
+  spec.version = "1.7.1"
   spec.summary = "Preferred languages by proximity, UX principles, and visual-assessment communication"
   spec.files = [
     "README.md",
