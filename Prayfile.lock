@@ -221,10 +221,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/engineering-audit"
-version = "2.17.0"
+version = "2.18.0"
 path = "./packages/engineering-audit"
-tree_hash = "sha256:9ab0d3f3c9d25994fa0f43e27d364621c4b2d3d342fccdcee3273ec579a61347"
-artifact_hash = "sha256:9ab0d3f3c9d25994fa0f43e27d364621c4b2d3d342fccdcee3273ec579a61347"
+tree_hash = "sha256:1fc0993c3eaf59ac45e66184a54c1696773a26f432d199c7320d88f3b6e5748e"
+artifact_hash = "sha256:1fc0993c3eaf59ac45e66184a54c1696773a26f432d199c7320d88f3b6e5748e"
 artifact = "path:./packages/engineering-audit"
 exports = ["skill"]
 dependencies = []
@@ -291,10 +291,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/operational-signal-intake"
-version = "1.0.1"
+version = "1.0.2"
 path = "./packages/operational-signal-intake"
-tree_hash = "sha256:60543f9067e470651d3886e5f590198af712bc4b5230f16eadbf82f5e8badc0e"
-artifact_hash = "sha256:60543f9067e470651d3886e5f590198af712bc4b5230f16eadbf82f5e8badc0e"
+tree_hash = "sha256:34c09bd5778ddf4f548062e02a481f7d4109644006c727ec57a26a4c3c06a050"
+artifact_hash = "sha256:34c09bd5778ddf4f548062e02a481f7d4109644006c727ec57a26a4c3c06a050"
 artifact = "path:./packages/operational-signal-intake"
 exports = ["skill"]
 dependencies = []
@@ -441,10 +441,10 @@ dependencies = []
 
 [[package]]
 name = "amkisko/writing-prose"
-version = "3.7.0"
+version = "3.8.0"
 path = "./packages/writing-prose"
-tree_hash = "sha256:7e5a470c5cd38d0148acd32404ef1d0feea9a2c53afe42d24cc66ebce458013e"
-artifact_hash = "sha256:7e5a470c5cd38d0148acd32404ef1d0feea9a2c53afe42d24cc66ebce458013e"
+tree_hash = "sha256:cc53e78632bc8c32ef5f76cc76f0b068d33105949bda095af10338f313773ec1"
+artifact_hash = "sha256:cc53e78632bc8c32ef5f76cc76f0b068d33105949bda095af10338f313773ec1"
 artifact = "path:./packages/writing-prose"
 exports = ["writing-prose"]
 dependencies = []
@@ -509,18 +509,18 @@ silenced = false
 id = "ca94e22d"
 target = "AGENTS.md"
 open_line = 90
-close_line = 107
-ideal_checksum = "sha256:5a8123145da1b20f03787a313e5c88ee6ddc2c6babc714bf3de8d27537017062"
+close_line = 112
+ideal_checksum = "sha256:b349ced17702a5c8c332df39055a74585526a59cdb0578569fffff094cecac40"
 package = "amkisko/writing-prose"
 export = "writing-prose"
-source_checksum = "sha256:7e5a470c5cd38d0148acd32404ef1d0feea9a2c53afe42d24cc66ebce458013e"
+source_checksum = "sha256:cc53e78632bc8c32ef5f76cc76f0b068d33105949bda095af10338f313773ec1"
 silenced = false
 
 [[managed_span]]
 id = "08c294fb"
 target = "AGENTS.md"
-open_line = 110
-close_line = 119
+open_line = 115
+close_line = 124
 ideal_checksum = "sha256:6f43a75b86be115b917739da56eae68882b2d7075d975a5e351fbdcfa4e0bed6"
 package = "amkisko/rejected-changes"
 export = "rejected-changes"
@@ -530,8 +530,8 @@ silenced = false
 [[managed_span]]
 id = "2543c1cc"
 target = "AGENTS.md"
-open_line = 121
-close_line = 131
+open_line = 126
+close_line = 136
 ideal_checksum = "sha256:77744b69e76c196446274b482e9b7b061843aa90cb749418b3293dd7a7262629"
 package = "amkisko/publish-checks"
 export = "publish-checks"
@@ -541,8 +541,8 @@ silenced = false
 [[managed_span]]
 id = "48e8a6b3"
 target = "AGENTS.md"
-open_line = 133
-close_line = 140
+open_line = 138
+close_line = 145
 ideal_checksum = "sha256:59896790d5ea66edea34f282a22fb71543538667578c66019e3772bf31e51e57"
 package = "amkisko/collaboration-workflow"
 export = "collaboration-workflow"
@@ -552,8 +552,8 @@ silenced = false
 [[managed_span]]
 id = "3ac5d6ce"
 target = "AGENTS.md"
-open_line = 143
-close_line = 166
+open_line = 148
+close_line = 171
 ideal_checksum = "sha256:46ccc239d16e5014560af365052a4ab96ce1ed3ca2cc93b3324f95623025519c"
 package = "amkisko/dependency-policy"
 export = "dependency-policy"
@@ -802,7 +802,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/engineering-audit/product-surface.md"
-content_hash = "sha256:ece223bce7a8243a6edd7073a9b2fa1bef87afe48ca659e29440b2ea3ced358b"
+content_hash = "sha256:22e40be9b25780345fcd394aed42e1567cc603ed5de1011010f94ab499f66bb3"
 package = "amkisko/engineering-audit"
 export = "skill"
 
@@ -856,7 +856,7 @@ export = "skill"
 
 [[provisioned]]
 path = ".agents/skills/operational-signal-intake/references/evidence-model.md"
-content_hash = "sha256:0d9c1ec8d46efd8ed3e774be158cff0f70e8fea157e324cd071972d6702ec497"
+content_hash = "sha256:c8e7550c94245661f7a9780bc51826e5b1aaa763069a905e5772c5e0b63603ce"
 package = "amkisko/operational-signal-intake"
 export = "skill"
 

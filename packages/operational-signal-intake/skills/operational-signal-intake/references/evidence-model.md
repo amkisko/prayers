@@ -6,7 +6,7 @@ Keep observation, consequence, and hypothesis independent. One signal may have s
 
 Observation records what the source actually shows: failed or refused outcome, incorrect result, latency, demand, queueing, saturation, state change, access or validation anomaly, missing check-in, or missing and stale telemetry.
 
-Consequence records why it matters: a blocked, delayed, lost, corrupted, or misleading user task; loss of availability, timeliness, correctness, integrity, confidentiality, privacy, or durability; cascading failure; recovery difficulty; or operational cost. Leave consequence unknown when it has not been observed.
+Consequence records why it matters: a blocked, delayed, lost, corrupted, or misleading user task; loss of availability, timeliness, correctness, integrity, confidentiality, privacy, or durability; cascading failure; failed restoration, measured recovery time, or required manual recovery steps; or operational cost. Leave consequence unknown when it has not been observed.
 
 Hypothesis records a possible explanation: defect, regression, unsafe input path, ordinary load, resource leak or exhaustion, dependency or platform failure, data skew, retry feedback, expected domain behavior, abuse, malicious activity, or telemetry failure. A hypothesis remains an inference until the evidence establishes it.
 

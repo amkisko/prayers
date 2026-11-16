@@ -4,13 +4,13 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/operational-signal-intake/1.0.0/amkisko-operational-signal-intake-1.0.0.praypkg",
-      "artifact_hash": "sha256:c377f6baf57d3c482b3169e166fa8a71779430d5e88ca3a9506522d61d2312fb",
-      "tree_hash": "sha256:69df63df3530d9739a15128e07e521c43dd95da349219ee010ab4d572d175ec1",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:c377f6baf57d3c482b3169e166fa8a71779430d5e88ca3a9506522d61d2312fb",
+      "tree_hash": "sha256:69df63df3530d9739a15128e07e521c43dd95da349219ee010ab4d572d175ec1",
       "signer": "amkisko",
       "published_at": 1788856855,
       "signature": "sha256:8c44eebfb5fb3eb490364c222338da57d0e0da69747555b5de205bd6abe09c51",
@@ -63,13 +63,13 @@
     {
       "version": "1.0.1",
       "artifact": "v1/artifacts/amkisko/operational-signal-intake/1.0.1/amkisko-operational-signal-intake-1.0.1.praypkg",
-      "artifact_hash": "sha256:372522130fa7c81283f4f125ccd91f9a48ae7dda645cde4d1919019536a04211",
-      "tree_hash": "sha256:60543f9067e470651d3886e5f590198af712bc4b5230f16eadbf82f5e8badc0e",
       "yanked": false,
       "targets": [],
       "exports": [
         "skill"
       ],
+      "artifact_hash": "sha256:372522130fa7c81283f4f125ccd91f9a48ae7dda645cde4d1919019536a04211",
+      "tree_hash": "sha256:60543f9067e470651d3886e5f590198af712bc4b5230f16eadbf82f5e8badc0e",
       "signer": "amkisko",
       "published_at": 1791444170,
       "signature": "sha256:9bb45d66d6b81eec975d9d887d8ecf3ec23b0407fe10eadc94c24d6c7ddf29d4",
@@ -116,6 +116,65 @@
         ],
         "file_count": 4,
         "character_count": 15054,
+        "token_count": 512
+      }
+    },
+    {
+      "version": "1.0.2",
+      "artifact": "v1/artifacts/amkisko/operational-signal-intake/1.0.2/amkisko-operational-signal-intake-1.0.2.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "skill"
+      ],
+      "artifact_hash": "sha256:7acef51978e6e2b43ab1dc17e9bb599c5495852bb162bbfda6d8326fe6ff97fa",
+      "tree_hash": "sha256:34c09bd5778ddf4f548062e02a481f7d4109644006c727ec57a26a4c3c06a050",
+      "signer": "local",
+      "published_at": 1794843791,
+      "signature": "sha256:fdd1ac58393e2ad1bfcdcfbbb7d32d1373e4fcd7fcec99b7190997beeb9a8ffc",
+      "derived_metadata": {
+        "summary": "Provider-neutral intake for live service, reliability, security, and user-impact signals - Operational signal intake skill",
+        "topics": [
+          "provider",
+          "neutral",
+          "intake",
+          "live",
+          "service"
+        ],
+        "categories": [
+          "security"
+        ],
+        "possible_effects": [
+          "surfaces trust-sensitive behavior"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              43,
+              31,
+              32,
+              22,
+              37,
+              31,
+              42,
+              33,
+              27,
+              30,
+              32,
+              10,
+              29,
+              32,
+              44,
+              37
+            ]
+          }
+        ],
+        "file_count": 4,
+        "character_count": 15112,
         "token_count": 512
       }
     }

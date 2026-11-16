@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 1.40.0 (2026-11-16)
+
+- Require checkable prayer instructions, explicit obligations, and named technical conditions in `amkisko/writing-prose` 3.8.0; remove filler and unrelated definitions while preserving uncertainty.
+- Replace unspecified destructive-action safeguards with confirmation or undo checks in `amkisko/engineering-audit` 2.18.0; name observed recovery outcomes in `amkisko/operational-signal-intake` 1.0.2.
+
 ## 1.39.0 (2026-11-12)
 
 - Add `amkisko/swift-conventions` 1.0.0: host-independent Swift conventions for apps, libraries, command-line tools, servers, and scripts, with conditional UI, permission, and input rules.

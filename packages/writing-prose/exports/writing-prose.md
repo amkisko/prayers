@@ -1,16 +1,21 @@
 ## Writing and changelog prose checks
 
-Review for marketing language, invented objections, empty contrasts, stray em dashes, and paragraph flow; keep notes and metadata honest and plain.
-- docs timestamp trees, shared prayer sources (fragments, skill bodies, prompt templates, files under `prayers/`), and agent deliverable templates: plain prose readable without a rendered preview. No markdown tables, bold, italic, or other styling. Prioritize factual accuracy over presentation.
-- Prefer characters typed from a normal keyboard layout. Do not use special Unicode punctuation or symbols for structure or emphasis: no Unicode arrows, em or en dashes, ellipsis characters, not-equal signs, curly quotes, section signs, or similar. Use ASCII stand-ins (`->`, `-`, `...`, `!=`, straight `"` / `'`) or plain words (`then`, `section`). Do not draw pipelines or diagrams with inaccessible glyphs; use a numbered or bulleted list, or a `text` fence with ASCII only.
-- Ease, lexical diversity, coherence, mechanics, and claim integrity are separate constructs. Automated matches, readability grades, similarity, and model preference are review prompts; preserve meaning, necessary negation, scope, and uncertainty when editing.
-- Keep agency on the person who acts. Tools and process nouns do mechanical work.
-- Technical names, APIs, CLI verbs, RFC titles, identifiers, and UI copy use instrument and protocol words: check-in, last-seen, probe, monitor, expected tick. Body and organism metaphors such as heartbeat, pulse, and organ stay out of contracts and code. HTTP `/health` remains the liveness probe until a later RFC.
-- One sentence holds one beat. Consecutive short sentences that only restated the same beat are a punchline stack.
-- For material external claims, quotations, dates, or research summaries, use the claims-audit skill.
-- signed comments on a public tracker speak as the account holder to the named person; chat stays in chat
-- cite only what a public reader can open and check; confidential traces, unique working locators, and unverifiable session evidence stay in chat; do not expose source material that is not already public, and do not post source material without the person's consent
-- greeting names the person, then a short body, a close, and the name from the tracker identity; first person when that person did the work
-- one primary commit, pull request, or release link; comment when asked; do not close, assign, or reopen unless asked
+- Docs timestamp trees, prayer sources, and deliverable templates use plain prose: headings, lists, backticks, YAML frontmatter, code fences; no tables or styling. Prioritize factual accuracy.
+- Use ASCII punctuation for structure, lists or ASCII text fences for diagrams.
+- Write checkable instructions: name actor, action, target, and applicable conditions, limits, failure behavior, and completion evidence.
+- Use must for requirements, must not for prohibitions, may for permissions. Name exceptions; keep recommendations distinct.
+- Do not use friction, difficulties, or difficulty as substitutes for technical conditions. Name the blocked operation, failed outcome, missing prerequisite, resource cost, or required interaction.
+- Use computing or system-domain terms; preserve technical terms and identifiers. Define terms only to execute or check instructions; omit unrelated definitions and analogies.
+- Attribute reports of a person's experience; do not substitute them for technical conditions.
+- Delete filler, marketing claims, invented objections, empty contrasts, and repetition. Retain action, scope, conditions, limits, rationale, and evidence.
+- Do not invent thresholds, mechanisms, or results. Name missing decisions or evidence; preserve necessary negation and uncertainty.
+- Ease, lexical diversity, coherence, mechanics, and claim integrity are separate. Automated matches, readability, similarity, and model preference prompt review; preserve meaning.
+- Keep agency on the person who acts. Tools and processes do mechanical work.
+- Technical names, APIs, CLI verbs, RFC titles, identifiers, and UI copy use instrument and protocol terms: check-in, last-seen, probe, monitor, expected tick. Keep body and organism metaphors out of contracts and code. HTTP `/health` stays the liveness probe until a later RFC.
+- Keep paragraph flow; one sentence holds one point. Do not stack short sentences that repeat it.
+- Use `claims-audit` for material external claims, quotations, dates, or research summaries.
+- Signed tracker comments speak as the account holder to the named person. Keep chat in chat. Use a greeting, short body, close, and tracker identity name; first person for their work.
+- Cite only publicly checkable sources. Keep confidential traces, unique working locators, and unverifiable session evidence in chat. Do not post source material without the person's consent.
+- Use one primary commit, pull request, or release link. Comment only when asked; do not close, assign, or reopen unless asked.
 
-Related: `security` forbids secrets in issues and owns the session notice when confidential material hits inference.
+Related: `security` owns secrets in issues and session notices for confidential material.

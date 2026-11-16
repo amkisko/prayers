@@ -30,7 +30,7 @@ Randomize or counterbalance arm order within task/repetition blocks. Interleave 
 
 ### Task construction and holdout
 
-Sample authentic tasks across the claimed surfaces, including correct abstention and requests requiring no mutation. Include difficult near-misses and overlap cases. Keep synthetic boundary cases in a labeled diagnostic stratum.
+Sample authentic tasks across the claimed surfaces, including correct abstention and requests requiring no mutation. Include requests that share a selector's vocabulary but fall outside its scope, and requests that match more than one selector. Keep synthetic boundary cases in a labeled diagnostic stratum.
 
 Separate development, pilot, and confirmation sets. Hold out task families or repositories when the transfer claim concerns unseen families or repositories. Avoid skill descriptions that disclose a benchmark answer or task-specific oracle. Validate that expert solutions pass and representative incorrect or unauthorized solutions fail the verifier.
 

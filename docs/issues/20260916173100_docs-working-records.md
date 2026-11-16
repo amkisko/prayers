@@ -12,7 +12,9 @@ Move the four timestamp trees into docs/ so the familiar documentation entry poi
 
 Leave usr/docs undefined. usr/ is the workshop for working tools and operational material. Named trees under it are examples of that role, not a closed list of forms.
 
-Do not add docs/shared in this pass. A further boundary can wait until use exposes friction.
+Do not add docs/shared in this pass. Reconsider a further boundary when a record has no defined destination or more than one tree claims the same record.
+
+Later pass, 2026-11-16: the destination conditions above replace the unspecified trigger for revisiting this decision. See [checkable prayer instructions](20261116174018_checkable-prayer-instructions.md).
 
 Consumers treat this as a breaking layout change: docs-conventions 3.0.0, dependency-issues 3.0.0, changelog-update 3.0.0, with matching path updates in writing-prose, working-rules, collaboration-workflow, claims-audit, engineering-audit, and dependency-policy.
 
