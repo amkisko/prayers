@@ -16,6 +16,9 @@ No agent performance experiment was run. Repository validation, file size, and p
 
 ## Next
 
+- Decide the proposed reporting boundary in the [study plan](../plans/20261116171015_prayers-evaluation-study.md#proposed-reporting-boundary): Pray delivery facts, harness observations, verifier outcomes, local export first, and separately authorized remote destinations. This remains design-only; no telemetry collection or Pray implementation is authorized by this note.
+- Specify and validate the revised [numeric-only remote report](../plans/20261116171015_prayers-evaluation-study.md#numeric-only-remote-reports): fixed fields/codes, locally computed measurements, private task-level analysis records, and approved aggregation/precision/small-group/repeated-release rules. This supersedes free-form agent reports; numeric formatting does not establish confidentiality or measurement provenance.
+- Decide and validate the [agent reporting instruction](../plans/20261116171015_prayers-evaluation-study.md#proposed-agent-reporting-instruction): operator-owned enablement, typed finalization, separately coded agent assessments, no activation or positive-verdict incentive, and harness accounting for interrupted or unreported runs. The draft specifies a future interface, not an existing Pray command or measured behavior.
 - Resolve the unnamed five-stage research attribution if the original citation becomes available; otherwise retain it only as a local diagnostic proposal.
 - Choose one skill, a real consumer task population, a frozen model-harness configuration, and an acceptable completion contract before implementing a runner.
 - Check whether a consumer already owns a suitable harness; the inspected repository check paths do not supply a model A/B runner.

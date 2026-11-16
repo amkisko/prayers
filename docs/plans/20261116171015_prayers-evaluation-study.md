@@ -69,6 +69,73 @@ Define `success@budget` as the fraction of assigned runs that satisfy the declar
 
 Report cost for every attempted run, not only successful runs. State cached-token accounting and price date if reporting currency. A cheap failed run and an expensive correct run answer different tradeoffs; show the joint outcomes rather than hiding either in a single ratio.
 
+### Proposed reporting boundary
+
+This reporting design is a proposal for the study, not an implementation decision. Preserve `confess` as explicit package acceptance or rejection feedback. Store experimental observations in a separate versioned event contract; a verdict is not an independently verified task outcome.
+
+Pray must own package and delivery facts: package/version, artifact and rendered-content hashes, selected exports, composition identity, operation, result/error category, elapsed time, and delivered byte counts. The harness must own assignment, model execution, exposure, selection/loading observations, budgets, and run termination. The verifier or reviewer must own acceptance, applicable-constraint labels, and observed prohibited effects. Each record must identify its producer and evidence coverage; delivery does not prove reading or adherence.
+
+The minimum internal study records must include the following fields. These are private analysis records, not the remote telemetry payload:
+
+- Identity: schema version, study-local event/run/task/repository references, protocol revision, arm, repetition/block, and frozen artifact/environment references. Use study-local references for private repositories and people; retain any identifying mapping separately.
+- Assignment and completeness: every assigned run, start/terminal status, and distinct task failure, timeout, cancellation, harness failure, and provider failure. Reconcile assignments with terminal records so a missing report cannot disappear from the denominator.
+- Mechanism: descriptions actually exposed, selected skills and abstention, observed body/reference reads and content identity, and adherence labels with pass/fail/not-applicable/unknown states. Missing observation must remain unknown.
+- Outcome: verifier identity and result, independent acceptance when available, constraint results, and separately recorded boundary violations. Keep an optional human package verdict separate from these results.
+- Resources: elapsed time, input/output/cached tokens when available, tool calls, retries, and instruction overhead. Record unavailable counters explicitly and retain costs for failed attempts.
+- Reporting integrity: event identity and sequence, acknowledgement state, and known dropped or rejected records. A receiver must deduplicate repeated deliveries without dropping distinct repeated trials.
+
+Start with an explicitly enabled local JSONL export and a documented schema. Add a configurable remote receiver only when the selected study needs it. The consumer or study operator must authorize the destination independently of the package source. Publisher-controlled package metadata must not enable reporting or redirect an authorized stream. No central service, automatic federation, or global participant identity is required. Any later OTLP adapter must preserve the numeric export restrictions and must not add automatic host, process, user, or resource attributes; durable study rows remain the analysis source.
+
+Before collection, the operator must declare fields, recipients, retention/deletion rules, and any permitted linking between runs. Remote reporting must default to off. A preview must show the destination and exact fields before authorization. Export must use an allowlist and omit prompts, source code, transcripts, command arguments, free-form errors, local paths, credentials, network/device fingerprints, and global identifiers. A hash of private input is not automatically safe to publish; artifact hashes are for public or explicitly approved material. Additional trace collection requires a separate declared purpose and authorization.
+
+A remote exporter must bound its queue, request time, retries, and payload size. Receiver failure must not change the package operation result; the exporter must expose delivery failure separately. Study analysis must flag unreconciled or lost records as incomplete evidence. Before accepting remote data, a receiver must validate the schema, enforce its authentication/access policy and submission limits, and deduplicate event identities. A payload digest alone does not authenticate its producer, and producer authentication does not establish outcome correctness.
+
+### Numeric-only remote reports
+
+The operator's revised preference supersedes the earlier proposal for agent-authored action descriptions or evidence references in reports. Remote metric payloads must contain only fixed schema fields with bounded numeric values and registered numeric category codes. Protocol field names are fixed; the agent must not supply field names, labels, notes, arbitrary identifiers, encoded text, evidence locators, or extra attributes. The operator must approve the study/package/arm codebook independently of the agent. This restriction applies to both clients and receivers.
+
+The exporter must derive values from local recorded observations and verifier results. Candidate measures are assigned/completed/failed/timeout counts, observed selection/loading counts, applicable/pass/fail/unknown constraint counts, token/tool/retry counts, and declared duration or token histograms. Every measure must declare its unit, producer, denominator where applicable, observation coverage, and allowed range. Missing observations must remain separately counted or coded as unknown; they must not become zero or pass. Keep any separately authorized agent assessment in a distinct coded measure, never in a measured-compliance counter. Numeric representation alone does not establish measurement provenance.
+
+External reports must default to aggregates for approved study/package/arm groups. Retain task-level pairing and identifiers in the private study dataset so aggregate export does not remove the information needed for the registered analysis. Before enabling export, the operator must define aggregation windows, precision, bounded histogram categories, small-group release rules, and repeated-release limits. No numerical threshold is selected by this note. Suppressed or unreleased measurements must remain visible in coverage accounting. Public or further-distributed releases require their own release policy; receiver ownership does not authorize redistribution.
+
+The report builder must reject unregistered fields/codes and out-of-range values, recompute measurements from approved local sources, and prevent the agent from submitting arbitrary numeric payloads. A finalize operation with no metric-value arguments is a candidate interface. Agent-supplied numbers are not a substitute for local measurements. The exporter must exclude exact wall-clock timestamps, private identifiers/hashes, and arbitrary-precision values from the metric payload. Any delivery identifier must be exporter-generated and scoped to the approved stream. Authentication and transport metadata remain subject to the recipient and retention policy; a numeric payload does not remove those disclosures.
+
+Privacy qualification: numeric-only reporting is a format restriction, not a guarantee of confidentiality. [OpenTelemetry's sensitive-data guidance](https://opentelemetry.io/docs/security/handling-sensitive-data/) recommends data minimization and aggregation and explains why even hashed numeric user identifiers may fail to anonymize a person. [Census reconstruction research](https://www.census.gov/library/working-papers/2025/adrm/CES-WP-25-57.html) provides a counterexample to the general claim that aggregate statistics cannot disclose individual information; it does not measure this proposed Pray design. Neither source establishes this proposal's leakage rate or proves the benefit of any untested release policy.
+
+### Proposed agent reporting instruction
+
+The study operator must enable reporting through the harness or consumer project instructions, with the approved fields, tool or local destination, recipients, and resource limit. A package body must not authorize its own reporting. Put the reporting condition outside the measured skill so it also covers assigned runs without selection. Hold this condition and its overhead constant across compared arms; document any reporting instrumentation as part of the intervention environment.
+
+Define reporting success as accurate, complete coded observations within the configured budget, including non-use and unknown evidence. Do not reward package activation, report volume, positive verdicts, or claims that guidance improved the result. Skill selection must continue to follow task relevance. The harness must derive remote measurements from observable events; agent reporting must not introduce free-form explanations or hidden reasoning.
+
+The following is a proposed instruction contract, not an available Pray command:
+
+```text
+When the operator has enabled study reporting, use only the configured
+typed reporting interface. Do not activate skills to produce a report.
+
+Before normal task completion, finalize this run's recorded observations
+once. The harness must calculate the approved numeric measures. Do not
+provide arbitrary numbers, text, labels, identifiers, or evidence locators.
+If the protocol requests an agent assessment, choose only a registered
+category; the exporter must identify it separately from measured results.
+Keep missing observations unknown. Do not infer task success or benefit
+from selection, reading, or your own compliance claim.
+
+Do not submit a free-form summary or an accepted/rejected confession
+through study reporting. Package feedback requires separate authorization
+and must not bypass the study's numeric-only export policy.
+
+If reporting is unavailable or fails, follow only the configured fallback
+within its resource limit. Do not invent a command or destination, repeatedly
+ask for consent already granted, or claim delivery without acknowledgement.
+Expose reporting failure separately and finish the authorized task.
+```
+
+The harness must create assignment/start records and account for missing terminal summaries after crashes, cancellation, or timeouts; an end-of-task instruction cannot guarantee those records. Label agent assertions separately from tool-observed events and independent verifier results. Reuse the operator's existing authorization while its fields, purpose, and recipients remain unchanged. A reporting instruction does not override higher-priority authorization or privacy rules.
+
+Before rollout, evaluate reporting on applicable, non-applicable, conflicting, and no-selection tasks, with missing observations, unavailable tools, receiver failure, and interrupted runs. Include attempts to send free text, arbitrary numbers, unknown fields/codes, identifying metadata, and repeated overlapping aggregates. Compare coverage, unsupported assertions, private-data emission, duplicate submissions, and reporting overhead. Keep this instrumentation check separate from the study's package-benefit result; no behavioral improvement has been measured here.
+
 ### Statistical analysis
 
 For task `t`, arm `a`, and `R` registered repeats, define `p[t,a] = sum(pass[t,a,r]) / R`. The equally weighted fixed-suite contrast is `mean_t(p[t,treatment] - p[t,control])`. If the estimand concerns a production mixture, preregister the weights instead.
