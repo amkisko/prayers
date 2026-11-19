@@ -53,7 +53,7 @@ source "amkisko", git: "https://github.com/amkisko/prayers.git"
 
 compose "AGENTS.md" do
   pray ".agents/project.md"
-  pray "amkisko/working-rules", "~> 2.7"
+  pray "amkisko/working-rules", "~> 2.8"
   pray "amkisko/security", "~> 1.5"
   pray "amkisko/docs-conventions", "~> 3.7"
   pray "amkisko/dependency-issues", "~> 3.2"
@@ -86,7 +86,7 @@ tree ".agents/skills" do
   pray "amkisko/durable-cache", "~> 2.0"
   pray "amkisko/preferred-stack", "~> 1.7"
   pray "amkisko/planned-release", "~> 1.2"
-  pray "amkisko/engineering-audit", "~> 2.18"
+  pray "amkisko/engineering-audit", "~> 2.19"
   pray "amkisko/api-contract-migration", "~> 1.0"
   pray "amkisko/operational-signal-intake", "~> 1.0"
   pray "amkisko/changelog-update", "~> 3.0"

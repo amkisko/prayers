@@ -111,7 +111,7 @@ When the person asks for a security audit, launch a second agent that only tries
 
 Every candidate names: lower-trust principal; starting capability; controlled input or action; intended control; crossed boundary; affected principal or resource; source trace from entry through propagation to sink; required conditions; evidence owner.
 
-Confirmed findings also name likelihood, demonstrated impact, severity, confidence, observed minimum result, smallest fix at the last trusted decision, and a regression guard. `needs_validation` records name potential impact, blockers, and an exact validation plan. Rejected records name the contrary evidence. Severity is not impact: it ranks confirmed work and never exceeds demonstrated impact.
+Confirmed findings also name likelihood, demonstrated impact, severity, confidence, observed minimum result, and smallest fix at the last trusted decision. Name a regression guard when already known; otherwise defer it rather than withholding the finding. A regression guard is a remediation hint for a later fix request, not a gate for report admission. `needs_validation` records name potential impact, blockers, and an exact validation plan. Rejected records name the contrary evidence. Severity is not impact: it ranks confirmed work and never exceeds demonstrated impact. Prefer bounded replication that can promote a candidate to confirmed. Theoretical paths are less interesting than replicated ones; still output theories whose potential impact is high or critical as `needs_validation` with blockers and a validation plan. Low-interest theories may be summarized or omitted.
 
 Use a stable fingerprint derived from attack class, boundary, canonical source location, and affected resource class. Do not include prose wording or current severity.
 
@@ -137,7 +137,11 @@ Reachability and known advisories: `dependency-audit`. Do not claim a CVE applie
 
 ## Ranking
 
-Order by exploitability, blast radius, privilege gained, data sensitivity, certainty, then fix cost. Smallest real fix first.
+Order by exploitability, blast radius, privilege gained, data sensitivity, certainty (replicated over theory), then fix cost. Smallest real fix first. Lead with confirmed findings. Keep high-potential `needs_validation` records visible and separate.
+
+## Remediation after audit
+
+When the person separately requests a fix for a security finding, follow the remediation gate in `engineering-audit.md`: reproduce with a failing executable check (prefer policy-refusal or minimum observable asserts), then fix only if that check is red for the claimed cause. If replication fails or is blocked, do not fix.
 
 ## Skip
 

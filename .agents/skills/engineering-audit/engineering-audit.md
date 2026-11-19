@@ -156,9 +156,17 @@ Label every claim not proven by code, tests, logs, traces, or query plans as inf
 
 Security findings also follow `security.md`: lower-trust principal and starting capability; input or action; intended control and crossed boundary; affected principal or resource; entry-to-sink source trace; conditions; observed minimum result for confirmed findings; smallest fix at the last trusted decision; stable fingerprint.
 
+## Finding pass
+
+Hunt and validate iteratively. Do not wait for full-tree coverage or a drafted regression guard before recording a finding that already has enough evidence for its verdict. Prefer bounded replication when it can promote a candidate. Replicated findings lead the report and ranking. Theoretical suggestions are less interesting than replicated ones. Still output theories whose potential impact is high or critical: label them inference or `needs_validation`, name blockers and the exact validation plan, and keep them separate from confirmed work. Low-interest theories may be summarized or omitted. A finding may enter the report without a product regression test and without a fully specified regression guard. When a likely remediation guard is already known, name it as a hint; when not, defer the guard rather than withholding the finding. Do not modify the product during the audit run.
+
+## Remediation after audit
+
+When the person separately requests a fix: before product code changes, add or update an executable check (spec, integration check, or named bench or meter fixture) that fails and reproduces the finding's observed effect or named contract gap. Fix only after that check is red for the claimed cause. If the check cannot be made to fail for that cause, or the environment blocks replication, do not fix; reopen as `needs_validation`, rejected, or blocked with the failed commands and contrary evidence. Prefer policy-refusal or minimum observable asserts for security remediation. Missing-coverage findings use the new failing check as the replication step. Follow working-rules for the rest of the fix and prove loop.
+
 ## Ranking
 
-Order work by danger, certainty, impact, and fix cost. Present the smallest real fix first.
+Order work by danger, then certainty (replicated over theory), then impact, then fix cost. Present the smallest real fix first.
 
 ## Subsystem and hot-path mode
 
@@ -186,5 +194,5 @@ Stylistic trivia unless it harms correctness, operability, maintainability, or a
 - missing versus futile coverage separated;
 - each non-security finding and each confirmed security finding has severity; every finding has confidence, location, kind, and smallest fix or exact validation plan;
 - inferences label the confirming check;
-- ranked by danger, certainty, impact, fix cost;
+- ranked by danger, certainty (replicated over theory), impact, fix cost; high-potential unreplicated theories kept visible as inference or `needs_validation`;
 - purpose and ownership claims grounded in tree plus search evidence.

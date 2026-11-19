@@ -4,13 +4,13 @@
     {
       "version": "1.0.0",
       "artifact": "v1/artifacts/amkisko/working-rules/1.0.0/amkisko-working-rules-1.0.0.praypkg",
-      "artifact_hash": "sha256:6fa0851c0ae9178d214f651dcb6bd461c7051d0a302af7f4dd726786ca3f8a2a",
-      "tree_hash": "sha256:070a5431f32a86577ed860ab8d1d0a5f86142b2d2fc1fde1a064c1799926a114",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:6fa0851c0ae9178d214f651dcb6bd461c7051d0a302af7f4dd726786ca3f8a2a",
+      "tree_hash": "sha256:070a5431f32a86577ed860ab8d1d0a5f86142b2d2fc1fde1a064c1799926a114",
       "signer": "amkisko",
       "published_at": 1783404609,
       "signature": "sha256:f43fb2938c4931ffbc126f85a835bc87cee3237e5f71d7e43bfa8af9e640dfa9",
@@ -60,13 +60,13 @@
     {
       "version": "2.0.0",
       "artifact": "v1/artifacts/amkisko/working-rules/2.0.0/amkisko-working-rules-2.0.0.praypkg",
-      "artifact_hash": "sha256:2a4d5b39e831b74518c9b5c9e9990e229ebc323898a779c4ac62d71f60bff91d",
-      "tree_hash": "sha256:cf7fbe331cabe7a93fed2e4bc82c5ec035d7c5afbfb49f8ad1490f0499b1b87d",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:2a4d5b39e831b74518c9b5c9e9990e229ebc323898a779c4ac62d71f60bff91d",
+      "tree_hash": "sha256:cf7fbe331cabe7a93fed2e4bc82c5ec035d7c5afbfb49f8ad1490f0499b1b87d",
       "signer": "amkisko",
       "published_at": 1785093387,
       "signature": "sha256:ebfb116e8d5e09990d85a9db6d7c59bcc31755947013c704e0fee30d25c8950f",
@@ -116,13 +116,13 @@
     {
       "version": "2.0.1",
       "artifact": "v1/artifacts/amkisko/working-rules/2.0.1/amkisko-working-rules-2.0.1.praypkg",
-      "artifact_hash": "sha256:a67408bfd58999a90e65dbc2d62c41d55c39df5ca6be965b255c08866248d5f1",
-      "tree_hash": "sha256:a6596ee2c55f8439703eff1e762258d1e2e3cb34fa646fa333027a423769f571",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:a67408bfd58999a90e65dbc2d62c41d55c39df5ca6be965b255c08866248d5f1",
+      "tree_hash": "sha256:a6596ee2c55f8439703eff1e762258d1e2e3cb34fa646fa333027a423769f571",
       "signer": "amkisko",
       "published_at": 1785095945,
       "signature": "sha256:f15eea5915f98332c37d83f87dc8cc43dc122a655be4ccac46cc4b2c44dfb82c",
@@ -175,13 +175,13 @@
     {
       "version": "2.0.2",
       "artifact": "v1/artifacts/amkisko/working-rules/2.0.2/amkisko-working-rules-2.0.2.praypkg",
-      "artifact_hash": "sha256:5ea16887c0cd2042b9819beaecaa606a819a6182ad9363153705a3da863ff8dc",
-      "tree_hash": "sha256:cf7fbe331cabe7a93fed2e4bc82c5ec035d7c5afbfb49f8ad1490f0499b1b87d",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:5ea16887c0cd2042b9819beaecaa606a819a6182ad9363153705a3da863ff8dc",
+      "tree_hash": "sha256:cf7fbe331cabe7a93fed2e4bc82c5ec035d7c5afbfb49f8ad1490f0499b1b87d",
       "signer": "amkisko",
       "published_at": 1785128733,
       "signature": "sha256:ca4b2b0ba58dd6589ec342fdef800e657c60580de937f3e4e887b98c1a3febc4",
@@ -231,13 +231,13 @@
     {
       "version": "2.1.0",
       "artifact": "v1/artifacts/amkisko/working-rules/2.1.0/amkisko-working-rules-2.1.0.praypkg",
-      "artifact_hash": "sha256:92b5c27f6bebffabd46b132d85208615370a437df107425ed707ed0f631aca83",
-      "tree_hash": "sha256:cc2aad76f93e24ce9a9dc541e2fd810f25a1d97cde738cbdde0eafda2c6ed2f0",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:92b5c27f6bebffabd46b132d85208615370a437df107425ed707ed0f631aca83",
+      "tree_hash": "sha256:cc2aad76f93e24ce9a9dc541e2fd810f25a1d97cde738cbdde0eafda2c6ed2f0",
       "signer": "amkisko",
       "published_at": 1787991251,
       "signature": "sha256:de4a758f56c9eaa455f87cd4693cf342ec40921dc6b3e2f0c9e13eab90111294",
@@ -289,13 +289,13 @@
     {
       "version": "2.1.1",
       "artifact": "v1/artifacts/amkisko/working-rules/2.1.1/amkisko-working-rules-2.1.1.praypkg",
-      "artifact_hash": "sha256:e6a136dddda9c35ef476ceba5749350c26852243c110029278a3258009c88a3d",
-      "tree_hash": "sha256:6b5da0c6e7be62b1e2c7672b10e6ae235e6b6c903799d87072ff2b39090539aa",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:e6a136dddda9c35ef476ceba5749350c26852243c110029278a3258009c88a3d",
+      "tree_hash": "sha256:6b5da0c6e7be62b1e2c7672b10e6ae235e6b6c903799d87072ff2b39090539aa",
       "signer": "amkisko",
       "published_at": 1788033519,
       "signature": "sha256:11eb07618e0bcd280dbfd0c541c05cd3ead5517884fd09a2286de1fa702e0c16",
@@ -347,13 +347,13 @@
     {
       "version": "2.2.0",
       "artifact": "v1/artifacts/amkisko/working-rules/2.2.0/amkisko-working-rules-2.2.0.praypkg",
-      "artifact_hash": "sha256:b8725a2540e435fee2110c77d8d6f35f4d1ccd5535f35b8bf57ca37bab26339d",
-      "tree_hash": "sha256:ba1536746f47b5cc51b5798267fed3a73f6c3fb800376a9ccbe22fb6508696a1",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:b8725a2540e435fee2110c77d8d6f35f4d1ccd5535f35b8bf57ca37bab26339d",
+      "tree_hash": "sha256:ba1536746f47b5cc51b5798267fed3a73f6c3fb800376a9ccbe22fb6508696a1",
       "signer": "amkisko",
       "published_at": 1788080176,
       "signature": "sha256:666195cf6530695de14d971211a81dfb0bad4b054afa858b1acc3fcc6427b410",
@@ -408,13 +408,13 @@
     {
       "version": "2.3.0",
       "artifact": "v1/artifacts/amkisko/working-rules/2.3.0/amkisko-working-rules-2.3.0.praypkg",
-      "artifact_hash": "sha256:9a3c16830330f8df4e62fd2816a0e8cc28875b53c4f9cd90f84744951b5b16c6",
-      "tree_hash": "sha256:da04ed39a778175924e68acb1205ff4885a5a7d309ffb54eca472f26baf12a08",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:9a3c16830330f8df4e62fd2816a0e8cc28875b53c4f9cd90f84744951b5b16c6",
+      "tree_hash": "sha256:da04ed39a778175924e68acb1205ff4885a5a7d309ffb54eca472f26baf12a08",
       "signer": "amkisko",
       "published_at": 1788780203,
       "signature": "sha256:3afa46563cad5060f859b577ae9751bee775650002b7f78b0ee4ac3ef7db3c5a",
@@ -469,13 +469,13 @@
     {
       "version": "2.4.0",
       "artifact": "v1/artifacts/amkisko/working-rules/2.4.0/amkisko-working-rules-2.4.0.praypkg",
-      "artifact_hash": "sha256:c796b2c722e7ad2b7b7e1d213eb8475c961c46171073dd95350fd9f83614fc00",
-      "tree_hash": "sha256:b4c61534f82922d6582dffacb63277e50ec77b09013f5c427701e962daa405c1",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:c796b2c722e7ad2b7b7e1d213eb8475c961c46171073dd95350fd9f83614fc00",
+      "tree_hash": "sha256:b4c61534f82922d6582dffacb63277e50ec77b09013f5c427701e962daa405c1",
       "signer": "amkisko",
       "published_at": 1789394555,
       "signature": "sha256:b3eb05cf1d1966dedf3e74cb8c7600657b6f263b04a64135728e9db32d0fe3c5",
@@ -528,13 +528,13 @@
     {
       "version": "2.5.0",
       "artifact": "v1/artifacts/amkisko/working-rules/2.5.0/amkisko-working-rules-2.5.0.praypkg",
-      "artifact_hash": "sha256:fe75ef6623fdbbb862fd07a1be9812def2205f2d31243b9e677e20cdf7c19cd7",
-      "tree_hash": "sha256:7d68f8a3585bf0e427284c95e18a06ddb8b0251d48cd6b5eb74084af063d9508",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:fe75ef6623fdbbb862fd07a1be9812def2205f2d31243b9e677e20cdf7c19cd7",
+      "tree_hash": "sha256:7d68f8a3585bf0e427284c95e18a06ddb8b0251d48cd6b5eb74084af063d9508",
       "signer": "amkisko",
       "published_at": 1789972177,
       "signature": "sha256:504a36851aa8bd5bae0553c843974b822e6ea954edafd3ecd59bade9edb24d90",
@@ -587,13 +587,13 @@
     {
       "version": "2.6.0",
       "artifact": "v1/artifacts/amkisko/working-rules/2.6.0/amkisko-working-rules-2.6.0.praypkg",
-      "artifact_hash": "sha256:a99cf4f0621ec003dfa8e18e87c8313108028a661e5ce63e9a8b00f52b27025a",
-      "tree_hash": "sha256:46462c1ea55adaed411fe40ebc688c5d318eb6e9c074b60bf685fa5aa15661d7",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:a99cf4f0621ec003dfa8e18e87c8313108028a661e5ce63e9a8b00f52b27025a",
+      "tree_hash": "sha256:46462c1ea55adaed411fe40ebc688c5d318eb6e9c074b60bf685fa5aa15661d7",
       "signer": "amkisko",
       "published_at": 1790079659,
       "signature": "sha256:510c519390c8ec63e103b00cebf448d4e8261cce71ead78aedd8465579364d79",
@@ -646,13 +646,13 @@
     {
       "version": "2.7.0",
       "artifact": "v1/artifacts/amkisko/working-rules/2.7.0/amkisko-working-rules-2.7.0.praypkg",
-      "artifact_hash": "sha256:e6028fb82e5d53c965890a18b912c1b94a2f2e2e97281314033adf511f43b7b3",
-      "tree_hash": "sha256:ba8b5539a54adebbcaedc15b0dedee3c7e4dfd5edcccf136e4a36111f77cedda",
       "yanked": false,
       "targets": [],
       "exports": [
         "working-rules"
       ],
+      "artifact_hash": "sha256:e6028fb82e5d53c965890a18b912c1b94a2f2e2e97281314033adf511f43b7b3",
+      "tree_hash": "sha256:ba8b5539a54adebbcaedc15b0dedee3c7e4dfd5edcccf136e4a36111f77cedda",
       "signer": "amkisko",
       "published_at": 1791378711,
       "signature": "sha256:cb3ceb7d2c403a42b31f3400ef5a61845bd0962b8842910337ca3d5c4b58ea83",
@@ -700,6 +700,65 @@
         "file_count": 2,
         "character_count": 2581,
         "token_count": 286
+      }
+    },
+    {
+      "version": "2.8.0",
+      "artifact": "v1/artifacts/amkisko/working-rules/2.8.0/amkisko-working-rules-2.8.0.praypkg",
+      "yanked": false,
+      "targets": [],
+      "exports": [
+        "working-rules"
+      ],
+      "artifact_hash": "sha256:22aa94de844f9fdff564e53bd6748a8a29c4aba46288c823c8a939b1ca309553",
+      "tree_hash": "sha256:1872eaa674bf9598df0617be4a216d8b1192982b90eb2718b6717c71994d9643",
+      "signer": "local",
+      "published_at": 1795117143,
+      "signature": "sha256:d1e91efa3f96841b1940c3a3627fe910c69d157220eca40e58d1d62cd2d5cd6e",
+      "derived_metadata": {
+        "summary": "Shared engineering working rules - Core engineering working rules",
+        "topics": [
+          "shared",
+          "engineering",
+          "working",
+          "rules",
+          "core"
+        ],
+        "categories": [
+          "testing"
+        ],
+        "possible_effects": [
+          "improves validation"
+        ],
+        "possible_side_effects": [
+          "may change generated output or managed files"
+        ],
+        "embeddings": [
+          {
+            "model": "pray-hash-bucket-v1",
+            "vector": [
+              27,
+              12,
+              26,
+              18,
+              22,
+              20,
+              18,
+              18,
+              23,
+              24,
+              13,
+              10,
+              13,
+              17,
+              15,
+              14
+            ]
+          }
+        ],
+        "file_count": 2,
+        "character_count": 2624,
+        "token_count": 290
       }
     }
   ]

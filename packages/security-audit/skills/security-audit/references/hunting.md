@@ -28,6 +28,8 @@ Route package advisories and dependency reachability to `dependency-audit`. The 
 
 Search broadly, then trace narrowly. A text or syntax match is a candidate, not a finding. For each candidate, identify the least-trusted reachable principal, prove the trust boundary, trace to a sensitive sink, and seek an existing control in another layer before escalating.
 
-Use safe fixtures and local tests for bounded proof. Prefer a minimum observable result over a dramatic exploit. Do not generate fix patches during hunting; patch generation competes with coverage and can mutate the evidence base.
+Hunt and accumulate findings iteratively. Do not wait for every coverage unit or a drafted regression guard before recording a candidate that already has enough evidence for its verdict. Spend scarce proof budget on likely high-impact paths first. Prefer bounded replication that can promote a candidate to confirmed. Theoretical suggestions are less interesting than replicated ones; still keep high-potential unreplicated theories as `needs_validation` with blockers and an exact validation plan.
+
+Use safe fixtures and local tests for bounded proof. Prefer a minimum observable result over a dramatic exploit. Do not generate fix patches during hunting; patch generation competes with coverage and can mutate the evidence base. Do not require writing product regression tests before a finding may enter the report.
 
 Workers may share read-only reconnaissance, but each coverage unit has one owner. Evidence filenames must be deterministic enough to review and must not contain secrets or private customer data.

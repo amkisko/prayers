@@ -31,7 +31,7 @@ Pipeline:
 ingress -> app logic -> cache -> database -> queue -> worker -> external API -> egress
 ```
 
-Order findings by danger, then certainty, then impact, then fix cost. Present the smallest credible fix before structural rewrite. Separate missing coverage from futile coverage. Indicators are categorizable, measurable, and representable.
+Order findings by danger, then certainty (replicated over theory), then impact, then fix cost. Present the smallest credible fix before structural rewrite. Hunt iteratively; lead with replicated findings; still output high-potential theories as inference or `needs_validation`. Remediation after a separate fix request follows working-rules: failing executable check first, then fix. Separate missing coverage from futile coverage. Indicators are categorizable, measurable, and representable.
 
 When the system has external services, devices, operators, or physical actuators, also run boundary and control mode: who commands whom, interface deviations, and whether intended, commanded, reported, inferred, and physical state can diverge without an alarm.
 

@@ -12,9 +12,11 @@ Serving: request or job latency percentiles, query count, allocation, serializat
 
 ## What to name
 
-Each performance claim names the surface or endpoint, the metric, the fixture, and the measured value. Budget without a measurement is inference. Name a round-trip or byte budget, not only latency percentiles.
+Each performance claim names the surface or endpoint, the metric, the fixture, and the measured value. Budget without a measurement is inference. Name a round-trip or byte budget, not only latency percentiles. Measured claims lead the report. Unreplicated hot-path theories stay inference; still output those whose potential impact is high or critical with the exact measurement plan. Low-interest theories may be summarized or omitted. Hunt and record iteratively; do not wait for every shape to be benched before reporting a measured finding.
 
 When comparing old and new API contracts, keep contract equivalence, serving work, client request behavior, and person-visible interface behavior as separate planes. Record cache state, effective concurrency, build and asset revisions, repeated raw samples, and alternating run order. HTTP `no-store` alone does not prove a cold client run. Use `api-contract-migration` when that skill is available.
+
+When the person separately requests a fix for a performance finding, the remediation replication check is the named measurement against the named budget and fixture, not a prose latency claim. Fix only after that check fails for the claimed cause, per `engineering-audit.md`.
 
 ## Shapes
 

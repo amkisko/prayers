@@ -15,7 +15,7 @@ To change shared guidance, update `Prayfile` and run `pray install`.
 <!-- pray:ae5d334a -->
 
 <!-- pray:9068e4a2 -->
-- when fixing or refactoring code, add or update tests first to expose the current bug/regression path (or missing contract), then implement the fix, then run focused and broader checks, and do not ship behavior changes without proving before/after via specs;
+- when fixing or refactoring code (or audit remediation after a fix request), add or update tests first to expose the current bug/regression path (or missing contract), then implement the fix, then run focused and broader checks, and do not ship behavior changes without proving before/after via specs;
 - test only executable logic and user-facing behavior; tests should affect coverage metrics;
 - avoid tests that only assert implementation details; avoid file/page content/ordering/regex assertions; avoid duplicating tests;
 - user interface texts should never mention implementation technical details;

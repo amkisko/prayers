@@ -18,10 +18,12 @@ The validator may reduce scope, impact, likelihood, severity, or confidence. It 
 
 ## Report
 
-Lead with run status and scope. Then report confirmed findings in descending severity, impact, confidence, and fix cost. Keep findings needing validation separate from confirmed work. Summarize rejected candidates only when retaining them avoids repeated work.
+Lead with run status and scope. Then report confirmed findings in descending severity, impact, confidence, and fix cost. Replicated confirmed findings lead; theoretical suggestions are secondary. Keep findings needing validation separate from confirmed work. Still output `needs_validation` records whose potential impact is high or critical, with blockers and an exact validation plan. Low-interest theories may be summarized or omitted. Summarize rejected candidates only when retaining them avoids repeated work.
 
-Every confirmed finding includes the finding contract, evidence kind, observed minimum result, affected versions or configurations when known, smallest fix, and a regression guard. State unreviewed and blocked areas explicitly.
+Every confirmed finding includes the finding contract, evidence kind, observed minimum result, affected versions or configurations when known, and smallest fix. Name a regression guard when already known; otherwise defer it. A regression guard is a remediation hint for a later fix request, not a precondition for including the finding in the report. State unreviewed and blocked areas explicitly.
 
 Do not claim absence of vulnerabilities. Say which attack classes and paths were covered at the recorded source reference. A complete run means its ledger is internally accounted for, not that the product is secure.
+
+When the person separately requests a fix, the deferred or named regression guard becomes the executable check that must fail for the claimed cause before product code changes, per working-rules and `engineering-audit` remediation. Prefer policy-refusal or minimum observable asserts. If replication fails or is blocked, do not fix.
 
 Run the artifact validator after writing the report. Record the exact command and result. Review the final prose for claims that outrun evidence, accidental secrets, private locators, exploit detail that exceeds the audience's need, and fixes that move the control away from the last trusted decision.

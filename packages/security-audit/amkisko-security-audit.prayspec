@@ -1,6 +1,6 @@
 Package::Specification.new do |spec|
   spec.name = "amkisko/security-audit"
-  spec.version = "0.1.2"
+  spec.version = "0.1.3"
   spec.summary = "Coverage-led repository security audit with independent validation and checked run artifacts"
   spec.files = [
     "README.md",
