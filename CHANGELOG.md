@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.41.0 (2026-11-19)
+
 - Require a failing executable check before fixing an audit finding after a separate fix request; keep audits report-only and iterative; lead with replicated findings while still listing high-potential theories as needing validation (`amkisko/working-rules` 2.8.0, `amkisko/engineering-audit` 2.19.0, `amkisko/security-audit` 0.1.3).
 
 ## 1.40.0 (2026-11-16)

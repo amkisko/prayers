@@ -18,8 +18,9 @@ Encode a remediation-only replicate-then-fix gate for engineering-audit, securit
 
 ## Next
 
-Consumers bump pins when ready, then `pray install`. Release cut when this work merges.
+Collect into distribution release 1.41.0 on candidate `trunk/1.41.0`. See `docs/changelogs/20261119194022_prayers-1-41-0.md`.
 
 ## Source
 
 packages/working-rules, packages/engineering-audit, packages/security-audit.
+
